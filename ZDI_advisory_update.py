@@ -3,7 +3,6 @@ import json
 import requests
 import feedparser
 from lxml import etree
-from pathlib import Path
 requests.packages.urllib3.disable_warnings(requests.packages.urllib3.exceptions.InsecureRequestWarning)
 
 def download_advisory(url):
@@ -47,12 +46,12 @@ def download_advisory(url):
     data = {"date":date,"title":title,"ID_1":ID_1,"ID_2":ID_2,"cveId":cveId,"baseScore":baseScore,"vectorString":vectorString,"vendors":vendors,"products":products,"description":description,"addtionnal_details":addtionnal_details,"timeline":timeline,"credit":credit}
 
     year = "20" + ID_1.split("-")[1]
-    advisories_fold = "advisories/" + year
+
+    advisories_fold = os.path.join(os.path.dirname(__file__),"advisories/" + year)
     if not os.path.exists(advisories_fold):
         os.mkdir(advisories_fold)
-        
-    root_path = Path(__file__).absolute().parent
-    file_ptah = root_path.joinpath(advisories_fold + "/" + ID_1 + ".json")
+
+    file_ptah = advisories_fold + "/" + ID_1 + ".json"
     print(file_ptah)
     with open(file_ptah,"w") as f:
         json.dump(data,f,indent=4)
