@@ -28,3 +28,9 @@ jobs:
         
     - name: update db
       run: python3 ZDI_advisory_update.py
+
+    - name: Push changes
+      uses: ad-m/github-push-action@master
+      with:
+        github_token: ${{ github.token }}
+    
