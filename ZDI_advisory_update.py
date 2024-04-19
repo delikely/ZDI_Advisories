@@ -1,5 +1,6 @@
 import os
 import json 
+import datetime
 import requests
 import feedparser
 from lxml import etree
@@ -60,15 +61,18 @@ def download_advisory(url):
 def update():
     rss_url= "https://www.zerodayinitiative.com/rss/published/"
     response = requests.get(rss_url, timeout=20,verify=False)
-
     feed = feedparser.parse(response.content)
-    for entry in feed.entries:
-        title = entry.title
-        link = entry.link
-        if str(link).startswith("http://"):
-            link = link.replace("http://","https://")
-        download_advisory(link)
 
+    for entry in feed.entries:
+        d = entry.get('updated_parsed') or entry.get('published_parsed')
+        pub_day = datetime.date(d[0], d[1], d[2])
+        yesterday = datetime.date.today() + datetime.timedelta(-1)
+        if pub_day == yesterday:
+            title = entry.title
+            link = entry.link
+            if str(link).startswith("http://"):
+                link = link.replace("http://","https://")
+            download_advisory(link)
 
 if __name__ == '__main__':
     update()
