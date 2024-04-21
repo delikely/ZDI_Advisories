@@ -11,5 +11,5 @@
     "description": "This vulnerability allows local attackers to escalate privileges on affected installations of Microsoft Office. An attacker must first obtain the ability to execute low-privileged code on the target system in order to exploit this vulnerability.\nThe specific flaw exists within the Office Performance Monitor executable. By creating a symbolic link, an attacker can abuse the process to delete arbitrary files. An attacker can leverage this vulnerability to escalate privileges and execute arbitrary code in the context of SYSTEM.",
     "addtionnal_details": "Microsoft has issued an update to correct this vulnerability. More details can be found at:https://msrc.microsoft.com/update-guide/vulnerability/CVE-2024-26199",
     "timeline": "2024-02-06 - Vulnerability reported to vendor\n2024-03-13 - Coordinated public release of advisory",
-    "credit": "Iv\u00e1n Almui\u00f1a from Hacking Corporation S\u00e0rl "
+    "credit": "Iván Almuiña from Hacking Corporation Sàrl "
 }

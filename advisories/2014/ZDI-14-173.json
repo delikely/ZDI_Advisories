@@ -11,5 +11,5 @@
     "description": "    This vulnerability allows remote attackers to execute arbitrary code on vulnerable installations of OpenSSL. Authentication is not required to exploit this vulnerability. \nThe specific flaw exists within the handling of DTLS packets.  The issue lies in the assumption that all fragments specify the same message size.  An attacker could leverage this vulnerability to execute code in the context of the process using OpenSSL.\n  ",
     "addtionnal_details": "OpenSSL has issued an update to correct this vulnerability. More details can be found at:https://www.openssl.org/news/secadv_20140605.txt",
     "timeline": "2014-04-22 - Vulnerability reported to vendor\n2014-06-05 - Coordinated public release of advisory",
-    "credit": "J\u00fcri Aedla"
+    "credit": "Jüri Aedla"
 }

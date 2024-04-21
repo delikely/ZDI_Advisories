@@ -9,7 +9,7 @@
     "vendors": "",
     "products": "Office",
     "description": "This vulnerability allows remote attackers to execute arbitrary code on affected installations of Hancom Office Show. User interaction is required to exploit this vulnerability in that the target must visit a malicious page or open a malicious file.\nThe specific flaw exists within the parsing of PPT files. The issue results from the lack of proper validation of the length of user-supplied data prior to copying it to a stack-based buffer. An attacker can leverage this vulnerability to execute code in the context of the current process.",
-    "addtionnal_details": "05/26/23 \u2013 ZDI made multiple attempts to contact the vendor across sales and support channels, which yielded no response from the vendor. \n\n-- Mitigation: Given the nature of the vulnerability, the only salient mitigation strategy is to restrict interaction with the application",
+    "addtionnal_details": "05/26/23 – ZDI made multiple attempts to contact the vendor across sales and support channels, which yielded no response from the vendor. \n\n-- Mitigation: Given the nature of the vulnerability, the only salient mitigation strategy is to restrict interaction with the application",
     "timeline": "2023-11-17 - Vulnerability reported to vendor\n2023-12-20 - Coordinated public release of advisory",
     "credit": "logos"
 }

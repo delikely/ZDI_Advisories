@@ -9,7 +9,7 @@
     "vendors": "HP",
     "products": "",
     "description": "This vulnerability allows remote attackers to disclose sensitive information on affected installations of HP LaserJet Pro MFP M283fdw printers. Authentication is not required to exploit this vulnerability.\nThe specific flaw exists within the PostScript interpreter. Crafted data in a CFF font can trigger a read past the end of an allocated data structure. An attacker can leverage this in conjunction with other vulnerabilities to execute arbitrary code in the context of root.",
-    "addtionnal_details": "https://support.hp.com/us-en/document/ish_5950417-5950443-16/hpsbpi03781\u00a0",
+    "addtionnal_details": "https://support.hp.com/us-en/document/ish_5950417-5950443-16/hpsbpi03781 ",
     "timeline": "2022-01-21 - Vulnerability reported to vendor\n2022-03-23 - Coordinated public release of advisory",
     "credit": "Alexander Bolshev (@dark_k3y), Timo Hirvonen (@TimoHirvonen), and Dmitry Janushkevich (@InfoSecDJ)"
 }

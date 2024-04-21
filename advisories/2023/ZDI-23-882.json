@@ -11,5 +11,5 @@
     "description": "This vulnerability allows remote attackers to bypass authentication on affected installations of Microsoft SharePoint. Authentication is not required to exploit this vulnerability.\nThe specific flaw exists within the ValidateTokenIssuer method. The issue results from the lack of proper verification of a cryptographic signature. An attacker can leverage this vulnerability to bypass authentication on the system.",
     "addtionnal_details": "Microsoft has issued an update to correct this vulnerability. More details can be found at:https://msrc.microsoft.com/update-guide/vulnerability/CVE-2023-29357",
     "timeline": "2023-03-30 - Vulnerability reported to vendor\n2023-06-16 - Coordinated public release of advisory",
-    "credit": "Nguy\u1ec5n Ti\u1ebfn Giang (@testanull) of STAR Labs SG Pte. Ltd."
+    "credit": "Nguyễn Tiến Giang (@testanull) of STAR Labs SG Pte. Ltd."
 }

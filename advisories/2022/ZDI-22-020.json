@@ -11,5 +11,5 @@
     "description": "This vulnerability allows remote attackers to disclose sensitive information on affected installations of WordPress Core. Authentication is not required to exploit this vulnerability.\nThe specific flaw exists within the WP_Query class. The issue results from the lack of proper validation of a user-supplied string before using it to construct SQL queries. An attacker can leverage this vulnerability to disclose stored credentials, leading to further compromise.",
     "addtionnal_details": "WordPress has issued an update to correct this vulnerability. More details can be found at:https://wordpress.org/news/2022/01/wordpress-5-8-3-security-release/",
     "timeline": "2021-10-22 - Vulnerability reported to vendor\n2022-01-10 - Coordinated public release of advisory",
-    "credit": "ngocnb\u00a0and\u00a0khuyenn from GiaoHangTietKiem JSC"
+    "credit": "ngocnb and khuyenn from GiaoHangTietKiem JSC"
 }

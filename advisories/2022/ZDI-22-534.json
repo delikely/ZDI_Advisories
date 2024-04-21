@@ -9,7 +9,7 @@
     "vendors": "HP",
     "products": "",
     "description": "This vulnerability allows remote attackers to create a denial-of-service condition on affected installations of HP LaserJet Pro MFP M283fdw printers. Authentication is not required to exploit this vulnerability.\nThe specific flaw exists within the ScanJobs API. Crafted data in a request can cause a memory corruption condition. An attacker can leverage this vulnerability to create a denial-of-service condition on the system. An attacker can also leverage this in conjunction with other vulnerabilities to execute arbitrary code in the context of root.",
-    "addtionnal_details": "https://support.hp.com/us-en/document/ish_5950417-5950443-16/hpsbpi03781\u00a0",
+    "addtionnal_details": "https://support.hp.com/us-en/document/ish_5950417-5950443-16/hpsbpi03781 ",
     "timeline": "2022-01-21 - Vulnerability reported to vendor\n2022-03-23 - Coordinated public release of advisory",
     "credit": "Alexander Bolshev (@dark_k3y), Timo Hirvonen (@TimoHirvonen), and Dmitry Janushkevich (@InfoSecDJ)"
 }

@@ -11,5 +11,5 @@
     "description": "    This vulnerability allows remote attackers to execute arbitrary code on vulnerable installations of Apple Safari. User interaction is required to exploit this vulnerability in that the target must visit a malicious page or open a malicious file.\nThe specific flaw exists within the handling of the String.replace method. The issue results from the lack of validating the existence of an object prior to performing operations on the object. An attacker can leverage this vulnerability to execute code under the context of the current process.\n  ",
     "addtionnal_details": "Apple has issued an update to correct this vulnerability. More details can be found at:https://support.apple.com/en-us/HT207617",
     "timeline": "2017-03-17 - Vulnerability reported to vendor\n2017-05-04 - Coordinated public release of advisory",
-    "credit": "Samuel Gro\u00df and Niklas Baumstark"
+    "credit": "Samuel Groß and Niklas Baumstark"
 }
