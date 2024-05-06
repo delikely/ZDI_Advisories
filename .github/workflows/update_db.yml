@@ -28,12 +28,8 @@ jobs:
 
     - name: Commit
       run: |
-        git diff
-        git config --global user.email delikely@gmail.com
-        git config --global user.name delikely
-        git add advisories
-        git commit -m "update（`date +'%Y-%m-%d'`）"
-
+        git diff --exit-code||(git config --global user.email delikely@gmail.com && git config --global user.name delikely && git add advisories && git commit -m "update（`date +'%Y-%m-%d'`）")
+  
     - name: Push changes
       uses: ad-m/github-push-action@master
       with:
