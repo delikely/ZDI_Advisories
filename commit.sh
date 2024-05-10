@@ -6,3 +6,5 @@ if [ "$?" !=  "0" ];then
     git add advisories
     git commit -m "update(`date +'%Y-%m-%d'`)"
 fi
+
+sleep 5
