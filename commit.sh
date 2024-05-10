@@ -1,5 +1,6 @@
 git diff --exit-code
 if [ "$?" !=  "0" ];then
+    echo "new ZDI, commit"
     git config --global user.email delikely@gmail.com
     git config --global user.name delikely
     git add advisories
