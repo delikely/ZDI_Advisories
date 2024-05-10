@@ -27,9 +27,8 @@ jobs:
       run: python3 ZDI_advisory_update.py
 
     - name: Commit
-      run: |
-        git diff --exit-code||(git config --global user.email delikely@gmail.com && git config --global user.name delikely && git add advisories && git commit -m "update（`date +'%Y-%m-%d'`）")
-  
+      run: sh commit.sh
+        
     - name: Push changes
       uses: ad-m/github-push-action@master
       with:
