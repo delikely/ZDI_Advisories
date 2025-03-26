@@ -1,0 +1,15 @@
+{
+    "date": "March 25th, 2025",
+    "title": "(0Day) CarlinKit CPC200-CCPA Missing Root of Trust Local Privilege Escalation Vulnerability",
+    "ID_1": "ZDI-25-176",
+    "ID_2": "ZDI-CAN-25948",
+    "cveId": "CVE-2025-2762",
+    "baseScore": "7.8",
+    "vectorString": "AV:L/AC:L/PR:L/UI:N/S:U/C:H/I:H/A:H",
+    "vendors": "CarlinKit",
+    "products": "",
+    "description": "This vulnerability allows local attackers to escalate privileges on affected installations of CarlinKit CPC200-CCPA devices. An attacker must first obtain the ability to execute low-privileged code on the target system in order to exploit this vulnerability.\nThe specific flaw exists within the configuration of the application system-on-chip (SoC). The issue results from the lack of a properly configured hardware root of trust. An attacker can leverage this vulnerability to escalate privileges and execute arbitrary code in the context of the boot process.",
+    "addtionnal_details": "06/05/24 – ZDI contacted the vendor’s support team via email07/12/24 – ZDI sent a second PSIRT contact request to CarlinKit support team11/13/24 – ZDI asked for updates02/18/25 – ZDI informed the vendor that since we have not received a response, we will publish the report as a 0-day advisory",
+    "timeline": "2025-03-11 - Vulnerability reported to vendor\n2025-03-25 - Coordinated public release of advisory\n2025-03-25 - Advisory Updated",
+    "credit": "Aaron Luo and Spencer Hsieh of VicOne"
+}

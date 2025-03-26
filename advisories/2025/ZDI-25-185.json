@@ -1,0 +1,15 @@
+{
+    "date": "March 25th, 2025",
+    "title": "(0Day) BEC Technologies Multiple Routers Insufficiently Protected Credentials Information Disclosure Vulnerability",
+    "ID_1": "ZDI-25-185",
+    "ID_2": "ZDI-CAN-25895",
+    "cveId": "CVE-2025-2772",
+    "baseScore": "5.3",
+    "vectorString": "AV:A/AC:H/PR:N/UI:N/S:U/C:H/I:N/A:N",
+    "vendors": "BEC Technologies",
+    "products": "",
+    "description": "This vulnerability allows network-adjacent attackers to disclose sensitive information on affected installations of BEC Technologies routers. Authentication is not required to exploit this vulnerability.\nThe specific flaw exists within /cgi-bin/tools_usermanage.asp. The issue results from transmitting a list of users and their credentials to be handled on the client side. An attacker can leverage this vulnerability to disclose transported credentials, leading to further compromise.",
+    "addtionnal_details": "12/06/24 – ZDI contacted the vendor’s support team via email02/13/25 – ZDI requested an update03/12/25 – ZDI informed the vendor that since we have not received a response, we will publish the report as a 0-day advisory",
+    "timeline": "2025-03-11 - Vulnerability reported to vendor\n2025-03-25 - Coordinated public release of advisory\n2025-03-25 - Advisory Updated",
+    "credit": "Steven C Yu of Trend Micro Research"
+}

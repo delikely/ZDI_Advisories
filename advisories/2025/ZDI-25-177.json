@@ -1,0 +1,15 @@
+{
+    "date": "March 25th, 2025",
+    "title": "(0Day) CarlinKit CPC200-CCPA Wireless Hotspot Hard-Coded Credentials Authentication Bypass Vulnerability",
+    "ID_1": "ZDI-25-177",
+    "ID_2": "ZDI-CAN-24349",
+    "cveId": "CVE-2025-2765",
+    "baseScore": "7.6",
+    "vectorString": "AV:A/AC:L/PR:N/UI:N/S:U/C:H/I:L/A:L",
+    "vendors": "CarlinKit",
+    "products": "",
+    "description": "This vulnerability allows network-adjacent attackers to bypass authentication on affected installations of CarlinKit CPC200-CCPA devices. Authentication is not required to exploit this vulnerability.\nThe specific flaw exists within the configuration of the wireless hotspot. The issue results from the use of hard-coded credentials. An attacker can leverage this vulnerability to bypass authentication on the system.",
+    "addtionnal_details": "06/05/24 – ZDI contacted the vendor’s support team via email07/12/24 – ZDI sent a second PSIRT contact request to CarlinKit support team11/13/24 – ZDI asked for updates02/18/25 – ZDI informed the vendor that since we have not received a response, we will publish the report as a 0-day advisory",
+    "timeline": "2025-03-11 - Vulnerability reported to vendor\n2025-03-25 - Coordinated public release of advisory\n2025-03-25 - Advisory Updated",
+    "credit": "Aaron Luo and Spencer Hsieh of VicOne"
+}
