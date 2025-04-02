@@ -1,0 +1,15 @@
+{
+    "date": "April 1st, 2025",
+    "title": "Apple macOS AppleIntelKBLGraphics Time-Of-Check Time-Of-Use Information Disclosure Vulnerability",
+    "ID_1": "ZDI-25-194",
+    "ID_2": "ZDI-CAN-26063",
+    "cveId": "CVE-2025-24256",
+    "baseScore": "6.4",
+    "vectorString": "AV:L/AC:H/PR:L/UI:N/S:C/C:H/I:N/A:L",
+    "vendors": "Apple",
+    "products": "",
+    "description": "This vulnerability allows local attackers to disclose sensitive information on affected installations of Apple macOS. An attacker must first obtain the ability to execute low-privileged code on the target system in order to exploit this vulnerability.\nThe specific flaw exists within the AppleIntelKBLGraphics kext. he issue results from the lack of proper locking when performing operations on an object. An attacker can leverage this in conjunction with other vulnerabilities to escalate privileges and execute arbitrary code in the context of the kernel.",
+    "addtionnal_details": "Apple has issued an update to correct this vulnerability. More details can be found at:https://support.apple.com/en-us/122373",
+    "timeline": "2025-02-13 - Vulnerability reported to vendor\n2025-04-01 - Coordinated public release of advisory\n2025-04-01 - Advisory Updated",
+    "credit": "Anonymous"
+}
