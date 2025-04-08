@@ -1,0 +1,15 @@
+{
+    "date": "April 7th, 2025",
+    "title": "Fortinet FortiWeb cgi_xmlprotection_xmlschemafile_post Directory Traversal Arbitrary File Write Vulnerability",
+    "ID_1": "ZDI-25-202",
+    "ID_2": "ZDI-CAN-25559",
+    "cveId": "CVE-2024-55597",
+    "baseScore": "5.5",
+    "vectorString": "AV:N/AC:L/PR:H/UI:N/S:U/C:N/I:L/A:H",
+    "vendors": "",
+    "products": "FortiWeb",
+    "description": "This vulnerability allows remote attackers to create arbitrary XML schema files on affected installations of Fortinet FortiWeb. Authentication is required to exploit this vulnerability.\nThe specific flaw exists within the cgi_xmlprotection_xmlschemafile_post function. The issue results from the lack of proper validation of a user-supplied path prior to using it in file operations. An attacker can leverage this vulnerability to create XML schema files in the context of root.",
+    "addtionnal_details": "Fortinet has issued an update to correct this vulnerability. More details can be found at:https://fortiguard.com/psirt/FG-IR-24-439",
+    "timeline": "2024-10-16 - Vulnerability reported to vendor\n2025-04-07 - Coordinated public release of advisory\n2025-04-07 - Advisory Updated",
+    "credit": "Kentaro Kawane of GMO Cybersecurity by Ierae"
+}

@@ -1,0 +1,15 @@
+{
+    "date": "April 7th, 2025",
+    "title": "Trend Micro Cleaner One Pro Link Following Denial-of-Service Vulnerability",
+    "ID_1": "ZDI-25-201",
+    "ID_2": "ZDI-CAN-25572",
+    "cveId": "CVE-2025-27529",
+    "baseScore": "4.4",
+    "vectorString": "AV:L/AC:H/PR:L/UI:R/S:U/C:N/I:N/A:H",
+    "vendors": "Trend Micro",
+    "products": "",
+    "description": "This vulnerability allows local attackers to create a denial-of-service condition on affected installations of Trend Micro Cleaner One Pro. An attacker must first obtain the ability to execute low-privileged code on the target system in order to exploit this vulnerability. Additionally, the vulnerability is triggered only when an administrator performs an install of the product.\nThe specific flaw exists within the product installer. By creating a symbolic link, an attacker can abuse the installer to create arbitrary files. An attacker can leverage this vulnerability to create a denial-of-service condition on the system.",
+    "addtionnal_details": "Trend Micro has issued an update to correct this vulnerability. More details can be found at:https://helpcenter.trendmicro.com/en-us/article/tmka-09612",
+    "timeline": "2025-01-08 - Vulnerability reported to vendor\n2025-04-07 - Coordinated public release of advisory\n2025-04-07 - Advisory Updated",
+    "credit": "Anonymous"
+}
