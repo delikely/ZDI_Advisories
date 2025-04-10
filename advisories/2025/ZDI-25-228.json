@@ -1,0 +1,15 @@
+{
+    "date": "April 9th, 2025",
+    "title": "(Pwn2Own) Samsung Galaxy S24 Quick Share Insufficient UI Warning Arbitrary File Write Vulnerability",
+    "ID_1": "ZDI-25-228",
+    "ID_2": "ZDI-CAN-25649",
+    "cveId": "",
+    "baseScore": "5.3",
+    "vectorString": "AV:A/AC:H/PR:N/UI:N/S:U/C:N/I:H/A:N",
+    "vendors": "Samsung",
+    "products": "",
+    "description": "This vulnerability allows network-adjacent attackers to create arbitrary files on affected installations of Samsung Galaxy S24. An attacker must first obtain the ability to perform activities on the target device.\nThe specific flaw exists within the Quick Share application. The user interface fails to warn the user of unsafe actions. An attacker can leverage this vulnerability to create files in the context of the current user.",
+    "addtionnal_details": "The vendor states this is intended behavior for better user experience. Therefore, there is no acknowledgement or patch for this.",
+    "timeline": "2024-12-02 - Vulnerability reported to vendor\n2025-04-09 - Coordinated public release of advisory\n2025-04-09 - Advisory Updated",
+    "credit": "Ken Gannon of NCC Group (@yogehi)"
+}

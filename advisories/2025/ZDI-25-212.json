@@ -1,0 +1,15 @@
+{
+    "date": "April 9th, 2025",
+    "title": "(Pwn2Own) Synology BeeStation BST150-4T Improper Authentication Vulnerability",
+    "ID_1": "ZDI-25-212",
+    "ID_2": "ZDI-CAN-25658",
+    "cveId": "CVE-2024-50630",
+    "baseScore": "7.5",
+    "vectorString": "AV:A/AC:H/PR:N/UI:N/S:U/C:H/I:H/A:H",
+    "vendors": "",
+    "products": "",
+    "description": "This vulnerability allows network-adjacent attackers to bypass authentication on affected installations of Synology BeeStation BST150-4T devices. Authentication is not required to exploit this vulnerability.\nThe specific flaw exists within the syncd authentication handler. The issue results from incorrect implementation of an authentication algorithm. An attacker can leverage this in conjunction with other vulnerabilities to bypass authentication on the system.",
+    "addtionnal_details": "Synology has issued an update to correct this vulnerability. More details can be found at:https://www.synology.com/en-us/security/advisory/Synology_SA_24_21",
+    "timeline": "2024-12-02 - Vulnerability reported to vendor\n2025-04-09 - Coordinated public release of advisory\n2025-04-09 - Advisory Updated",
+    "credit": "Pumpkin Chang (@u1f383) and Orange Tsai (@orange_8361) from DEVCORE Research Team"
+}

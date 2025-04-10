@@ -1,0 +1,15 @@
+{
+    "date": "April 9th, 2025",
+    "title": "(Pwn2Own) Lexmark CX331adwe httpd extract-trace Link Following Local Privilege Escalation Vulnerability",
+    "ID_1": "ZDI-25-221",
+    "ID_2": "ZDI-CAN-25849",
+    "cveId": "",
+    "baseScore": "7.0",
+    "vectorString": "AV:L/AC:H/PR:L/UI:N/S:U/C:H/I:H/A:H",
+    "vendors": "",
+    "products": "",
+    "description": "This vulnerability allows local attackers to escalate privileges on affected installations of Lexmark CX331adwe printers. An attacker must first obtain the ability to execute low-privileged code on the target system in order to exploit this vulnerability.\nThe specific flaw exists within the httpd daemon. By creating a symbolic link, an attacker can abuse the service to create an arbitrary file. An attacker can leverage this vulnerability to escalate privileges and execute arbitrary code in the context of root.",
+    "addtionnal_details": "Fixed in CXLBL.230.408",
+    "timeline": "2024-12-18 - Vulnerability reported to vendor\n2025-04-09 - Coordinated public release of advisory\n2025-04-09 - Advisory Updated",
+    "credit": "nella17 (@nella17tw), working with DEVCORE Internship Program, and DEVCORE Research Team"
+}

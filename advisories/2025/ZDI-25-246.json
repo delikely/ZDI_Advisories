@@ -1,0 +1,15 @@
+{
+    "date": "April 9th, 2025",
+    "title": "MedDream WEB DICOM Viewer Cleartext Transmission of Credentials Information Disclosure Vulnerability",
+    "ID_1": "ZDI-25-246",
+    "ID_2": "ZDI-CAN-25842",
+    "cveId": "CVE-2025-3480",
+    "baseScore": "5.3",
+    "vectorString": "AV:A/AC:H/PR:N/UI:N/S:U/C:H/I:N/A:N",
+    "vendors": "MedDream",
+    "products": "",
+    "description": "This vulnerability allows network-adjacent attackers to disclose sensitive information on affected installations of MedDream WEB DICOM Viewer. Authentication is not required to exploit this vulnerability.\nThe specific flaw exists within the Web Portal. The issue results from the lack of encryption when transmitting credentials. An attacker can leverage this vulnerability to disclose transmitted credentials, leading to further compromise.",
+    "addtionnal_details": "Fixed in version 7.3.5.860",
+    "timeline": "2024-12-10 - Vulnerability reported to vendor\n2025-04-09 - Coordinated public release of advisory\n2025-04-09 - Advisory Updated",
+    "credit": "Chizuru Toyama of TXOne Networks"
+}

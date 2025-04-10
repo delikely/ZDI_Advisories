@@ -1,0 +1,15 @@
+{
+    "date": "April 9th, 2025",
+    "title": "(Pwn2Own) Sonos Era 300 Heap-based Buffer Overflow Remote Code Execution Vulnerability",
+    "ID_1": "ZDI-25-224",
+    "ID_2": "ZDI-CAN-25601",
+    "cveId": "CVE-2025-1049",
+    "baseScore": "8.8",
+    "vectorString": "AV:A/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:H",
+    "vendors": "",
+    "products": "",
+    "description": "This vulnerability allows network-adjacent attackers to execute arbitrary code on affected Sonos Era 300 speakers. Authentication is not required to exploit this vulnerability. \nThe specific flaw exists within the processing of ID3 data. The issue results from the lack of proper validation of the length of user-supplied data prior to copying it to a heap-based buffer. An attacker can leverage this vulnerability to execute code in the context of the anacapa user.",
+    "addtionnal_details": "Sonos users should ensure their system is running the appropriate software version.  For the Sonos app this is version 16.6 or later: go to Settings > General Settings > About My System to check the version.  For the Sonos S1 app this is version 11.15.1 or later: go to More > Settings > System Updates > System Info to check the version.\n\nSonos Security Advisory: https://www.sonos.com/en-us/security-advisory-2024-0002Update instructions: https://support.sonos.com/en-us/article/update-your-sonos-speakers",
+    "timeline": "2024-12-02 - Vulnerability reported to vendor\n2025-04-09 - Coordinated public release of advisory\n2025-04-09 - Advisory Updated",
+    "credit": "InfoSect"
+}

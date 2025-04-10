@@ -1,0 +1,15 @@
+{
+    "date": "April 9th, 2025",
+    "title": "Trend Micro Apex Central Query Server-Side Request Forgery Information Disclosure Vulnerability",
+    "ID_1": "ZDI-25-238",
+    "ID_2": "ZDI-CAN-25524",
+    "cveId": "CVE-2025-30680",
+    "baseScore": "7.1",
+    "vectorString": "AV:N/AC:L/PR:L/UI:N/S:U/C:H/I:L/A:N",
+    "vendors": "Trend Micro",
+    "products": "Apex Central",
+    "description": "This vulnerability allows remote attackers to disclose sensitive information on affected installations of Trend Micro Apex Central. Authentication is required to exploit this vulnerability.\nThe specific flaw exists within the implementation of the Query method. The issue results from the lack of proper validation of a URI prior to accessing resources. An attacker can leverage this vulnerability to disclose information in the context of the service account.",
+    "addtionnal_details": "Trend Micro has issued an update to correct this vulnerability. More details can be found at:https://success.trendmicro.com/en-US/solution/KA-0019355",
+    "timeline": "2024-10-31 - Vulnerability reported to vendor\n2025-04-09 - Coordinated public release of advisory\n2025-04-09 - Advisory Updated",
+    "credit": "Abdessamad Lahlali and Smile Thanapattheerakul of Trend Micro"
+}

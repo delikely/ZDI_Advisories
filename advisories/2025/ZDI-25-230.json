@@ -1,0 +1,15 @@
+{
+    "date": "April 9th, 2025",
+    "title": "(Pwn2Own) Samsung Galaxy S24 Smart Switch Agent Improper Verification of Cryptographic Signature Remote Code Execution Vulnerability",
+    "ID_1": "ZDI-25-230",
+    "ID_2": "ZDI-CAN-25651",
+    "cveId": "CVE-2024-49413",
+    "baseScore": "7.5",
+    "vectorString": "AV:N/AC:H/PR:N/UI:R/S:U/C:H/I:H/A:H",
+    "vendors": "Samsung",
+    "products": "",
+    "description": "This vulnerability allows remote attackers to execute arbitrary code on affected installations of Samsung Galaxy S24. User interaction is required to exploit this vulnerability in that the target must visit a malicious page or open a malicious file.\nThe specific flaw exists within the Smart Switch Agent application. The issue results from the lack of proper validation of cryptographic signature before installing an application. An attacker can leverage this vulnerability to execute code in the context of the current user.",
+    "addtionnal_details": "Samsung has issued an update to correct this vulnerability. More details can be found at:https://security.samsungmobile.com/securityUpdate.smsb?year=2024&month=12",
+    "timeline": "2024-12-02 - Vulnerability reported to vendor\n2025-04-09 - Coordinated public release of advisory\n2025-04-09 - Advisory Updated",
+    "credit": "Ken Gannon of NCC Group (@yogehi)"
+}

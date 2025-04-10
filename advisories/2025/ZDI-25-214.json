@@ -1,0 +1,15 @@
+{
+    "date": "April 9th, 2025",
+    "title": "(Pwn2Own) Synology DiskStation DS1823xs+ Vue.JS Improper Neutralization of Argument Delimiters Remote Code Execution Vulnerability",
+    "ID_1": "ZDI-25-214",
+    "ID_2": "ZDI-CAN-25403",
+    "cveId": "CVE-2024-10441",
+    "baseScore": "8.8",
+    "vectorString": "AV:A/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:H",
+    "vendors": "",
+    "products": "",
+    "description": "This vulnerability allows network-adjacent attackers to execute arbitrary code on affected installations of Synology DiskStation DS1823xs+ devices. Authentication is not required to exploit this vulnerability.\nThe specific flaw exists within the handling of the provided username during login. The issue results from the lack of proper validation of a user-supplied string before using it to construct environment variables. An attacker can leverage this vulnerability to execute code in the context of the root.",
+    "addtionnal_details": "Synology has issued an update to correct this vulnerability. More details can be found at:https://www.synology.com/en-us/security/advisory/Synology_SA_24_20",
+    "timeline": "2024-12-02 - Vulnerability reported to vendor\n2025-04-09 - Coordinated public release of advisory\n2025-04-09 - Advisory Updated",
+    "credit": "Ryan Emmons (Rapid7)"
+}

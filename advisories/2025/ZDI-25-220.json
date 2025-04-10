@@ -1,0 +1,15 @@
+{
+    "date": "April 9th, 2025",
+    "title": "(Pwn2Own) Lexmark CX331adwe basic_auth.cgi PATH_TRANSLATED Directory Traversal Remote Code Execution Vulnerability",
+    "ID_1": "ZDI-25-220",
+    "ID_2": "ZDI-CAN-25848",
+    "cveId": "",
+    "baseScore": "6.3",
+    "vectorString": "AV:A/AC:L/PR:N/UI:N/S:U/C:L/I:L/A:L",
+    "vendors": "",
+    "products": "",
+    "description": "This vulnerability allows network-adjacent attackers to execute arbitrary code on affected installations of Lexmark CX331adwe printers. Authentication is not required to exploit this vulnerability.\nThe specific flaw exists within the handling of the PATH_TRANSLATED parameter provided to the basic_auth.cgi endpoint. The issue results from the lack of proper validation of a user-supplied path prior to using it in file operations. An attacker can leverage this vulnerability to execute code in the context of the pagemaker user.",
+    "addtionnal_details": "Fixed in CXLBL.230.408",
+    "timeline": "2024-12-12 - Vulnerability reported to vendor\n2025-04-09 - Coordinated public release of advisory\n2025-04-09 - Advisory Updated",
+    "credit": "nella17 (@nella17tw), working with DEVCORE Internship Program, and DEVCORE Research Team"
+}
