@@ -1,0 +1,15 @@
+{
+    "date": "April 23rd, 2025",
+    "title": "(0Day) Cato Networks Cato Client for macOS Helper Service Time-Of-Check Time-Of-Use Local Privilege Escalation Vulnerability",
+    "ID_1": "ZDI-25-252",
+    "ID_2": "ZDI-CAN-23275",
+    "cveId": "CVE-2025-3886",
+    "baseScore": "7.8",
+    "vectorString": "AV:L/AC:L/PR:L/UI:N/S:U/C:H/I:H/A:H",
+    "vendors": "Cato Networks",
+    "products": "Cato Client for macOS",
+    "description": "This vulnerability allows local attackers to escalate privileges on affected installations of Cato Networks Cato Client for macOS. An attacker must first obtain the ability to execute low-privileged code on the target system in order to exploit this vulnerability.\nThe specific flaw exists within the Helper service. The issue results from the lack of proper locking when installing a package. An attacker can leverage this vulnerability to escalate privileges and execute arbitrary code in the context of root.",
+    "addtionnal_details": "04/17/24 – ZDI requested PSIRT contacts from the vendor03/12/25 – ZDI reported the vulnerability to the vendor via https://vulnerabilityreport.catonetworks.com/04/15/25 – ZDI informed the vendor of the intention to publish the case as a zero-day advisory",
+    "timeline": "2025-03-11 - Vulnerability reported to vendor\n2025-04-23 - Coordinated public release of advisory\n2025-04-23 - Advisory Updated",
+    "credit": "@patch1t"
+}

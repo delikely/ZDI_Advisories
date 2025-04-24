@@ -1,0 +1,15 @@
+{
+    "date": "April 23rd, 2025",
+    "title": "(0Day) eCharge Hardy Barth cPH2 nwcheckexec.php dest Command Injection Remote Code Execution Vulnerability",
+    "ID_1": "ZDI-25-248",
+    "ID_2": "ZDI-CAN-23114",
+    "cveId": "CVE-2025-3882",
+    "baseScore": "8.8",
+    "vectorString": "AV:A/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:H",
+    "vendors": "eCharge Hardy Barth",
+    "products": "cPH2",
+    "description": "This vulnerability allows network-adjacent attackers to execute arbitrary code on affected installations of eCharge Hardy Barth cPH2 charging stations. Authentication is not required to exploit this vulnerability.\nThe specific flaw exists within the handling of the dest parameter provided to the nwcheckexec.php endpoint. The issue results from the lack of proper validation of a user-supplied string before using it to execute a system call. An attacker can leverage this vulnerability to execute code in the context of the www-data user.",
+    "addtionnal_details": "03/14/24 – ZDI contacted the vendor via email to info@echarge.de10/28/24 – ZDI reached out to echarge’s support team04/12/25 – ZDI informed the vendor that since we have not received a response, we will publish the report as a zero-day advisory",
+    "timeline": "2025-03-11 - Vulnerability reported to vendor\n2025-04-23 - Coordinated public release of advisory\n2025-04-23 - Advisory Updated",
+    "credit": "adhkr - LuwakLab"
+}

@@ -1,0 +1,15 @@
+{
+    "date": "April 23rd, 2025",
+    "title": "(0Day) Harman Becker MGU21 Bluetooth Improper Input Validation Denial-of-Service Vulnerability",
+    "ID_1": "ZDI-25-251",
+    "ID_2": "ZDI-CAN-23942",
+    "cveId": "CVE-2025-3885",
+    "baseScore": "5.3",
+    "vectorString": "AV:A/AC:H/PR:N/UI:N/S:U/C:N/I:N/A:H",
+    "vendors": "Harman Becker",
+    "products": "",
+    "description": "This vulnerability allows network-adjacent attackers to create a denial-of-service condition on affected installations of Harman Becker MGU21 devices. Authentication is not required to exploit this vulnerability.\nThe specific flaw exists within the Bluetooth stack of the BCM89359 chipset. The issue results from the lack of proper validation of Bluetooth frames. An attacker can leverage this vulnerability to create a denial-of-service condition on the system.",
+    "addtionnal_details": "06/12/24 – ZDI reported the vulnerability to the vendor06/13/24 – the vendor acknowledged the receipt of the report09/30/24 - ZDI asked for updates 10/01/24 – The vendor communicated that the reported behaviour will not be fixed by a third party10/02/24 – ZDI informed the vendor of the intention to publish the case as a zero-day advisory",
+    "timeline": "2024-06-12 - Vulnerability reported to vendor\n2025-04-23 - Coordinated public release of advisory\n2025-04-23 - Advisory Updated",
+    "credit": "Aaron Luo, Gloria Chen, Omar Yang, Spencer Hsieh, and Vit Sembera of VicOne"
+}
