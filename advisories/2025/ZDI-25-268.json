@@ -1,0 +1,15 @@
+{
+    "date": "April 30th, 2025",
+    "title": "GStreamer Incorrect Permission Assignment Local Privilege Escalation Vulnerability",
+    "ID_1": "ZDI-25-268",
+    "ID_2": "ZDI-CAN-25448",
+    "cveId": "CVE-2025-2759",
+    "baseScore": "7.0",
+    "vectorString": "AV:L/AC:H/PR:L/UI:N/S:U/C:H/I:H/A:H",
+    "vendors": "GStreamer",
+    "products": "GStreamer",
+    "description": "This vulnerability allows local attackers to escalate privileges on affected installations of GStreamer. An attacker must first obtain the ability to execute low-privileged code on the target system in order to exploit this vulnerability.\nThe specific flaw exists within the product installer. The issue results from incorrect permissions on folders. An attacker can leverage this vulnerability to escalate privileges and execute arbitrary code in the context of a target user.",
+    "addtionnal_details": "Fixed in 1.25.1  Gstreamer Installer",
+    "timeline": "2024-11-05 - Vulnerability reported to vendor\n2025-04-30 - Coordinated public release of advisory\n2025-04-30 - Advisory Updated",
+    "credit": "Anonymous"
+}

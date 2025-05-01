@@ -1,0 +1,15 @@
+{
+    "date": "April 30th, 2025",
+    "title": "(Pwn2Own) Tesla Model S oFono Unnecessary Privileges Sandbox Escape Vulnerability",
+    "ID_1": "ZDI-25-263",
+    "ID_2": "ZDI-CAN-23200",
+    "cveId": "CVE-2024-6030",
+    "baseScore": "7.0",
+    "vectorString": "AV:L/AC:H/PR:L/UI:N/S:U/C:H/I:H/A:H",
+    "vendors": "Tesla",
+    "products": "",
+    "description": "This vulnerability allows local attackers to escape the sandbox on affected Tesla Model S vehicles. An attacker must first obtain the ability to execute code within the sandbox on the target system in order to exploit this vulnerability.\n \nThe specific flaw exists within the oFono process. The process allows an attacker to modify interfaces. An attacker can leverage this vulnerability to bypass the iptables network sandbox.",
+    "addtionnal_details": "Fixed in Firmware Version 2024.8",
+    "timeline": "2024-02-02 - Vulnerability reported to vendor\n2025-04-30 - Coordinated public release of advisory\n2025-04-30 - Advisory Updated",
+    "credit": "Synacktiv (@Synacktiv)"
+}

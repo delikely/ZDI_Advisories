@@ -1,0 +1,15 @@
+{
+    "date": "April 30th, 2025",
+    "title": "(Pwn2Own) Tesla Model 3 VCSEC Integer Overflow Remote Code Execution Vulnerability",
+    "ID_1": "ZDI-25-265",
+    "ID_2": "ZDI-CAN-23800",
+    "cveId": "CVE-2025-2082",
+    "baseScore": "7.5",
+    "vectorString": "AV:A/AC:H/PR:N/UI:N/S:U/C:H/I:H/A:H",
+    "vendors": "Tesla",
+    "products": "",
+    "description": "This vulnerability allows network-adjacent attackers to execute arbitrary code on affected Tesla Model 3 vehicles. Authentication is not required to exploit this vulnerability.\nThe specific flaw exists within the VCSEC module. By manipulating the certificate response sent from the Tire Pressure Monitoring System (TPMS), an attacker can trigger an integer overflow before writing to memory. An attacker can leverage this vulnerability to execute code in the context of the VCSEC module and send arbitrary messages to the vehicle CAN bus.",
+    "addtionnal_details": "Fixed in Firmware Version 2024.14",
+    "timeline": "2024-03-28 - Vulnerability reported to vendor\n2025-04-30 - Coordinated public release of advisory\n2025-04-30 - Advisory Updated",
+    "credit": "Synacktiv - Thomas Imbert - Vincent Dehors - David Berard"
+}

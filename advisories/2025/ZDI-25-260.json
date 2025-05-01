@@ -1,0 +1,15 @@
+{
+    "date": "April 30th, 2025",
+    "title": "(Pwn2Own) Tesla Model S Iris Modem Race Condition Firewall Bypass Vulnerability",
+    "ID_1": "ZDI-25-260",
+    "ID_2": "ZDI-CAN-23197",
+    "cveId": "CVE-2024-6029",
+    "baseScore": "5.0",
+    "vectorString": "AV:A/AC:H/PR:N/UI:N/S:U/C:L/I:L/A:L",
+    "vendors": "Tesla",
+    "products": "",
+    "description": "This vulnerability allows network-adjacent attackers to bypass the firewall on the Iris modem in affected Tesla Model S vehicles. Authentication is not required to exploit this vulnerability.\n \nThe specific flaw exists within the firewall service. The issue results from a failure to obtain the xtables lock. An attacker can leverage this vulnerability to bypass firewall rules.",
+    "addtionnal_details": "Fixed in Firmware Version 2024.2.3",
+    "timeline": "2024-02-28 - Vulnerability reported to vendor\n2025-04-30 - Coordinated public release of advisory\n2025-04-30 - Advisory Updated",
+    "credit": "Synacktiv (@Synacktiv)"
+}
