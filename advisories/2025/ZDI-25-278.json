@@ -1,0 +1,15 @@
+{
+    "date": "May 1st, 2025",
+    "title": "Cisco IOS XE SNMP GET-NEXT ctspIpSgtValue Stack-based Buffer Overflow Remote Code Execution Vulnerability",
+    "ID_1": "ZDI-25-278",
+    "ID_2": "ZDI-CAN-25021",
+    "cveId": "CVE-2025-20176",
+    "baseScore": "8.8",
+    "vectorString": "AV:N/AC:L/PR:L/UI:N/S:U/C:H/I:H/A:H",
+    "vendors": "Cisco",
+    "products": "",
+    "description": "This vulnerability allows remote attackers to execute arbitrary code on affected installations of Cisco IOS XE. Authentication is required to exploit this vulnerability.\nThe specific flaw exists within the SNMP service, which listens on UDP port 161 by default. The issue results from the lack of proper validation of the length of user-supplied data prior to copying it to a fixed-length stack-based buffer. An attacker can leverage this vulnerability to execute code in the context of the device.",
+    "addtionnal_details": "Cisco has issued an update to correct this vulnerability. More details can be found at:https://sec.cloudapps.cisco.com/security/center/content/CiscoSecurityAdvisory/cisco-sa-snmp-dos-sdxnSUcW",
+    "timeline": "2024-10-08 - Vulnerability reported to vendor\n2025-05-01 - Coordinated public release of advisory\n2025-05-01 - Advisory Updated",
+    "credit": "leg00m"
+}

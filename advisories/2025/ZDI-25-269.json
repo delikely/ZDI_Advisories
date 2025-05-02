@@ -1,0 +1,15 @@
+{
+    "date": "May 1st, 2025",
+    "title": "(Pwn2Own) Synology BeeStation BST150-4T Unnecessary Privileges Remote Code Execution Vulnerability",
+    "ID_1": "ZDI-25-269",
+    "ID_2": "ZDI-CAN-25663",
+    "cveId": "CVE-2024-10445",
+    "baseScore": "5.3",
+    "vectorString": "AV:A/AC:H/PR:N/UI:N/S:U/C:N/I:H/A:N",
+    "vendors": "",
+    "products": "",
+    "description": "This vulnerability allows network-adjacent attackers to execute arbitrary code on affected installations of Synology BeeStation BST150-4T devices. Authentication is not required to exploit this vulnerability.\nThe specific flaw exists within the handling of file commands. The specific flaw exists within the handling of files as the root user. An attacker can leverage this in conjunction with other vulnerabilities to execute code in the context of root.",
+    "addtionnal_details": "Synology has issued an update to correct this vulnerability. More details can be found at:https://www.synology.com/en-us/security/advisory/Synology_SA_24_20",
+    "timeline": "2024-12-02 - Vulnerability reported to vendor\n2025-05-01 - Coordinated public release of advisory\n2025-05-01 - Advisory Updated",
+    "credit": "Anonymous"
+}

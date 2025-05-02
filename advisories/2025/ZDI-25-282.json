@@ -1,0 +1,15 @@
+{
+    "date": "May 1st, 2025",
+    "title": "Webmin CRLF Injection Privilege Escalation Vulnerability",
+    "ID_1": "ZDI-25-282",
+    "ID_2": "ZDI-CAN-26502",
+    "cveId": "CVE-2025-2774",
+    "baseScore": "8.8",
+    "vectorString": "AV:N/AC:L/PR:L/UI:N/S:U/C:H/I:H/A:H",
+    "vendors": "Webmin",
+    "products": "Webmin",
+    "description": "This vulnerability allows remote attackers to escalate privileges on affected installations of Webmin. Authentication is required to exploit this vulnerability.\nThe specific flaw exists within the handling of CGI requests. The issue results from the lack of proper neutralization of CRLF sequences. An attacker can leverage this vulnerability to escalate privileges and execute arbitrary code in the context of root.",
+    "addtionnal_details": "fixed in Webmin 2.302",
+    "timeline": "2025-02-28 - Vulnerability reported to vendor\n2025-05-01 - Coordinated public release of advisory\n2025-05-01 - Advisory Updated",
+    "credit": "hir0ot and tri.lm"
+}
