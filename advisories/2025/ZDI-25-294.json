@@ -1,0 +1,15 @@
+{
+    "date": "May 21st, 2025",
+    "title": "Microsoft PC Manager MSPCManagerService Link Following Local Privilege Escalation Vulnerability",
+    "ID_1": "ZDI-25-294",
+    "ID_2": "ZDI-CAN-26137",
+    "cveId": "CVE-2025-29975",
+    "baseScore": "7.8",
+    "vectorString": "AV:L/AC:L/PR:L/UI:N/S:U/C:H/I:H/A:H",
+    "vendors": "Microsoft",
+    "products": "PC Manager",
+    "description": "This vulnerability allows local attackers to escalate privileges on affected installations of Microsoft PC Manager. An attacker must first obtain the ability to execute low-privileged code on the target system in order to exploit this vulnerability.\nThe specific flaw exists within the MSPCManagerService. By creating a symbolic link, an attacker can abuse the service to delete arbitrary files. An attacker can leverage this vulnerability to escalate privileges and execute arbitrary code in the context of SYSTEM.",
+    "addtionnal_details": "Microsoft has issued an update to correct this vulnerability. More details can be found at:https://msrc.microsoft.com/update-guide/vulnerability/CVE-2025-29975",
+    "timeline": "2025-03-12 - Vulnerability reported to vendor\n2025-05-21 - Coordinated public release of advisory\n2025-05-21 - Advisory Updated",
+    "credit": "Anonymous"
+}

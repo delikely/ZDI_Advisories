@@ -1,0 +1,15 @@
+{
+    "date": "May 21st, 2025",
+    "title": "Linux Kernel OpenvSwitch Out-Of-Bounds Read Information Disclosure Vulnerability",
+    "ID_1": "ZDI-25-307",
+    "ID_2": "ZDI-CAN-26711",
+    "cveId": "",
+    "baseScore": "6.7",
+    "vectorString": "AV:L/AC:L/PR:H/UI:N/S:C/C:H/I:N/A:L",
+    "vendors": "Linux",
+    "products": "",
+    "description": "This vulnerability allows local attackers to disclose sensitive information on affected installations of Linux Kernel. An attacker must first obtain the ability to execute high-privileged code on the target system in order to exploit this vulnerability.\nThe specific flaw exists within the handling of userspace attributes. The issue results from the lack of proper validation of user-supplied data, which can result in a read past the end of an allocated buffer. An attacker can leverage this in conjunction with other vulnerabilties to escalate privileges and execute arbitrary code in the context of the kernel.",
+    "addtionnal_details": "Linux has issued an update to correct this vulnerability. More details can be found at:https://git.kernel.org/netdev/net/c/6beb6835c1fb",
+    "timeline": "2025-04-30 - Vulnerability reported to vendor\n2025-05-21 - Coordinated public release of advisory\n2025-05-21 - Advisory Updated",
+    "credit": "Slavin Liu"
+}
