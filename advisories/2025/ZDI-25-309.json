@@ -1,0 +1,15 @@
+{
+    "date": "May 28th, 2025",
+    "title": "(Pwn2Own) Canon imageCLASS MF656Cdw sfpcmAuthenticateSecAdmin Stack-based Buffer Overflow Remote Code Execution Vulnerability",
+    "ID_1": "ZDI-25-309",
+    "ID_2": "ZDI-CAN-25779",
+    "cveId": "CVE-2025-2146",
+    "baseScore": "8.8",
+    "vectorString": "AV:A/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:H",
+    "vendors": "Canon",
+    "products": "",
+    "description": "This vulnerability allows network-adjacent attackers to execute arbitrary code on affected installations of Canon imageCLASS MF656Cdw printers. Authentication is not required to exploit this vulnerability.\nThe specific flaw exists within the sfpcmAuthenticateSecAdmin function. The issue results from the lack of proper validation of the length of user-supplied data prior to copying it to a fixed-length stack-based buffer. An attacker can leverage this vulnerability to execute code in the context of the device.",
+    "addtionnal_details": "Canon has issued an update to correct this vulnerability. More details can be found at:https://www.canon-europe.com/support/product-security/#news",
+    "timeline": "2024-12-19 - Vulnerability reported to vendor\n2025-05-28 - Coordinated public release of advisory\n2025-05-28 - Advisory Updated",
+    "credit": "YingMuo (@YingMuo) working with DEVCORE Internship Program."
+}
