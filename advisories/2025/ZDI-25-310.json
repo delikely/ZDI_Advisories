@@ -1,0 +1,15 @@
+{
+    "date": "May 29th, 2025",
+    "title": "Linux Kernel ksmbd Session Setup Null Pointer Dereference Denial-of-Service Vulnerability",
+    "ID_1": "ZDI-25-310",
+    "ID_2": "ZDI-CAN-26505",
+    "cveId": "",
+    "baseScore": "6.8",
+    "vectorString": "AV:N/AC:H/PR:N/UI:N/S:C/C:N/I:N/A:H",
+    "vendors": "Linux",
+    "products": "",
+    "description": "This vulnerability allows remote attackers to create a denial-of-service condition on affected installations of Linux Kernel. Authentication is not required to exploit this vulnerability, but only systems with ksmbd enabled are vulnerable.\nThe specific flaw exists within the handling of preauth hashes. The issue results from dereferencing a null pointer. An attacker can leverage this vulnerability to create a denial-of-service condition on the system.",
+    "addtionnal_details": "Linux has issued an update to correct this vulnerability. More details can be found at:https://github.com/torvalds/linux/commit/c8b5b7c5da7d0c31c9b7190b4a7bba5281fc4780",
+    "timeline": "2025-03-25 - Vulnerability reported to vendor\n2025-05-29 - Coordinated public release of advisory\n2025-05-29 - Advisory Updated",
+    "credit": "Viacheslav Moskvin"
+}
