@@ -1,0 +1,15 @@
+{
+    "date": "June 2nd, 2025",
+    "title": "Hewlett Packard Enterprise StoreOnce VSA doExecute Command Injection Remote Code Execution Vulnerability",
+    "ID_1": "ZDI-25-314",
+    "ID_2": "ZDI-CAN-24983",
+    "cveId": "CVE-2025-37091",
+    "baseScore": "7.2",
+    "vectorString": "AV:N/AC:L/PR:H/UI:N/S:U/C:H/I:H/A:H",
+    "vendors": "Hewlett Packard Enterprise",
+    "products": "StoreOnce VSA",
+    "description": "This vulnerability allows remote attackers to execute arbitrary code on affected installations of Hewlett Packard Enterprise StoreOnce VSA. Although authentication is required to exploit this vulnerability, the existing authentication mechanism can be bypassed.\nThe specific flaw exists within the implementation of the doExecute method. The issue results from the lack of proper validation of a user-supplied string before using it to execute a system call. An attacker can leverage this vulnerability to execute code in the context of root.",
+    "addtionnal_details": "Hewlett Packard Enterprise has issued an update to correct this vulnerability. More details can be found at:https://support.hpe.com/hpesc/public/docDisplay?docId=hpesbst04847en_us&docLocale=en_US",
+    "timeline": "2024-10-31 - Vulnerability reported to vendor\n2025-06-02 - Coordinated public release of advisory\n2025-06-02 - Advisory Updated",
+    "credit": "Anonymous"
+}

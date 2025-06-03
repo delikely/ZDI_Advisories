@@ -1,0 +1,15 @@
+{
+    "date": "June 2nd, 2025",
+    "title": "SolarWinds DameWare Mini Remote Control Service Incorrect Permissions Local Privilege Escalation Vulnerability",
+    "ID_1": "ZDI-25-320",
+    "ID_2": "ZDI-CAN-26279",
+    "cveId": "CVE-2025-26396",
+    "baseScore": "7.8",
+    "vectorString": "AV:L/AC:L/PR:L/UI:N/S:U/C:H/I:H/A:H",
+    "vendors": "SolarWinds",
+    "products": "",
+    "description": "This vulnerability allows local attackers to escalate privileges on affected installations of SolarWinds DameWare Mini Remote Control Service. An attacker must first obtain the ability to execute low-privileged code on the target system in order to exploit this vulnerability.\nThe specific flaw exists within the product installer. The issue results from incorrect permissions on a folder used by the product. An attacker can leverage this vulnerability to escalate privileges and execute arbitrary code in the context of SYSTEM.",
+    "addtionnal_details": "SolarWinds has issued an update to correct this vulnerability. More details can be found at:https://documentation.solarwinds.com/en/success_center/dameware/content/release_notes/dameware_12-3-2_release_notes.htm",
+    "timeline": "2025-03-04 - Vulnerability reported to vendor\n2025-06-02 - Coordinated public release of advisory\n2025-06-02 - Advisory Updated",
+    "credit": "Alexander Pudwill"
+}
