@@ -1,0 +1,15 @@
+{
+    "date": "June 3rd, 2025",
+    "title": "Action1 Uncontrolled Search Path Element Local Privilege Escalation Vulnerability",
+    "ID_1": "ZDI-25-323",
+    "ID_2": "ZDI-CAN-26767",
+    "cveId": "CVE-2025-5480",
+    "baseScore": "7.8",
+    "vectorString": "AV:L/AC:L/PR:L/UI:N/S:U/C:H/I:H/A:H",
+    "vendors": "Action1",
+    "products": "Action1",
+    "description": "This vulnerability allows local attackers to escalate privileges on affected installations of Action1.  An attacker must first obtain the ability to execute low-privileged code on the target system in order to exploit this vulnerability.\nThe specific flaw exists within the configuration of OpenSSL. The product loads an OpenSSL configuration file from an unsecured location. An attacker can leverage this vulnerability to escalate privileges and execute arbitrary code in the context of SYSTEM.",
+    "addtionnal_details": "Action1 has issued an update to correct this vulnerability. More details can be found at:https://www.action1.com/blog/acknowledging-zdi-can-26767-high-severity-vulnerability-in-action1-agent/",
+    "timeline": "2025-04-28 - Vulnerability reported to vendor\n2025-06-03 - Coordinated public release of advisory\n2025-06-03 - Advisory Updated",
+    "credit": "Xavier DANEST"
+}

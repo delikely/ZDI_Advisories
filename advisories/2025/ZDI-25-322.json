@@ -1,0 +1,15 @@
+{
+    "date": "June 3rd, 2025",
+    "title": "2BrightSparks SyncBackFree Link Following Local Privilege Escalation Vulnerability",
+    "ID_1": "ZDI-25-322",
+    "ID_2": "ZDI-CAN-26962",
+    "cveId": "CVE-2025-5474",
+    "baseScore": "7.3",
+    "vectorString": "AV:L/AC:L/PR:L/UI:R/S:U/C:H/I:H/A:H",
+    "vendors": "2BrightSparks",
+    "products": "SyncBackFree",
+    "description": "This vulnerability allows local attackers to escalate privileges on affected installations of 2BrightSparks SyncBackFree. An attacker must first obtain the ability to execute low-privileged code on the target system in order to exploit this vulnerability. User interaction on the part of an administrator is also required.\nThe specific flaw exists within the Mirror functionality. By creating a junction, an attacker can abuse the service to delete arbitrary files. An attacker can leverage this vulnerability to escalate privileges and execute arbitrary code in the context of SYSTEM.",
+    "addtionnal_details": "Fixed in SyncBack V11.3.106.0https://www.2brightsparks.com/download-syncbackfree.html",
+    "timeline": "2025-05-13 - Vulnerability reported to vendor\n2025-06-03 - Coordinated public release of advisory\n2025-06-03 - Advisory Updated",
+    "credit": "Sharkkcode and Zeze with TeamT5"
+}
