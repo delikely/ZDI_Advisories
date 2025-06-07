@@ -1,0 +1,15 @@
+{
+    "date": "June 6th, 2025",
+    "title": "(0Day) (Pwn2Own) WOLFBOX Level 2 EV Charger Management Card Hard-coded Credentials Authentication Bypass Vulnerability",
+    "ID_1": "ZDI-25-330",
+    "ID_2": "ZDI-CAN-26292",
+    "cveId": "CVE-2025-5751",
+    "baseScore": "4.6",
+    "vectorString": "AV:P/AC:L/PR:N/UI:N/S:U/C:N/I:H/A:N",
+    "vendors": "WOLFBOX",
+    "products": "Level 2 EV Charger",
+    "description": "This vulnerability allows physically present attackers to bypass authentication on affected installations of WOLFBOX Level 2 EV Charger. Authentication is not required to exploit this vulnerability.\nThe specific flaw exists within the handling of management cards. The issue results from the lack of personalization of management cards. An attacker can leverage this vulnerability to bypass authentication on the system.",
+    "addtionnal_details": "ZDI made several attempts to contact the vendor using the contact information on their website, as well as trying to reach them on various social platforms which yielded no response. -- Mitigation: Given the nature of the vulnerability, the only salient mitigation strategy is to restrict interaction with the product",
+    "timeline": "2025-03-10 - Vulnerability reported to vendor\n2025-06-06 - Coordinated public release of advisory\n2025-06-06 - Advisory Updated",
+    "credit": "Sina Kheirkhah (@SinSinology) of Summoning Team (@SummoningTeam)"
+}
