@@ -1,0 +1,15 @@
+{
+    "date": "June 11th, 2025",
+    "title": "(Pwn2Own) Ubiquiti Networks UniFi Console Missing Authentication for Critical Function Authentication Bypass Vulnerability",
+    "ID_1": "ZDI-25-378",
+    "ID_2": "ZDI-CAN-25588",
+    "cveId": "CVE-2025-23116",
+    "baseScore": "9.6",
+    "vectorString": "AV:A/AC:L/PR:N/UI:N/S:C/C:H/I:H/A:H",
+    "vendors": "",
+    "products": "UniFi Console",
+    "description": "This vulnerability allows network-adjacent attackers to bypass authentication on affected Ubiquiti Networks UniFi Console devices. Authentication is not required to exploit this vulnerability.\nThe specific flaw exists within the handling of bridge device adoption requests. The issue results from the lack of authentication prior to allowing access to functionality. An attacker can leverage this vulnerability to bypass authentication and disclose credentials for accessing connected devices.",
+    "addtionnal_details": "Ubiquiti Networks has issued an update to correct this vulnerability. More details can be found at:https://community.ui.com/releases/Security-Advisory-Bulletin-046-046/9649ea8f-93db-4713-a875-c3fd7614943f",
+    "timeline": "2024-11-15 - Vulnerability reported to vendor\n2025-06-11 - Coordinated public release of advisory\n2025-06-11 - Advisory Updated",
+    "credit": "Synacktiv"
+}

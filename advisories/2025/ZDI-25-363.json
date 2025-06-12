@@ -1,0 +1,15 @@
+{
+    "date": "June 11th, 2025",
+    "title": "Trend Micro Apex One Virus Scan Engine Link Following Local Privilege Escalation Vulnerability",
+    "ID_1": "ZDI-25-363",
+    "ID_2": "ZDI-CAN-24973",
+    "cveId": "CVE-2025-49156",
+    "baseScore": "7.0",
+    "vectorString": "AV:L/AC:H/PR:L/UI:N/S:U/C:H/I:H/A:H",
+    "vendors": "Trend Micro",
+    "products": "Apex One",
+    "description": "This vulnerability allows local attackers to escalate privileges on affected installations of Trend Micro Apex One Security Agent. An attacker must first obtain the ability to execute low-privileged code on the target system in order to exploit this vulnerability. Furthermore, the product is vulnerable only if configured by an administrator to take a non-default malware remediation action.\nThe specific flaw exists within the VsapiNT.sys kernel module. By creating a symbolic link, an attacker can abuse the driver to create arbitrary files. An attacker can leverage this vulnerability to escalate privileges and execute arbitrary code in the context of SYSTEM.",
+    "addtionnal_details": "Trend Micro has issued an update to correct this vulnerability. More details can be found at:https://success.trendmicro.com/en-US/solution/KA-0019917",
+    "timeline": "2024-08-14 - Vulnerability reported to vendor\n2025-06-11 - Coordinated public release of advisory\n2025-06-11 - Advisory Updated",
+    "credit": "Anonymous"
+}

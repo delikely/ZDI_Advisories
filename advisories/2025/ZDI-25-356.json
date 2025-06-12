@@ -1,0 +1,15 @@
+{
+    "date": "June 11th, 2025",
+    "title": "(Pwn2Own) Sony XAV-AX8500 Bluetooth AVCTP Protocol Heap-based Buffer Overflow Remote Code Execution Vulnerability",
+    "ID_1": "ZDI-25-356",
+    "ID_2": "ZDI-CAN-26290",
+    "cveId": "CVE-2025-5479",
+    "baseScore": "7.5",
+    "vectorString": "AV:A/AC:H/PR:N/UI:N/S:U/C:H/I:H/A:H",
+    "vendors": "",
+    "products": "",
+    "description": "This vulnerability allows network-adjacent attackers to execute arbitrary code on affected installations of Sony XAV-AX8500 devices. An attacker must first obtain the ability to pair a malicious Bluetooth device with the target system in order to exploit this vulnerability.\nThe specific flaw exists within the implementation of the Bluetooth AVCTP protocol. The issue results from the lack of proper validation of the length of user-supplied data prior to copying it to a heap-based buffer. An attacker can leverage this vulnerability to execute code in the context of the current process.",
+    "addtionnal_details": "Sony has issued an update to correct this vulnerability. More details can be found at:https://www.sony.com/electronics/support/mobile-cd-players-digital-media-players-xav-series/xav-ax8500/software/00344092",
+    "timeline": "2025-01-28 - Vulnerability reported to vendor\n2025-06-11 - Coordinated public release of advisory\n2025-06-11 - Advisory Updated",
+    "credit": "Team Confused"
+}

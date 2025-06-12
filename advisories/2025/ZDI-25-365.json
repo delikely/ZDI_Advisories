@@ -1,0 +1,15 @@
+{
+    "date": "June 11th, 2025",
+    "title": "Trend Micro Apex One Security Agent ntrmv Uncontrolled Search Path Local Privilege Escalation Vulnerability",
+    "ID_1": "ZDI-25-365",
+    "ID_2": "ZDI-CAN-25771",
+    "cveId": "CVE-2025-49158",
+    "baseScore": "6.7",
+    "vectorString": "AV:L/AC:H/PR:L/UI:R/S:U/C:H/I:H/A:H",
+    "vendors": "Trend Micro",
+    "products": "Apex One",
+    "description": "This vulnerability allows local attackers to escalate privileges on affected installations of Trend Micro Apex One Security Agent. An attacker must first obtain the ability to execute low-privileged code on the target system in order to exploit this vulnerability. Furthermore, privilege escalation occurs only if an administrator uninstalls the Security Agent from the affected computer.\nThe specific flaw exists within the product uninstaller. The product executes a program from an unsecured location. An attacker can leverage this vulnerability to escalate privileges and execute arbitrary code in the context of SYSTEM.",
+    "addtionnal_details": "Trend Micro has issued an update to correct this vulnerability. More details can be found at:https://success.trendmicro.com/en-US/solution/KA-0019917",
+    "timeline": "2024-12-06 - Vulnerability reported to vendor\n2025-06-11 - Coordinated public release of advisory\n2025-06-11 - Advisory Updated",
+    "credit": "Vladislav Berghici of Trend Micro Research"
+}

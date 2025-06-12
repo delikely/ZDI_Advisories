@@ -1,0 +1,15 @@
+{
+    "date": "June 11th, 2025",
+    "title": "Pioneer DMH-WT7600NEX Root Filesystem Insufficient Verification of Data Authenticity Vulnerability",
+    "ID_1": "ZDI-25-350",
+    "ID_2": "ZDI-CAN-26077",
+    "cveId": "CVE-2025-5833",
+    "baseScore": "4.6",
+    "vectorString": "AV:P/AC:L/PR:N/UI:N/S:U/C:N/I:H/A:N",
+    "vendors": "",
+    "products": "",
+    "description": "This vulnerability allows physically present attackers to bypass authentication on affected installations of Pioneer DMH-WT7600NEX devices. Authentication is not required to exploit this vulnerability.\nThe specific flaw exists within the configuration of the operating system. The issue results from the lack of properly configured protection for the root file system. An attacker can leverage this vulnerability to bypass authentication on the system.",
+    "addtionnal_details": "Fixed in Version 3.06 https://www.pioneerelectronics.com/PUSA/Support/Downloads",
+    "timeline": "2025-01-14 - Vulnerability reported to vendor\n2025-06-11 - Coordinated public release of advisory\n2025-06-11 - Advisory Updated",
+    "credit": "Dmitry \"InfoSecDJ\" Janushkevich of Trend Micro Zero Day Initiative"
+}

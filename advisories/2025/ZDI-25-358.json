@@ -1,0 +1,15 @@
+{
+    "date": "June 11th, 2025",
+    "title": "(Pwn2Own) Sony XAV-AX8500 Bluetooth ERTM Channel Authentication Bypass Vulnerability",
+    "ID_1": "ZDI-25-358",
+    "ID_2": "ZDI-CAN-26285",
+    "cveId": "CVE-2025-5820",
+    "baseScore": "6.3",
+    "vectorString": "AV:A/AC:L/PR:N/UI:N/S:U/C:L/I:L/A:L",
+    "vendors": "",
+    "products": "",
+    "description": "This vulnerability allows network-adjacent attackers to bypass authentication on affected Sony XAV-AX8500 devices. Authentication is not required to exploit this vulnerability.\nThe specific flaw exists within the implementation of Bluetooth ERTM channel communication. The issue results from improper channel data initialization. An attacker can leverage this vulnerability to bypass authentication on the system.",
+    "addtionnal_details": "Sony has issued an update to correct this vulnerability. More details can be found at:https://www.sony.com/electronics/support/mobile-cd-players-digital-media-players-xav-series/xav-ax8500/software/00344092",
+    "timeline": "2025-01-30 - Vulnerability reported to vendor\n2025-06-11 - Coordinated public release of advisory\n2025-06-11 - Advisory Updated",
+    "credit": "Mikhail Evdokimov (@konatabrk) from PCAutomotive"
+}

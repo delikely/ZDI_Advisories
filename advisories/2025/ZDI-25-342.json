@@ -1,0 +1,15 @@
+{
+    "date": "June 11th, 2025",
+    "title": "(Pwn2Own) Autel MaxiCharger AC Wallbox Commercial PIN Missing Authentication Information Disclosure Vulnerability",
+    "ID_1": "ZDI-25-342",
+    "ID_2": "ZDI-CAN-26352",
+    "cveId": "",
+    "baseScore": "7.5",
+    "vectorString": "AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:N/A:N",
+    "vendors": "Autel",
+    "products": "Autel MaxiCharger AC Wallbox Commercial",
+    "description": "This vulnerability allows remote attackers to disclose sensitive information on affected installations of Autel MaxiCharger AC Wallbox Commercial charging stations. Authentication is not required to exploit this vulnerability.\nThe specific flaw exists within the Pile API. The issue results from the lack of authentication prior to allowing access to functionality. An attacker can leverage this vulnerability to disclose credentials, leading to further compromise.",
+    "addtionnal_details": "Fixed in American Standard: V1.39.51 and European Standard: V1.56.51",
+    "timeline": "2025-03-06 - Vulnerability reported to vendor\n2025-06-11 - Coordinated public release of advisory\n2025-06-11 - Advisory Updated",
+    "credit": "Sina Kheirkhah (@SinSinology) of Summoning Team (@SummoningTeam)"
+}

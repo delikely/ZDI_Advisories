@@ -1,0 +1,15 @@
+{
+    "date": "June 11th, 2025",
+    "title": "Pioneer DMH-WT7600NEX Missing Immutable Root of Trust in Hardware Local Privilege Escalation Vulnerability",
+    "ID_1": "ZDI-25-351",
+    "ID_2": "ZDI-CAN-26078",
+    "cveId": "CVE-2025-5834",
+    "baseScore": "4.4",
+    "vectorString": "AV:L/AC:L/PR:H/UI:N/S:U/C:N/I:H/A:N",
+    "vendors": "",
+    "products": "",
+    "description": "This vulnerability allows local attackers to bypass authentication on affected installations of Pioneer DMH-WT7600NEX devices. Although authentication is required to exploit this vulnerability, the existing authentication mechanism can be bypassed.\nThe specific flaw exists within the configuration of the application system-on-chip (SoC). The issue results from the lack of a properly configured hardware root of trust. An attacker can leverage this vulnerability to escalate privileges and execute arbitrary code in the context of the boot process.",
+    "addtionnal_details": "Fixed in Version 3.06 https://www.pioneerelectronics.com/PUSA/Support/Downloads",
+    "timeline": "2025-01-14 - Vulnerability reported to vendor\n2025-06-11 - Coordinated public release of advisory\n2025-06-11 - Advisory Updated",
+    "credit": "Dmitry \"InfoSecDJ\" Janushkevich of Trend Micro Zero Day Initiative"
+}
