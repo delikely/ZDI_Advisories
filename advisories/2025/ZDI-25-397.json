@@ -1,0 +1,15 @@
+{
+    "date": "June 17th, 2025",
+    "title": "Delta Electronics COMMGR Insufficient Randomization Authentication Bypass Vulnerability",
+    "ID_1": "ZDI-25-397",
+    "ID_2": "ZDI-CAN-25049",
+    "cveId": "CVE-2025-3495",
+    "baseScore": "9.8",
+    "vectorString": "AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:H",
+    "vendors": "Delta Electronics",
+    "products": "",
+    "description": "This vulnerability allows remote attackers to bypass authentication on affected installations of Delta Electronics COMMGR. Authentication is not required to exploit this vulnerability.\nThe specific flaw exists within the PLC simulator service, which listens on TCP port 8895 by default. By conducting a brute force attack at moderate expense, an attacker can find a valid session identifier. An attacker can leverage this vulnerability to bypass authentication on the system.",
+    "addtionnal_details": "Delta Electronics has issued an update to correct this vulnerability. More details can be found at:https://www.cisa.gov/news-events/ics-advisories/icsa-25-105-07",
+    "timeline": "2024-11-19 - Vulnerability reported to vendor\n2025-06-17 - Coordinated public release of advisory\n2025-06-17 - Advisory Updated",
+    "credit": "Anonymous"
+}

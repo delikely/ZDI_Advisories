@@ -1,0 +1,15 @@
+{
+    "date": "June 17th, 2025",
+    "title": "SolarWinds Serv-U FTP Service Directory Traversal Remote Code Execution Vulnerability",
+    "ID_1": "ZDI-25-406",
+    "ID_2": "ZDI-CAN-25087",
+    "cveId": "CVE-2024-45711",
+    "baseScore": "7.5",
+    "vectorString": "AV:N/AC:H/PR:L/UI:N/S:U/C:H/I:H/A:H",
+    "vendors": "SolarWinds",
+    "products": "Serv-U",
+    "description": "This vulnerability allows remote attackers to execute arbitrary code on affected installations of SolarWinds Serv-U. Authentication is required to exploit this vulnerability.\nThe specific flaw exists within the FTP service, which listens on TCP port 21 by default. The issue results from the lack of proper validation of a user-supplied path prior to using it in file operations. An attacker can leverage this vulnerability to execute code in the context of NETWORK SERVICE.",
+    "addtionnal_details": "SolarWinds has issued an update to correct this vulnerability. More details can be found at:https://documentation.solarwinds.com/en/success_center/servu/content/release_notes/servu_15-5_release_notes.htm#link3",
+    "timeline": "2024-09-04 - Vulnerability reported to vendor\n2025-06-17 - Coordinated public release of advisory\n2025-06-17 - Advisory Updated",
+    "credit": "Anonymous"
+}
