@@ -1,0 +1,15 @@
+{
+    "date": "June 18th, 2025",
+    "title": "PEAK-System Driver PCANFD_ADD_FILTERS Time-Of-Check Time-Of-Use Information Disclosure Vulnerability",
+    "ID_1": "ZDI-25-408",
+    "ID_2": "ZDI-CAN-24161",
+    "cveId": "CVE-2025-6217",
+    "baseScore": "3.8",
+    "vectorString": "AV:L/AC:L/PR:L/UI:N/S:C/C:L/I:N/A:N",
+    "vendors": "PEAK-System",
+    "products": "",
+    "description": "This vulnerability allows local attackers to disclose sensitive information on affected installations of PEAK-System Driver. An attacker must first obtain the ability to execute low-privileged code on the target system in order to exploit this vulnerability.\nThe specific flaw exists within the handling of the PCANFD_ADD_FILTERS IOCTL. The issue results from the lack of proper locking when performing operations on an object. An attacker can leverage this in conjunction with other vulnerabilities to execute arbitrary code in the context of the kernel.",
+    "addtionnal_details": "Fixed in version 8.19.0 https://www.peak-system.com/Details.114+M5f4e1a41c28.0.html?&L=1",
+    "timeline": "2024-08-12 - Vulnerability reported to vendor\n2025-06-18 - Coordinated public release of advisory\n2025-06-18 - Advisory Updated",
+    "credit": "Viacheslav Moskvin"
+}
