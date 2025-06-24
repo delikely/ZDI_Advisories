@@ -1,0 +1,15 @@
+{
+    "date": "June 23rd, 2025",
+    "title": "Clam AntiVirus UDF File Parsing Out-Of-Bounds Read Information Disclosure Vulnerability",
+    "ID_1": "ZDI-25-417",
+    "ID_2": "ZDI-CAN-26010",
+    "cveId": "CVE-2025-20234",
+    "baseScore": "6.1",
+    "vectorString": "AV:L/AC:L/PR:N/UI:R/S:U/C:H/I:N/A:L",
+    "vendors": "",
+    "products": "",
+    "description": "This vulnerability allows remote attackers to disclose sensitive information on affected installations of Clam AntiVirus. User interaction is required to exploit this vulnerability in that the target must visit a malicious page or open a malicious file.\nThe specific flaw exists within the parsing of file entries within UDF files. The issue results from the lack of proper validation of user-supplied data, which can result in a read past the end of an allocated object. An attacker can leverage this in conjunction with other vulnerabilities to execute arbitrary code in the context of the current user.",
+    "addtionnal_details": "Clam AntiVirus has issued an update to correct this vulnerability. More details can be found at:https://blog.clamav.net/2025/06/clamav-143-and-109-security-patch.html",
+    "timeline": "2025-02-13 - Vulnerability reported to vendor\n2025-06-23 - Coordinated public release of advisory\n2025-06-23 - Advisory Updated",
+    "credit": "volticks, @movx64 on twitter"
+}

@@ -1,0 +1,15 @@
+{
+    "date": "June 23rd, 2025",
+    "title": "ServiceStack FindType Directory Traversal Remote Code Execution Vulnerability",
+    "ID_1": "ZDI-25-416",
+    "ID_2": "ZDI-CAN-25837",
+    "cveId": "CVE-2025-6445",
+    "baseScore": "8.1",
+    "vectorString": "AV:N/AC:H/PR:N/UI:N/S:U/C:H/I:H/A:H",
+    "vendors": "ServiceStack",
+    "products": "",
+    "description": "This vulnerability allows remote attackers to execute arbitrary code on affected installations of ServiceStack. Interaction with this library is required to exploit this vulnerability but attack vectors may vary depending on the implementation.\nThe specific flaw exists within the implementation of the FindType method. The issue results from the lack of proper validation of a user-supplied path prior to using it in file operations. An attacker can leverage this vulnerability to execute code in the context of the current process.",
+    "addtionnal_details": "ServiceStack has issued an update to correct this vulnerability. More details can be found at:https://docs.servicestack.net/releases/v8_06#reported-vulnerabilities",
+    "timeline": "2024-11-19 - Vulnerability reported to vendor\n2025-06-23 - Coordinated public release of advisory\n2025-06-23 - Advisory Updated",
+    "credit": "Piotr Bazydlo (@chudypb) of Trend Micro Zero Day Initiative"
+}
