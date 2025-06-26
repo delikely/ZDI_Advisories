@@ -1,0 +1,15 @@
+{
+    "date": "June 25th, 2025",
+    "title": "Microsoft Azure App Services Information Disclosure Vulnerability",
+    "ID_1": "ZDI-25-421",
+    "ID_2": "ZDI-CAN-24622",
+    "cveId": "",
+    "baseScore": "5.3",
+    "vectorString": "AV:N/AC:L/PR:N/UI:N/S:U/C:L/I:N/A:N",
+    "vendors": "Microsoft",
+    "products": "",
+    "description": "This vulnerability allows remote attackers to disclose sensitive information on affected installations of Microsoft Azure. Authentication is not required to exploit this vulnerability.\nThe specific flaw exists within Azure App Services. The issue results from the exposure of sensitive information. An attacker can leverage this vulnerability to disclose information.",
+    "addtionnal_details": "Microsoft has issued an update to correct this vulnerability. More details can be found at:https://msrc.microsoft.com/update-guide/acknowledgement/online",
+    "timeline": "2024-07-05 - Vulnerability reported to vendor\n2025-06-25 - Coordinated public release of advisory\n2025-06-25 - Advisory Updated",
+    "credit": "Nitesh Surana (@_niteshsurana) of Trend Micro Research"
+}

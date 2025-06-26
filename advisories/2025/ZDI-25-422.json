@@ -1,0 +1,15 @@
+{
+    "date": "June 25th, 2025",
+    "title": "Microsoft Azure Machine Learning Environments Denial-of-Service Vulnerability",
+    "ID_1": "ZDI-25-422",
+    "ID_2": "ZDI-CAN-24823",
+    "cveId": "",
+    "baseScore": "3.7",
+    "vectorString": "AV:N/AC:H/PR:N/UI:N/S:U/C:N/I:N/A:L",
+    "vendors": "Microsoft",
+    "products": "",
+    "description": "This vulnerability allows remote attackers to create a denial-of-service condition on affected installations of Microsoft Azure. Authentication is not required to exploit this vulnerability.\nThe specific flaw exists within Azure Machine Learning Environments. The issue results from predictable Azure Container Registry names. An attacker can leverage this vulnerability to create a denial-of-service condition on the AML workspace.",
+    "addtionnal_details": "Microsoft has issued an update to correct this vulnerability. More details can be found at:https://msrc.microsoft.com/update-guide/acknowledgement/online",
+    "timeline": "2024-07-12 - Vulnerability reported to vendor\n2025-06-25 - Coordinated public release of advisory\n2025-06-25 - Advisory Updated",
+    "credit": "Nitesh Surana (@_niteshsurana) of Trend Micro Research"
+}

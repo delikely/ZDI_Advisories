@@ -1,0 +1,15 @@
+{
+    "date": "June 25th, 2025",
+    "title": "Mikrotik RouterOS VXLAN Source IP Improper Access Control Vulnerability",
+    "ID_1": "ZDI-25-424",
+    "ID_2": "ZDI-CAN-26415",
+    "cveId": "CVE-2025-6443",
+    "baseScore": "7.2",
+    "vectorString": "AV:N/AC:L/PR:N/UI:N/S:C/C:L/I:L/A:N",
+    "vendors": "",
+    "products": "",
+    "description": "This vulnerability allows remote attackers to bypass access restrictions on affected installations of Mikrotik RouterOS. Authentication is not required to exploit this vulnerability.\nThe specific flaw exists within the handling of remote IP addresses when processing VXLAN traffic. The issue results from the lack of validation of the remote IP address against configured values prior to allowing ingress traffic into the internal network. An attacker can leverage this vulnerability to gain access to internal network resources.",
+    "addtionnal_details": "Fixed in RouterOS v7.20",
+    "timeline": "2025-02-13 - Vulnerability reported to vendor\n2025-06-25 - Coordinated public release of advisory\n2025-06-25 - Advisory Updated",
+    "credit": "Trend Micro (SHU-HAO, TUNG) (123ojp)"
+}

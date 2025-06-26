@@ -1,0 +1,15 @@
+{
+    "date": "June 25th, 2025",
+    "title": "TeamViewer Incorrect Permission Assignment Local Privilege Escalation Vulnerability",
+    "ID_1": "ZDI-25-419",
+    "ID_2": "ZDI-CAN-26660",
+    "cveId": "CVE-2025-36537",
+    "baseScore": "7.8",
+    "vectorString": "AV:L/AC:L/PR:L/UI:N/S:U/C:H/I:H/A:H",
+    "vendors": "",
+    "products": "",
+    "description": "This vulnerability allows local attackers to escalate privileges on affected installations of TeamViewer. An attacker must first obtain the ability to execute low-privileged code on the target system in order to exploit this vulnerability.\nThe specific flaw exists within the TeamViewer service, which listens on TCP port 5939 by default. The issue results from incorrect permissions on folders. An attacker can leverage this vulnerability to escalate privileges and execute arbitrary code in the context of SYSTEM.",
+    "addtionnal_details": "TeamViewer has issued an update to correct this vulnerability. More details can be found at:https://www.teamviewer.com/en/resources/trust-center/security-bulletins/tv-2025-1002/",
+    "timeline": "2025-03-30 - Vulnerability reported to vendor\n2025-06-25 - Coordinated public release of advisory\n2025-06-25 - Advisory Updated",
+    "credit": "Giuliano Sanfins(0x_alibabas) from SiDi"
+}
