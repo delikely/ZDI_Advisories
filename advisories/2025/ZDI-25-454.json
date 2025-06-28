@@ -1,0 +1,15 @@
+{
+    "date": "June 27th, 2025",
+    "title": "(0Day) Marvell QConvergeConsole saveAsText Directory Traversal Remote Code Execution Vulnerability",
+    "ID_1": "ZDI-25-454",
+    "ID_2": "ZDI-CAN-24913",
+    "cveId": "CVE-2025-6794",
+    "baseScore": "9.8",
+    "vectorString": "AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:H",
+    "vendors": "",
+    "products": "",
+    "description": "This vulnerability allows remote attackers to execute arbitrary code on affected installations of Marvell QConvergeConsole. Authentication is not required to exploit this vulnerability.\nThe specific flaw exists within the implementation of the saveAsText method. The issue results from the lack of proper validation of a user-supplied path prior to using it in file operations. An attacker can leverage this vulnerability to execute code in the context of SYSTEM.",
+    "addtionnal_details": "09/19/24 – ZDI submitted the report to the vendor09/23/24 – the vendor acknowledged the receipt of the report10/09/24 – the vendor communicated that the product was out of support\n\n--Mitigation: The vendor no longer supports or recommends this tool. The product has entered End of Life (EOL) and End of Support (EOS) status after v. 5.5.0.85 was released in January 2022",
+    "timeline": "2024-09-19 - Vulnerability reported to vendor\n2025-06-27 - Coordinated public release of advisory\n2025-06-27 - Advisory Updated",
+    "credit": "Andrea Micalizzi aka rgod (@rgod777)"
+}
