@@ -1,0 +1,15 @@
+{
+    "date": "July 3rd, 2025",
+    "title": "GFI Archiver Telerik Web UI Remote Code Execution Vulnerability",
+    "ID_1": "ZDI-25-468",
+    "ID_2": "ZDI-CAN-26061",
+    "cveId": "CVE-2019-18935",
+    "baseScore": "9.8",
+    "vectorString": "AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:H",
+    "vendors": "GFI",
+    "products": "",
+    "description": "This vulnerability allows remote attackers to execute arbitrary code on affected installations of GFI Archiver. Authentication is not required to exploit this vulnerability.\nThe specific flaw exists within the product installer. The issue results from the use of a vulnerable version of Telerik Web UI. An attacker can leverage this vulnerability to execute code in the context of the service account.",
+    "addtionnal_details": "Fixed in GFI Archiver 15.9 https://gfi.ai/products-and-solutions/network-security-solutions/archiver/resources/documentation/product-releases",
+    "timeline": "2025-03-10 - Vulnerability reported to vendor\n2025-07-03 - Coordinated public release of advisory\n2025-07-03 - Advisory Updated",
+    "credit": "anonymous"
+}
