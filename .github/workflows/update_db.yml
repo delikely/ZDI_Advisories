@@ -28,10 +28,14 @@ jobs:
 
     - name: Commit
       run: |
-        git config --global user.email delikely@gmail.com
-        git config --global user.name delikely
-        git add advisories
-        git commit --allow-empty -m "update(`date +'%Y-%m-%d'`)"
+        if !  git diff --cached --quiet; then
+              git config --global user.email delikely@gmail.com
+              git config --global user.name delikely
+              git add advisories
+              git commit --allow-empty -m "update(`date +'%Y-%m-%d'`)"
+        else
+          echo "No changes to commit"
+        fi
         
     - name: Push changes
       uses: ad-m/github-push-action@master
