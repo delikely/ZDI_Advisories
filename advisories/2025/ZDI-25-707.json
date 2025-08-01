@@ -1,0 +1,15 @@
+{
+    "date": "July 29th, 2025",
+    "title": "AVG TuneUp for PC TuneUp Service Link Following Local Privilege Escalation Vulnerability",
+    "ID_1": "ZDI-25-707",
+    "ID_2": "ZDI-CAN-23383",
+    "cveId": "CVE-2024-13960",
+    "baseScore": "7.8",
+    "vectorString": "AV:L/AC:L/PR:L/UI:N/S:U/C:H/I:H/A:H",
+    "vendors": "",
+    "products": "TuneUp for PC",
+    "description": "This vulnerability allows local attackers to escalate privileges on affected installations of AVG TuneUp for PC. An attacker must first obtain the ability to execute low-privileged code on the target system in order to exploit this vulnerability.\nThe specific flaw exists within the TuneUp Service. By creating a symbolic link, an attacker can abuse the service to delete a file. An attacker can leverage this vulnerability to escalate privileges and execute arbitrary code in the context of SYSTEM.",
+    "addtionnal_details": "Fixed with Tuneup v24.1 31.7.2024",
+    "timeline": "2024-03-13 - Vulnerability reported to vendor\n2025-07-29 - Coordinated public release of advisory\n2025-07-29 - Advisory Updated",
+    "credit": "Naor Hodorov"
+}

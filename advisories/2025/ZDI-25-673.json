@@ -1,0 +1,15 @@
+{
+    "date": "July 29th, 2025",
+    "title": "Apple Safari getHourCycles Stack-based Buffer Overflow Remote Code Execution Vulnerability",
+    "ID_1": "ZDI-25-673",
+    "ID_2": "ZDI-CAN-26616",
+    "cveId": "CVE-2025-43209",
+    "baseScore": "8.8",
+    "vectorString": "AV:N/AC:L/PR:N/UI:R/S:U/C:H/I:H/A:H",
+    "vendors": "Apple",
+    "products": "",
+    "description": "This vulnerability allows remote attackers to execute arbitrary code on affected installations of Apple Safari. User interaction is required to exploit this vulnerability in that the target must visit a malicious page or open a malicious file.\nThe specific flaw exists within the implementation of getHourCycles API. The issue results from the lack of proper validation of the length of user-supplied data prior to copying it to a fixed-length stack-based buffer. An attacker can leverage this vulnerability to execute code in the context of the current process.",
+    "addtionnal_details": "Apple has issued an update to correct this vulnerability. More details can be found at:https://support.apple.com/en-us/124147",
+    "timeline": "2025-06-05 - Vulnerability reported to vendor\n2025-07-29 - Coordinated public release of advisory\n2025-07-29 - Advisory Updated",
+    "credit": "Gary Kwong"
+}

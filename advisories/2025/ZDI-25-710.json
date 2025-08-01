@@ -1,0 +1,15 @@
+{
+    "date": "July 29th, 2025",
+    "title": "SolarWinds Platform SolarWindsAgent64 Uncontrolled Search Path Element Local Privilege Escalation Vulnerability",
+    "ID_1": "ZDI-25-710",
+    "ID_2": "ZDI-CAN-24672",
+    "cveId": "CVE-2024-45710",
+    "baseScore": "7.8",
+    "vectorString": "AV:L/AC:L/PR:L/UI:N/S:U/C:H/I:H/A:H",
+    "vendors": "SolarWinds",
+    "products": "Platform",
+    "description": "This vulnerability allows local attackers to escalate privileges on affected installations of SolarWinds Platform. An attacker must first obtain the ability to execute low-privileged code on the target system in order to exploit this vulnerability.\nThe specific flaw exists within the SolarWindsAgent64 service. The process loads an OpenSSL configuration file from an unsecured location. An attacker can leverage this vulnerability to escalate privileges and execute arbitrary code in the context of SYSTEM.",
+    "addtionnal_details": "SolarWinds has issued an update to correct this vulnerability. More details can be found at:https://www.solarwinds.com/trust-center/security-advisories/cve-2024-45710",
+    "timeline": "2024-07-25 - Vulnerability reported to vendor\n2025-07-29 - Coordinated public release of advisory\n2025-07-29 - Advisory Updated",
+    "credit": "Will Dormann"
+}

@@ -1,0 +1,15 @@
+{
+    "date": "July 29th, 2025",
+    "title": "(Pwn2Own) Tesla Wall Connector Firmware Downgrade Vulnerability",
+    "ID_1": "ZDI-25-712",
+    "ID_2": "ZDI-CAN-26299",
+    "cveId": "CVE-2025-8321",
+    "baseScore": "6.8",
+    "vectorString": "AV:P/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:H",
+    "vendors": "Tesla",
+    "products": "Wall Connector",
+    "description": "This vulnerability allows physically present attackers to execute arbitrary code on affected installations of Tesla Wall Connector devices. Authentication is not required to exploit this vulnerability.\nThe specific flaw exists within the firmware upgrade feature. The issue results from the lack of an anti-downgrade mechanism. An attacker can leverage this in conjunction with other vulnerabilities to execute code in the context of the device.",
+    "addtionnal_details": "Fixed in Firmware Version 24.44.3",
+    "timeline": "2025-03-14 - Vulnerability reported to vendor\n2025-07-29 - Coordinated public release of advisory\n2025-07-29 - Advisory Updated",
+    "credit": "Synacktiv"
+}
