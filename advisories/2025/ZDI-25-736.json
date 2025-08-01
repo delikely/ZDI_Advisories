@@ -1,0 +1,15 @@
+{
+    "date": "July 31st, 2025",
+    "title": "(Pwn2Own) QNAP QHora-322 access_setting HTTP Request Smuggling Vulnerability",
+    "ID_1": "ZDI-25-736",
+    "ID_2": "ZDI-CAN-25632",
+    "cveId": "",
+    "baseScore": "6.3",
+    "vectorString": "AV:A/AC:L/PR:L/UI:N/S:U/C:L/I:H/A:N",
+    "vendors": "",
+    "products": "",
+    "description": "This vulnerability allows network-adjacent attackers to smuggle arbitrary HTTP requests on affected installations of QNAP QHora-322 routers. Although authentication is required to exploit this vulnerability, the existing authentication mechanism can be bypassed.\nThe specific flaw exists within the access_setting endpoint. The issue results from the inconsistent parsing of terminators of HTTP headers. An attacker can leverage this in conjunction with other vulnerabilities to execute arbitrary code in the context of the device.",
+    "addtionnal_details": "QNAP has issued an update to correct this vulnerability. More details can be found at:https://www.qnap.com/en-us/security-advisories",
+    "timeline": "2024-12-02 - Vulnerability reported to vendor\n2025-07-31 - Coordinated public release of advisory\n2025-07-31 - Advisory Updated",
+    "credit": "Sina Kheirkhah (@SinSinology) of Summoning Team (@SummoningTeam)"
+}

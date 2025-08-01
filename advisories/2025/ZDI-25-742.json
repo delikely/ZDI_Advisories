@@ -1,0 +1,15 @@
+{
+    "date": "July 31st, 2025",
+    "title": "(Pwn2Own) QNAP TS-464 Active Directory Authentication Bypass Vulnerability",
+    "ID_1": "ZDI-25-742",
+    "ID_2": "ZDI-CAN-25587",
+    "cveId": "",
+    "baseScore": "8.8",
+    "vectorString": "AV:A/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:H",
+    "vendors": "",
+    "products": "",
+    "description": "This vulnerability allows network-adjacent attackers to bypass authentication on affected installations of QNAP TS-464 devices. Authentication is not required to exploit this vulnerability.\nThe specific flaw exists within the Active Directory integration. The issue results from the improper implementation of an authentication algorithm. An attacker can leverage this vulnerability to bypass authentication on the system.",
+    "addtionnal_details": "QNAP has issued an update to correct this vulnerability. More details can be found at:https://www.qnap.com/en-us/security-advisories",
+    "timeline": "2024-12-19 - Vulnerability reported to vendor\n2025-07-31 - Coordinated public release of advisory\n2025-07-31 - Advisory Updated",
+    "credit": "Corentin \"@OnlyTheDuck\" BAYET from REverse Tactics"
+}

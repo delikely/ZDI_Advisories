@@ -1,0 +1,15 @@
+{
+    "date": "July 31st, 2025",
+    "title": "(Pwn2Own) QNAP TS-464 reset_password.cgi Improper Certificate Validation Information Disclosure Vulnerability",
+    "ID_1": "ZDI-25-745",
+    "ID_2": "ZDI-CAN-25644",
+    "cveId": "",
+    "baseScore": "5.3",
+    "vectorString": "AV:A/AC:H/PR:N/UI:N/S:U/C:H/I:N/A:N",
+    "vendors": "",
+    "products": "",
+    "description": "This vulnerability allows network-adjacent attackers to disclose sensitive information on affected installations of QNAP TS-464 devices. Authentication is not required to exploit this vulnerability.\nThe specific flaw exists within the reset_password.cgi endpoint. The issue results from the lack of proper validation of the certificate presented by a server. An attacker can leverage this vulnerability to disclose information in the context of the device.",
+    "addtionnal_details": "QNAP has issued an update to correct this vulnerability. More details can be found at:https://www.qnap.com/en-us/security-advisories",
+    "timeline": "2024-12-02 - Vulnerability reported to vendor\n2025-07-31 - Coordinated public release of advisory\n2025-07-31 - Advisory Updated",
+    "credit": "@quangnh89 and @ExLuck99"
+}

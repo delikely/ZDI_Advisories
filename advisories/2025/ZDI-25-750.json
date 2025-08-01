@@ -1,0 +1,15 @@
+{
+    "date": "July 31st, 2025",
+    "title": "(Pwn2Own) QNAP QHora-322 lionic_dpi parseMIME Out-of-Bounds Write Remote Code Execution Vulnerability",
+    "ID_1": "ZDI-25-750",
+    "ID_2": "ZDI-CAN-25624",
+    "cveId": "",
+    "baseScore": "8.8",
+    "vectorString": "AV:A/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:H",
+    "vendors": "",
+    "products": "",
+    "description": "This vulnerability allows network-adjacent attackers to execute arbitrary code on affected installations of QNAP QHora-322 routers. Authentication is not required to exploit this vulnerability.\nThe specific flaw exists within the parseMIME method. The issue results from the lack of proper validation of user-supplied data, which can result in a write past the end of an allocated buffer. An attacker can leverage this vulnerability to execute code in the context of root.",
+    "addtionnal_details": "QNAP has issued an update to correct this vulnerability. More details can be found at:https://www.qnap.com/en-us/security-advisories",
+    "timeline": "2024-12-02 - Vulnerability reported to vendor\n2025-07-31 - Coordinated public release of advisory\n2025-07-31 - Advisory Updated",
+    "credit": "PHP Hooligans / Midnight Blue"
+}

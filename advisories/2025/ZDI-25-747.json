@@ -1,0 +1,15 @@
+{
+    "date": "July 31st, 2025",
+    "title": "(Pwn2Own) QNAP TS-464 reset_password.cgi Hard-coded Cryptographic Key Authentication Bypass Vulnerability",
+    "ID_1": "ZDI-25-747",
+    "ID_2": "ZDI-CAN-25646",
+    "cveId": "",
+    "baseScore": "7.5",
+    "vectorString": "AV:A/AC:H/PR:N/UI:N/S:U/C:H/I:H/A:H",
+    "vendors": "",
+    "products": "",
+    "description": "This vulnerability allows network-adjacent attackers to bypass authentication on affected installations of QNAP TS-464. Authentication is not required to exploit this vulnerability.\nThe specific flaw exists within the reset_password.cgi endpoint. The issue results from the use of a hard-coded cryptographic key. An attacker can leverage this in conjunction with other vulnerabilities to bypass authentication on the system.",
+    "addtionnal_details": "QNAP has issued an update to correct this vulnerability. More details can be found at:https://www.qnap.com/en-us/security-advisories",
+    "timeline": "2024-12-02 - Vulnerability reported to vendor\n2025-07-31 - Coordinated public release of advisory\n2025-07-31 - Advisory Updated",
+    "credit": "@quangnh89 and @ExLuck99"
+}

@@ -1,0 +1,15 @@
+{
+    "date": "July 31st, 2025",
+    "title": "(0Day) Marvell QConvergeConsole compressConfigFiles Directory Traversal Information Disclosure and Denial-of-Service Vulnerability",
+    "ID_1": "ZDI-25-733",
+    "ID_2": "ZDI-CAN-24915",
+    "cveId": "CVE-2025-8426",
+    "baseScore": "9.4",
+    "vectorString": "AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:L/A:H",
+    "vendors": "",
+    "products": "",
+    "description": "This vulnerability allows remote attackers to disclose sensitive information or to create a denial-of-service condition on affected installations of Marvell QConvergeConsole. Authentication is not required to exploit this vulnerability.\nThe specific flaw exists within the implementation of the compressConfigFiles method. The issue results from the lack of proper validation of a user-supplied path prior to using it in file operations. An attacker can leverage this vulnerability to disclose sensitive information or to create a denial-of-service condition on the system.",
+    "addtionnal_details": "06/05/24 – ZDI submitted the report to the vendor 10/16/24 – the vendor communicated that the product was out of support \n\n--Mitigation: The vendor no longer supports or recommends this tool. The product has entered End of Life (EOL) and End of Support (EOS) status after v. 5.5.0.85 was released in January 2022",
+    "timeline": "2025-06-05 - Vulnerability reported to vendor\n2025-07-31 - Coordinated public release of advisory\n2025-07-31 - Advisory Updated",
+    "credit": "Andrea Micalizzi aka rgod (@rgod777)"
+}

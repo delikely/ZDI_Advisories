@@ -1,0 +1,15 @@
+{
+    "date": "July 31st, 2025",
+    "title": "(Pwn2Own) QNAP TS-464 Samba Command Argument Injection Vulnerability",
+    "ID_1": "ZDI-25-758",
+    "ID_2": "ZDI-CAN-25612",
+    "cveId": "",
+    "baseScore": "6.3",
+    "vectorString": "AV:A/AC:L/PR:N/UI:N/S:U/C:L/I:L/A:L",
+    "vendors": "",
+    "products": "",
+    "description": "This vulnerability allows network-adjacent attackers to execute arbitrary code on affected installations of QNAP TS-464 devices. Authentication is not required to exploit this vulnerability.\nThe specific flaw exists within the handling of the provided username during authentication. The issue results from the lack of proper validation of a user-supplied string before using it to construct command line arguments. An attacker can leverage this in conjunction with other vulnerabilities to execute arbitrary code in the context of admin.",
+    "addtionnal_details": "QNAP has issued an update to correct this vulnerability. More details can be found at:https://www.qnap.com/en-us/security-advisories",
+    "timeline": "2024-12-02 - Vulnerability reported to vendor\n2025-07-31 - Coordinated public release of advisory\n2025-07-31 - Advisory Updated",
+    "credit": "YingMuo (@YingMuo), working with DEVCORE Internship Program."
+}

@@ -1,0 +1,15 @@
+{
+    "date": "July 31st, 2025",
+    "title": "(Pwn2Own) QNAP QHora-322 Improper Restriction of Communication Channel to Intended Endpoints Vulnerability",
+    "ID_1": "ZDI-25-756",
+    "ID_2": "ZDI-CAN-25488",
+    "cveId": "",
+    "baseScore": "6.3",
+    "vectorString": "AV:A/AC:L/PR:N/UI:N/S:U/C:L/I:L/A:L",
+    "vendors": "",
+    "products": "",
+    "description": "This vulnerability allows network-adjacent attackers to access the management interface on affected installations of QNAP QHora-322 routers. Authentication is not required to exploit this vulnerability.\nThe specific flaw exists within the configuration of the management interface. The issue results from exposing the management interface on the WAN side of the router over IPv6. An attacker can leverage this in conjunction with other vulnerabilities to execute arbitrary code in the context of admin.",
+    "addtionnal_details": "QNAP has issued an update to correct this vulnerability. More details can be found at:https://www.qnap.com/en-us/security-advisories",
+    "timeline": "2024-12-16 - Vulnerability reported to vendor\n2025-07-31 - Coordinated public release of advisory\n2025-07-31 - Advisory Updated",
+    "credit": "Chris Anastasio @mufinnnnnnn & Fabius Watson"
+}
