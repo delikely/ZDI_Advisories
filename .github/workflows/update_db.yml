@@ -28,11 +28,11 @@ jobs:
 
     - name: Commit
       run: |
-        if !  git diff --cached --quiet; then
-              git config --global user.email delikely@gmail.com
-              git config --global user.name delikely
-              git add advisories
-              git commit --allow-empty -m "update(`date +'%Y-%m-%d'`)"
+        git config --global user.email delikely@gmail.com
+        git config --global user.name delikely
+        git add advisories
+        if git status --porcelain | grep -q '^[AMDRC] '; then
+          git commit --allow-empty -m "update(`date +'%Y-%m-%d'`)"
         else
           echo "No changes to commit"
         fi
