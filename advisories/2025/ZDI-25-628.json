@@ -1,0 +1,15 @@
+{
+    "date": "July 22nd, 2025",
+    "title": "(Pwn2Own) Phoenix Contact CHARX SEC-3150 OCPP Authentication Bypass Vulnerability",
+    "ID_1": "ZDI-25-628",
+    "ID_2": "ZDI-CAN-26346",
+    "cveId": "CVE-2025-25271",
+    "baseScore": "3.1",
+    "vectorString": "AV:A/AC:H/PR:N/UI:N/S:U/C:N/I:L/A:N",
+    "vendors": "Phoenix Contact",
+    "products": "",
+    "description": "This vulnerability allows network-adjacent attackers to bypass authentication on affected installations of Phoenix Contact CHARX SEC-3150 devices. Authentication is not required to exploit this vulnerability.\nThe specific flaw exists within the implementation of the OCPP service. The issue results from the lack of authentication prior to allowing access to functionality. An attacker can leverage this vulnerability to bypass authentication on the system.",
+    "addtionnal_details": "Phoenix Contact has issued an update to correct this vulnerability. More details can be found at:https://certvde.com/en/advisories/VDE-2025-019/",
+    "timeline": "2025-03-04 - Vulnerability reported to vendor\n2025-07-22 - Coordinated public release of advisory\n2025-07-22 - Advisory Updated",
+    "credit": "Sina Kheirkhah (@SinSinology) of Summoning Team (@SummoningTeam)"
+}

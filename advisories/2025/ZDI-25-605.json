@@ -1,0 +1,15 @@
+{
+    "date": "July 17th, 2025",
+    "title": "Cisco Identity Services Engine IpAccessFilter Direct Request Authentication Bypass Vulnerability",
+    "ID_1": "ZDI-25-605",
+    "ID_2": "ZDI-CAN-26480",
+    "cveId": "CVE-2025-20285",
+    "baseScore": "7.2",
+    "vectorString": "AV:N/AC:L/PR:H/UI:N/S:U/C:H/I:H/A:H",
+    "vendors": "Cisco",
+    "products": "Identity Services Engine",
+    "description": "This vulnerability allows remote attackers to bypass IP restrictions on affected installations of Cisco Identity Services Engine. Authentication is required to exploit this vulnerability.\nThe specific flaw exists within the configuration of the web.xml file. The issue results from an incomplete Spring Boot filter mapping. An attacker can leverage this vulnerability to bypass IP restrictions on the system.",
+    "addtionnal_details": "Cisco has issued an update to correct this vulnerability. More details can be found at:https://sec.cloudapps.cisco.com/security/center/content/CiscoSecurityAdvisory/cisco-sa-ise-multi-3VpsXOxO",
+    "timeline": "2025-05-06 - Vulnerability reported to vendor\n2025-07-17 - Coordinated public release of advisory\n2025-07-17 - Advisory Updated",
+    "credit": "Kentaro Kawane of GMO Cybersecurity by Ierae"
+}

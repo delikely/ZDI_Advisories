@@ -1,0 +1,15 @@
+{
+    "date": "July 28th, 2025",
+    "title": "Samsung MagicINFO 9 Server parseXMLString XML External Entity Processing Information Disclosure Vulnerability",
+    "ID_1": "ZDI-25-661",
+    "ID_2": "ZDI-CAN-25860",
+    "cveId": "CVE-2025-54445",
+    "baseScore": "8.2",
+    "vectorString": "AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:L/A:N",
+    "vendors": "Samsung",
+    "products": "MagicINFO 9 Server",
+    "description": "This vulnerability allows remote attackers to disclose sensitive information on affected installations of Samsung MagicINFO 9 Server. Authentication is not required to exploit this vulnerability.\nThe specific flaw exists within the implementation of the parseXMLString method. Due to the improper restriction of XML External Entity (XXE) references, a crafted document specifying a URI causes the XML parser to access the URI and embed the contents back into the XML document for further processing. An attacker can leverage this vulnerability to disclose information in the context of SYSTEM.",
+    "addtionnal_details": "Samsung has issued an update to correct this vulnerability. More details can be found at:https://security.samsungtv.com/securityUpdates",
+    "timeline": "2025-03-06 - Vulnerability reported to vendor\n2025-07-28 - Coordinated public release of advisory\n2025-07-28 - Advisory Updated",
+    "credit": "06fe5fd2bc53027c4a3b7e395af0b850e7b8a044"
+}

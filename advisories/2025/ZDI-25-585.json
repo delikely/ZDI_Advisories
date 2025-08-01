@@ -1,0 +1,15 @@
+{
+    "date": "July 8th, 2025",
+    "title": "Trend Micro Maximum Security Link Following Local Privilege Escalation Vulnerability",
+    "ID_1": "ZDI-25-585",
+    "ID_2": "ZDI-CAN-26887",
+    "cveId": "CVE-2025-52521",
+    "baseScore": "7.8",
+    "vectorString": "AV:L/AC:L/PR:L/UI:N/S:U/C:H/I:H/A:H",
+    "vendors": "Trend Micro",
+    "products": "Maximum Security",
+    "description": "This vulnerability allows local attackers to escalate privileges on affected installations of Trend Micro Maximum Security. An attacker must first obtain the ability to execute low-privileged code on the target system in order to exploit this vulnerability.\nThe specific flaw exists within the Regain Disk Space functionality. By creating a junction, an attacker can abuse the Platinum Host Service to delete arbitrary files. An attacker can leverage this vulnerability to escalate privileges and execute arbitrary code in the context of SYSTEM.",
+    "addtionnal_details": "Trend Micro has issued an update to correct this vulnerability. More details can be found at:https://helpcenter.trendmicro.com/en-us/article/tmka-18876",
+    "timeline": "2025-04-04 - Vulnerability reported to vendor\n2025-07-08 - Coordinated public release of advisory\n2025-07-08 - Advisory Updated",
+    "credit": "Simon Zuckerbraun of Trend Zero Day Initiative"
+}

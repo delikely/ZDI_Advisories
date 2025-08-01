@@ -1,0 +1,15 @@
+{
+    "date": "July 24th, 2025",
+    "title": "Amazon AWS Client VPN Uncontrolled Search Path Element Local Privilege Escalation Vulnerability",
+    "ID_1": "ZDI-25-646",
+    "ID_2": "ZDI-CAN-26780",
+    "cveId": "CVE-2025-8069",
+    "baseScore": "7.0",
+    "vectorString": "AV:L/AC:H/PR:L/UI:N/S:U/C:H/I:H/A:H",
+    "vendors": "Amazon",
+    "products": "AWS Client VPN",
+    "description": "This vulnerability allows local attackers to escalate privileges on affected installations of Amazon AWS Client VPN. An attacker must first obtain the ability to execute low-privileged code on the target system in order to exploit this vulnerability.\nThe specific flaw exists within the configuration of OpenSSL. The process loads an OpenSSL configuration file from an unsecured location. An attacker can leverage this vulnerability to escalate privileges and execute arbitrary code in the context of SYSTEM.",
+    "addtionnal_details": "Amazon has issued an update to correct this vulnerability. More details can be found at:https://aws.amazon.com/security/security-bulletins/AWS-2025-014/",
+    "timeline": "2025-05-21 - Vulnerability reported to vendor\n2025-07-24 - Coordinated public release of advisory\n2025-07-24 - Advisory Updated",
+    "credit": "Xavier DANEST"
+}

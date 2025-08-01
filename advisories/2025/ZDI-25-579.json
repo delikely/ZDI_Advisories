@@ -1,0 +1,15 @@
+{
+    "date": "July 8th, 2025",
+    "title": "Microsoft PC Manager Uncontrolled Search Path Element Local Privilege Escalation Vulnerability",
+    "ID_1": "ZDI-25-579",
+    "ID_2": "ZDI-CAN-26249",
+    "cveId": "CVE-2025-47993",
+    "baseScore": "7.8",
+    "vectorString": "AV:L/AC:L/PR:L/UI:N/S:U/C:H/I:H/A:H",
+    "vendors": "Microsoft",
+    "products": "PC Manager",
+    "description": "This vulnerability allows local attackers to escalate privileges on affected installations of Microsoft PC Manager. An attacker must first obtain the ability to execute low-privileged code on the target system in order to exploit this vulnerability.\nThe specific flaw exists within the MSPCManagerService service. The service loads a file from an unsecured location. An attacker can leverage this vulnerability to escalate privileges and execute arbitrary code in the context of SYSTEM.",
+    "addtionnal_details": "Microsoft has issued an update to correct this vulnerability. More details can be found at:https://msrc.microsoft.com/update-guide/vulnerability/CVE-2025-47993",
+    "timeline": "2025-03-12 - Vulnerability reported to vendor\n2025-07-08 - Coordinated public release of advisory\n2025-07-08 - Advisory Updated",
+    "credit": "Filip Dragovic (@filip_dragovic)"
+}

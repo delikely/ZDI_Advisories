@@ -1,0 +1,15 @@
+{
+    "date": "July 8th, 2025",
+    "title": "(Pwn2Own) Microsoft SharePoint DataSetSurrogateSelector Deserialization of Untrusted Data Remote Code Execution Vulnerability",
+    "ID_1": "ZDI-25-581",
+    "ID_2": "ZDI-CAN-27247",
+    "cveId": "CVE-2025-49704",
+    "baseScore": "8.8",
+    "vectorString": "AV:N/AC:L/PR:L/UI:N/S:U/C:H/I:H/A:H",
+    "vendors": "Microsoft",
+    "products": "",
+    "description": "This vulnerability allows remote attackers to execute arbitrary code on affected installations of Microsoft SharePoint Server. Although authentication is required to exploit this vulnerability, the existing authentication mechanism can be bypassed.\nThe specific flaw exists within the DataSetSurrogateSelector class. The issue results from the lack of proper validation of user-supplied data, which can result in deserialization of untrusted data. An attacker can leverage this vulnerability to execute code in the context of the SharePoint web server process.",
+    "addtionnal_details": "Microsoft has issued an update to correct this vulnerability. More details can be found at:https://msrc.microsoft.com/update-guide/vulnerability/CVE-2025-49704",
+    "timeline": "2025-05-29 - Vulnerability reported to vendor\n2025-07-08 - Coordinated public release of advisory\n2025-07-08 - Advisory Updated",
+    "credit": "Viettel Cyber Security"
+}

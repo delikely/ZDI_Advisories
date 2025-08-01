@@ -1,0 +1,15 @@
+{
+    "date": "July 8th, 2025",
+    "title": "Microsoft Windows Startup Folder SmartScreen Bypass Vulnerability",
+    "ID_1": "ZDI-25-582",
+    "ID_2": "ZDI-CAN-27246",
+    "cveId": "CVE-2025-49740",
+    "baseScore": "7.0",
+    "vectorString": "AV:L/AC:H/PR:N/UI:R/S:U/C:H/I:H/A:H",
+    "vendors": "Microsoft",
+    "products": "Windows",
+    "description": "This vulnerability allows remote attackers to bypass the SmartScreen security feature on affected installations of Microsoft Windows. User interaction is required to exploit this vulnerability in that the target must visit a malicious page or open a malicious file.\nThe specific flaw exists within the handling of executables in the user's Startup folder. When automatically launching executables from the Startup folder, Windows does not apply the SmartScreen security feature. An attacker can leverage this in conjunction with other vulnerabilities to execute arbitrary code in the context of the current user.",
+    "addtionnal_details": "Microsoft has issued an update to correct this vulnerability. More details can be found at:https://msrc.microsoft.com/update-guide/vulnerability/CVE-2025-49740",
+    "timeline": "2025-05-21 - Vulnerability reported to vendor\n2025-07-08 - Coordinated public release of advisory\n2025-07-08 - Advisory Updated",
+    "credit": "Simon Zuckerbraun - Trend Zero Day Initiative"
+}

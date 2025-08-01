@@ -1,0 +1,15 @@
+{
+    "date": "July 8th, 2025",
+    "title": "Siemens SINEC NMS reqToChangePassword Authentication Bypass Vulnerability",
+    "ID_1": "ZDI-25-574",
+    "ID_2": "ZDI-CAN-26569",
+    "cveId": "CVE-2025-40736",
+    "baseScore": "9.8",
+    "vectorString": "AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:H",
+    "vendors": "Siemens",
+    "products": "",
+    "description": "This vulnerability allows remote attackers to bypass authentication on affected installations of Siemens SINEC NMS. Authentication is not required to exploit this vulnerability.\nThe specific flaw exists within the implementation of the reqToChangePassword method. The issue results from the lack of authentication prior to allowing access to password change functionality. An attacker can leverage this vulnerability to bypass authentication on the system.",
+    "addtionnal_details": "Siemens has issued an update to correct this vulnerability. More details can be found at:https://cert-portal.siemens.com/productcert/html/ssa-078892.html",
+    "timeline": "2025-04-10 - Vulnerability reported to vendor\n2025-07-08 - Coordinated public release of advisory\n2025-07-08 - Advisory Updated",
+    "credit": "Anonymous"
+}

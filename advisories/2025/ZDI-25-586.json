@@ -1,0 +1,15 @@
+{
+    "date": "July 8th, 2025",
+    "title": "Trend Micro Password Manager Link Following Local Privilege Escalation Vulnerability",
+    "ID_1": "ZDI-25-586",
+    "ID_2": "ZDI-CAN-25729",
+    "cveId": "CVE-2025-52837",
+    "baseScore": "7.8",
+    "vectorString": "AV:L/AC:L/PR:L/UI:N/S:U/C:H/I:H/A:H",
+    "vendors": "Trend Micro",
+    "products": "",
+    "description": "This vulnerability allows local attackers to escalate privileges on affected installations of Trend Micro Password Manager. An attacker must first obtain the ability to execute low-privileged code on the target system in order to exploit this vulnerability.\nThe specific flaw exists within the Trend Micro Password Manager Service. By creating a junction, an attacker can abuse the installer to delete an arbitrary file. An attacker can leverage this vulnerability to escalate privileges and execute arbitrary code in the context of SYSTEM.",
+    "addtionnal_details": "Trend Micro has issued an update to correct this vulnerability. More details can be found at:https://helpcenter.trendmicro.com/en-us/article/TMKA-12946",
+    "timeline": "2025-02-13 - Vulnerability reported to vendor\n2025-07-08 - Coordinated public release of advisory\n2025-07-08 - Advisory Updated",
+    "credit": "Anonymous"
+}

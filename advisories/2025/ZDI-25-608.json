@@ -1,0 +1,15 @@
+{
+    "date": "July 17th, 2025",
+    "title": "Cisco Identity Services Engine handleFilesUpload Unrestricted File Upload Remote Code Execution Vulnerability",
+    "ID_1": "ZDI-25-608",
+    "ID_2": "ZDI-CAN-26483",
+    "cveId": "CVE-2025-20282",
+    "baseScore": "9.8",
+    "vectorString": "AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:H",
+    "vendors": "Cisco",
+    "products": "Identity Services Engine",
+    "description": "This vulnerability allows remote attackers to execute arbitrary code on affected installations of Cisco Identity Services Engine. Authentication is not required to exploit this vulnerability.\nThe specific flaw exists within the implementation of the handleFilesUpload method. The issue results from the lack of proper validation of user-supplied data, which can allow the upload of arbitrary files. An attacker can leverage this vulnerability to execute code in the context of the iseadminportal user.",
+    "addtionnal_details": "Cisco has issued an update to correct this vulnerability. More details can be found at:https://sec.cloudapps.cisco.com/security/center/content/CiscoSecurityAdvisory/cisco-sa-ise-unauth-rce-ZAd2GnJ6",
+    "timeline": "2025-05-06 - Vulnerability reported to vendor\n2025-07-17 - Coordinated public release of advisory\n2025-07-17 - Advisory Updated",
+    "credit": "Kentaro Kawane of GMO Cybersecurity by Ierae"
+}

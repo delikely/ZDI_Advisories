@@ -1,0 +1,15 @@
+{
+    "date": "July 17th, 2025",
+    "title": "Hewlett Packard Enterprise AutoPass License Server Hard-coded Credentials Authentication Bypass Vulnerability",
+    "ID_1": "ZDI-25-613",
+    "ID_2": "ZDI-CAN-25790",
+    "cveId": "CVE-2025-37106",
+    "baseScore": "7.3",
+    "vectorString": "AV:N/AC:L/PR:N/UI:N/S:U/C:L/I:L/A:L",
+    "vendors": "Hewlett Packard Enterprise",
+    "products": "",
+    "description": "This vulnerability allows remote attackers to disclose sensitive information or edit configuration on affected installations of Hewlett Packard Enterprise AutoPass License Server. Authentication is not required to exploit this vulnerability.\nThe specific flaw exists within the web service, which listens on TCP port 5814 by default. The issue results from using hard-coded credentials. An attacker can leverage this vulnerability to disclose information or edit configuration on the system.",
+    "addtionnal_details": "Hewlett Packard Enterprise has issued an update to correct this vulnerability. More details can be found at:https://myenterpriselicense.hpe.com/cwp-ui/product-details/APLS/9.18/sw_free",
+    "timeline": "2024-12-05 - Vulnerability reported to vendor\n2025-07-17 - Coordinated public release of advisory\n2025-07-17 - Advisory Updated",
+    "credit": "Anonymous"
+}
