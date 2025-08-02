@@ -1,0 +1,15 @@
+{
+    "date": "August 1st, 2025",
+    "title": "Microsoft Skype Chromium Remote Code Execution Vulnerability",
+    "ID_1": "ZDI-25-770",
+    "ID_2": "ZDI-CAN-25335",
+    "cveId": "",
+    "baseScore": "8.8",
+    "vectorString": "AV:N/AC:L/PR:N/UI:R/S:U/C:H/I:H/A:H",
+    "vendors": "Microsoft",
+    "products": "",
+    "description": "This vulnerability allows remote attackers to execute arbitrary code on affected installations of Microsoft Skype. User interaction is required to exploit this vulnerability in that the target must visit a malicious page or open a malicious file.\nThe issue results from the use of a vulnerable version of Google Chromium. An attacker can leverage this vulnerability to execute code in the context of the current process.",
+    "addtionnal_details": "Microsoft has issued an update to correct this vulnerability. More details can be found at:https://support.microsoft.com/en-us/skype/skype-is-retiring-in-may-2025-what-you-need-to-know-2a7d2501-427f-485e-8be0-2068a9f90472",
+    "timeline": "2025-01-30 - Vulnerability reported to vendor\n2025-08-01 - Coordinated public release of advisory\n2025-08-01 - Advisory Updated",
+    "credit": "anonymous"
+}

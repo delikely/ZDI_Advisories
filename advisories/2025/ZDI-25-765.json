@@ -1,0 +1,15 @@
+{
+    "date": "August 1st, 2025",
+    "title": "(0Day) (Pwn2Own) Alpine iLX-507 TIDAL Improper Certificate Validation Vulnerability",
+    "ID_1": "ZDI-25-765",
+    "ID_2": "ZDI-CAN-26322",
+    "cveId": "CVE-2025-8476",
+    "baseScore": "7.1",
+    "vectorString": "AV:A/AC:H/PR:N/UI:R/S:U/C:H/I:H/A:H",
+    "vendors": "Alpine",
+    "products": "",
+    "description": "This vulnerability allows network-adjacent attackers to execute arbitrary code on affected installations of Alpine iLX-507 devices. Authentication is not required to exploit this vulnerability.\nThe specific flaw exists within the TIDAL music streaming application. The issue results from improper certificate validation. An attacker can leverage this in conjunction with other vulnerabilities to execute arbitrary code in the context of root.",
+    "addtionnal_details": "01/29/25 – ZDI reported the vulnerability to the vendor. \n\n01/30/25 – The vendor acknowledged the report.   \n\n02/24/25 – The vendor requested additional details. \n\n02/24/25 – ZDI followed up and provided more information about the case.   \n\n07/29/25 – ZDI asked for an update and informed the vendor that the case will be published as a zero-day advisory on 08/01/25.\n\n-- Mitigation: Given the nature of the vulnerability, the only salient mitigation strategy is to restrict interaction with the product.",
+    "timeline": "2025-01-27 - Vulnerability reported to vendor\n2025-08-01 - Coordinated public release of advisory\n2025-08-01 - Advisory Updated",
+    "credit": "hama7230"
+}
