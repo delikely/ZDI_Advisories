@@ -1,0 +1,15 @@
+{
+    "date": "August 5th, 2025",
+    "title": "(0Day) Google Drive ZIP File Mark-of-the-Web Bypass Remote Code Execution Vulnerability",
+    "ID_1": "ZDI-25-774",
+    "ID_2": "ZDI-CAN-24741",
+    "cveId": "",
+    "baseScore": "8.8",
+    "vectorString": "AV:N/AC:L/PR:N/UI:R/S:U/C:H/I:H/A:H",
+    "vendors": "Google",
+    "products": "",
+    "description": "This vulnerability allows remote attackers to bypass the Mark-of-the-Web protection mechanism on affected installations of Google Drive. User interaction is required to exploit this vulnerability in that the target must visit a malicious page or open a malicious file.\nThe specific flaw exists within the handling of ZIP archives. When viewing a ZIP archive shared by another user, Google Drive prompts the user to use a cloud-based app to extract the files to their own Google Drive, without providing a warning as to the risks of accepting the files. An attacker can leverage this vulnerability to execute arbitrary code in the context of the current user.",
+    "addtionnal_details": "07/12/24 – ZDI reported the vulnerability to the vendor. \n\n07/12/24 – The vendor acknowledged the report.   \n\n07/26/24 – The vendor states the issue might not be severe enough to track as an abuse risk and the case does not meet the threshold for a fix. \n\n07/30/24 – ZDI provided details as to why we disagree with their assessment.    \n\n08/19/24 – The vendor states that they reviewed the case again, and that their assessment remains unchanged.    \n\n07/31/25 – After careful review the ZDI decided that this case should be disclosed publicly on 08/05/25 \n\n-- Mitigation: Given the nature of the vulnerability, the only salient mitigation strategy is to restrict interaction with the product.",
+    "timeline": "2024-07-12 - Vulnerability reported to vendor\n2025-08-05 - Coordinated public release of advisory\n2025-08-05 - Advisory Updated",
+    "credit": "Peter Girnus (@gothburz)"
+}

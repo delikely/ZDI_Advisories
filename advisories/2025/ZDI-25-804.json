@@ -1,0 +1,15 @@
+{
+    "date": "August 5th, 2025",
+    "title": "(0Day) (Pwn2Own) Kenwood DMX958XR Protection Mechanism Failure Software Downgrade Vulnerability",
+    "ID_1": "ZDI-25-804",
+    "ID_2": "ZDI-CAN-26355",
+    "cveId": "CVE-2025-8656",
+    "baseScore": "6.8",
+    "vectorString": "AV:P/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:H",
+    "vendors": "Kenwood",
+    "products": "",
+    "description": "This vulnerability allows physically present attackers to downgrade software on affected installations of Kenwood DMX958XR devices. Authentication is not required to exploit this vulnerability.\nThe specific flaw exists within the libSystemLib library. The issue results from the lack of proper validation of version information before performing an update. An attacker can leverage this in conjunction with other vulnerabilities to execute arbitrary code in the context of root.",
+    "addtionnal_details": "01/23/25 – ZDI reported the vulnerability to the vendor. \n\n01/23/25 – The vendor acknowledged the report.   \n\n05/15/25 – The vendor requested additional time to decide on whether a fix would be released. \n\n05/16/25 – ZDI agreed to wait until May 30th.   \n\n06/25/25 – The vendor states that are working on the reported vulnerabilities   \n\n07/29/25 – ZDI asked for an update and informed the vendor that if there is not a patch available that we will publish the case as a zero-day advisory on 08/01/25. \n\n07/31/25 – The vendor requested an extension till late September, to which ZDI declined. \n\n-- Mitigation: Given the nature of the vulnerability, the only salient mitigation strategy is to restrict interaction with the product.",
+    "timeline": "2025-01-27 - Vulnerability reported to vendor\n2025-08-05 - Coordinated public release of advisory\n2025-08-05 - Advisory Updated",
+    "credit": "Synacktiv"
+}

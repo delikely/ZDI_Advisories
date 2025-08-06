@@ -1,0 +1,15 @@
+{
+    "date": "August 5th, 2025",
+    "title": "(0Day) Google Chrome SwiftShader Out-Of-Bound Write Remote Code Execution Vulnerability",
+    "ID_1": "ZDI-25-775",
+    "ID_2": "ZDI-CAN-25494",
+    "cveId": "",
+    "baseScore": "7.5",
+    "vectorString": "AV:N/AC:H/PR:N/UI:R/S:U/C:H/I:H/A:H",
+    "vendors": "Google",
+    "products": "",
+    "description": "This vulnerability allows remote attackers to execute arbitrary code on affected installations of Google Chrome. User interaction is required to exploit this vulnerability in that the target must visit a malicious page or open a malicious file.\nThe specific flaw exists within the implementation of the WebGPU API. The issue results from the lack of proper validation of user-supplied data, which can result in a memory corruption condition. An attacker can leverage this vulnerability to execute code in the context of the Chrome browser GPU process.",
+    "addtionnal_details": "10/03/24 – ZDI reported the vulnerability to the vendor. \n\n10/03/24 – The vendor acknowledged the report.   \n\n10/07/24 – The vendor asked for additional details. \n\n11/12/24 – ZDI provided the requested details.\n\n12/03/24 – The vendor states that there is no security impact.  \n\n03/18/25 – ZDI asked for an update and expressed our intent to publish the case as a zero-day advisory. \n\n03/19/25 – The vendor states their assessment remains unchanged. \n\n03/19/25 – The ZDI informed the vendor that we believe this should be serviced, and that we plan to publish the case as a zero-day advisory.  \n\n07/31/25 – After careful review the ZDI decided that this case should be disclosed publicly on 08/05/25\n\n-- Mitigation: Given the nature of the vulnerability, the only salient mitigation strategy is to restrict interaction with the product.",
+    "timeline": "2024-10-03 - Vulnerability reported to vendor\n2025-08-05 - Coordinated public release of advisory\n2025-08-05 - Advisory Updated",
+    "credit": "Lucas Leong (@_wmliang_) of Trend Micro Zero Day Initiative"
+}
