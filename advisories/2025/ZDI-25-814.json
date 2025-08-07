@@ -1,0 +1,15 @@
+{
+    "date": "August 6th, 2025",
+    "title": "(0Day) Microsoft Windows MonikerLink Information Disclosure Vulnerability",
+    "ID_1": "ZDI-25-814",
+    "ID_2": "ZDI-CAN-23548",
+    "cveId": "",
+    "baseScore": "6.5",
+    "vectorString": "AV:N/AC:L/PR:N/UI:R/S:U/C:H/I:N/A:N",
+    "vendors": "Microsoft",
+    "products": "Windows",
+    "description": "This vulnerability allows remote attackers to relay NTLM credentials on affected installations of Microsoft Windows. User interaction is required to exploit this vulnerability in that the target must visit a malicious page or open a malicious file.\nThe specific flaw exists within the handling of redirections. An attacker can leverage this vulnerability to relay NTLM credentials in the context of the current user.",
+    "addtionnal_details": "02/27/24 – ZDI reported the vulnerability to the vendor02/27/24 – the vendor acknowledged the receipt of the report03/04/24 – the vendor confirmed the reported behaviour03/04/24 – the vendor communicated that the issue was duplicate and was affecting a third-party vendor07/31/25 – ZDI notified the vendor of the intention to publish the cases as a 0-day advisory\n\n-- Mitigation: Given the nature of the vulnerability, the only salient mitigation strategy is to restrict interaction with the product.",
+    "timeline": "2024-02-27 - Vulnerability reported to vendor\n2025-08-06 - Coordinated public release of advisory\n2025-08-06 - Advisory Updated",
+    "credit": "Peter Girnus (@gothburz) and Ian Kenefick (@ian_kenefick) of Trend Micro"
+}

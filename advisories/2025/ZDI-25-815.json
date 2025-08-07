@@ -1,0 +1,15 @@
+{
+    "date": "August 6th, 2025",
+    "title": "(0Day) Microsoft Windows CAB File SmartScreen Bypass Vulnerability",
+    "ID_1": "ZDI-25-815",
+    "ID_2": "ZDI-CAN-23990",
+    "cveId": "",
+    "baseScore": "8.8",
+    "vectorString": "AV:N/AC:L/PR:N/UI:R/S:U/C:H/I:H/A:H",
+    "vendors": "Microsoft",
+    "products": "Windows",
+    "description": "This vulnerability allows remote attackers to bypass the Mark-of-the-Web protection mechanism on affected installations of Microsoft Windows. User interaction is required to exploit this vulnerability in that the target must visit a malicious page or open a malicious file.\nThe specific flaw exists within the handling of CAB files. When extracting files from a CAB file served from an untrusted location, Windows does not apply the Mark-of-the-Web to the extracted files. An attacker can leverage this vulnerability to execute arbitrary code in the context of the current user.",
+    "addtionnal_details": "04/24/24 – ZDI reported the vulnerability to the vendor04/24/24 – the vendor acknowledged the receipt of the report06/18/24 – the vendor communicated that the reported behaviour did not meet the bar for immediate servicing07/31/25 – ZDI notified the vendor of the intention to publish the cases as a 0-day advisory\n\n-- Mitigation: Given the nature of the vulnerability, the only salient mitigation strategy is to restrict interaction with the product.",
+    "timeline": "2024-04-24 - Vulnerability reported to vendor\n2025-08-06 - Coordinated public release of advisory\n2025-08-06 - Advisory Updated",
+    "credit": "Peter Girnus (@gothburz) - Trend Micro Zero Day Initiative"
+}

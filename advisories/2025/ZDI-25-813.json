@@ -1,0 +1,15 @@
+{
+    "date": "August 6th, 2025",
+    "title": "(0Day) Microsoft PowerShell TryModuleAutoLoading Directory Traversal Remote Code Execution Vulnerability",
+    "ID_1": "ZDI-25-813",
+    "ID_2": "ZDI-CAN-23444",
+    "cveId": "",
+    "baseScore": "7.5",
+    "vectorString": "AV:N/AC:H/PR:L/UI:N/S:U/C:H/I:H/A:H",
+    "vendors": "Microsoft",
+    "products": "",
+    "description": "This vulnerability allows remote attackers to execute arbitrary code on affected installations of Microsoft PowerShell. Interaction with this library is required to exploit this vulnerability but attack vectors may vary depending on the implementation.\nThe specific flaw exists within the TryModuleAutoLoading method. The issue results from the lack of proper validation of a user-supplied path prior to using it in file operations. An attacker can leverage this vulnerability to execute code in the context of the current process.",
+    "addtionnal_details": "02/21/24 – ZDI reported the vulnerability to the vendor. 02/23/24 – The vendor acknowledged the report.   05/24/24 – ZDI asked for an update. 06/08/24 – The vendor states there is no security impact.    07/30/25 – ZDI Informed the vendor that we plan to publish the case as a zero-day advisory on 08/06/25.\n\n-- Mitigation: Given the nature of the vulnerability, the only salient mitigation strategy is to restrict interaction with the product.",
+    "timeline": "2024-02-21 - Vulnerability reported to vendor\n2025-08-06 - Coordinated public release of advisory\n2025-08-06 - Advisory Updated",
+    "credit": "Piotr Bazydlo (@chudypb) of Trend Micro Zero Day Initiative"
+}

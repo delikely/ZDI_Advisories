@@ -1,0 +1,15 @@
+{
+    "date": "August 6th, 2025",
+    "title": "(0Day) Microsoft Windows SmartScreen Bypass Remote Code Execution Vulnerability",
+    "ID_1": "ZDI-25-812",
+    "ID_2": "ZDI-CAN-23938",
+    "cveId": "",
+    "baseScore": "8.8",
+    "vectorString": "AV:N/AC:L/PR:N/UI:R/S:U/C:H/I:H/A:H",
+    "vendors": "Microsoft",
+    "products": "Windows",
+    "description": "This vulnerability allows remote attackers to bypass the SmartScreen security feature on affected installations of Microsoft Windows. User interaction is required to exploit this vulnerability in that the target must visit a malicious page or open a malicious file.\nThe specific flaw exists within the verification of signatures on executables. The issue results from the lack of a proper security warning message. An attacker can leverage this vulnerability to execute arbitrary code in the context of the current user.",
+    "addtionnal_details": "04/12/24 – ZDI reported the vulnerability to the vendor04/12/24 – the vendor acknowledged the receipt of the report05/01/24 – the vendor rated the severity of the vulnerability to be Moderate and communicated that the issues did not meet the bar for immediate servicing07/31/25 – ZDI notified the vendor of the intention to publish the cases as a 0-day advisory\n\n-- Mitigation: Given the nature of the vulnerability, the only salient mitigation strategy is to restrict interaction with the product.",
+    "timeline": "2024-04-12 - Vulnerability reported to vendor\n2025-08-06 - Coordinated public release of advisory\n2025-08-06 - Advisory Updated",
+    "credit": "Peter Girnus (@gothburz) and Simon Zuckerbraun - Trend Micro Zero Day Initiative"
+}

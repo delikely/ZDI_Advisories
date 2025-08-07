@@ -1,0 +1,15 @@
+{
+    "date": "August 6th, 2025",
+    "title": "(0Day) Microsoft Exchange PowerShell Exposed Dangerous Method NTLM Relay Vulnerability",
+    "ID_1": "ZDI-25-809",
+    "ID_2": "ZDI-CAN-23450",
+    "cveId": "",
+    "baseScore": "8.8",
+    "vectorString": "AV:N/AC:L/PR:L/UI:N/S:U/C:H/I:H/A:H",
+    "vendors": "Microsoft",
+    "products": "",
+    "description": "This vulnerability allows remote attackers to relay NTLM credentials on affected installations of Microsoft Exchange. Authentication is required to exploit this vulnerability.\nThe specific flaw exists within the PowerShell backend. The issue results from an exposed dangerous method. An attacker can leverage this vulnerability to relay NTLM credentials in the context of SYSTEM.",
+    "addtionnal_details": "02/21/24 – ZDI reported the vulnerability to the vendor. 03/19/24 – The vendor assessed the case as low severity.   07/30/25 – ZDI Informed the vendor that we plan to publish the case as a zero-day advisory on 08/06/25.\n\n-- Mitigation: Given the nature of the vulnerability, the only salient mitigation strategy is to restrict interaction with the product.",
+    "timeline": "2024-02-21 - Vulnerability reported to vendor\n2025-08-06 - Coordinated public release of advisory\n2025-08-06 - Advisory Updated",
+    "credit": "Piotr Bazydlo (@chudypb) of Trend Micro Zero Day Initiative"
+}

@@ -1,0 +1,15 @@
+{
+    "date": "August 6th, 2025",
+    "title": "(0Day) Microsoft Windows Theme File Parsing Improper Input Validation NTLM Relay Vulnerability",
+    "ID_1": "ZDI-25-823",
+    "ID_2": "ZDI-CAN-26372",
+    "cveId": "",
+    "baseScore": "3.3",
+    "vectorString": "AV:L/AC:L/PR:N/UI:R/S:U/C:L/I:N/A:N",
+    "vendors": "Microsoft",
+    "products": "Windows",
+    "description": "This vulnerability allows remote attackers to relay NTLM credentials on affected installations of Microsoft Windows. User interaction is required to exploit this vulnerability in that the target must visit a malicious page or open a malicious file.\nThe specific flaw exists within the parsing of theme files. The issue results from the lack of proper input validation. An attacker can leverage this vulnerability to relay NTLM credentials in the context of the current user.",
+    "addtionnal_details": "01/30/25 – ZDI reported the vulnerability to the vendor01/30/25 – the vendor acknowledged the receipt of the report02/28/25 – the vendor rated the severity of the vulnerability to be Moderate and communicated that the issues did not meet the bar for immediate servicing07/31/25 – ZDI notified the vendor of the intention to publish the cases as a 0-day advisory\n\n-- Mitigation: Given the nature of the vulnerability, the only salient mitigation strategy is to restrict interaction with the product.",
+    "timeline": "2025-01-30 - Vulnerability reported to vendor\n2025-08-06 - Coordinated public release of advisory\n2025-08-06 - Advisory Updated",
+    "credit": "Nikolai Skliarenko and Alex Williams of Trend Micro Security Research"
+}

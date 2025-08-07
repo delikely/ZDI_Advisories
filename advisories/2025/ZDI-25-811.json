@@ -1,0 +1,15 @@
+{
+    "date": "August 6th, 2025",
+    "title": "(0Day) Microsoft Office OfficeApps Unintended Proxy Information Disclosure Vulnerability",
+    "ID_1": "ZDI-25-811",
+    "ID_2": "ZDI-CAN-23946",
+    "cveId": "",
+    "baseScore": "4.3",
+    "vectorString": "AV:N/AC:L/PR:N/UI:R/S:U/C:N/I:L/A:N",
+    "vendors": "Microsoft",
+    "products": "",
+    "description": "This vulnerability allows remote attackers to host arbitrary documents on a trusted domain used by Microsoft Office. User interaction is required to exploit this vulnerability in that the target must visit a malicious page or open a malicious file.\n \nThe specific flaw exists within the handling of web requests to the domain view.officeapps.live.com. By abusing the functionality of this endpoint, an attacker can make their content appear trustworthy to the end user. An attacker can leverage this vulnerability to disclose stored credentials, leading to further compromise.",
+    "addtionnal_details": "04/17/24 – ZDI reported the vulnerability to the vendor. 04/18/24 – The vendor acknowledged the report.   05/29/24 – The vendor assessed the case as not meeting the bar servicing.07/30/25 – ZDI Informed the vendor that we plan to publish the case as a zero-day advisory on 08/06/25.\n\n-- Mitigation: Given the nature of the vulnerability, the only salient mitigation strategy is to restrict interaction with the product.",
+    "timeline": "2024-04-17 - Vulnerability reported to vendor\n2025-08-06 - Coordinated public release of advisory\n2025-08-06 - Advisory Updated",
+    "credit": "Peter Girnus (@gothburz) - Trend Micro Zero Day Initiative"
+}
