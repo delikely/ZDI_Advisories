@@ -1,0 +1,15 @@
+{
+    "date": "August 12th, 2025",
+    "title": "(0Day) Schneider Electric EcoStruxure Power Monitoring Expert GetPagesAsImages Server-Side Request Forgery Information Disclosure Vulnerability",
+    "ID_1": "ZDI-25-830",
+    "ID_2": "ZDI-CAN-26463",
+    "cveId": "CVE-2025-54924",
+    "baseScore": "7.5",
+    "vectorString": "AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:N/A:N",
+    "vendors": "Schneider Electric",
+    "products": "EcoStruxure Power Monitoring Expert",
+    "description": "This vulnerability allows remote attackers to disclose sensitive information on affected installations of Schneider Electric EcoStruxure Power Monitoring Expert. Authentication is not required to exploit this vulnerability. \nThe specific flaw exists within the GetPagesAsImages method. The issue results from the lack of proper validation of a URI prior to accessing resources. An attacker can leverage this vulnerability to disclose information in the context of LOCAL SERVICE.",
+    "addtionnal_details": "04/16/25 – ZDI reported the vulnerability to ICS-CERT04/17/25 – the vendor acknowledged the receipt of the report05/13/25 – the vendor asked for technical details 05/23/25 - ZDI provided more evidence07/15/25 – ZDI notified the vendor of the intention to publish the cases as a 0-day advisory\n\n-- Mitigation: Given the nature of the vulnerability, the only salient mitigation strategy is to restrict interaction with the product.",
+    "timeline": "2025-04-16 - Vulnerability reported to vendor\n2025-08-12 - Coordinated public release of advisory\n2025-08-12 - Advisory Updated",
+    "credit": "Anonymous"
+}

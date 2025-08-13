@@ -1,0 +1,15 @@
+{
+    "date": "August 12th, 2025",
+    "title": "(0Day) Schneider Electric EcoStruxure Power Monitoring Expert GetFilteredSinkProvider Deserialization of Untrusted Data Remote Code Execution Vulnerability",
+    "ID_1": "ZDI-25-829",
+    "ID_2": "ZDI-CAN-26275",
+    "cveId": "CVE-2025-54923",
+    "baseScore": "8.8",
+    "vectorString": "AV:N/AC:L/PR:L/UI:N/S:U/C:H/I:H/A:H",
+    "vendors": "Schneider Electric",
+    "products": "EcoStruxure Power Monitoring Expert",
+    "description": "This vulnerability allows remote attackers to execute arbitrary code on affected installations of Schneider Electric EcoStruxure Power Monitoring Expert. Authentication is required to exploit this vulnerability.\nThe specific flaw exists within the implementation of the GetFilteredSinkProvider method. The issue results from the lack of proper validation of user-supplied data, which can result in deserialization of untrusted data. An attacker can leverage this vulnerability to execute code in the context of LOCAL SERVICE.",
+    "addtionnal_details": "04/02/25 – ZDI reported the vulnerability to ICS-CERT04/04/25 – the vendor acknowledged the receipt of the report05/13/25 – the vendor asked for technical details 05/23/25 - ZDI provided more evidence06/16/25 – the vendor communicated that the fix would be part of the November’s release07/14/25 – ZDI notified the vendor of the intention to publish the case as a 0-day advisory\n\n-- Mitigation: Given the nature of the vulnerability, the only salient mitigation strategy is to restrict interaction with the product.",
+    "timeline": "2025-04-02 - Vulnerability reported to vendor\n2025-08-12 - Coordinated public release of advisory\n2025-08-12 - Advisory Updated",
+    "credit": "Anonymous"
+}

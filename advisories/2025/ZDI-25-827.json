@@ -1,0 +1,15 @@
+{
+    "date": "August 12th, 2025",
+    "title": "(0Day) Schneider Electric EcoStruxure Power Monitoring Expert GetTgmlContent Directory Traversal Information Disclosure Vulnerability",
+    "ID_1": "ZDI-25-827",
+    "ID_2": "ZDI-CAN-26273",
+    "cveId": "CVE-2025-54926",
+    "baseScore": "4.9",
+    "vectorString": "AV:N/AC:L/PR:H/UI:N/S:U/C:H/I:N/A:N",
+    "vendors": "Schneider Electric",
+    "products": "EcoStruxure Power Monitoring Expert",
+    "description": "This vulnerability allows remote attackers to disclose sensitive information on affected installations of Schneider Electric EcoStruxure Power Monitoring Expert. Authentication is required to exploit this vulnerability.\nThe specific flaw exists within the GetTgmlContent method. The issue results from the lack of proper validation of a user-supplied path prior to using it in file operations. An attacker can leverage this vulnerability to disclose information in the context of LOCAL SERVICE.",
+    "addtionnal_details": "04/02/25 – ZDI reported the vulnerability to ICS-CERT04/04/25 – the vendor acknowledged the receipt of the report05/13/25 – the vendor confirmed the reported behaviour06/16/25 – the vendor communicated that the fix would be part of the November’s release07/14/25 – ZDI notified the vendor of the intention to publish the case as a 0-day advisory\n\n-- Mitigation: Given the nature of the vulnerability, the only salient mitigation strategy is to restrict interaction with the product.",
+    "timeline": "2025-04-02 - Vulnerability reported to vendor\n2025-08-12 - Coordinated public release of advisory\n2025-08-12 - Advisory Updated",
+    "credit": "Anonymous"
+}
