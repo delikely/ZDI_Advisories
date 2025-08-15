@@ -1,0 +1,15 @@
+{
+    "date": "August 14th, 2025",
+    "title": "(Pwn2Own) Microsoft Windows win32kbase Type Confusion Local Privilege Escalation Vulnerability",
+    "ID_1": "ZDI-25-843",
+    "ID_2": "ZDI-CAN-27188",
+    "cveId": "CVE-2025-50168",
+    "baseScore": "8.8",
+    "vectorString": "AV:L/AC:L/PR:L/UI:N/S:C/C:H/I:H/A:H",
+    "vendors": "Microsoft",
+    "products": "Windows",
+    "description": "This vulnerability allows local attackers to escalate privileges on affected installations of Microsoft Windows. An attacker must first obtain the ability to execute low-privileged code on the target system in order to exploit this vulnerability.\nThe specific flaw exists within the win32kbase driver. The issue results from the lack of proper validation of user-supplied data, which can result in a type confusion condition. An attacker can leverage this vulnerability to escalate privileges and execute arbitrary code in the context of SYSTEM.",
+    "addtionnal_details": "Microsoft has issued an update to correct this vulnerability. More details can be found at:https://msrc.microsoft.com/update-guide/vulnerability/CVE-2025-50168",
+    "timeline": "2025-05-23 - Vulnerability reported to vendor\n2025-08-14 - Coordinated public release of advisory\n2025-08-14 - Advisory Updated",
+    "credit": "Hyeonjin Choi (@d4m0n_8) of Out Of Bounds"
+}

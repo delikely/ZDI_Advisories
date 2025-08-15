@@ -1,0 +1,15 @@
+{
+    "date": "August 14th, 2025",
+    "title": "(Pwn2Own) Microsoft Windows Exposed Dangerous Function Information Disclosure Vulnerability",
+    "ID_1": "ZDI-25-842",
+    "ID_2": "ZDI-CAN-27171",
+    "cveId": "CVE-2025-53156",
+    "baseScore": "3.8",
+    "vectorString": "AV:L/AC:L/PR:L/UI:N/S:C/C:L/I:N/A:N",
+    "vendors": "Microsoft",
+    "products": "Windows",
+    "description": "This vulnerability allows local attackers to disclose sensitive information on affected installations of Microsoft Windows. An attacker must first obtain the ability to execute low-privileged code on the target system in order to exploit this vulnerability.\nThe specific flaw exists within the Windows Storage Port Driver. The issue results from an exposed dangerous function. An attacker can leverage this in conjunction with other vulnerabilities to execute arbitrary code in the context of SYSTEM.",
+    "addtionnal_details": "Microsoft has issued an update to correct this vulnerability. More details can be found at:https://msrc.microsoft.com/update-guide/vulnerability/CVE-2025-53156",
+    "timeline": "2025-06-12 - Vulnerability reported to vendor\n2025-08-14 - Coordinated public release of advisory\n2025-08-14 - Advisory Updated",
+    "credit": "Angelboy (@scwuaptx) from DEVCORE Research Team"
+}
