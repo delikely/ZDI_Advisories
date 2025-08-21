@@ -1,0 +1,15 @@
+{
+    "date": "August 20th, 2025",
+    "title": "NVIDIA Isaac-GR00T secure_server Authentication Bypass Vulnerability",
+    "ID_1": "ZDI-25-848",
+    "ID_2": "ZDI-CAN-27209",
+    "cveId": "CVE-2025-23296",
+    "baseScore": "7.3",
+    "vectorString": "AV:N/AC:L/PR:N/UI:N/S:U/C:L/I:L/A:L",
+    "vendors": "NVIDIA",
+    "products": "Isaac-GR00T",
+    "description": "This vulnerability allows remote attackers to bypass authentication on affected installations of NVIDIA Isaac-GR00T. Authentication is not required to exploit this vulnerability.\nThe specific flaw exists within the secure_server method. The issue results from the lack of authentication prior to allowing access to functionality. An attacker can leverage this vulnerability to bypass authentication on the system.",
+    "addtionnal_details": "NVIDIA has issued an update to correct this vulnerability. More details can be found at:https://nvidia.custhelp.com/app/answers/detail/a_id/5681",
+    "timeline": "2025-05-22 - Vulnerability reported to vendor\n2025-08-20 - Coordinated public release of advisory\n2025-08-20 - Advisory Updated",
+    "credit": "Peter Girnus (@gothburz) of Trend Zero Day Initiative"
+}

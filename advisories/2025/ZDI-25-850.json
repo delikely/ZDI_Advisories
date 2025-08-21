@@ -1,0 +1,15 @@
+{
+    "date": "August 20th, 2025",
+    "title": "(Pwn2Own) NVIDIA Triton Inference Server LoadFromSharedMemory Out-Of-Bounds Read Information Disclosure Vulnerability",
+    "ID_1": "ZDI-25-850",
+    "ID_2": "ZDI-CAN-27249",
+    "cveId": "CVE-2025-23333",
+    "baseScore": "5.9",
+    "vectorString": "AV:N/AC:H/PR:N/UI:N/S:U/C:H/I:N/A:N",
+    "vendors": "NVIDIA",
+    "products": "Triton Inference Server",
+    "description": "This vulnerability allows remote attackers to disclose sensitive information on affected installations of NVIDIA Triton Inference Server. Authentication is not required to exploit this vulnerability.\nThe specific flaw exists within the LoadFromSharedMemory function. The issue results from the lack of proper validation of user-supplied data, which can result in a read past the end of an allocated data structure. An attacker can leverage this in conjunction with other vulnerabilities to execute arbitrary code in the context of root.",
+    "addtionnal_details": "NVIDIA has issued an update to correct this vulnerability. More details can be found at:https://nvidia.custhelp.com/app/answers/detail/a_id/5687",
+    "timeline": "2025-07-08 - Vulnerability reported to vendor\n2025-08-20 - Coordinated public release of advisory\n2025-08-20 - Advisory Updated",
+    "credit": "Ho Xuan Ninh (@izx) + Tri Dang (Sea Security)"
+}

@@ -1,0 +1,15 @@
+{
+    "date": "August 20th, 2025",
+    "title": "(0Day) CData API Server MySQL Misconfiguration Information Disclosure Vulnerability",
+    "ID_1": "ZDI-25-852",
+    "ID_2": "ZDI-CAN-23950",
+    "cveId": "CVE-2025-9273",
+    "baseScore": "4.3",
+    "vectorString": "AV:N/AC:L/PR:L/UI:N/S:U/C:L/I:N/A:N",
+    "vendors": "CData",
+    "products": "",
+    "description": "This vulnerability allows remote attackers to disclose sensitive information on affected installations of CData API Server. Authentication is required to exploit this vulnerability.\nThe specific flaw exists within the usage of MySQL connections. When connecting to a MySQL server, the product enables an option that gives the MySQL server permission to request local files from the MySQL client. An attacker can leverage this vulnerability to disclose information in the context of NETWORK SERVICE.",
+    "addtionnal_details": "11/13/24 - ZDI reported the vulnerability to the vendor03/09/25 - ZDI asked for updates 08/08/25 – ZDI notified the vendor of the intention to publish the case as a 0-day advisory\n\n-- Mitigation: Given the nature of the vulnerability, the only salient mitigation strategy is to restrict interaction with the product.",
+    "timeline": "2024-11-13 - Vulnerability reported to vendor\n2025-08-20 - Coordinated public release of advisory\n2025-08-20 - Advisory Updated",
+    "credit": "adhkr - LuwakLab"
+}
