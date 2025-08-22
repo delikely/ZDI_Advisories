@@ -1,0 +1,15 @@
+{
+    "date": "August 21st, 2025",
+    "title": "Firebird SQL Database Server XDR Message Parsing NULL Pointer Dereference Denial-of-Service Vulnerability",
+    "ID_1": "ZDI-25-859",
+    "ID_2": "ZDI-CAN-26486",
+    "cveId": "CVE-2025-54989",
+    "baseScore": "7.5",
+    "vectorString": "AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H",
+    "vendors": "",
+    "products": "",
+    "description": "This vulnerability allows remote attackers to create a denial-of-service condition on affected installations of Firebird SQL. Authentication is not required to exploit this vulnerability.\nThe specific flaw exists within the parsing of XDR messages. The issue results from dereferencing a null pointer. An attacker can leverage this vulnerability to create a denial-of-service condition on the system.",
+    "addtionnal_details": "Firebird has issued an update to correct this vulnerability. More details can be found at:https://github.com/FirebirdSQL/firebird/commit/169da595f8693fc1a65a79c741724b1bc8db9f25",
+    "timeline": "2025-05-02 - Vulnerability reported to vendor\n2025-08-21 - Coordinated public release of advisory\n2025-08-21 - Advisory Updated",
+    "credit": "Anonymous"
+}

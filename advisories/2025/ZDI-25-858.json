@@ -1,0 +1,15 @@
+{
+    "date": "August 21st, 2025",
+    "title": "Axis Communications Autodesk Plugin AzureBlobRestAPI axiscontentfiles Remote Code Execution Vulnerability",
+    "ID_1": "ZDI-25-858",
+    "ID_2": "ZDI-CAN-25774",
+    "cveId": "",
+    "baseScore": "8.8",
+    "vectorString": "AV:N/AC:L/PR:N/UI:R/S:U/C:H/I:H/A:H",
+    "vendors": "Axis Communications",
+    "products": "",
+    "description": "This vulnerability allows remote attackers to execute arbitrary code on affected installations of Axis Communications Autodesk Plugin. Authentication is not required to exploit this vulnerability.\nThe specific flaw exists within the configuration of a cloud resource. The issue results from allowing unauthorized access to a storage account. An attacker can leverage this vulnerability to execute code on systems dependent on the cloud resource.",
+    "addtionnal_details": "Fixed in version 25.3.718 (https://www.axis.com/support/tools/axis-plugin-for-autodesk-revit)",
+    "timeline": "2025-03-11 - Vulnerability reported to vendor\n2025-08-21 - Coordinated public release of advisory\n2025-08-21 - Advisory Updated",
+    "credit": "Nitesh Surana (@_niteshsurana) of Trend Micro Research"
+}
