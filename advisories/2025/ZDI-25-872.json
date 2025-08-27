@@ -1,0 +1,15 @@
+{
+    "date": "August 26th, 2025",
+    "title": "TeamViewer Link Following Denial-of-Service Vulnerability",
+    "ID_1": "ZDI-25-872",
+    "ID_2": "ZDI-CAN-27129",
+    "cveId": "CVE-2025-44002",
+    "baseScore": "6.1",
+    "vectorString": "AV:L/AC:L/PR:L/UI:N/S:U/C:N/I:L/A:H",
+    "vendors": "",
+    "products": "",
+    "description": "This vulnerability allows local attackers to create a denial-of-service condition on affected installations of TeamViewer. An attacker must first obtain the ability to execute low-privileged code on the target system in order to exploit this vulnerability.\nThe specific flaw exists within the TeamViewer service. By creating a junction, an attacker can abuse the service to create arbitrary files. An attacker can leverage this vulnerability to create a denial-of-service condition on the system.",
+    "addtionnal_details": "TeamViewer has issued an update to correct this vulnerability. More details can be found at:https://www.teamviewer.com/en/resources/trust-center/security-bulletins/tv-2025-1003/",
+    "timeline": "2025-07-31 - Vulnerability reported to vendor\n2025-08-26 - Coordinated public release of advisory\n2025-08-26 - Advisory Updated",
+    "credit": "oriotie"
+}
