@@ -1,0 +1,15 @@
+{
+    "date": "August 28th, 2025",
+    "title": "Linux Kernel perf Subsystem AUX Buffers Use-After-Free Local Privilege Escalation Vulnerability",
+    "ID_1": "ZDI-25-873",
+    "ID_2": "ZDI-CAN-27504",
+    "cveId": "",
+    "baseScore": "7.5",
+    "vectorString": "AV:L/AC:H/PR:H/UI:N/S:C/C:H/I:H/A:H",
+    "vendors": "Linux",
+    "products": "",
+    "description": "This vulnerability allows local attackers to escalate privileges on affected installations of Linux Kernel. An attacker must first obtain the ability to execute high-privileged code on the target system in order to exploit this vulnerability.\nThe specific flaw exists within the handling of reference counters. The issue results from the lack of validating the existence of an object prior to performing operations on the object. An attacker can leverage this vulnerability to escalate privileges and execute arbitrary code in the context of the kernel.",
+    "addtionnal_details": "Linux has issued an update to correct this vulnerability. More details can be found at:https://git.kernel.org/pub/scm/linux/kernel/git/torvalds/linux.git/commit/?id=b024d7b56c77191cde544f838debb7f8451cd0d6",
+    "timeline": "2025-07-29 - Vulnerability reported to vendor\n2025-08-28 - Coordinated public release of advisory\n2025-08-28 - Advisory Updated",
+    "credit": "Anonymous"
+}
