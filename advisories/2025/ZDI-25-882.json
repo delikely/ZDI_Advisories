@@ -1,0 +1,15 @@
+{
+    "date": "September 2nd, 2025",
+    "title": "Realtek rtl81xx SDK Wi-Fi Driver MgntActSet_TEREDO_SET_RS_PACKET Heap-based Buffer Overflow Local Privilege Escalation Vulnerability",
+    "ID_1": "ZDI-25-882",
+    "ID_2": "ZDI-CAN-25857",
+    "cveId": "CVE-2025-8299",
+    "baseScore": "8.8",
+    "vectorString": "AV:L/AC:L/PR:L/UI:N/S:C/C:H/I:H/A:H",
+    "vendors": "",
+    "products": "",
+    "description": "This vulnerability allows local attackers to escalate privileges on affected installations of Realtek rtl81xx SDK Wi-Fi driver. An attacker must first obtain the ability to execute low-privileged code on the target system in order to exploit this vulnerability.\nThe specific flaw exists within the MgntActSet_TEREDO_SET_RS_PACKET function. The issue results from the lack of proper validation of the length of user-supplied data prior to copying it to a fixed-length heap-based buffer. An attacker can leverage this vulnerability to escalate privileges and execute arbitrary code in the context of SYSTEM.",
+    "addtionnal_details": "Fixed in v1030.44.1204.2024 - https://www.realtek.com/Article/Index?menu_id=848",
+    "timeline": "2025-02-13 - Vulnerability reported to vendor\n2025-09-02 - Coordinated public release of advisory\n2025-09-02 - Advisory Updated",
+    "credit": "dungnm from vcslab of Viettel Cyber Security"
+}
