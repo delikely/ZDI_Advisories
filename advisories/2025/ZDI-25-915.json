@@ -1,0 +1,15 @@
+{
+    "date": "September 24th, 2025",
+    "title": "Linux Kernel io_uring Futex Request Use-After-Free Local Privilege Escalation Vulnerability",
+    "ID_1": "ZDI-25-915",
+    "ID_2": "ZDI-CAN-27561",
+    "cveId": "CVE-2025-39698",
+    "baseScore": "8.8",
+    "vectorString": "AV:L/AC:L/PR:L/UI:N/S:C/C:H/I:H/A:H",
+    "vendors": "Linux",
+    "products": "",
+    "description": "This vulnerability allows local attackers to escalate privileges on affected installations of Linux Kernel. An attacker must first obtain the ability to execute low-privileged code on the target system in order to exploit this vulnerability.\nThe specific flaw exists within the the io_uring subsystem. The issue results from the lack of validating the existence of an object prior to performing operations on the object. An attacker can leverage this vulnerability to escalate privileges and execute arbitrary code in the context of the kernel.",
+    "addtionnal_details": "Linux has issued an update to correct this vulnerability. More details can be found at:https://git.kernel.org/pub/scm/linux/kernel/git/torvalds/linux.git/commit/io_uring/futex.c?id=508c1314b342b78591f51c4b5dadee31a88335df",
+    "timeline": "2025-08-21 - Vulnerability reported to vendor\n2025-09-24 - Coordinated public release of advisory\n2025-09-24 - Advisory Updated",
+    "credit": "ReDress"
+}
