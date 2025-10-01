@@ -1,0 +1,15 @@
+{
+    "date": "September 30th, 2025",
+    "title": "Razer Synapse 3 Macro Module Link Following Local Privilege Escalation Vulnerability",
+    "ID_1": "ZDI-25-919",
+    "ID_2": "ZDI-CAN-26374",
+    "cveId": "CVE-2025-9869",
+    "baseScore": "7.8",
+    "vectorString": "AV:L/AC:L/PR:L/UI:N/S:U/C:H/I:H/A:H",
+    "vendors": "Razer",
+    "products": "Synapse 3",
+    "description": "This vulnerability allows local attackers to escalate privileges on affected installations of Razer Synapse 3. An attacker must first obtain the ability to execute low-privileged code on the target system in order to exploit this vulnerability.\nThe specific flaw exists within the Razer Synapse Service. By creating a symbolic link, an attacker can abuse the service to delete arbitrary files. An attacker can leverage this vulnerability to escalate privileges and execute arbitrary code in the context of SYSTEM.",
+    "addtionnal_details": "Fixed in version 3.10.730.71519",
+    "timeline": "2025-03-30 - Vulnerability reported to vendor\n2025-09-30 - Coordinated public release of advisory\n2025-09-30 - Advisory Updated",
+    "credit": "0x_alibabas (x.com/0x_alibabas)"
+}
