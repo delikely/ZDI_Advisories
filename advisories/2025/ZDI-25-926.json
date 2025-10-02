@@ -1,0 +1,15 @@
+{
+    "date": "October 1st, 2025",
+    "title": "Delta Electronics DIALink Directory Traversal Remote Code Execution Vulnerability",
+    "ID_1": "ZDI-25-926",
+    "ID_2": "ZDI-CAN-26827",
+    "cveId": "CVE-2025-58321",
+    "baseScore": "10.0",
+    "vectorString": "AV:N/AC:L/PR:N/UI:N/S:C/C:H/I:H/A:H",
+    "vendors": "Delta Electronics",
+    "products": "",
+    "description": "This vulnerability allows remote attackers to execute arbitrary code on affected installations of Delta Electronics DIALink. Authentication is not required to exploit this vulnerability.\nThe specific flaw exists within the DataCenter service, which listens on TCP port 7631 by default. The issue results from the lack of proper validation of a user-supplied path prior to using it in file operations. An attacker can leverage this vulnerability to execute code in the context of SYSTEM.",
+    "addtionnal_details": "Delta Electronics has issued an update to correct this vulnerability. More details can be found at:https://www.cisa.gov/news-events/ics-advisories/icsa-25-259-07",
+    "timeline": "2025-05-08 - Vulnerability reported to vendor\n2025-10-01 - Coordinated public release of advisory\n2025-10-01 - Advisory Updated",
+    "credit": "Anonymous"
+}

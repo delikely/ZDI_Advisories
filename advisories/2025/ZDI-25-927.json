@@ -1,0 +1,15 @@
+{
+    "date": "October 1st, 2025",
+    "title": "Delta Electronics DIALink Directory Traversal Authentication Bypass Vulnerability",
+    "ID_1": "ZDI-25-927",
+    "ID_2": "ZDI-CAN-26843",
+    "cveId": "CVE-2025-58320",
+    "baseScore": "7.3",
+    "vectorString": "AV:N/AC:L/PR:N/UI:N/S:U/C:L/I:L/A:L",
+    "vendors": "Delta Electronics",
+    "products": "",
+    "description": "This vulnerability allows remote attackers to overwrite configuration files on affected installations of Delta Electronics DIALink. Authentication is not required to exploit this vulnerability.\nThe specific flaw exists within the web service, which listens on TCP port 7631 by default. The issue results from the lack of proper validation of a user-supplied path prior to using it in file operations. An attacker can leverage this vulnerability to bypass authentication on the system.",
+    "addtionnal_details": "Delta Electronics has issued an update to correct this vulnerability. More details can be found at:https://www.cisa.gov/news-events/ics-advisories/icsa-25-259-07",
+    "timeline": "2025-05-22 - Vulnerability reported to vendor\n2025-10-01 - Coordinated public release of advisory\n2025-10-01 - Advisory Updated",
+    "credit": "Anonymous"
+}
