@@ -1,0 +1,15 @@
+{
+    "date": "October 3rd, 2025",
+    "title": "MLflow Weak Password Requirements Authentication Bypass Vulnerability",
+    "ID_1": "ZDI-25-932",
+    "ID_2": "ZDI-CAN-26916",
+    "cveId": "CVE-2025-11200",
+    "baseScore": "8.1",
+    "vectorString": "AV:N/AC:H/PR:N/UI:N/S:U/C:H/I:H/A:H",
+    "vendors": "MLflow",
+    "products": "MLflow",
+    "description": "This vulnerability allows remote attackers to bypass authentication on affected installations of MLflow. Authentication is not required to exploit this vulnerability.\nThe specific flaw exists within the handling of passwords. The issue results from weak password requirements. An attacker can leverage this vulnerability to bypass authentication on the system.",
+    "addtionnal_details": "MLflow has issued an update to correct this vulnerability. More details can be found at:https://github.com/mlflow/mlflow/commit/1f74f3f24d8273927b8db392c23e108576936c54",
+    "timeline": "2025-04-09 - Vulnerability reported to vendor\n2025-10-03 - Coordinated public release of advisory\n2025-10-03 - Advisory Updated",
+    "credit": "Peter Girnus (@gothburz) of Trend Zero Day Initiative"
+}

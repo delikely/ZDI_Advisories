@@ -1,0 +1,15 @@
+{
+    "date": "October 3rd, 2025",
+    "title": "MLflow Tracking Server Model Creation Directory Traversal Remote Code Execution Vulnerability",
+    "ID_1": "ZDI-25-931",
+    "ID_2": "ZDI-CAN-26921",
+    "cveId": "CVE-2025-11201",
+    "baseScore": "8.1",
+    "vectorString": "AV:N/AC:H/PR:N/UI:N/S:U/C:H/I:H/A:H",
+    "vendors": "MLflow",
+    "products": "MLflow",
+    "description": "This vulnerability allows remote attackers to execute arbitrary code on affected installations of MLflow Tracking Server. Authentication is not required to exploit this vulnerability.\nThe specific flaw exists within the handling of model file paths. The issue results from the lack of proper validation of a user-supplied path prior to using it in file operations. An attacker can leverage this vulnerability to execute code in the context of the service account.",
+    "addtionnal_details": "MLflow has issued an update to correct this vulnerability. More details can be found at:https://github.com/B-Step62/mlflow/commit/2e02bc7bb70df243e6eb792689d9b8eba0013161",
+    "timeline": "2025-05-29 - Vulnerability reported to vendor\n2025-10-03 - Coordinated public release of advisory\n2025-10-03 - Advisory Updated",
+    "credit": "Mas Fadilullah dzaki"
+}
