@@ -1,0 +1,15 @@
+{
+    "date": "October 7th, 2025",
+    "title": "(0Day) Ivanti Endpoint Manager Report_RunPatch SQL Injection Remote Code Execution Vulnerability",
+    "ID_1": "ZDI-25-938",
+    "ID_2": "ZDI-CAN-26858",
+    "cveId": "",
+    "baseScore": "7.2",
+    "vectorString": "AV:N/AC:L/PR:H/UI:N/S:U/C:H/I:H/A:H",
+    "vendors": "Ivanti",
+    "products": "Endpoint Manager",
+    "description": "This vulnerability allows remote attackers to execute arbitrary code on affected installations of Ivanti Endpoint Manager. Authentication is required to exploit this vulnerability.\nThe specific flaw exists within the Report_RunPatch class. The issue results from the lack of proper validation of a user-supplied string before using it to construct SQL queries. An attacker can leverage this vulnerability to execute code in the context of the service account.",
+    "addtionnal_details": "06/05/25 – ZDI reported the vulnerability to the vendor06/06/25 – the vendor acknowledged the receipt of the report07/24/25 – the vendor communicated that the issue would be patched in September 202507/29/25 - the vendor requested an extension until March 202609/26/25 - ZDI notified the vendor of the intention to publish the case as a  0-day advisory\n\n-- Mitigation: Given the nature of the vulnerability, the only salient mitigation strategy is to restrict interaction with the product.",
+    "timeline": "2025-06-05 - Vulnerability reported to vendor\n2025-10-07 - Coordinated public release of advisory\n2025-10-07 - Advisory Updated",
+    "credit": "06fe5fd2bc53027c4a3b7e395af0b850e7b8a044"
+}

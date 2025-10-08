@@ -1,0 +1,15 @@
+{
+    "date": "October 7th, 2025",
+    "title": "7-Zip ZIP File Parsing Directory Traversal Remote Code Execution Vulnerability",
+    "ID_1": "ZDI-25-950",
+    "ID_2": "ZDI-CAN-26743",
+    "cveId": "CVE-2025-11002",
+    "baseScore": "7.0",
+    "vectorString": "AV:L/AC:H/PR:N/UI:R/S:U/C:H/I:H/A:H",
+    "vendors": "",
+    "products": "",
+    "description": "This vulnerability allows remote attackers to execute arbitrary code on affected installations of 7-Zip. Interaction with this product is required to exploit this vulnerability but attack vectors may vary depending on the implementation.\nThe specific flaw exists within the handling of symbolic links in ZIP files. Crafted data in a ZIP file can cause the process to traverse to unintended directories. An attacker can leverage this vulnerability to execute code in the context of a service account.",
+    "addtionnal_details": "Fixed in 7-Zip 25.00",
+    "timeline": "2025-05-02 - Vulnerability reported to vendor\n2025-10-07 - Coordinated public release of advisory\n2025-10-07 - Advisory Updated",
+    "credit": "Ryota Shiga (GMO Flatt Security Inc.) with takumi-san.ai"
+}

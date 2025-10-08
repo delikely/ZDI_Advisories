@@ -1,0 +1,15 @@
+{
+    "date": "October 7th, 2025",
+    "title": "MindManager Attachment Insufficient UI Warning Remote Code Execution Vulnerability",
+    "ID_1": "ZDI-25-934",
+    "ID_2": "ZDI-CAN-26144",
+    "cveId": "",
+    "baseScore": "7.8",
+    "vectorString": "AV:L/AC:L/PR:N/UI:R/S:U/C:H/I:H/A:H",
+    "vendors": "MindManager",
+    "products": "",
+    "description": "This vulnerability allows remote attackers to execute arbitrary code on affected installations of MindManager. User interaction is required to exploit this vulnerability in that the target must visit a malicious page or open a malicious file.\nThe specific flaw exists within the handling of attachments. When opening an attachment, the user interface fails to warn the user of unsafe actions. An attacker can leverage this vulnerability to execute code in the context of current user.",
+    "addtionnal_details": "Fixed in version 25.0.208",
+    "timeline": "2025-03-10 - Vulnerability reported to vendor\n2025-10-07 - Coordinated public release of advisory\n2025-10-07 - Advisory Updated",
+    "credit": " AspiringYoungMan"
+}

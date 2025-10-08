@@ -1,0 +1,15 @@
+{
+    "date": "October 7th, 2025",
+    "title": "(0Day) Ivanti Endpoint Manager AgentPortal Deserialization of Untrusted Data Local Privilege Escalation Vulnerability",
+    "ID_1": "ZDI-25-947",
+    "ID_2": "ZDI-CAN-25369",
+    "cveId": "",
+    "baseScore": "7.8",
+    "vectorString": "AV:L/AC:L/PR:L/UI:N/S:U/C:H/I:H/A:H",
+    "vendors": "Ivanti",
+    "products": "Endpoint Manager",
+    "description": "This vulnerability allows local attackers to escalate privileges on affected installations of Ivanti Endpoint Manager. An attacker must first obtain the ability to execute low-privileged code on the target system in order to exploit this vulnerability.\nThe specific flaw exists within the AgentPortal service. The issue results from the lack of proper validation of user-supplied data, which can result in deserialization of untrusted data. An attacker can leverage this vulnerability to escalate privileges and execute arbitrary code in the context of SYSTEM.",
+    "addtionnal_details": "11/05/24 – ZDI reported the vulnerability to the vendor11/08/24 – the vendor acknowledged the receipt of the report01/24/25 – the vendor confirmed the issue and requested an extension until the second half of 202505/06/25 – ZDI asked for updates 07/29/25 - the vendor communicated that the issue will be patched in November 202509/30/25 - ZDI notified the vendor of the intention to publish the case as a 0-day advisory\n\n-- Mitigation: Given the nature of the vulnerability, the only salient mitigation strategy is to restrict interaction with the product.",
+    "timeline": "2024-11-05 - Vulnerability reported to vendor\n2025-10-07 - Coordinated public release of advisory\n2025-10-07 - Advisory Updated",
+    "credit": "06fe5fd2bc53027c4a3b7e395af0b850e7b8a044"
+}
