@@ -1,0 +1,15 @@
+{
+    "date": "October 14th, 2025",
+    "title": "Microsoft Windows TAR File Parsing NTLM Relay Vulnerability",
+    "ID_1": "ZDI-25-953",
+    "ID_2": "ZDI-CAN-27289",
+    "cveId": "CVE-2025-59284",
+    "baseScore": "3.3",
+    "vectorString": "AV:L/AC:L/PR:N/UI:R/S:U/C:L/I:N/A:N",
+    "vendors": "Microsoft",
+    "products": "Windows",
+    "description": "This vulnerability allows remote attackers to relay NTLM credentials on affected installations of Microsoft Windows. User interaction is required to exploit this vulnerability in that the target must visit a malicious page or open a malicious file.\nThe specific flaw exists within the parsing of TAR files. A crafted hard link in a TAR file can trigger an outgoing SMB request. An attacker can leverage this vulnerability to relay NTLM credentials in the context of the current user.",
+    "addtionnal_details": "Microsoft has issued an update to correct this vulnerability. More details can be found at:https://msrc.microsoft.com/update-guide/vulnerability/CVE-2025-59284",
+    "timeline": "2025-07-25 - Vulnerability reported to vendor\n2025-10-14 - Coordinated public release of advisory\n2025-10-14 - Advisory Updated",
+    "credit": "Len Sadowski and Oguz Bektas"
+}
