@@ -1,0 +1,15 @@
+{
+    "date": "October 27th, 2025",
+    "title": "Veeam Agent for Microsoft Windows Link Following Local Privilege Escalation Vulnerability",
+    "ID_1": "ZDI-25-963",
+    "ID_2": "ZDI-CAN-27061",
+    "cveId": "CVE-2025-48982",
+    "baseScore": "7.3",
+    "vectorString": "AV:L/AC:L/PR:L/UI:R/S:U/C:H/I:H/A:H",
+    "vendors": "",
+    "products": "",
+    "description": "This vulnerability allows local attackers to escalate privileges on affected installations of Veeam Agent for Microsoft Windows. An attacker must first obtain the ability to execute low-privileged code on the target system in order to exploit this vulnerability. User interaction on the part of an administrator is needed additionally.\nThe specific flaw exists within the restore functionality. By creating a junction, an attacker can abuse the service to create arbitrary files. An attacker can leverage this vulnerability to escalate privileges and execute arbitrary code in the context of SYSTEM.",
+    "addtionnal_details": "Veeam has issued an update to correct this vulnerability. More details can be found at:https://www.veeam.com/kb4771",
+    "timeline": "2025-06-10 - Vulnerability reported to vendor\n2025-10-27 - Coordinated public release of advisory\n2025-10-27 - Advisory Updated",
+    "credit": "Zeze and Sharkkcode with TeamT5"
+}

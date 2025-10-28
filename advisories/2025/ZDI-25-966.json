@@ -1,0 +1,15 @@
+{
+    "date": "October 27th, 2025",
+    "title": "Cisco Snort process_mime_body Out-Of-Bounds Read Information Disclosure Vulnerability",
+    "ID_1": "ZDI-25-966",
+    "ID_2": "ZDI-CAN-27536",
+    "cveId": "CVE-2025-20359",
+    "baseScore": "6.5",
+    "vectorString": "AV:N/AC:L/PR:N/UI:N/S:U/C:L/I:N/A:L",
+    "vendors": "Cisco",
+    "products": "",
+    "description": "This vulnerability allows remote attackers to disclose sensitive information on affected installations of Cisco Snort. Authentication is not required to exploit this vulnerability.\nThe specific flaw exists within the implementation of the process_mime_body method. The issue results from the lack of proper validation of user-supplied data, which can result in a read before the start of an allocated buffer. An attacker can leverage this in conjunction with other vulnerabilities to execute arbitrary code in the context of the service account.",
+    "addtionnal_details": "Cisco has issued an update to correct this vulnerability. More details can be found at:https://sec.cloudapps.cisco.com/security/center/content/CiscoSecurityAdvisory/cisco-sa-snort3-mime-vulns-tTL8PgVH",
+    "timeline": "2025-07-03 - Vulnerability reported to vendor\n2025-10-27 - Coordinated public release of advisory\n2025-10-27 - Advisory Updated",
+    "credit": "Guy Lederfein of Trend Research"
+}
