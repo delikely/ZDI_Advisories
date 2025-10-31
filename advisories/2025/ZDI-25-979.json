@@ -1,0 +1,15 @@
+{
+    "date": "October 30th, 2025",
+    "title": "Netgate pfSense CE Suricata Path Traversal Remote Code Execution Vulnerability",
+    "ID_1": "ZDI-25-979",
+    "ID_2": "ZDI-CAN-28085",
+    "cveId": "CVE-2025-12490",
+    "baseScore": "8.8",
+    "vectorString": "AV:N/AC:L/PR:L/UI:N/S:U/C:H/I:H/A:H",
+    "vendors": "Netgate",
+    "products": "pfSense",
+    "description": "This vulnerability allows remote attackers to create arbitrary files on affected installations of Netgate pfSense. Authentication is required to exploit this vulnerability.\nThe specific flaw exists within the Suricata package. The issue results from the lack of proper validation of a user-supplied path prior to using it in file operations. An attacker can leverage this vulnerability to create files in the context of root.",
+    "addtionnal_details": "Netgate has issued an update to correct this vulnerability. More details can be found at:https://github.com/pfsense/FreeBSD-ports/commit/36b2303dfca35a1183d76f26bcc6ce26d4ea682d",
+    "timeline": "2025-10-15 - Vulnerability reported to vendor\n2025-10-30 - Coordinated public release of advisory\n2025-10-30 - Advisory Updated",
+    "credit": "Alex Williams from Pellera Technologies"
+}

@@ -1,0 +1,15 @@
+{
+    "date": "October 30th, 2025",
+    "title": "Alibaba Cloud Workspace Client Uncontrolled Search Path Element Local Privilege Escalation Vulnerability",
+    "ID_1": "ZDI-25-984",
+    "ID_2": "ZDI-CAN-26635",
+    "cveId": "",
+    "baseScore": "7.3",
+    "vectorString": "AV:L/AC:L/PR:L/UI:R/S:U/C:H/I:H/A:H",
+    "vendors": "",
+    "products": "Cloud Workspace Client",
+    "description": "This vulnerability allows local attackers to escalate privileges on affected installations of Alibaba Cloud Workspace Client. An attacker must first obtain the ability to execute low-privileged code on the target system in order to exploit this vulnerability.\nThe specific flaw exists within the configuration of OpenSSL. The product loads an OpenSSL configuration file from an unsecured location. An attacker can leverage this vulnerability to escalate privileges and execute arbitrary code in the context of a target user.",
+    "addtionnal_details": "Fixed in Wuying Client v7.10. https://www.aliyun.com/product/wuying/download",
+    "timeline": "2025-03-13 - Vulnerability reported to vendor\n2025-10-30 - Coordinated public release of advisory\n2025-10-30 - Advisory Updated",
+    "credit": "Xavier DANEST"
+}

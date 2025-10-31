@@ -1,0 +1,15 @@
+{
+    "date": "October 30th, 2025",
+    "title": "Heimdall Data Database Proxy Cross-Site Scripting Remote Code Execution Vulnerability",
+    "ID_1": "ZDI-25-980",
+    "ID_2": "ZDI-CAN-24755",
+    "cveId": "CVE-2025-12486",
+    "baseScore": "8.8",
+    "vectorString": "AV:N/AC:L/PR:N/UI:R/S:U/C:H/I:H/A:H",
+    "vendors": "Heimdall Data",
+    "products": "Database Proxy",
+    "description": "This vulnerability allows remote attackers to execute arbitrary code on affected installations of Heimdall Data Database Proxy. Minimal user interaction is required to exploit this vulnerability.\nThe specific flaw exists within the handling of the database event logs. The issue results from the lack of proper validation of user-supplied data, which can lead to the injection of arbitrary script. An attacker can leverage this vulnerability to interact with the application in the context of the target user.",
+    "addtionnal_details": "Fixed in release build 25.03.01.10 https://www.heimdalldata.com/release-notes/",
+    "timeline": "2025-03-11 - Vulnerability reported to vendor\n2025-10-30 - Coordinated public release of advisory\n2025-10-30 - Advisory Updated",
+    "credit": "Mehmet INCE (@mdisec) from PRODAFT.com"
+}
