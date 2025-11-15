@@ -1,0 +1,15 @@
+{
+    "date": "November 14th, 2025",
+    "title": "NVIDIA AIStore AuthN users Missing Authentication for Critical Function Information Disclosure Vulnerability",
+    "ID_1": "ZDI-25-1012",
+    "ID_2": "ZDI-CAN-27857",
+    "cveId": "CVE-2025-33185",
+    "baseScore": "7.5",
+    "vectorString": "AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:N/A:N",
+    "vendors": "NVIDIA",
+    "products": "AIStore",
+    "description": "This vulnerability allows remote attackers to disclose sensitive information on affected installations of NVIDIA AIStore. Authentication is not required to exploit this vulnerability.\nThe specific flaw exists within the users endpoint. The issue results from the lack of authentication prior to allowing access to functionality. An attacker can leverage this vulnerability to disclose stored user names, leading to further compromise.",
+    "addtionnal_details": "NVIDIA has issued an update to correct this vulnerability. More details can be found at:https://nvidia.custhelp.com/app/answers/detail/a_id/5724",
+    "timeline": "2025-08-12 - Vulnerability reported to vendor\n2025-11-14 - Coordinated public release of advisory\n2025-11-14 - Advisory Updated",
+    "credit": "Peter Girnus (@gothburz) of Trend Zero Day Initiative"
+}
