@@ -1,0 +1,15 @@
+{
+    "date": "November 20th, 2025",
+    "title": "(0Day) Digilent DASYLab DSB File Parsing Out-Of-Bounds Write Remote Code Execution Vulnerability",
+    "ID_1": "ZDI-25-891",
+    "ID_2": "ZDI-CAN-26640",
+    "cveId": "CVE-2025-57778",
+    "baseScore": "7.8",
+    "vectorString": "AV:L/AC:L/PR:N/UI:R/S:U/C:H/I:H/A:H",
+    "vendors": "Digilent",
+    "products": "DASYLab",
+    "description": "This vulnerability allows remote attackers to execute arbitrary code on affected installations of Digilent DASYLab. User interaction is required to exploit this vulnerability in that the target must visit a malicious page or open a malicious file.\nThe specific flaw exists within the parsing of DSB files. The issue results from the lack of proper validation of user-supplied data, which can result in a write past the end of an allocated data structure. An attacker can leverage this vulnerability to execute code in the context of the current process.",
+    "addtionnal_details": "Digilent has issued an update to correct this vulnerability. More details can be found at:https://www.ni.com/en/support/security/available-critical-and-security-updates-for-ni-software/memory-corruption-vulnerabilities-in-digilent-dasylab.html",
+    "timeline": "2025-06-09 - Vulnerability reported to vendor\n2025-11-20 - Coordinated public release of advisory\n2025-11-20 - Advisory Updated",
+    "credit": "kimiya"
+}
