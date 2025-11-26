@@ -1,0 +1,15 @@
+{
+    "date": "November 25th, 2025",
+    "title": "Deciso OPNsense diag_backup.php filename Directory Traversal Arbitrary File Creation Vulnerability",
+    "ID_1": "ZDI-25-1022",
+    "ID_2": "ZDI-CAN-28133",
+    "cveId": "CVE-2025-13698",
+    "baseScore": "4.5",
+    "vectorString": "AV:A/AC:L/PR:H/UI:N/S:U/C:N/I:H/A:N",
+    "vendors": "Deciso",
+    "products": "OPNsense",
+    "description": "This vulnerability allows network-adjacent attackers to create arbitrary files on affected installations of Deciso OPNsense. Authentication is required to exploit this vulnerability.\nThe specific flaw exists within the handling of backup configuration files. The issue results from the lack of proper validation of a user-supplied path prior to using it in file operations. An attacker can leverage this vulnerability to create files in the context of root.",
+    "addtionnal_details": "Deciso has issued an update to correct this vulnerability. More details can be found at:https://github.com/opnsense/core/commit/cb15c935137d05c86a1e6cf12af877e9c32a23af",
+    "timeline": "2025-10-29 - Vulnerability reported to vendor\n2025-11-25 - Coordinated public release of advisory\n2025-11-25 - Advisory Updated",
+    "credit": "Alex Williams from Pellera Technologies"
+}

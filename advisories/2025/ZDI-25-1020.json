@@ -1,0 +1,15 @@
+{
+    "date": "November 25th, 2025",
+    "title": "Arista NG Firewall runTroubleshooting Command Injection Remote Code Execution Vulnerability",
+    "ID_1": "ZDI-25-1020",
+    "ID_2": "ZDI-CAN-27310",
+    "cveId": "CVE-2025-6978",
+    "baseScore": "7.2",
+    "vectorString": "AV:N/AC:L/PR:H/UI:N/S:U/C:H/I:H/A:H",
+    "vendors": "Arista",
+    "products": "NG Firewall",
+    "description": "This vulnerability allows remote attackers to execute arbitrary code on affected installations of Arista NG Firewall. Although authentication is required to exploit this vulnerability, the existing authentication mechanism can be bypassed.\nThe specific flaw exists within the implementation of the runTroubleshooting method. The issue results from the lack of proper validation of a user-supplied string before using it to execute a system call. An attacker can leverage this vulnerability to execute code in the context of root.",
+    "addtionnal_details": "Arista has issued an update to correct this vulnerability. More details can be found at:https://www.arista.com/en/support/advisories-notices/security-advisory/22535-security-advisory-0123",
+    "timeline": "2025-06-18 - Vulnerability reported to vendor\n2025-11-25 - Coordinated public release of advisory\n2025-11-25 - Advisory Updated",
+    "credit": "Gereon Huppertz"
+}

@@ -1,0 +1,15 @@
+{
+    "date": "November 25th, 2025",
+    "title": "Siemens SINEC NMS getTotalAndFilterCounts SQL Injection Privilege Escalation Vulnerability",
+    "ID_1": "ZDI-25-1021",
+    "ID_2": "ZDI-CAN-26570",
+    "cveId": "CVE-2025-40755",
+    "baseScore": "8.8",
+    "vectorString": "AV:N/AC:L/PR:L/UI:N/S:U/C:H/I:H/A:H",
+    "vendors": "Siemens",
+    "products": "",
+    "description": "This vulnerability allows remote attackers to escalate privileges on affected installations of Siemens SINEC NMS. Authentication is required to exploit this vulnerability.\nThe specific flaw exists within the implementation of the getTotalAndFilterCounts method. The issue results from the lack of proper validation of a user-supplied string before using it to construct SQL queries. An attacker can leverage this vulnerability to escalate privileges to resources normally protected from the user.",
+    "addtionnal_details": "Siemens has issued an update to correct this vulnerability. More details can be found at:https://cert-portal.siemens.com/productcert/html/ssa-318832.html",
+    "timeline": "2025-06-27 - Vulnerability reported to vendor\n2025-11-25 - Coordinated public release of advisory\n2025-11-25 - Advisory Updated",
+    "credit": "Anonymous"
+}

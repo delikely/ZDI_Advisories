@@ -1,0 +1,15 @@
+{
+    "date": "November 25th, 2025",
+    "title": "ASUS MyASUS Incorrect Permission Assignment Local Privilege Escalation Vulnerability",
+    "ID_1": "ZDI-25-1017",
+    "ID_2": "ZDI-CAN-27794",
+    "cveId": "CVE-2025-59373",
+    "baseScore": "7.8",
+    "vectorString": "AV:L/AC:L/PR:L/UI:N/S:U/C:H/I:H/A:H",
+    "vendors": "ASUS",
+    "products": "",
+    "description": "This vulnerability allows local attackers to escalate privileges on affected installations of ASUS MyASUS. An attacker must first obtain the ability to execute low-privileged code on the target system in order to exploit this vulnerability.\nThe specific flaw exists within the AsusSwitchAgent component. The issue results from incorrect permissions on a named pipe. An attacker can leverage this vulnerability to escalate privileges and execute arbitrary code in the context of SYSTEM.",
+    "addtionnal_details": "Fixed in ASUS System Control Interface 3.1.48.0 (x64) and ASUS System Control Interface 4.2.48.0 (ARM): https://www.asus.com/security-advisory",
+    "timeline": "2025-08-26 - Vulnerability reported to vendor\n2025-11-25 - Coordinated public release of advisory\n2025-11-25 - Advisory Updated",
+    "credit": "GuYongZeng @0x0dee"
+}
