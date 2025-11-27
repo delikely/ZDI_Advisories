@@ -1,0 +1,15 @@
+{
+    "date": "November 26th, 2025",
+    "title": "DreamFactory saveZipFile Command Injection Remote Code Execution Vulnerability",
+    "ID_1": "ZDI-25-1024",
+    "ID_2": "ZDI-CAN-26589",
+    "cveId": "CVE-2025-13700",
+    "baseScore": "7.2",
+    "vectorString": "AV:N/AC:L/PR:H/UI:N/S:U/C:H/I:H/A:H",
+    "vendors": "DreamFactory",
+    "products": "DreamFactory",
+    "description": "This vulnerability allows remote attackers to execute arbitrary code on affected installations of DreamFactory. Authentication is required to exploit this vulnerability.\nThe specific flaw exists within the implementation of the saveZipFile method. The issue results from the lack of proper validation of a user-supplied string before using it to execute a system call. An attacker can leverage this vulnerability to execute code in the context of the service account.",
+    "addtionnal_details": "DreamFactory has issued an update to correct this vulnerability. More details can be found at:https://github.com/dreamfactorysoftware/df-core/commit/404a1783927f95999c71a0ff8f14130d385087fb",
+    "timeline": "2025-05-15 - Vulnerability reported to vendor\n2025-11-26 - Coordinated public release of advisory\n2025-11-26 - Advisory Updated",
+    "credit": "Catalin Iovita, David Bors, Alexandru Postolache"
+}
