@@ -1,0 +1,15 @@
+{
+    "date": "November 27th, 2025",
+    "title": "MariaDB mariadb-dump Utility Directory Traversal Remote Code Execution Vulnerability",
+    "ID_1": "ZDI-25-1025",
+    "ID_2": "ZDI-CAN-27000",
+    "cveId": "CVE-2025-13699",
+    "baseScore": "7.0",
+    "vectorString": "AV:L/AC:H/PR:N/UI:R/S:U/C:H/I:H/A:H",
+    "vendors": "",
+    "products": "",
+    "description": "This vulnerability allows remote attackers to execute arbitrary code on affected installations of MariaDB. Interaction with the mariadb-dump utility is required to exploit this vulnerability but attack vectors may vary depending on the implementation.\nThe specific flaw exists within the handling of view names. The issue results from the lack of proper validation of a user-supplied path prior to using it in file operations. An attacker can leverage this vulnerability to execute code in the context of the current user.",
+    "addtionnal_details": "MariaDB has issued an update to correct this vulnerability. More details can be found at:https://jira.mariadb.org/browse/MDEV-37483",
+    "timeline": "2025-08-21 - Vulnerability reported to vendor\n2025-11-27 - Coordinated public release of advisory\n2025-11-27 - Advisory Updated",
+    "credit": "Litezeraw"
+}
