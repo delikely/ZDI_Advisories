@@ -1,0 +1,15 @@
+{
+    "date": "December 3rd, 2025",
+    "title": "(Pwn2Own) Synology DiskStation DS925+ samlAuth Authentication Bypass Vulnerability",
+    "ID_1": "ZDI-25-1040",
+    "ID_2": "ZDI-CAN-28409",
+    "cveId": "CVE-2025-13392",
+    "baseScore": "6.3",
+    "vectorString": "AV:A/AC:L/PR:N/UI:N/S:U/C:L/I:L/A:L",
+    "vendors": "",
+    "products": "DiskStation DS925+",
+    "description": "This vulnerability allows network-adjacent attackers to bypass authentication on affected installations of Synology DiskStation DS925+ devices. Authentication is not required to exploit this vulnerability.\nThe specific flaw exists within the SYNOPAMSSO::samlAuth method. The issue results from permitting authentication via a mechanism that should be disabled. An attacker can leverage this vulnerability to bypass authentication on the system.",
+    "addtionnal_details": "Synology has issued an update to correct this vulnerability. More details can be found at:https://www.synology.com/en-us/security/advisory/Synology_SA_25_14",
+    "timeline": "2025-11-18 - Vulnerability reported to vendor\n2025-12-03 - Coordinated public release of advisory\n2025-12-03 - Advisory Updated",
+    "credit": "Le Trong Phuc (chanze@VRC) and Cao Ngoc Quy (Chino Kafuu)"
+}
