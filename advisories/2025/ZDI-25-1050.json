@@ -1,0 +1,15 @@
+{
+    "date": "December 9th, 2025",
+    "title": "Microsoft Azure Virtual Desktop Link Following Local Privilege Escalation Vulnerability",
+    "ID_1": "ZDI-25-1050",
+    "ID_2": "ZDI-CAN-26573",
+    "cveId": "",
+    "baseScore": "7.8",
+    "vectorString": "AV:L/AC:L/PR:L/UI:N/S:U/C:H/I:H/A:H",
+    "vendors": "Microsoft",
+    "products": "",
+    "description": "This vulnerability allows local attackers to escalate privileges on affected installations of Microsoft Azure Virtual Desktop. An attacker must first obtain the ability to execute low-privileged code on the target system in order to exploit this vulnerability.\nThe specific flaw exists within the RdAgent service. By creating a junction, an attacker can abuse the service to delete arbitrary folders and files. An attacker can leverage this vulnerability to escalate privileges and execute arbitrary code in the context of SYSTEM.",
+    "addtionnal_details": "Microsoft has issued an update to correct this vulnerability. More details can be found at:https://portal.msrc.microsoft.com/en-us/security-guidance/researcher-acknowledgments-online-services",
+    "timeline": "2025-08-01 - Vulnerability reported to vendor\n2025-12-09 - Coordinated public release of advisory\n2025-12-09 - Advisory Updated",
+    "credit": "Filip Dragovic (@filip_dragovic) "
+}
