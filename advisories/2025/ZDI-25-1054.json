@@ -1,0 +1,15 @@
+{
+    "date": "December 10th, 2025",
+    "title": "(0Day) Microsoft Windows dir Command Improper Character Neutralization Vulnerability",
+    "ID_1": "ZDI-25-1054",
+    "ID_2": "ZDI-CAN-26750",
+    "cveId": "",
+    "baseScore": "3.3",
+    "vectorString": "AV:L/AC:L/PR:N/UI:R/S:U/C:N/I:L/A:N",
+    "vendors": "Microsoft",
+    "products": "Windows",
+    "description": "This vulnerability allows remote attackers to display misleading terminal output on affected installations of Microsoft Windows. User interaction is required to exploit this vulnerability in that the target must visit a malicious page or open a malicious file.\nThe specific flaw exists within the handling of filenames in the built-in dir command. By including invalid characters in a filename, an attacker can cause the display of misleading text and terminal effects. An attacker can leverage this vulnerability to deceive the user into performing dangerous actions.",
+    "addtionnal_details": "04/04/25 - ZDI reported the vulnerability to the vendor04/04/25 – the vendor acknowledged the receipt of the report04/09/25 – the vendor asked for technical details04/09/25 - ZDI provided more information05/06/25 – the vendor communicated that the reported behavior was not a vulnerability11/26/25 – ZDI notified the vendor of the intention to publish the case as a 0-day advisory on 12/10/25\n\n-- Mitigation: Given the nature of the vulnerability, the only salient mitigation strategy is to restrict interaction with the product",
+    "timeline": "2025-04-04 - Vulnerability reported to vendor\n2025-12-10 - Coordinated public release of advisory\n2025-12-10 - Advisory Updated",
+    "credit": "St4nly0n"
+}

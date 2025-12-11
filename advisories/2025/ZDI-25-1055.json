@@ -1,0 +1,15 @@
+{
+    "date": "December 10th, 2025",
+    "title": "(0Day) Microsoft Windows MP4 File Parsing Null Pointer Dereference Denial-of-Service Vulnerability",
+    "ID_1": "ZDI-25-1055",
+    "ID_2": "ZDI-CAN-27835",
+    "cveId": "",
+    "baseScore": "4.3",
+    "vectorString": "AV:N/AC:L/PR:N/UI:R/S:U/C:N/I:N/A:L",
+    "vendors": "Microsoft",
+    "products": "Windows",
+    "description": "This vulnerability allows remote attackers to create a denial-of-service condition on affected installations of Microsoft Windows. User interaction is required to exploit this vulnerability in that the target must visit a malicious page or open a malicious file.\nThe specific flaw exists within the parsing of MP4 files. The issue results from dereferencing a null pointer. An attacker can leverage this vulnerability to create a denial-of-service condition on the system.",
+    "addtionnal_details": "10/08/25 - ZDI reported the vulnerability to the vendor10/08/25 – the vendor acknowledged the receipt of the report10/20/25 – the vendor communicated that the reported behavior did not meet the bar for immediate servicing11/26/25 – ZDI notified the vendor of the intention to publish the case as a 0-day advisory on 12/10/25\n\n-- Mitigation: Given the nature of the vulnerability, the only salient mitigation strategy is to restrict interaction with the product",
+    "timeline": "2025-10-08 - Vulnerability reported to vendor\n2025-12-10 - Coordinated public release of advisory\n2025-12-10 - Advisory Updated",
+    "credit": "sumin"
+}

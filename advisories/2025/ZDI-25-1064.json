@@ -1,0 +1,15 @@
+{
+    "date": "December 10th, 2025",
+    "title": "Fuji Electric Monitouch V-SFT V7 File Parsing Stack-based Buffer Overflow Remote Code Execution Vulnerability",
+    "ID_1": "ZDI-25-1064",
+    "ID_2": "ZDI-CAN-27527",
+    "cveId": "CVE-2025-54526",
+    "baseScore": "7.8",
+    "vectorString": "AV:L/AC:L/PR:N/UI:R/S:U/C:H/I:H/A:H",
+    "vendors": "Fuji Electric",
+    "products": "",
+    "description": "This vulnerability allows remote attackers to execute arbitrary code on affected installations of Fuji Electric Monitouch V-SFT. User interaction is required to exploit this vulnerability in that the target must visit a malicious page or open a malicious file.\nThe specific flaw exists within the parsing of V7 files. The issue results from the lack of proper validation of the length of user-supplied data prior to copying it to a fixed-length stack-based buffer. An attacker can leverage this vulnerability to execute code in the context of the current process.",
+    "addtionnal_details": "Fuji Electric has issued an update to correct this vulnerability. More details can be found at:https://www.cisa.gov/news-events/ics-advisories/icsa-25-308-01",
+    "timeline": "2025-07-15 - Vulnerability reported to vendor\n2025-12-10 - Coordinated public release of advisory\n2025-12-10 - Advisory Updated",
+    "credit": "Rocco Calvi (@TecR0c) with TecSecurity"
+}

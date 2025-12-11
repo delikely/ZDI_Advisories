@@ -1,0 +1,15 @@
+{
+    "date": "December 10th, 2025",
+    "title": "(0Day) Microsoft Windows TAR File UI Misrepresentation Vulnerability",
+    "ID_1": "ZDI-25-1058",
+    "ID_2": "ZDI-CAN-27311",
+    "cveId": "",
+    "baseScore": "3.3",
+    "vectorString": "AV:L/AC:L/PR:N/UI:R/S:U/C:N/I:L/A:N",
+    "vendors": "Microsoft",
+    "products": "Windows",
+    "description": "This vulnerability allows remote attackers to disguise hard links on affected installations of Microsoft Windows. User interaction is required to exploit this vulnerability in that the target must visit a malicious page or open a malicious file.\nThe specific flaw exists within the rendering of the contents of TAR files. Windows displays hard links within TAR files without providing any visual indication to differentiate them from normal files. An attacker can leverage this vulnerability to deceive a user regarding the trustworthiness of a file.",
+    "addtionnal_details": "07/25/25 - ZDI reported the vulnerability to the vendor07/25/25 – the vendor acknowledged the receipt of the report07/28/25 – the vendor asked for technical details07/28/25 - ZDI provided more information09/16/25 – the vendor communicated that the reported behavior did not meet the bar for immediate servicing11/26/25 – ZDI notified the vendor of the intention to publish the case as a 0-day advisory on 12/10/25\n\n-- Mitigation: Given the nature of the vulnerability, the only salient mitigation strategy is to restrict interaction with the product",
+    "timeline": "2025-07-25 - Vulnerability reported to vendor\n2025-12-10 - Coordinated public release of advisory\n2025-12-10 - Advisory Updated",
+    "credit": "Len Sadowski and Oguz Bektas"
+}

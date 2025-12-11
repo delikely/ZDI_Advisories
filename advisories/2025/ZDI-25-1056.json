@@ -1,0 +1,15 @@
+{
+    "date": "December 10th, 2025",
+    "title": "(0Day) Microsoft ASP.NET SOAP Execution Restriction Bypass Remote Code Execution Vulnerability",
+    "ID_1": "ZDI-25-1056",
+    "ID_2": "ZDI-CAN-27220",
+    "cveId": "",
+    "baseScore": "5.0",
+    "vectorString": "AV:N/AC:H/PR:L/UI:N/S:U/C:L/I:L/A:L",
+    "vendors": "Microsoft",
+    "products": ".NET",
+    "description": "This vulnerability allows remote attackers to execute arbitrary code on affected installations of Microsoft ASP.NET. Authentication may be required to exploit this vulnerability depending upon configuration. Additionally, specific configuration is required.\nThe specific flaw exists within the handling of SOAP web service definitions. A crafted uploaded file can bypass restrictions on code execution. An attacker can leverage this vulnerability to execute code in the context of the service account.",
+    "addtionnal_details": "06/25/25 - ZDI reported the vulnerability to the vendor06/25/25 – the vendor acknowledged the receipt of the report07/01/25 – the vendor communicated that the reported behavior was not a vulnerability11/26/25 – ZDI notified the vendor of the intention to publish the cases as a 0-day advisory on 12/11/25\n\n-- Mitigation: Given the nature of the vulnerability, the only salient mitigation strategy is to restrict interaction with the product.",
+    "timeline": "2025-06-25 - Vulnerability reported to vendor\n2025-12-10 - Coordinated public release of advisory\n2025-12-10 - Advisory Updated",
+    "credit": "Anonymous"
+}

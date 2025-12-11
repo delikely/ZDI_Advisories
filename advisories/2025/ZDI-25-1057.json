@@ -1,0 +1,15 @@
+{
+    "date": "December 10th, 2025",
+    "title": "(0Day) Microsoft Visual Studio VsDevCmd Uncontrolled Search Path Element Remote Code Execution Vulnerability",
+    "ID_1": "ZDI-25-1057",
+    "ID_2": "ZDI-CAN-26574",
+    "cveId": "",
+    "baseScore": "7.8",
+    "vectorString": "AV:L/AC:L/PR:N/UI:R/S:U/C:H/I:H/A:H",
+    "vendors": "Microsoft",
+    "products": "",
+    "description": "This vulnerability allows remote attackers to execute arbitrary code on affected installations of Microsoft Visual Studio. User interaction is required to exploit this vulnerability in that the target must visit a malicious page or open a malicious file.\nThe specific flaw exists within VsDevCmd.bat. The script launches an executable from an unsecured location. An attacker can leverage this vulnerability to execute code in the context of the current user.",
+    "addtionnal_details": "02/19/25 - ZDI reported the vulnerability to the vendor02/19/25 – the vendor acknowledged the receipt of the report03/17/25 – the vendor communicated that the reported behavior was not a vulnerability11/26/25 – ZDI notified the vendor of the intention to publish the case as a 0-day advisory on 12/10/25\n\n-- Mitigation: Given the nature of the vulnerability, the only salient mitigation strategy is to restrict interaction with the product",
+    "timeline": "2025-02-19 - Vulnerability reported to vendor\n2025-12-10 - Coordinated public release of advisory\n2025-12-10 - Advisory Updated",
+    "credit": "Nitesh Surana (@_niteshsurana) & Nelson William Gamazo Sanchez"
+}

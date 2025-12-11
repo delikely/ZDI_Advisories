@@ -1,0 +1,15 @@
+{
+    "date": "December 10th, 2025",
+    "title": "Senstar Symphony FetchStoredLicense Information Disclosure Vulnerability",
+    "ID_1": "ZDI-25-1060",
+    "ID_2": "ZDI-CAN-26908",
+    "cveId": "CVE-2025-12491",
+    "baseScore": "7.5",
+    "vectorString": "AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:N/A:N",
+    "vendors": "",
+    "products": "",
+    "description": "This vulnerability allows remote attackers to disclose sensitive information on affected installations of Senstar Symphony. Authentication is not required to exploit this vulnerability.\nThe specific flaw exists within the implementation of FetchStoredLicense method. The issue results from the exposure of sensitive information. An attacker can leverage this vulnerability to disclose stored credentials, leading to further compromise.",
+    "addtionnal_details": "Fixed in version 8.11 and all previous versions",
+    "timeline": "2025-07-08 - Vulnerability reported to vendor\n2025-12-10 - Coordinated public release of advisory\n2025-12-10 - Advisory Updated",
+    "credit": "Gert Keldermans & Nabeel Ahmed of NTT Belgium"
+}

@@ -1,0 +1,15 @@
+{
+    "date": "December 10th, 2025",
+    "title": "Vim for Windows Uncontrolled Search Path Element Remote Code Execution Vulnerability",
+    "ID_1": "ZDI-25-1059",
+    "ID_2": "ZDI-CAN-28569",
+    "cveId": "CVE-2025-66476",
+    "baseScore": "7.8",
+    "vectorString": "AV:L/AC:L/PR:N/UI:R/S:U/C:H/I:H/A:H",
+    "vendors": "Vim",
+    "products": "Vim",
+    "description": "This vulnerability allows remote attackers to execute arbitrary code on affected installations of Vim for Windows. User interaction is required to exploit this vulnerability in that the target must  open a malicious file and perform one of a set of specific actions in the editor.\nThe specific flaw exists within the launching of external executables from the editor process. The product executes a program from an unsecured location. An attacker can leverage this vulnerability to execute code in the context of current user.",
+    "addtionnal_details": "Vim has issued an update to correct this vulnerability. More details can be found at:https://github.com/vim/vim/security/advisories/GHSA-g77q-xrww-p834",
+    "timeline": "2025-11-19 - Vulnerability reported to vendor\n2025-12-10 - Coordinated public release of advisory\n2025-12-10 - Advisory Updated",
+    "credit": "Simon Zuckerbraun of Trend Zero Day Initiative"
+}
