@@ -1,0 +1,15 @@
+{
+    "date": "December 11th, 2025",
+    "title": "(0Day) Soda PDF Desktop Uncontrolled Search Path Element Local Privilege Escalation Vulnerability",
+    "ID_1": "ZDI-25-1079",
+    "ID_2": "ZDI-CAN-25793",
+    "cveId": "CVE-2025-14406",
+    "baseScore": "7.8",
+    "vectorString": "AV:L/AC:L/PR:L/UI:N/S:U/C:H/I:H/A:H",
+    "vendors": "Soda PDF",
+    "products": "",
+    "description": "This vulnerability allows local attackers to escalate privileges on affected installations of Soda PDF Desktop. An attacker must first obtain the ability to execute low-privileged code on the target system in order to exploit this vulnerability.\nThe specific flaw exists within the configuration of OpenSSL. The product loads an OpenSSL configuration file from an unsecured location. An attacker can leverage this vulnerability to escalate privileges and execute arbitrary code in the context of SYSTEM.",
+    "addtionnal_details": "04/25/25 - ZDI reported the vulnerability to Avanquest’s support team08/11/25 - ZDI asked for updates08/12/25 – the vendor acknowledged that the report was escalated to the proper department11/10/25 - ZDI asked for updates11/21/25 – the vendor indicated that they don't offer bounties or rewards11/21/25 - ZDI confirmed not accepting any rewards or bounties and asked for the expected fix date12/04/25 – ZDI notified the vendor of the intention to publish the case as a 0-day advisory on 12/11/25\n\n-- Mitigation: Given the nature of the vulnerability, the only salient mitigation strategy is to restrict interaction with the product",
+    "timeline": "2025-04-25 - Vulnerability reported to vendor\n2025-12-11 - Coordinated public release of advisory\n2025-12-11 - Advisory Updated",
+    "credit": "Xavier DANEST"
+}

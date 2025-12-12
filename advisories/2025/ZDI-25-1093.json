@@ -1,0 +1,15 @@
+{
+    "date": "December 11th, 2025",
+    "title": "(0Day) PDFsam Enhanced Uncontrolled Search Path Element Local Privilege Escalation Vulnerability",
+    "ID_1": "ZDI-25-1093",
+    "ID_2": "ZDI-CAN-27867",
+    "cveId": "CVE-2025-14405",
+    "baseScore": "6.6",
+    "vectorString": "AV:P/AC:L/PR:L/UI:N/S:U/C:H/I:H/A:H",
+    "vendors": "PDFsam",
+    "products": "Enhanced",
+    "description": "This vulnerability allows phyiscally-present attackers to escalate privileges on affected installations of PDFsam Enhanced. An attacker must first obtain the ability to mount a malicious drive onto the target system in order to exploit this vulnerability.\nThe specific flaw exists within the configuration of OpenSSL. The product loads an OpenSSL configuration file from an unsecured location. An attacker can leverage this vulnerability to escalate privileges and execute arbitrary code in the context of SYSTEM.",
+    "addtionnal_details": "08/14/25 - ZDI reported the vulnerability to the vendor08/15/25 – the vendor acknowledged the receipt of the report09/23/25 - ZDI asked for updates11/10/25 - ZDI asked for updates12/04/25 – ZDI notified the vendor of the intention to publish the case as a 0-day advisory on 12/11/25 -- Mitigation: Given the nature of the vulnerability, the only salient mitigation strategy is to restrict interaction with the product",
+    "timeline": "2025-08-14 - Vulnerability reported to vendor\n2025-12-11 - Coordinated public release of advisory\n2025-12-11 - Advisory Updated",
+    "credit": "Xavier DANEST"
+}
