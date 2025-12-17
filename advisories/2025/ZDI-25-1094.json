@@ -1,0 +1,15 @@
+{
+    "date": "December 16th, 2025",
+    "title": "Fortinet FortiWeb ApacheCookie_parse Improper Verification of Cryptographic Signature Authentication Bypass Vulnerability",
+    "ID_1": "ZDI-25-1094",
+    "ID_2": "ZDI-CAN-28211",
+    "cveId": "CVE-2025-64447",
+    "baseScore": "8.1",
+    "vectorString": "AV:N/AC:H/PR:N/UI:N/S:U/C:H/I:H/A:H",
+    "vendors": "",
+    "products": "FortiWeb",
+    "description": "This vulnerability allows remote attackers to bypass authentication on affected installations of Fortinet FortiWeb. Authentication is not required to exploit this vulnerability.\nThe specific flaw exists within the ApacheCookie_parse method. The issue results from the lack of proper verification of a cryptographic signature. An attacker can leverage this vulnerability to bypass authentication on the system.",
+    "addtionnal_details": "Fortinet has issued an update to correct this vulnerability. More details can be found at:https://fortiguard.fortinet.com/psirt/FG-IR-25-945",
+    "timeline": "2025-10-10 - Vulnerability reported to vendor\n2025-12-16 - Coordinated public release of advisory\n2025-12-16 - Advisory Updated",
+    "credit": "Jason McFadyen of Trend Research"
+}
