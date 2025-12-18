@@ -1,0 +1,15 @@
+{
+    "date": "December 17th, 2025",
+    "title": "Trend Micro Cleaner One Pro Link Following Local Privilege Escalation Vulnerability",
+    "ID_1": "ZDI-25-1125",
+    "ID_2": "ZDI-CAN-27644",
+    "cveId": "CVE-2025-53503",
+    "baseScore": "7.3",
+    "vectorString": "AV:L/AC:L/PR:L/UI:R/S:U/C:H/I:H/A:H",
+    "vendors": "Trend Micro",
+    "products": "",
+    "description": "This vulnerability allows local attackers to escalate privileges on affected installations of Trend Micro Cleaner One Pro. An attacker must first obtain the ability to execute low-privileged code on the target system in order to exploit this vulnerability.\nThe specific flaw exists within the Junk Files Cleanup functionality. By creating a junction, an attacker can abuse the service to delete arbitrary files. An attacker can leverage this vulnerability to escalate privileges and execute arbitrary code in the context of SYSTEM.",
+    "addtionnal_details": "Trend Micro has issued an update to correct this vulnerability. More details can be found at:https://helpcenter.trendmicro.com/en-us/article/tmka-12951",
+    "timeline": "2025-08-14 - Vulnerability reported to vendor\n2025-12-17 - Coordinated public release of advisory\n2025-12-17 - Advisory Updated",
+    "credit": "Zeze and Sharkkcode with TeamT5"
+}

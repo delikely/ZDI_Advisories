@@ -1,0 +1,15 @@
+{
+    "date": "December 17th, 2025",
+    "title": "Sante PACS Server HTTP Content-Length Header Handling NULL Pointer Dereference Denial-of-Service Vulnerability",
+    "ID_1": "ZDI-25-1104",
+    "ID_2": "ZDI-CAN-26770",
+    "cveId": "CVE-2025-14501",
+    "baseScore": "7.5",
+    "vectorString": "AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H",
+    "vendors": "Sante",
+    "products": "PACS Server",
+    "description": "This vulnerability allows remote attackers to create a denial-of-service condition on affected installations of Sante PACS Server. Authentication is not required to exploit this vulnerability.\nThe specific flaw exists within the handling of HTTP Content-Length header. The issue results from the lack of proper validation of a pointer prior to accessing it. An attacker can leverage this vulnerability to create a denial-of-service condition on the system.",
+    "addtionnal_details": "Fixed in version 4.2.3",
+    "timeline": "2025-06-12 - Vulnerability reported to vendor\n2025-12-17 - Coordinated public release of advisory\n2025-12-17 - Advisory Updated",
+    "credit": "Artur Mattern"
+}
