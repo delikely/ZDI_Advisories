@@ -1,0 +1,15 @@
+{
+    "date": "December 19th, 2025",
+    "title": "RealDefense SUPERAntiSpyware Exposed Dangerous Function Local Privilege Escalation Vulnerability",
+    "ID_1": "ZDI-25-1165",
+    "ID_2": "ZDI-CAN-27658",
+    "cveId": "CVE-2025-14489",
+    "baseScore": "7.8",
+    "vectorString": "AV:L/AC:L/PR:L/UI:N/S:U/C:H/I:H/A:H",
+    "vendors": "RealDefense",
+    "products": "SUPERAntiSpyware",
+    "description": "This vulnerability allows local attackers to escalate privileges on affected installations of RealDefense SUPERAntiSpyware. An attacker must first obtain the ability to execute low-privileged code on the target system in order to exploit this vulnerability.\nThe specific flaw exists within the SAS Core Service. The issue results from an exposed dangerous function. An attacker can leverage this vulnerability to escalate privileges and execute arbitrary code in the context of SYSTEM.",
+    "addtionnal_details": "Fixed in version 10.0.1280https://secure.superantispyware.com/content/producthistory.html",
+    "timeline": "2025-09-04 - Vulnerability reported to vendor\n2025-12-19 - Coordinated public release of advisory\n2025-12-19 - Advisory Updated",
+    "credit": "gongjae"
+}
