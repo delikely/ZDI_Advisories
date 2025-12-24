@@ -1,0 +1,15 @@
+{
+    "date": "December 23rd, 2025",
+    "title": "LibreNMS Alert Rule API Cross-Site Scripting Vulnerability",
+    "ID_1": "ZDI-25-1182",
+    "ID_2": "ZDI-CAN-28575",
+    "cveId": "CVE-2025-68614",
+    "baseScore": "4.3",
+    "vectorString": "AV:N/AC:L/PR:H/UI:R/S:U/C:L/I:L/A:L",
+    "vendors": "LibreNMS",
+    "products": "LibreNMS",
+    "description": "This vulnerability allows remote attackers to execute arbitrary script on affected installations of LibreNMS. Authentication is required to exploit this vulnerability.\nThe specific flaw exists within the handling of the name parameter provided to the rules endpoint. The issue results from the lack of proper validation of user-supplied data, which can lead to the injection of arbitrary script. An attacker can leverage this vulnerability to execute script in the context of a target user.",
+    "addtionnal_details": "LibreNMS has issued an update to correct this vulnerability. More details can be found at:https://github.com/librenms/librenms/security/advisories/GHSA-c89f-8g7g-59wj",
+    "timeline": "2025-11-18 - Vulnerability reported to vendor\n2025-12-23 - Coordinated public release of advisory\n2025-12-23 - Advisory Updated",
+    "credit": "Simon Humbert of Trend Research"
+}
