@@ -1,0 +1,15 @@
+{
+    "date": "December 29th, 2025",
+    "title": "Trimble SketchUp SKP File Parsing Use-After-Free Remote Code Execution Vulnerability",
+    "ID_1": "ZDI-25-1198",
+    "ID_2": "ZDI-CAN-27769",
+    "cveId": "CVE-2025-15062",
+    "baseScore": "7.8",
+    "vectorString": "AV:L/AC:L/PR:N/UI:R/S:U/C:H/I:H/A:H",
+    "vendors": "Trimble",
+    "products": "SketchUp",
+    "description": "This vulnerability allows remote attackers to execute arbitrary code on affected installations of Trimble SketchUp. User interaction is required to exploit this vulnerability in that the target must visit a malicious page or open a malicious file.\nThe specific flaw exists within the parsing of SKP files. The issue results from the lack of validating the existence of an object prior to performing operations on the object. An attacker can leverage this vulnerability to execute code in the context of the current process.",
+    "addtionnal_details": "Fixed in SketchUp 2026 version 26.0.429",
+    "timeline": "2025-07-31 - Vulnerability reported to vendor\n2025-12-29 - Coordinated public release of advisory\n2025-12-29 - Advisory Updated",
+    "credit": "Kevin Salapatek of Trend Research"
+}

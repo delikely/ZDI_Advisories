@@ -1,0 +1,15 @@
+{
+    "date": "December 29th, 2025",
+    "title": "(0Day) FontForge SFD File Parsing Heap-based Buffer Overflow Remote Code Execution Vulnerability",
+    "ID_1": "ZDI-25-1192",
+    "ID_2": "ZDI-CAN-28547",
+    "cveId": "CVE-2025-15272",
+    "baseScore": "8.8",
+    "vectorString": "AV:N/AC:L/PR:N/UI:R/S:U/C:H/I:H/A:H",
+    "vendors": "FontForge",
+    "products": "FontForge",
+    "description": "This vulnerability allows remote attackers to execute arbitrary code on affected installations of FontForge. User interaction is required to exploit this vulnerability in that the target must visit a malicious page or open a malicious file.\nThe specific flaw exists within the parsing of SFD files. The issue results from the lack of proper validation of the length of user-supplied data prior to copying it to a heap-based buffer. An attacker can leverage this vulnerability to execute code in the context of the current user.",
+    "addtionnal_details": "12/12/25 - ZDI submitted the reports to the vendor via third-party platform 12/13/25 - ZDI reached out to the vendor’s GitHub account12/13/24 –  the vendor rejected the vulnerability, stating that only pull requests that include the required fixes will be considered12/15/25 – ZDI notified the vendor of the intention to publish the case as a 0-day advisory on 12/29/25\n\n-- Mitigation: Given the nature of the vulnerability, the only salient mitigation strategy is to restrict interaction with the product",
+    "timeline": "2025-12-12 - Vulnerability reported to vendor\n2025-12-29 - Coordinated public release of advisory\n2025-12-29 - Advisory Updated",
+    "credit": "Anonymous"
+}
