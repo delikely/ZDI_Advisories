@@ -1,0 +1,15 @@
+{
+    "date": "December 30th, 2025",
+    "title": "(0Day) Anritsu ShockLine SCPI Race Condition Remote Code Execution Vulnerability",
+    "ID_1": "ZDI-25-1200",
+    "ID_2": "ZDI-CAN-27315",
+    "cveId": "CVE-2025-15349",
+    "baseScore": "7.5",
+    "vectorString": "AV:A/AC:H/PR:N/UI:N/S:U/C:H/I:H/A:H",
+    "vendors": "Anritsu",
+    "products": "ShockLine",
+    "description": "This vulnerability allows network-adjacent attackers to execute arbitrary code on affected installations of Anritsu ShockLine. Authentication is not required to exploit this vulnerability.\nThe specific flaw exists within the SCPI component. The issue results from the lack of proper locking when performing operations on an object. An attacker can leverage this vulnerability to execute code in the context of the current process.",
+    "addtionnal_details": "07/15/25 – ZDI submitted the report to the vendor09/11/25 – ZDI asked for updates09/12/25 – the vendor acknowledged the receipt of the report10/10/25 – ZDI asked for the fix12/10/25 – ZDI notified the vendor of the intention to publish the case as a 0-day advisory on 12/30/25\n\n-- Mitigation: Given the nature of the vulnerability, the only salient mitigation strategy is to restrict interaction with the product",
+    "timeline": "2025-07-15 - Vulnerability reported to vendor\n2025-12-30 - Coordinated public release of advisory\n2025-12-30 - Advisory Updated",
+    "credit": "kimiya"
+}
