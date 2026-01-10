@@ -1,0 +1,15 @@
+{
+    "date": "January 9th, 2026",
+    "title": "(0Day) WatchYourLAN Configuration Page Argument Injection Remote Code Execution Vulnerability",
+    "ID_1": "ZDI-26-039",
+    "ID_2": "ZDI-CAN-26708",
+    "cveId": "CVE-2026-0774",
+    "baseScore": "8.8",
+    "vectorString": "AV:A/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:H",
+    "vendors": "WatchYourLAN",
+    "products": "WatchYourLAN",
+    "description": "This vulnerability allows network-adjacent attackers to execute arbitrary code on affected installations of WatchYourLAN. Authentication is not required to exploit this vulnerability.\nThe specific flaw exists within the handling of the arpstrs parameter. The issue results from the lack of proper validation of a user-supplied string before using it to execute a system call. An attacker can leverage this vulnerability to execute code in the context of the service account.",
+    "addtionnal_details": "06/19/25– ZDI submitted the report to the vendor07/04/25 – ZDI asked to confirm the receipt of the report11/06/25 – ZDI asked for updates12/10/25 – ZDI notified the vendor of the intention to publish the case as a  0-day advisory\n\n-- Mitigation: Given the nature of the vulnerability, the only salient mitigation strategy is to restrict interaction with the product",
+    "timeline": "2025-06-19 - Vulnerability reported to vendor\n2026-01-09 - Coordinated public release of advisory\n2026-01-09 - Advisory Updated",
+    "credit": "x.com/xnand_"
+}

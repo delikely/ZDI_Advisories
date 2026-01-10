@@ -1,0 +1,15 @@
+{
+    "date": "January 9th, 2026",
+    "title": "(0Day) Langflow eval_custom_component_code Eval Injection Remote Code Execution Vulnerability",
+    "ID_1": "ZDI-26-035",
+    "ID_2": "ZDI-CAN-26972",
+    "cveId": "CVE-2026-0769",
+    "baseScore": "9.8",
+    "vectorString": "AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:H",
+    "vendors": "Langflow",
+    "products": "Langflow",
+    "description": "This vulnerability allows remote attackers to execute arbitrary code on affected installations of Langflow. Authentication is not required to exploit this vulnerability.\nThe specific flaw exists within the implementation of eval_custom_component_code function. The issue results from the lack of proper validation of a user-supplied string before using it to execute python code. An attacker can leverage this vulnerability to execute code in the context of the current process.",
+    "addtionnal_details": "07/18/25 – ZDI submitted the report to the vendor’s GitHub account09/11/25 – ZDI asked for updates10/10/25 – ZDI asked for the fix12/10/25 – ZDI notified the vendor of the intention to publish the case as a 0-day advisory\n\n-- Mitigation: Given the nature of the vulnerability, the only salient mitigation strategy is to restrict interaction with the product",
+    "timeline": "2025-07-18 - Vulnerability reported to vendor\n2026-01-09 - Coordinated public release of advisory\n2026-01-09 - Advisory Updated",
+    "credit": "Peter Girnus (@gothburz) of Trend Zero Day Initiative"
+}

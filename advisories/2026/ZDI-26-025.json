@@ -1,0 +1,15 @@
+{
+    "date": "January 9th, 2026",
+    "title": "(0Day) Katana Network Development Starter Kit executeCommand Command Injection Remote Code Execution Vulnerability",
+    "ID_1": "ZDI-26-025",
+    "ID_2": "ZDI-CAN-27786",
+    "cveId": "CVE-2026-0759",
+    "baseScore": "9.8",
+    "vectorString": "AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:H",
+    "vendors": "Katana Network",
+    "products": "Development Starter Kit",
+    "description": "This vulnerability allows remote attackers to execute arbitrary code on affected installations of Katana Network Development Starter Kit. Authentication is not required to exploit this vulnerability.\nThe specific flaw exists within the implementation of the executeCommand method. The issue results from the lack of proper validation of a user-supplied string before using it to execute a system call. An attacker can leverage this vulnerability to execute code in the context of the service account.",
+    "addtionnal_details": "08/11/25 – ZDI requested the vendor’s PSIRT contacts in a GitHub issue08/11/25 – the vendor provided their contacts08/14/25 – ZDI submitted the report to the vendor08/21/25 – the vendor confirmed that their project was not affected by the reported issue12/14/25 – ZDI communicated disagreement with vendor's assessment12/17/25 – ZDI notified the vendor of the intention to publish the case as a 0-day advisory\n\n-- Mitigation: Given the nature of the vulnerability, the only salient mitigation strategy is to restrict interaction with the product",
+    "timeline": "2025-08-14 - Vulnerability reported to vendor\n2026-01-09 - Coordinated public release of advisory\n2026-01-09 - Advisory Updated",
+    "credit": "Peter Girnus (@gothburz) of Trend Research"
+}

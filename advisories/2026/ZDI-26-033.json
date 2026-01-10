@@ -1,0 +1,15 @@
+{
+    "date": "January 9th, 2026",
+    "title": "(0Day) Open WebUI Cleartext Transmission of Credentials Information Disclosure Vulnerability",
+    "ID_1": "ZDI-26-033",
+    "ID_2": "ZDI-CAN-28259",
+    "cveId": "CVE-2026-0767",
+    "baseScore": "5.3",
+    "vectorString": "AV:A/AC:H/PR:N/UI:N/S:U/C:H/I:N/A:N",
+    "vendors": "Open WebUI",
+    "products": "Open WebUI",
+    "description": "This vulnerability allows network-adjacent attackers to disclose sensitive information on affected installations of Open WebUI. Authentication is not required to exploit this vulnerability.\nThe specific flaw exists within the handling of credentials provided to the endpoint. The issue results from transmitting sensitive information in plaintext. An attacker can leverage this vulnerability to disclose transmitted credentials, leading to further compromise.",
+    "addtionnal_details": "10/09/25 – ZDI submitted the report to the vendor’s GitHub account10/10/25 – the vendor closed the report10/15/25 – ZDI asked for the reason11/10/25 – ZDI asked for the fix12/10/25 – ZDI notified the vendor of the intention to publish the case as a  0-day advisory\n\n-- Mitigation: Given the nature of the vulnerability, the only salient mitigation strategy is to restrict interaction with the product",
+    "timeline": "2025-10-09 - Vulnerability reported to vendor\n2026-01-09 - Coordinated public release of advisory\n2026-01-09 - Advisory Updated",
+    "credit": "Peter Girnus (@gothburz), Brandon Niemczyk of Trend Zero Day Initiative"
+}

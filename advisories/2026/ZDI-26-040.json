@@ -1,0 +1,15 @@
+{
+    "date": "January 9th, 2026",
+    "title": "(0Day) Discord Client Uncontrolled Search Path Element Local Privilege Escalation Vulnerability",
+    "ID_1": "ZDI-26-040",
+    "ID_2": "ZDI-CAN-27057",
+    "cveId": "CVE-2026-0776",
+    "baseScore": "7.3",
+    "vectorString": "AV:L/AC:L/PR:L/UI:R/S:U/C:H/I:H/A:H",
+    "vendors": "Discord",
+    "products": "Client",
+    "description": "This vulnerability allows local attackers to escalate privileges on affected installations of Discord Client. An attacker must first obtain the ability to execute low-privileged code on the target system in order to exploit this vulnerability.\nThe specific flaw exists within the discord_rpc module. The product loads a file from an unsecured location. An attacker can leverage this vulnerability to escalate privileges and execute arbitrary code in the context of a target user.",
+    "addtionnal_details": "07/08/25- ZDI submitted the report to the vendor09/11/25 – ZDI asked to confirm the receipt of the report09/15/25 – the vendor communicated that the reported behavior was not a vulnerability 12/01/25 – ZDI provided more information about the impact of the security issue 12/10/25 - ZDI asked for updates12/11/25 - The vendor indicated that reported issue was out of scope for their bug bounty program12/11/25 – ZDI notified the vendor of the intention to publish the case as a  0-day advisory\n\n-- Mitigation: Given the nature of the vulnerability, the only salient mitigation strategy is to restrict interaction with the product",
+    "timeline": "2025-07-08 - Vulnerability reported to vendor\n2026-01-09 - Coordinated public release of advisory\n2026-01-09 - Advisory Updated",
+    "credit": "T. Doğa Gelişli"
+}
