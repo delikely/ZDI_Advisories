@@ -1,0 +1,15 @@
+{
+    "date": "January 12th, 2026",
+    "title": "(0Day) npm cli Incorrect Permission Assignment Local Privilege Escalation Vulnerability",
+    "ID_1": "ZDI-26-043",
+    "ID_2": "ZDI-CAN-25430",
+    "cveId": "CVE-2026-0775",
+    "baseScore": "7.0",
+    "vectorString": "AV:L/AC:H/PR:L/UI:N/S:U/C:H/I:H/A:H",
+    "vendors": "npm",
+    "products": "cli",
+    "description": "This vulnerability allows local attackers to escalate privileges on affected installations of npm cli. An attacker must first obtain the ability to execute low-privileged code on the target system in order to exploit this vulnerability.\nThe specific flaw exists within the handling of modules. The application loads modules from an unsecured location. An attacker can leverage this vulnerability to escalate privileges and execute arbitrary code in the context of a target user.",
+    "addtionnal_details": "11/13/24 - ZDI submitted the report to the vendor11/13/24 – the vendor acknowledged the receipt of the report11/13/24 – the vendor communicated that the reported behavior was by design08/05/25 – ZDI encouraged the vendor to re-assess the issue 12/18/25 – ZDI notified the vendor of the intention to publish the case as a  0-day advisory\n\n-- Mitigation: Given the nature of the vulnerability, the only salient mitigation strategy is to restrict interaction with the product",
+    "timeline": "2024-11-13 - Vulnerability reported to vendor\n2026-01-12 - Coordinated public release of advisory\n2026-01-12 - Advisory Updated",
+    "credit": "Anonymous"
+}
