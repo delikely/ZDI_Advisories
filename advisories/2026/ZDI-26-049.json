@@ -1,0 +1,15 @@
+{
+    "date": "January 28th, 2026",
+    "title": "Delta Electronics DIAView Exposed Dangerous Method Remote Code Execution Vulnerability",
+    "ID_1": "ZDI-26-049",
+    "ID_2": "ZDI-CAN-27093",
+    "cveId": "CVE-2026-0975",
+    "baseScore": "7.8",
+    "vectorString": "AV:L/AC:L/PR:N/UI:R/S:U/C:H/I:H/A:H",
+    "vendors": "Delta Electronics",
+    "products": "DIAView",
+    "description": "This vulnerability allows remote attackers to execute arbitrary code on affected installations of Delta Electronics DIAView. User interaction is required to exploit this vulnerability in that the target must open and run a malicious project.\nThe specific flaw exists within the DIAView script component. The issue results from the lack of restrictions on script in DIAView projects. An attacker can leverage this vulnerability to execute code in the context of the current process.",
+    "addtionnal_details": "Delta Electronics has issued an update to correct this vulnerability. More details can be found at:https://www.cisa.gov/news-events/ics-advisories/icsa-26-022-07",
+    "timeline": "2025-06-09 - Vulnerability reported to vendor\n2026-01-28 - Coordinated public release of advisory\n2026-01-28 - Advisory Updated",
+    "credit": "Anonymous"
+}

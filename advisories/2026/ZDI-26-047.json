@@ -1,0 +1,15 @@
+{
+    "date": "January 28th, 2026",
+    "title": "Hancom Office DOC File Parsing Type Confusion Remote Code Execution Vulnerability",
+    "ID_1": "ZDI-26-047",
+    "ID_2": "ZDI-CAN-26620",
+    "cveId": "CVE-2025-29867",
+    "baseScore": "7.8",
+    "vectorString": "AV:L/AC:L/PR:N/UI:R/S:U/C:H/I:H/A:H",
+    "vendors": "",
+    "products": "Office",
+    "description": "This vulnerability allows remote attackers to execute arbitrary code on affected installations of Hancom Office. User interaction is required to exploit this vulnerability in that the target must visit a malicious page or open a malicious file.\nThe specific flaw exists within the parsing of DOC files. The issue results from the lack of proper validation of user-supplied data, which can result in a type confusion condition. An attacker can leverage this vulnerability to execute code in the context of the current process.",
+    "addtionnal_details": "Fixed in Word Version: 11.0.0.8916",
+    "timeline": "2025-08-14 - Vulnerability reported to vendor\n2026-01-28 - Coordinated public release of advisory\n2026-01-28 - Advisory Updated",
+    "credit": "rgod"
+}
