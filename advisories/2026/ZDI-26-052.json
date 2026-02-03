@@ -1,0 +1,15 @@
+{
+    "date": "February 2nd, 2026",
+    "title": "Progress Software Kemp LoadMaster getcipherset Command Injection Remote Code Execution Vulnerability",
+    "ID_1": "ZDI-26-052",
+    "ID_2": "ZDI-CAN-27593",
+    "cveId": "CVE-2025-13444",
+    "baseScore": "7.1",
+    "vectorString": "AV:A/AC:H/PR:L/UI:N/S:U/C:H/I:H/A:H",
+    "vendors": "Progress Software",
+    "products": "",
+    "description": "This vulnerability allows network-adjacent attackers to execute arbitrary code on affected installations of Progress Software Kemp LoadMaster. Authentication is required to exploit this vulnerability.\nThe specific flaw exists within the handling of user data passed to the getcipherset command. The issue results from the lack of proper validation of a user-supplied string before using it to execute a system call. An attacker can leverage this vulnerability to execute code in the context of the bal user.",
+    "addtionnal_details": "Progress Software has issued an update to correct this vulnerability. More details can be found at:https://docs.progress.com/bundle/release-notes_loadmaster-7-2-62-2/page/Security-Updates.html",
+    "timeline": "2025-10-29 - Vulnerability reported to vendor\n2026-02-02 - Coordinated public release of advisory\n2026-02-02 - Advisory Updated",
+    "credit": "Alex Williams from Converge Technology Solutions"
+}
