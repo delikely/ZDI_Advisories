@@ -1,0 +1,15 @@
+{
+    "date": "February 3rd, 2026",
+    "title": "CyberArk Endpoint Privilege Management Improper Privilege Management Local Privilege Escalation Vulnerability",
+    "ID_1": "ZDI-26-059",
+    "ID_2": "ZDI-CAN-26000",
+    "cveId": "CVE-2025-63374",
+    "baseScore": "7.0",
+    "vectorString": "AV:L/AC:H/PR:L/UI:N/S:U/C:H/I:H/A:H",
+    "vendors": "",
+    "products": "",
+    "description": "This vulnerability allows local attackers to escalate privileges on affected installations of CyberArk Endpoint Privilege Management. An attacker must first obtain a low-privileged interactive user session on the target system in order to exploit this vulnerability.\nThe specific flaw exists within the CyberArk EPM agent. When allowing a low-privileged user to perform permitted administrative activities, the agent does not properly circumscribe the user's actions. An attacker can leverage this vulnerability to escalate privileges and arbitrary execute code in the context of an administrator at high integrity.",
+    "addtionnal_details": "Fixed in version 25.12",
+    "timeline": "2025-09-12 - Vulnerability reported to vendor\n2026-02-03 - Coordinated public release of advisory\n2026-02-03 - Advisory Updated",
+    "credit": "Nikolett Sipos & Nabeel Ahmed from NTT Belgium"
+}
