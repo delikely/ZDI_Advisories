@@ -1,0 +1,15 @@
+{
+    "date": "February 4th, 2026",
+    "title": "NVIDIA Triton Inference Server EVBufferToJson Uncaught Exception Denial-of-Service Vulnerability",
+    "ID_1": "ZDI-26-061",
+    "ID_2": "ZDI-CAN-26889",
+    "cveId": "CVE-2025-33201",
+    "baseScore": "7.5",
+    "vectorString": "AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H",
+    "vendors": "NVIDIA",
+    "products": "Triton Inference Server",
+    "description": "This vulnerability allows remote attackers to create a denial-of-service condition on affected installations of NVIDIA Triton Inference Server. Authentication is not required to exploit this vulnerability.\nThe specific flaw exists within the EVBufferToJson method. The issue results from the lack of proper validation of user-supplied data, which can result in an uncaught exception. An attacker can leverage this vulnerability to create a denial-of-service condition on the system.",
+    "addtionnal_details": "NVIDIA has issued an update to correct this vulnerability. More details can be found at:https://nvidia.custhelp.com/app/answers/detail/a_id/5734",
+    "timeline": "2025-09-19 - Vulnerability reported to vendor\n2026-02-04 - Coordinated public release of advisory\n2026-02-04 - Advisory Updated",
+    "credit": "Tyler Zars and Rob Blakely of the Technical Debt Collectors"
+}
