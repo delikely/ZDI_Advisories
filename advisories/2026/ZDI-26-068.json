@@ -1,0 +1,15 @@
+{
+    "date": "February 5th, 2026",
+    "title": "Docker Desktop for Windows Incorrect Permission Assignment Privilege Escalation Vulnerability",
+    "ID_1": "ZDI-26-068",
+    "ID_2": "ZDI-CAN-28542",
+    "cveId": "CVE-2025-14740",
+    "baseScore": "6.7",
+    "vectorString": "AV:L/AC:H/PR:L/UI:R/S:U/C:H/I:H/A:H",
+    "vendors": "Docker",
+    "products": "Desktop",
+    "description": "This vulnerability allows local attackers to escalate privileges on affected installations of Docker Desktop for Windows. User interaction on the part of an administrator is required to exploit this vulnerability.\nThe specific flaw exists within the product installer. The issue results from incorrect permissions on a folder. An attacker can leverage this vulnerability to escalate privileges and execute arbitrary code in the context of a target user.",
+    "addtionnal_details": "Fixed in version 4.57.0https://docs.docker.com/desktop/release-notes/",
+    "timeline": "2025-11-14 - Vulnerability reported to vendor\n2026-02-05 - Coordinated public release of advisory\n2026-02-05 - Advisory Updated",
+    "credit": "Nitesh Surana (niteshsurana.com) and Amol Dosanjh of Trend Research"
+}
