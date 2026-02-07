@@ -1,0 +1,15 @@
+{
+    "date": "February 6th, 2026",
+    "title": "(0Day) Xmind Attachment Insufficient UI Warning Remote Code Execution Vulnerability",
+    "ID_1": "ZDI-26-069",
+    "ID_2": "ZDI-CAN-26034",
+    "cveId": "CVE-2026-0777",
+    "baseScore": "7.8",
+    "vectorString": "AV:L/AC:L/PR:N/UI:R/S:U/C:H/I:H/A:H",
+    "vendors": "Xmind",
+    "products": "",
+    "description": "This vulnerability allows remote attackers to execute arbitrary code on affected installations of Xmind. User interaction is required to exploit this vulnerability in that the target must visit a malicious page or open a malicious file.\nThe specific flaw exists within the handling of attachments. When opening an attachment, the user interface fails to warn the user of unsafe actions. An attacker can leverage this vulnerability to execute code in the context of current user.",
+    "addtionnal_details": "09/22/25 – ZDI submitted the report to the vendor09/24/25 – ZDI asked to confirm the receipt of the report11/11/25 – ZDI asked for updates12/10/25 – ZDI notified the vendor of the intention to publish the case as a  0-day advisory\n\n-- Mitigation: Given the nature of the vulnerability, the only salient mitigation strategy is to restrict interaction with the product",
+    "timeline": "2025-03-11 - Vulnerability reported to vendor\n2026-02-06 - Coordinated public release of advisory\n2026-02-06 - Advisory Updated",
+    "credit": "AspiringYoungMan"
+}
