@@ -1,0 +1,15 @@
+{
+    "date": "February 12th, 2026",
+    "title": "Microsoft Exchange InterceptorSmtpAgent Reliance on Untrusted Inputs Security Feature Bypass Vulnerability",
+    "ID_1": "ZDI-26-082",
+    "ID_2": "ZDI-CAN-28410",
+    "cveId": "CVE-2026-21527",
+    "baseScore": "5.3",
+    "vectorString": "AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:L/A:N",
+    "vendors": "Microsoft",
+    "products": "",
+    "description": "This vulnerability allows remote attackers to bypass a security feature on affected installations of Microsoft Exchange. Authentication is not required to exploit this vulnerability.\nThe specific flaw exists within the InterceptorSmtpAgent class. The issue results from the improper handling of SMTP headers. An attacker can leverage this vulnerability to bypass a security feature offered by the product.",
+    "addtionnal_details": "Microsoft has issued an update to correct this vulnerability. More details can be found at:https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-21527",
+    "timeline": "2025-11-14 - Vulnerability reported to vendor\n2026-02-12 - Coordinated public release of advisory\n2026-02-12 - Advisory Updated",
+    "credit": "Vladislav Berghici of TrendAI Research"
+}
