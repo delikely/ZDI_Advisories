@@ -1,0 +1,15 @@
+{
+    "date": "February 19th, 2026",
+    "title": "TensorFlow HDF5 Library Uncontrolled Search Path Element Local Privilege Escalation Vulnerability",
+    "ID_1": "ZDI-26-116",
+    "ID_2": "ZDI-CAN-25480",
+    "cveId": "CVE-2026-2492",
+    "baseScore": "7.0",
+    "vectorString": "AV:L/AC:H/PR:L/UI:N/S:U/C:H/I:H/A:H",
+    "vendors": "TensorFlow",
+    "products": "",
+    "description": "This vulnerability allows local attackers to escalate privileges on affected installations of TensorFlow. An attacker must first obtain the ability to execute low-privileged code on the target system in order to exploit this vulnerability.\nThe specific flaw exists within the handling of plugins. The application loads plugins from an unsecured location. An attacker can leverage this vulnerability to escalate privileges and execute arbitrary code in the context of a target user.",
+    "addtionnal_details": "TensorFlow has issued an update to correct this vulnerability. More details can be found at:https://github.com/tensorflow/tensorflow/commit/46e7f7fb144fd11cf6d17c23dd47620328d77082",
+    "timeline": "2025-03-11 - Vulnerability reported to vendor\n2026-02-19 - Coordinated public release of advisory\n2026-02-19 - Advisory Updated",
+    "credit": "Anonymous"
+}

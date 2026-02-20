@@ -1,0 +1,15 @@
+{
+    "date": "February 19th, 2026",
+    "title": "RustDesk Client for Windows Transfer File Link Following Information Disclosure Vulnerability",
+    "ID_1": "ZDI-26-117",
+    "ID_2": "ZDI-CAN-27909",
+    "cveId": "CVE-2026-2490",
+    "baseScore": "5.5",
+    "vectorString": "AV:L/AC:L/PR:L/UI:N/S:U/C:H/I:N/A:N",
+    "vendors": "RustDesk",
+    "products": "",
+    "description": "This vulnerability allows local attackers to disclose sensitive information on affected installations of RustDesk Client for Windows. An attacker must first obtain the ability to execute low-privileged code on the target system in order to exploit this vulnerability.\nThe specific flaw exists within the Transfer File feature. By uploading a symbolic link, an attacker can abuse the service to read arbitrary files. An attacker can leverage this vulnerability to disclose information in the context of SYSTEM.",
+    "addtionnal_details": "RustDesk has issued an update to correct this vulnerability. More details can be found at:https://github.com/rustdesk/rustdesk/pull/13736",
+    "timeline": "2025-09-11 - Vulnerability reported to vendor\n2026-02-19 - Coordinated public release of advisory\n2026-02-19 - Advisory Updated",
+    "credit": "mad31k"
+}
