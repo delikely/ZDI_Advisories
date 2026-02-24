@@ -1,0 +1,15 @@
+{
+    "date": "February 23rd, 2026",
+    "title": "Docker Desktop MCP Server Cleartext Storage of Sensitive Information Vulnerability",
+    "ID_1": "ZDI-26-123",
+    "ID_2": "ZDI-CAN-27562",
+    "cveId": "",
+    "baseScore": "5.5",
+    "vectorString": "AV:L/AC:L/PR:L/UI:N/S:U/C:H/I:N/A:N",
+    "vendors": "Docker",
+    "products": "Desktop",
+    "description": "This vulnerability allows local attackers to disclose sensitive information on affected installations of Docker Desktop. An attacker must first obtain the ability to execute low-privileged code on the target system in order to exploit this vulnerability.\nThe specific flaw exists within the configuration of the MCP server. The issue results from storing sensitive information in plaintext. An attacker can leverage this vulnerability to disclose stored credentials, leading to further compromise.",
+    "addtionnal_details": "https://github.com/docker/mcp-gateway/pull/247According to the vendor, the issue impacts a beta version and a CVE will not be assigned.",
+    "timeline": "2025-07-09 - Vulnerability reported to vendor\n2026-02-23 - Coordinated public release of advisory\n2026-02-23 - Advisory Updated",
+    "credit": "David Fiser and Alfredo Oliveira of Trend Research"
+}
