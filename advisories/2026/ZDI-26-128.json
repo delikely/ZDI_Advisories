@@ -1,0 +1,15 @@
+{
+    "date": "February 25th, 2026",
+    "title": "(Pwn2Own) Ubiquiti Networks AI Pro Uncaught Exception Denial-of-Service Vulnerability",
+    "ID_1": "ZDI-26-128",
+    "ID_2": "ZDI-CAN-28824",
+    "cveId": "CVE-2026-21634",
+    "baseScore": "6.5",
+    "vectorString": "AV:A/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H",
+    "vendors": "",
+    "products": "",
+    "description": "This vulnerability allows network-adjacent attackers to create a denial-of-service condition on affected installations of Ubiquiti Networks AI Pro. Authentication is not required to exploit this vulnerability.\nThe specific flaw exists within the parsing of WebSocket headers. The issue results from the lack of proper validation of user-supplied data, which can result in an uncaught exception. An attacker can leverage this vulnerability to create a denial-of-service condition on the system.",
+    "addtionnal_details": "Ubiquiti Networks has issued an update to correct this vulnerability. More details can be found at:https://community.ui.com/releases/Security-Advisory-Bulletin-058-058/6922ff20-8cd7-4724-8d8c-676458a2d0f9",
+    "timeline": "2026-02-05 - Vulnerability reported to vendor\n2026-02-25 - Coordinated public release of advisory\n2026-02-25 - Advisory Updated",
+    "credit": "David BERARD from @Synacktiv"
+}

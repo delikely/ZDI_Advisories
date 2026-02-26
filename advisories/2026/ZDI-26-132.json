@@ -1,0 +1,15 @@
+{
+    "date": "February 25th, 2026",
+    "title": "Siemens SINEC NMS Uncontrolled Search Path Element Local Privilege Escalation Vulnerability",
+    "ID_1": "ZDI-26-132",
+    "ID_2": "ZDI-CAN-28108",
+    "cveId": "CVE-2026-25656",
+    "baseScore": "7.8",
+    "vectorString": "AV:L/AC:L/PR:L/UI:N/S:U/C:H/I:H/A:H",
+    "vendors": "Siemens",
+    "products": "",
+    "description": "This vulnerability allows local attackers to escalate privileges on affected installations of Siemens SINEC NMS. An attacker must first obtain the ability to execute low-privileged code on the target system in order to exploit this vulnerability.\nThe specific flaw exists within the configuration of OpenSSL. The product loads an OpenSSL configuration file from an unsecured location. An attacker can leverage this vulnerability to escalate privileges and execute arbitrary code in the context of SYSTEM.",
+    "addtionnal_details": "Siemens has issued an update to correct this vulnerability. More details can be found at:https://cert-portal.siemens.com/productcert/html/ssa-311973.html",
+    "timeline": "2025-09-19 - Vulnerability reported to vendor\n2026-02-25 - Coordinated public release of advisory\n2026-02-25 - Advisory Updated",
+    "credit": "Michael DePlante (@izobashi) of Trend Zero Day Initiative"
+}

@@ -1,0 +1,15 @@
+{
+    "date": "February 25th, 2026",
+    "title": "IceWarp collaboration Directory Traversal Information Disclosure Vulnerability",
+    "ID_1": "ZDI-26-130",
+    "ID_2": "ZDI-CAN-25440",
+    "cveId": "CVE-2026-2493",
+    "baseScore": "7.5",
+    "vectorString": "AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:N/A:N",
+    "vendors": "IceWarp",
+    "products": "",
+    "description": "This vulnerability allows remote attackers to disclose sensitive information on affected installations of IceWarp. Authentication is not required to exploit this vulnerability.\nThe specific flaw exists within handling of the ticket parameter provided to the collaboration endpoint. The issue results from the lack of proper validation of a user-supplied path prior to using it in file operations. An attacker can leverage this vulnerability to disclose information in the context of root.",
+    "addtionnal_details": "Fixed in versions 14.2.0.12 (https://support.icewarp.com/hc/en-us/community/posts/43490185733393-IceWarp-EPOS-Server-Release-Notes-Version-14-2-0-12) and 14.1.0.20 (https://support.icewarp.com/hc/en-us/community/posts/43751491641233-IceWarp-EPOS-Server-Release-Notes-Version-14-1-0-20)",
+    "timeline": "2025-12-18 - Vulnerability reported to vendor\n2026-02-25 - Coordinated public release of advisory\n2026-02-25 - Advisory Updated",
+    "credit": "Nicocha30"
+}
