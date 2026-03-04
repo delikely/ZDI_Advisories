@@ -1,0 +1,15 @@
+{
+    "date": "March 3rd, 2026",
+    "title": "Trend Micro Apex Central Scheduled Update Server-Side Request Forgery Vulnerability",
+    "ID_1": "ZDI-26-145",
+    "ID_2": "ZDI-CAN-26598",
+    "cveId": "CVE-2025-71206",
+    "baseScore": "4.4",
+    "vectorString": "AV:N/AC:H/PR:H/UI:N/S:C/C:L/I:L/A:N",
+    "vendors": "Trend Micro",
+    "products": "Apex Central",
+    "description": "This vulnerability allows remote attackers to disclose sensitive information on affected installations of Trend Micro Apex Central. Authentication is required to exploit this vulnerability.\nThe specific flaw exists within the handling of URLs in the Scheduled Update feature. By providing a crafted URL, an attacker can cause the server to make a request to an incorrect URL. An attacker may be able to leverage this vulnerability to gain improper access to network resources.",
+    "addtionnal_details": "Trend Micro has issued an update to correct this vulnerability. More details can be found at:https://success.trendmicro.com/en-US/solution/KA-0022071",
+    "timeline": "2025-03-04 - Vulnerability reported to vendor\n2026-03-03 - Coordinated public release of advisory\n2026-03-03 - Advisory Updated",
+    "credit": "Abdessamad Lahlali of Trend Micro "
+}
