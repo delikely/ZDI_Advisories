@@ -1,0 +1,15 @@
+{
+    "date": "March 6th, 2026",
+    "title": "(Pwn2Own) Philips Hue Bridge HomeKit Accessory Protocol Static Nonce Authentication Bypass Vulnerability",
+    "ID_1": "ZDI-26-157",
+    "ID_2": "ZDI-CAN-28451",
+    "cveId": "CVE-2026-3559",
+    "baseScore": "8.1",
+    "vectorString": "AV:A/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:N",
+    "vendors": "Philips",
+    "products": "",
+    "description": "This vulnerability allows network-adjacent attackers to bypass authentication on affected installations of Philips Hue Bridge. Authentication is not required to exploit this vulnerability.\nThe specific flaw exists within the configuration of the SRP authentication mechanism in the HomeKit Accessory Protocol service, which listens on TCP port 8080 by default. The issue results from the use of a static nonce value. An attacker can leverage this vulnerability to bypass authentication on the system.",
+    "addtionnal_details": "Fixed in Bridge v2 Software version 1975170000https://www.philips-hue.com/en-ca/support/release-notes/bridge",
+    "timeline": "2025-11-18 - Vulnerability reported to vendor\n2026-03-06 - Coordinated public release of advisory\n2026-03-06 - Advisory Updated",
+    "credit": "Ho Xuan Ninh (@Xuanninh1412) and Hoang Hai Long (@seadragnol) from Qrious Secure (@qriousec)"
+}

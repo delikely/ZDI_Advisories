@@ -1,0 +1,15 @@
+{
+    "date": "March 6th, 2026",
+    "title": "(Pwn2Own) Philips Hue Bridge hk_hap Ed25519 Signature Verification Authentication Bypass Vulnerability",
+    "ID_1": "ZDI-26-160",
+    "ID_2": "ZDI-CAN-28480",
+    "cveId": "CVE-2026-3562",
+    "baseScore": "6.3",
+    "vectorString": "AV:A/AC:L/PR:N/UI:N/S:U/C:L/I:L/A:L",
+    "vendors": "Philips",
+    "products": "",
+    "description": "This vulnerability allows network-adjacent attackers to execute arbitrary code on affected installations of Philips Hue Bridge. Authentication is not required to exploit this vulnerability.\nThe specific flaw exists within the ed25519_sign_open function. The issue results from improper verification of a cryptographic signature. An attacker can leverage this vulnerability to bypass authentication on the system.",
+    "addtionnal_details": "Fixed in Bridge v2 Software version 1975170000https://www.philips-hue.com/en-ca/support/release-notes/bridge",
+    "timeline": "2025-11-18 - Vulnerability reported to vendor\n2026-03-06 - Coordinated public release of advisory\n2026-03-06 - Advisory Updated",
+    "credit": "Viettel Cyber Security"
+}

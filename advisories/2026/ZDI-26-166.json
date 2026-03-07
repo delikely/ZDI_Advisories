@@ -1,0 +1,15 @@
+{
+    "date": "March 6th, 2026",
+    "title": "GStreamer rtpqdm2depay Out-Of-Bounds Write Remote Code Execution Vulnerability",
+    "ID_1": "ZDI-26-166",
+    "ID_2": "ZDI-CAN-28850",
+    "cveId": "CVE-2026-3083",
+    "baseScore": "8.8",
+    "vectorString": "AV:N/AC:L/PR:N/UI:R/S:U/C:H/I:H/A:H",
+    "vendors": "GStreamer",
+    "products": "GStreamer",
+    "description": "This vulnerability allows remote attackers to execute arbitrary code on affected installations of GStreamer. Interaction with this library is required to exploit this vulnerability but attack vectors may vary depending on the implementation.\nThe specific flaw exists within the processing of X-QDM RTP payload elements. When parsing the packetid element, the process does not properly validate user-supplied data, which can result in a write past the end of an allocated array. An attacker can leverage this vulnerability to execute code in the context of the current process.",
+    "addtionnal_details": "GStreamer has issued an update to correct this vulnerability. More details can be found at:https://gitlab.freedesktop.org/gstreamer/gstreamer/-/commit/d60a94dee3c0a0942c9981491bf83e0de1900fbf",
+    "timeline": "2026-02-06 - Vulnerability reported to vendor\n2026-03-06 - Coordinated public release of advisory\n2026-03-06 - Advisory Updated",
+    "credit": "Anonymous"
+}

@@ -1,0 +1,15 @@
+{
+    "date": "March 6th, 2026",
+    "title": "GStreamer JPEG Parser Heap-based Buffer Overflow Remote Code Execution Vulnerability",
+    "ID_1": "ZDI-26-163",
+    "ID_2": "ZDI-CAN-28840",
+    "cveId": "CVE-2026-3082",
+    "baseScore": "7.8",
+    "vectorString": "AV:L/AC:L/PR:N/UI:R/S:U/C:H/I:H/A:H",
+    "vendors": "GStreamer",
+    "products": "GStreamer",
+    "description": "This vulnerability allows remote attackers to execute arbitrary code on affected installations of GStreamer. Interaction with this library is required to exploit this vulnerability but attack vectors may vary depending on the implementation.\nThe specific flaw exists within the processing of Huffman tables. The issue results from the lack of proper validation of the length of user-supplied data prior to copying it to a fixed-length heap-based buffer. An attacker can leverage this vulnerability to execute code in the context of the current process.",
+    "addtionnal_details": "GStreamer has issued an update to correct this vulnerability. More details can be found at:https://gitlab.freedesktop.org/gstreamer/gstreamer/-/commit/7d3c258ed928cf59d126c8ea926b185f046f444c",
+    "timeline": "2026-02-11 - Vulnerability reported to vendor\n2026-03-06 - Coordinated public release of advisory\n2026-03-06 - Advisory Updated",
+    "credit": "Anonymous"
+}

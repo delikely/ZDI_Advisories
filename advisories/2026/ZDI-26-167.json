@@ -1,0 +1,15 @@
+{
+    "date": "March 6th, 2026",
+    "title": "GStreamer rtpqdm2depay Heap-based Buffer Overflow Remote Code Execution Vulnerability",
+    "ID_1": "ZDI-26-167",
+    "ID_2": "ZDI-CAN-28851",
+    "cveId": "CVE-2026-3085",
+    "baseScore": "8.8",
+    "vectorString": "AV:N/AC:L/PR:N/UI:R/S:U/C:H/I:H/A:H",
+    "vendors": "GStreamer",
+    "products": "GStreamer",
+    "description": "This vulnerability allows remote attackers to execute arbitrary code on affected installations of GStreamer. Interaction with this library is required to exploit this vulnerability but attack vectors may vary depending on the implementation.\nThe specific flaw exists within the processing of X-QDM RTP payloads. The issue results from the lack of proper validation of the length of user-supplied data prior to copying it to a heap-based buffer. An attacker can leverage this vulnerability to execute code in the context of the current process.",
+    "addtionnal_details": "GStreamer has issued an update to correct this vulnerability. More details can be found at:https://gitlab.freedesktop.org/gstreamer/gstreamer/-/commit/d60a94dee3c0a0942c9981491bf83e0de1900fbf",
+    "timeline": "2026-02-11 - Vulnerability reported to vendor\n2026-03-06 - Coordinated public release of advisory\n2026-03-06 - Advisory Updated",
+    "credit": "Anonymous"
+}
