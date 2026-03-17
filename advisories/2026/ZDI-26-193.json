@@ -1,0 +1,15 @@
+{
+    "date": "March 16th, 2026",
+    "title": "(Pwn2Own) Linux Kernel nf_tables_newset Out-Of-Bounds Write Information Disclosure Vulnerability",
+    "ID_1": "ZDI-26-193",
+    "ID_2": "ZDI-CAN-17464",
+    "cveId": "CVE-2022-1972",
+    "baseScore": "3.8",
+    "vectorString": "AV:L/AC:L/PR:L/UI:N/S:C/C:L/I:N/A:N",
+    "vendors": "Linux",
+    "products": "",
+    "description": "This vulnerability allows local attackers to disclose sensitive information on affected installations of Linux Kernel. An attacker must first obtain the ability to execute low-privileged code on the target system in order to exploit this vulnerability.\nThe specific flaw exists within the handling of nft_objects. The issue results from the lack of proper validation of user-supplied data, which can result in a write past the end of an allocated buffer. An attacker can leverage this in conjunction with other vulnerabilties to escalate privileges and execute arbitrary code in the context of root.",
+    "addtionnal_details": "Linux has issued an update to correct this vulnerability. More details can be found at:https://ubuntu.com/security/CVE-2022-2078#notes",
+    "timeline": "2022-05-25 - Vulnerability reported to vendor\n2026-03-16 - Coordinated public release of advisory\n2026-03-16 - Advisory Updated",
+    "credit": "Team Orca of Sea Security (@seasecresponse), security.sea.com"
+}

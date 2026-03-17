@@ -1,0 +1,15 @@
+{
+    "date": "March 16th, 2026",
+    "title": "(Pwn2Own) Samsung Galaxy S25 Samsung Members Security Feature Bypass Vulnerability",
+    "ID_1": "ZDI-26-210",
+    "ID_2": "ZDI-CAN-28233",
+    "cveId": "CVE-2025-21079",
+    "baseScore": "5.4",
+    "vectorString": "AV:N/AC:L/PR:N/UI:R/S:U/C:L/I:L/A:N",
+    "vendors": "Samsung",
+    "products": "",
+    "description": "This vulnerability allows remote attackers to bypass a security feature on affected installations of Samsung Galaxy S25. Authentication is not required to exploit this vulnerability.\nThe specific flaw exists within the Samsung Members application. The issue results from the exposure of a resource to the wrong control sphere. An attacker can leverage this vulnerability to open a WebView with a custom URL, leading to further compromise.",
+    "addtionnal_details": "Samsung has issued an update to correct this vulnerability. More details can be found at:https://security.samsungmobile.com/serviceWeb.smsb?year=2025&month=11",
+    "timeline": "2025-11-18 - Vulnerability reported to vendor\n2026-03-16 - Coordinated public release of advisory\n2026-03-16 - Advisory Updated",
+    "credit": "Ken Gannon / 伊藤 剣 (@yogehi) of Mobile Hacking Lab, and Dimitrios Valsamaras (@Ch0pin)"
+}

@@ -1,0 +1,15 @@
+{
+    "date": "March 16th, 2026",
+    "title": "(Pwn2Own) QNAP TS-453E Hyper Data Protector Plugin Hard-Coded Credentials Authentication Bypass Vulnerability",
+    "ID_1": "ZDI-26-201",
+    "ID_2": "ZDI-CAN-28358",
+    "cveId": "CVE-2025-59388",
+    "baseScore": "6.3",
+    "vectorString": "AV:A/AC:L/PR:N/UI:N/S:U/C:L/I:L/A:L",
+    "vendors": "",
+    "products": "TS-453E",
+    "description": "This vulnerability allows network-adjacent attackers to bypass authentication on affected installations of QNAP TS-453E devices. Authentication is not required to exploit this vulnerability.\nThe specific flaw exists within the configuration of Bareos by the Hyper Data Protector Plugin. The issue results from the use of hard-coded credentials. An attacker can leverage this vulnerability to bypass authentication on the system.",
+    "addtionnal_details": "QNAP has issued an update to correct this vulnerability. More details can be found at:https://www.qnap.com/en/security-advisory/qsa-25-48",
+    "timeline": "2025-11-18 - Vulnerability reported to vendor\n2026-03-16 - Coordinated public release of advisory\n2026-03-16 - Advisory Updated",
+    "credit": "Sina Kheirkhah (@SinSinology) of Summoning Team (@SummoningTeam)"
+}

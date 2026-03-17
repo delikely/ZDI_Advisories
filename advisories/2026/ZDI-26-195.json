@@ -1,0 +1,15 @@
+{
+    "date": "March 16th, 2026",
+    "title": "(Pwn2Own) ChargePoint Home Flex Inclusion of Sensitive Information in Source Code Information Disclosure Vulnerability",
+    "ID_1": "ZDI-26-195",
+    "ID_2": "ZDI-CAN-26340",
+    "cveId": "CVE-2026-4155",
+    "baseScore": "7.5",
+    "vectorString": "AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:N/A:N",
+    "vendors": "ChargePoint",
+    "products": "Home Flex",
+    "description": "This vulnerability allows remote attackers to disclose sensitive information on affected installations of ChargePoint Home Flex charging stations. Authentication is not required to exploit this vulnerability.\nThe specific flaw exists within the genpw script. The issue results from the inclusion of a secret cryptographic seed value within the script. An attacker can leverage this vulnerability to disclose stored credentials, leading to further compromise.",
+    "addtionnal_details": "Fixed in CPH50 firmware version 5.5.4.22",
+    "timeline": "2025-03-13 - Vulnerability reported to vendor\n2026-03-16 - Coordinated public release of advisory\n2026-03-16 - Advisory Updated",
+    "credit": "Sina Kheirkhah (@SinSinology) of Summoning Team (@SummoningTeam)"
+}
