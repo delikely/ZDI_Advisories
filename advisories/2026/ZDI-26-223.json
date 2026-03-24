@@ -1,0 +1,15 @@
+{
+    "date": "March 23rd, 2026",
+    "title": "(Pwn2Own) Samsung Galaxy S25 Smart Touch Call Application Protection Mechanism Failure Information Disclosure Vulnerability",
+    "ID_1": "ZDI-26-223",
+    "ID_2": "ZDI-CAN-28331",
+    "cveId": "CVE-2025-58488",
+    "baseScore": "5.9",
+    "vectorString": "AV:N/AC:H/PR:N/UI:R/S:U/C:H/I:N/A:L",
+    "vendors": "Samsung",
+    "products": "",
+    "description": "This vulnerability allows remote attackers to disclose sensitive information on affected installations of Samsung Galaxy S25. User interaction is required to exploit this vulnerability in that the target must visit a malicious page or open a malicious file.\nThe specific flaw exists within the handling of URL parameters. The issue results from the lack of protections prior to allowing access to functionality. An attacker can leverage this vulnerability to disclose stored credentials, leading to further compromise.",
+    "addtionnal_details": "Samsung has issued an update to correct this vulnerability. More details can be found at:https://security.samsungmobile.com/serviceWeb.smsb?year=2025&month=12",
+    "timeline": "2025-11-18 - Vulnerability reported to vendor\n2026-03-23 - Coordinated public release of advisory\n2026-03-23 - Advisory Updated",
+    "credit": "Interrupt Labs"
+}
