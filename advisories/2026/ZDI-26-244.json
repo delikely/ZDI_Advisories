@@ -1,0 +1,15 @@
+{
+    "date": "March 30th, 2026",
+    "title": "(Pwn2Own) QNAP QHora-322 miro_webserver_controllers_api_login_singIn Authentication Bypass Vulnerability",
+    "ID_1": "ZDI-26-244",
+    "ID_2": "ZDI-CAN-25846",
+    "cveId": "CVE-2024-13088",
+    "baseScore": "5.0",
+    "vectorString": "AV:A/AC:H/PR:N/UI:N/S:U/C:L/I:L/A:L",
+    "vendors": "",
+    "products": "",
+    "description": "This vulnerability allows network-adjacent attackers to bypass authentication on affected installations of QNAP QHora-322 routers. Authentication is not required to exploit this vulnerability.\nThe specific flaw exists within the miro_webserver_controllers_api_login_singIn function. The issue results from allowing a user to authenticate using an arbitrary QCloud account. An attacker can leverage this vulnerability to bypass authentication on the system.",
+    "addtionnal_details": "QNAP has issued an update to correct this vulnerability. More details can be found at:https://www.qnap.com/en/security-advisory/qsa-25-15",
+    "timeline": "2024-12-13 - Vulnerability reported to vendor\n2026-03-30 - Coordinated public release of advisory\n2026-03-30 - Advisory Updated",
+    "credit": "nella17 (@nella17tw), working with DEVCORE Internship Program, and DEVCORE Research Team"
+}

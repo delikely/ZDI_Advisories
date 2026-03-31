@@ -1,0 +1,15 @@
+{
+    "date": "March 30th, 2026",
+    "title": "OpenClaw Canvas Authentication Bypass Vulnerability",
+    "ID_1": "ZDI-26-228",
+    "ID_2": "ZDI-CAN-29311",
+    "cveId": "CVE-2026-3690",
+    "baseScore": "7.4",
+    "vectorString": "AV:N/AC:H/PR:N/UI:N/S:U/C:H/I:H/A:N",
+    "vendors": "OpenClaw",
+    "products": "",
+    "description": "This vulnerability allows remote attackers to bypass authentication on affected installations of OpenClaw. Authentication is not required to exploit this vulnerability.\nThe specific flaw exists within the implementation of the the authentication function for canvas endpoints. The issue results from improper implementation of authentication. An attacker can leverage this vulnerability to bypass authentication on the system.",
+    "addtionnal_details": "OpenClaw has issued an update to correct this vulnerability. More details can be found at:https://github.com/openclaw/openclaw/security/advisories/GHSA-vvjh-f6p9-5vcf",
+    "timeline": "2026-02-20 - Vulnerability reported to vendor\n2026-03-30 - Coordinated public release of advisory\n2026-03-30 - Advisory Updated",
+    "credit": "Peter Girnus (@gothburz) and Project AESIR of TrendAI Zero Day Initiative"
+}

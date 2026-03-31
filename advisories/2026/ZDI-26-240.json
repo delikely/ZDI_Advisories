@@ -1,0 +1,15 @@
+{
+    "date": "March 30th, 2026",
+    "title": "(Pwn2Own) QNAP QHora-322 qvpn_db_mgr role_type Improper Neutralization of Escape Sequences Authentication Bypass Vulnerability",
+    "ID_1": "ZDI-26-240",
+    "ID_2": "ZDI-CAN-28423",
+    "cveId": "CVE-2025-62845",
+    "baseScore": "6.3",
+    "vectorString": "AV:N/AC:L/PR:L/UI:N/S:U/C:L/I:L/A:L",
+    "vendors": "",
+    "products": "",
+    "description": "This vulnerability allows remote attackers to bypass authentication on affected QNAP QHora-322 routers. Although authentication is required to exploit this vulnerability, the existing authentication mechanism can be bypassed.\nThe specific flaw exists within the handling of the role_type parameter provided to the qvpn_db_mgr endpoint. The issue results from insufficient neutralization of special characters. An attacker can leverage this vulnerability to bypass QBelt VPN authentication.",
+    "addtionnal_details": "QNAP has issued an update to correct this vulnerability. More details can be found at:https://www.qnap.com/en/security-advisory/qsa-26-12",
+    "timeline": "2025-11-18 - Vulnerability reported to vendor\n2026-03-30 - Coordinated public release of advisory\n2026-03-30 - Advisory Updated",
+    "credit": "Bongeun Koo (@kiddo_pwn) and Evangelos Daravigkas (@freddo_1337) of Team DDOS"
+}

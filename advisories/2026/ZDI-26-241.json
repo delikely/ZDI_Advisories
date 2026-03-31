@@ -1,0 +1,15 @@
+{
+    "date": "March 30th, 2026",
+    "title": "(Pwn2Own) QNAP QHora-322 qvpn_db_mgr username SQL Injection Remote Code Execution Vulnerability",
+    "ID_1": "ZDI-26-241",
+    "ID_2": "ZDI-CAN-28424",
+    "cveId": "CVE-2025-62846",
+    "baseScore": "8.8",
+    "vectorString": "AV:N/AC:L/PR:L/UI:N/S:U/C:H/I:H/A:H",
+    "vendors": "",
+    "products": "",
+    "description": "This vulnerability allows remote attackers to execute arbitrary code on affected installations of QNAP QHora-322 routers. Although authentication is required to exploit this vulnerability, the existing authentication mechanism can be bypassed.\nThe specific flaw exists within the qvpn_db_mgr module. The issue results from the lack of proper validation of a user-supplied string before using it to construct SQL queries. An attacker can leverage this vulnerability to execute code in the context of root.",
+    "addtionnal_details": "QNAP has issued an update to correct this vulnerability. More details can be found at:https://www.qnap.com/en/security-advisory/qsa-26-12",
+    "timeline": "2025-11-18 - Vulnerability reported to vendor\n2026-03-30 - Coordinated public release of advisory\n2026-03-30 - Advisory Updated",
+    "credit": "Bongeun Koo (@kiddo_pwn) and Evangelos Daravigkas (@freddo_1337) of Team DDOS"
+}

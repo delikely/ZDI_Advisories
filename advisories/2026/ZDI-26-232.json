@@ -1,0 +1,15 @@
+{
+    "date": "March 30th, 2026",
+    "title": "(Pwn2Own) Red Hat Enterprise Linux vmwgfx Driver Integer Overflow Local Privilege Escalation Vulnerability",
+    "ID_1": "ZDI-26-232",
+    "ID_2": "ZDI-CAN-27173",
+    "cveId": "CVE-2025-40277",
+    "baseScore": "8.8",
+    "vectorString": "AV:L/AC:L/PR:L/UI:N/S:C/C:H/I:H/A:H",
+    "vendors": "",
+    "products": "",
+    "description": "This vulnerability allows local attackers to escalate privileges on affected installations of Red Hat Enterprise Linux. An attacker must first obtain the ability to execute low-privileged code on the target system in order to exploit this vulnerability.\nThe specific flaw exists within the vmw_cmd_check function. The issue results from the lack of proper validation of user-supplied data, which can result in an integer overflow before writing to memory.  An attacker can leverage this vulnerability to escalate privileges and execute arbitrary code in the context of the kernel.",
+    "addtionnal_details": "Red Hat has issued an update to correct this vulnerability. More details can be found at:https://access.redhat.com/security/cve/cve-2025-40277",
+    "timeline": "2025-05-29 - Vulnerability reported to vendor\n2026-03-30 - Coordinated public release of advisory\n2026-03-30 - Advisory Updated",
+    "credit": "Pumpkin (@u1f383) from DEVCORE Research Team"
+}

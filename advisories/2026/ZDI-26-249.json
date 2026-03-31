@@ -1,0 +1,15 @@
+{
+    "date": "March 30th, 2026",
+    "title": "NoMachine Uncontrolled Search Path Element Local Privilege Escalation Vulnerability",
+    "ID_1": "ZDI-26-249",
+    "ID_2": "ZDI-CAN-28494",
+    "cveId": "CVE-2026-5055",
+    "baseScore": "7.8",
+    "vectorString": "AV:L/AC:L/PR:L/UI:N/S:U/C:H/I:H/A:H",
+    "vendors": "NoMachine",
+    "products": "",
+    "description": "This vulnerability allows local attackers to escalate privileges on affected installations of NoMachine.  An attacker must first obtain the ability to execute low-privileged code on the target system in order to exploit this vulnerability.\nThe specific flaw exists within the NoMachine Device Server. The product loads a library from an unsecured location. An attacker can leverage this vulnerability to escalate privileges and execute arbitrary code in the context of SYSTEM.",
+    "addtionnal_details": "Fixed in NoMachine version 9.4.14https://kb.nomachine.com/SU03X00271",
+    "timeline": "2025-12-24 - Vulnerability reported to vendor\n2026-03-30 - Coordinated public release of advisory\n2026-03-30 - Advisory Updated",
+    "credit": "khongtrang"
+}

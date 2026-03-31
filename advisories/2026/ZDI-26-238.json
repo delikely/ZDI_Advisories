@@ -1,0 +1,15 @@
+{
+    "date": "March 30th, 2026",
+    "title": "Linux Kernel AoE Driver Use-After-Free Local Privilege Escalation Vulnerability",
+    "ID_1": "ZDI-26-238",
+    "ID_2": "ZDI-CAN-22236",
+    "cveId": "CVE-2023-6270",
+    "baseScore": "7.8",
+    "vectorString": "AV:L/AC:H/PR:L/UI:N/S:C/C:H/I:H/A:H",
+    "vendors": "Linux",
+    "products": "",
+    "description": "This vulnerability allows local attackers to escalate privileges on affected installations of Linux Kernel. An attacker must first obtain the ability to execute low-privileged code on the target system in order to exploit this vulnerability.\nThe specific flaw exists within the AoE driver. The issue results from the lack of validating the existence of an object prior to performing operations on the object. An attacker can leverage this vulnerability to escalate privileges and execute arbitrary code in the context of the kernel.",
+    "addtionnal_details": "Linux has issued an update to correct this vulnerability. More details can be found at:https://bugzilla.redhat.com/show_bug.cgi?id=2256786",
+    "timeline": "2023-09-29 - Vulnerability reported to vendor\n2026-03-30 - Coordinated public release of advisory\n2026-03-30 - Advisory Updated",
+    "credit": "Lucas Leong (@_wmliang_) of Trend Micro Zero Day Initiative"
+}
