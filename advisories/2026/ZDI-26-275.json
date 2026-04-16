@@ -1,0 +1,15 @@
+{
+    "date": "April 15th, 2026",
+    "title": "Microsoft Qlib _mount_nfs_uri Command Injection Remote Code Execution Vulnerability",
+    "ID_1": "ZDI-26-275",
+    "ID_2": "ZDI-CAN-27212",
+    "cveId": "",
+    "baseScore": "8.8",
+    "vectorString": "AV:A/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:H",
+    "vendors": "Microsoft",
+    "products": "Qlib",
+    "description": "This vulnerability allows network-adjacent attackers to execute arbitrary code on affected installations of Microsoft Qlib. Authentication is not required to exploit this vulnerability.\nThe specific flaw exists within the _mount_nfs_uri function. The issue results from the lack of proper validation of a user-supplied string before using it to execute a system call. An attacker can leverage this vulnerability to execute code in the context of root.",
+    "addtionnal_details": "Fixed on May 31, 2025https://msrc.microsoft.com/update-guide/acknowledgement/online",
+    "timeline": "2025-05-22 - Vulnerability reported to vendor\n2026-04-15 - Coordinated public release of advisory\n2026-04-15 - Advisory Updated",
+    "credit": "Peter Girnus (@gothburz) of Trend Zero Day Initiative"
+}

@@ -1,0 +1,15 @@
+{
+    "date": "April 15th, 2026",
+    "title": "Adobe ColdFusion deleteVersion Directory Traversal Arbitrary File Deletion Vulnerability",
+    "ID_1": "ZDI-26-262",
+    "ID_2": "ZDI-CAN-29549",
+    "cveId": "CVE-2026-34619",
+    "baseScore": "5.4",
+    "vectorString": "AV:N/AC:L/PR:L/UI:N/S:U/C:N/I:L/A:L",
+    "vendors": "Adobe",
+    "products": "",
+    "description": "This vulnerability allows remote attackers to delete arbitrary files on affected installations of Adobe ColdFusion. Although authentication is required to exploit this vulnerability, the existing authentication mechanism can be bypassed.\nThe specific flaw exists within the deleteVersion method. The issue results from the lack of proper validation of user-supplied data prior to using it in file operations. An attacker can leverage this vulnerability to delete files in the context of the service account.",
+    "addtionnal_details": "Adobe has issued an update to correct this vulnerability. More details can be found at:https://helpx.adobe.com/security/products/coldfusion/apsb26-38.html",
+    "timeline": "2026-03-25 - Vulnerability reported to vendor\n2026-04-15 - Coordinated public release of advisory\n2026-04-15 - Advisory Updated",
+    "credit": "Jonathan Lein of TrendAI Research"
+}

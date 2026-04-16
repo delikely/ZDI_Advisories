@@ -1,0 +1,15 @@
+{
+    "date": "April 15th, 2026",
+    "title": "Adobe ColdFusion subscribeToEndpoints Authentication Bypass Vulnerability",
+    "ID_1": "ZDI-26-263",
+    "ID_2": "ZDI-CAN-30200",
+    "cveId": "CVE-2026-27282",
+    "baseScore": "6.5",
+    "vectorString": "AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:L/A:L",
+    "vendors": "Adobe",
+    "products": "",
+    "description": "This vulnerability allows remote attackers to bypass authentication on affected installations of Adobe ColdFusion. Authentication is not required to exploit this vulnerability.\nThe specific flaw exists within the subscribeToEndpoints method. The issue results from a missing critical step during authentication. An attacker can leverage this in conjunction with other vulnerabilities to delete arbitrary files in the context of the service account.",
+    "addtionnal_details": "Adobe has issued an update to correct this vulnerability. More details can be found at:https://helpx.adobe.com/security/products/coldfusion/apsb26-38.html",
+    "timeline": "2026-03-26 - Vulnerability reported to vendor\n2026-04-15 - Coordinated public release of advisory\n2026-04-15 - Advisory Updated",
+    "credit": "Jonathan Lein of TrendAI Research"
+}

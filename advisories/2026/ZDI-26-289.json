@@ -1,0 +1,15 @@
+{
+    "date": "April 15th, 2026",
+    "title": "Linux Kernel ETS Scheduler Race Condition Local Privilege Escalation Vulnerability",
+    "ID_1": "ZDI-26-289",
+    "ID_2": "ZDI-CAN-28490",
+    "cveId": "CVE-2025-71066",
+    "baseScore": "7.5",
+    "vectorString": "AV:L/AC:H/PR:H/UI:N/S:C/C:H/I:H/A:H",
+    "vendors": "Linux",
+    "products": "",
+    "description": "This vulnerability allows local attackers to escalate privileges on affected installations of Linux Kernel. An attacker must first obtain the ability to execute high-privileged code on the target system in order to exploit this vulnerability.\nThe specific flaw exists within the handling of Qdisc objects. The issue results from the lack of proper locking when performing operations on an object. An attacker can leverage this vulnerability to escalate privileges and execute arbitrary code in the context of the kernel.",
+    "addtionnal_details": "Linux has issued an update to correct this vulnerability. More details can be found at:https://lore.kernel.org/netdev/20251128151919.576920-1-jhs@mojatatu.com/T/",
+    "timeline": "2025-11-18 - Vulnerability reported to vendor\n2026-04-15 - Coordinated public release of advisory\n2026-04-15 - Advisory Updated",
+    "credit": "Maher Azzouzi (@maherazz2)"
+}

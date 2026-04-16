@@ -1,0 +1,15 @@
+{
+    "date": "April 15th, 2026",
+    "title": "(0Day) Docker Desktop extension-manager Exposed Dangerous Function Local Privilege Escalation Vulnerability",
+    "ID_1": "ZDI-26-258",
+    "ID_2": "ZDI-CAN-27229",
+    "cveId": "",
+    "baseScore": "8.2",
+    "vectorString": "AV:L/AC:L/PR:H/UI:N/S:C/C:H/I:H/A:H",
+    "vendors": "Docker",
+    "products": "Desktop",
+    "description": "This vulnerability allows local attackers to escalate privileges on affected installations of Docker Desktop for Windows. An attacker must first obtain the ability to execute high-privileged code within the container in order to exploit this vulnerability.\nThe specific flaw exists within the the implemention of the Docker Extensions functionality. The issue results from an exposed dangerous function. An attacker can leverage this vulnerability to escalate privileges and execute arbitrary code in the context of the current user",
+    "addtionnal_details": "06/04/25 - ZDI submitted the report to the vendor06/23/25 - the vendor requested technical clarification 09/03/25 - ZDI provided additional details09/12/25 - the vendor communicated that the attack scenario was outside their security threat model09/23/25 - ZDI indicated that the reported issue was a bypass of a previously exploited incident11/11/25 - The vendor rejected the report because the exploitation required prior privileged access04/08/26 - ZDI notified the vendor of the intention to publish the case as a 0-day advisory",
+    "timeline": "2025-05-28 - Vulnerability reported to vendor\n2026-04-15 - Coordinated public release of advisory\n2026-04-15 - Advisory Updated",
+    "credit": "Nitesh Surana (niteshsurana.com) of TrendAI Research"
+}

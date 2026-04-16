@@ -1,0 +1,15 @@
+{
+    "date": "April 15th, 2026",
+    "title": "(0Day) Docker Desktop cli-plugins Incorrect Permission Assignment Local Privilege Escalation Vulnerability",
+    "ID_1": "ZDI-26-259",
+    "ID_2": "ZDI-CAN-27430",
+    "cveId": "",
+    "baseScore": "7.8",
+    "vectorString": "AV:L/AC:H/PR:L/UI:N/S:C/C:H/I:H/A:H",
+    "vendors": "Docker",
+    "products": "Desktop",
+    "description": "This vulnerability allows local attackers to escalate privileges on affected installations of Docker Desktop for Windows. An attacker must first obtain the ability to escape the container and execute low-privileged code within the Docker Hyper-V VM in order to exploit this vulnerability.\nThe specific flaw exists within the the implemention of the Docker cli-plugins functionality. The issue results from incorrect permissions on folders. An attacker can leverage this vulnerability to escalate privileges and execute arbitrary code on the host system in the context of the current user.",
+    "addtionnal_details": "07/11/25 - ZDI submitted the report to the vendor08/27/25 - ZDI asked for updates09/05/25 - the vendor requested technical clarification 09/15/25 - ZDI provided additional details11/11/25 - the vendor rejected the report because the exploitation required prior privileged access04/08/26 - ZDI notified the vendor of the intention to publish the case as a  0-day advisory",
+    "timeline": "2025-07-09 - Vulnerability reported to vendor\n2026-04-15 - Coordinated public release of advisory\n2026-04-15 - Advisory Updated",
+    "credit": "Nitesh Surana (niteshsurana.com) & Nelson William Gamazo Sanchez of Trend Research"
+}

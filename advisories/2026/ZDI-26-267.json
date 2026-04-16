@@ -1,0 +1,15 @@
+{
+    "date": "April 15th, 2026",
+    "title": "Malwarebytes Anti-Malware Uncontrolled Search Path Element Local Privilege Escalation Vulnerability",
+    "ID_1": "ZDI-26-267",
+    "ID_2": "ZDI-CAN-22936",
+    "cveId": "",
+    "baseScore": "7.8",
+    "vectorString": "AV:L/AC:L/PR:L/UI:N/S:U/C:H/I:H/A:H",
+    "vendors": "",
+    "products": "",
+    "description": "This vulnerability allows local attackers to escalate privileges on affected installations of Malwarebytes Anti-Malware. An attacker must first obtain the ability to execute low-privileged code on the target system in order to exploit this vulnerability.\nThe specific flaw exists within the Malwarebytes service. The issue results from loading a file from an unsecured location. An attacker can leverage this vulnerability to escalate privileges and execute arbitrary code in the context of SYSTEM.",
+    "addtionnal_details": "Fixed in version 1.0.6.31",
+    "timeline": "2024-02-29 - Vulnerability reported to vendor\n2026-04-15 - Coordinated public release of advisory\n2026-04-15 - Advisory Updated",
+    "credit": "Malcolm Stagg (@malcolmst) of SODIUM-24, LLC"
+}

@@ -1,0 +1,15 @@
+{
+    "date": "April 15th, 2026",
+    "title": "Adobe ColdFusion fetchCFSettingFile Directory Traversal Information Disclosure Vulnerability",
+    "ID_1": "ZDI-26-264",
+    "ID_2": "ZDI-CAN-29550",
+    "cveId": "CVE-2026-27305",
+    "baseScore": "7.5",
+    "vectorString": "AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:N/A:N",
+    "vendors": "Adobe",
+    "products": "",
+    "description": "This vulnerability allows remote attackers to disclose sensitive information on affected installations of Adobe ColdFusion. Authentication is not required to exploit this vulnerability.\nThe specific flaw exists within the fetchCFSettingFile method. The issue results from the lack of proper validation of user-supplied path parameters prior to using them in file operations. An attacker can leverage this vulnerability to disclose information in the context of the service account.",
+    "addtionnal_details": "Adobe has issued an update to correct this vulnerability. More details can be found at:https://helpx.adobe.com/security/products/coldfusion/apsb26-38.html",
+    "timeline": "2026-03-20 - Vulnerability reported to vendor\n2026-04-15 - Coordinated public release of advisory\n2026-04-15 - Advisory Updated",
+    "credit": "Jonathan Lein of TrendAI Research"
+}

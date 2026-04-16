@@ -1,0 +1,15 @@
+{
+    "date": "April 15th, 2026",
+    "title": "Samsung MagicINFO 9 Server Incorrect Default Permissions Local Privilege Escalation Vulnerability",
+    "ID_1": "ZDI-26-268",
+    "ID_2": "ZDI-CAN-28705",
+    "cveId": "CVE-2026-25203",
+    "baseScore": "7.8",
+    "vectorString": "AV:L/AC:L/PR:L/UI:N/S:U/C:H/I:H/A:H",
+    "vendors": "Samsung",
+    "products": "MagicINFO 9 Server",
+    "description": "This vulnerability allows local attackers to escalate privileges on affected installations of Samsung MagicINFO 9 Server. An attacker must first obtain the ability to execute low-privileged code on the target system in order to exploit this vulnerability.\nThe specific flaw exists within the product installer. The issue results from incorrect permissions on a folder used by the product. An attacker can leverage this vulnerability to escalate privileges and execute arbitrary code in the context of SYSTEM.",
+    "addtionnal_details": "Fixed in version 21.1091.1 - https://security.samsungtv.com/securityUpdates",
+    "timeline": "2025-12-16 - Vulnerability reported to vendor\n2026-04-15 - Coordinated public release of advisory\n2026-04-15 - Advisory Updated",
+    "credit": "Bobby Gould (@bobbygould5) of Trend Zero Day Initiative"
+}
