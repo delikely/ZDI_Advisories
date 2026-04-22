@@ -1,0 +1,15 @@
+{
+    "date": "April 21st, 2026",
+    "title": "(0Day) PublicCMS getXml Server-Side Request Forgery Information Disclosure Vulnerability",
+    "ID_1": "ZDI-26-295",
+    "ID_2": "ZDI-CAN-23734",
+    "cveId": "",
+    "baseScore": "8.2",
+    "vectorString": "AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:L/A:N",
+    "vendors": "PublicCMS",
+    "products": "",
+    "description": "This vulnerability allows remote attackers to disclose sensitive information on affected installations of PublicCMS. Authentication is not required to exploit this vulnerability.\nThe specific flaw exists within the getXml method. The issue results from the lack of authorization prior to allowing access to functionality. An attacker can leverage this vulnerability to disclose information in the context of the application.",
+    "addtionnal_details": "4/26/24 - ZDI reported the vulnerability to the vendor 8/21/24 – ZDI asked for updates 11/10/25 - ZDI asked for updates04/17/26 - ZDI notified the vendor of the intention to publish the case as a 0-day advisory\n\n-- Mitigation: Given the nature of the vulnerability, the only salient mitigation strategy is to restrict interaction with the product",
+    "timeline": "2024-04-26 - Vulnerability reported to vendor\n2026-04-21 - Coordinated public release of advisory\n2026-04-21 - Advisory Updated",
+    "credit": "Vinicius Ribeiro Ferreira da Silva"
+}
