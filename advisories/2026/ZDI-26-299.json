@@ -1,0 +1,15 @@
+{
+    "date": "April 23rd, 2026",
+    "title": "Docker Desktop Enhanced Container Isolation Exposed Dangerous Function Local Privilege Escalation Vulnerability",
+    "ID_1": "ZDI-26-299",
+    "ID_2": "ZDI-CAN-28822",
+    "cveId": "CVE-2026-6406",
+    "baseScore": "8.8",
+    "vectorString": "AV:L/AC:L/PR:L/UI:N/S:C/C:H/I:H/A:H",
+    "vendors": "Docker",
+    "products": "Desktop",
+    "description": "This vulnerability allows local attackers to escalate privileges on affected installations of Docker Desktop. An attacker must first obtain the ability to execute low-privileged code within a container in order to exploit this vulnerability.\nThe specific flaw exists within the processing of Docker CLI arguments. The issue results from an exposed dangerous function. An attacker can leverage this vulnerability to escalate privileges to resources normally protected by Enhanced Container Isolation. ",
+    "addtionnal_details": "Fixed in Docker Desktop 4.59.0",
+    "timeline": "2026-01-09 - Vulnerability reported to vendor\n2026-04-23 - Coordinated public release of advisory\n2026-04-23 - Advisory Updated",
+    "credit": "Nitesh Surana (niteshsurana.com) of Trend Research"
+}

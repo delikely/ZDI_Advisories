@@ -1,0 +1,15 @@
+{
+    "date": "April 23rd, 2026",
+    "title": "Siemens SINEC NMS Improper Authentication Privilege Escalation Vulnerability",
+    "ID_1": "ZDI-26-297",
+    "ID_2": "ZDI-CAN-28759",
+    "cveId": "CVE-2026-25654",
+    "baseScore": "8.8",
+    "vectorString": "AV:N/AC:L/PR:L/UI:N/S:U/C:H/I:H/A:H",
+    "vendors": "Siemens",
+    "products": "",
+    "description": "This vulnerability allows remote attackers to escalate privileges on affected installations of Siemens SINEC NMS. Authentication is required to exploit this vulnerability.\nThe specific flaw exists within the web service, which listens on TCP port 443 by default. The issue results from improper authentication prior to allowing access to functionality. An attacker can leverage this vulnerability to escalate privileges to resources normally protected from the user.",
+    "addtionnal_details": "Siemens has issued an update to correct this vulnerability. More details can be found at:https://cert-portal.siemens.com/productcert/html/ssa-605717.html",
+    "timeline": "2026-01-22 - Vulnerability reported to vendor\n2026-04-23 - Coordinated public release of advisory\n2026-04-23 - Advisory Updated",
+    "credit": "Rocco Calvi (@TecR0c) with TecSecurity"
+}

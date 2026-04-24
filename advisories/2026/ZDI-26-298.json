@@ -1,0 +1,15 @@
+{
+    "date": "April 23rd, 2026",
+    "title": "Siemens SINEC NMS Authentication Bypass Vulnerability",
+    "ID_1": "ZDI-26-298",
+    "ID_2": "ZDI-CAN-27564",
+    "cveId": "CVE-2026-24032",
+    "baseScore": "7.3",
+    "vectorString": "AV:N/AC:L/PR:N/UI:N/S:U/C:L/I:L/A:L",
+    "vendors": "Siemens",
+    "products": "",
+    "description": "This vulnerability allows remote attackers to bypass authentication on affected installations of Siemens SINEC NMS. Authentication is not required to exploit this vulnerability.\nThe specific flaw exists within the httpd authentication handler. The issue results from incorrect implementation of an authentication algorithm. An attacker can leverage this vulnerability to bypass authentication on the system.",
+    "addtionnal_details": "Siemens has issued an update to correct this vulnerability. More details can be found at:https://cert-portal.siemens.com/productcert/html/ssa-801704.html",
+    "timeline": "2025-12-24 - Vulnerability reported to vendor\n2026-04-23 - Coordinated public release of advisory\n2026-04-23 - Advisory Updated",
+    "credit": "Anonymous"
+}
