@@ -1,0 +1,15 @@
+{
+    "date": "April 27th, 2026",
+    "title": "Flowise AccountService resetPassword Authentication Bypass Vulnerability",
+    "ID_1": "ZDI-26-300",
+    "ID_2": "ZDI-CAN-28762",
+    "cveId": "CVE-2026-41276",
+    "baseScore": "8.1",
+    "vectorString": "AV:N/AC:H/PR:N/UI:N/S:U/C:H/I:H/A:H",
+    "vendors": "Flowise",
+    "products": "Flowise",
+    "description": "This vulnerability allows remote attackers to bypass authentication on affected installations of Flowise. Authentication is not required to exploit this vulnerability.\nThe specific flaw exists within the resetPassword method of the AccountService class. The issue results from improper implementation of the password reset mechanism. An attacker can leverage this vulnerability to bypass authentication on the system.",
+    "addtionnal_details": "Flowise has issued an update to correct this vulnerability. More details can be found at:https://github.com/FlowiseAI/Flowise/commit/6c78e1c36f4cf08874b9b7a444d61ab63441d78a",
+    "timeline": "2026-02-19 - Vulnerability reported to vendor\n2026-04-27 - Coordinated public release of advisory\n2026-04-27 - Advisory Updated",
+    "credit": "Nicholas Zubrisky (@NZubrisky) of TrendAI Research"
+}
