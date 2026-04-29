@@ -1,0 +1,15 @@
+{
+    "date": "April 28th, 2026",
+    "title": "(0Day) OpenAI Codex Sandbox Escape Vulnerability",
+    "ID_1": "ZDI-26-305",
+    "ID_2": "ZDI-CAN-29475",
+    "cveId": "",
+    "baseScore": "8.6",
+    "vectorString": "AV:L/AC:L/PR:N/UI:R/S:C/C:H/I:H/A:H",
+    "vendors": "OpenAI",
+    "products": "",
+    "description": "This vulnerability allows remote attackers to bypass the sandbox on affected installations of OpenAI Codex. User interaction is required to exploit this vulnerability in that the target must use Codex to process a repository containing malicious JavaScript.\nThe specific flaw exists within the JavaScript execution environment. The issue results from the lack of proper isolation of the sandboxed context. An attacker can leverage this vulnerability to bypass the sandbox and execute code in the context of the current user.",
+    "addtionnal_details": "02/24/26 - ZDI reported the vulnerability to the vendor02/25/26 - the vendor acknowledged the receipt of the report03/05/26 - the vendor requested technical clarification 03/09/26 - ZDI provided additional details04/06/26 - the vendor communicated they were able to reproduce the reported behavior04/13/26 - the vendor rejected vulnerability for being out of scope for their bug bounty program04/13/26 - ZDI confirmed not accepting any rewards or bounties and asked for the fix date04/13/26 - the vendor stated that the vulnerability was not in the default Codex product surface04/17/26 - ZDI notified the vendor of the intention to publish the case as a 0-day advisory\n\n-- Mitigation: Given the nature of the vulnerability, the only salient mitigation strategy is to restrict interaction with the product",
+    "timeline": "2026-02-24 - Vulnerability reported to vendor\n2026-04-28 - Coordinated public release of advisory\n2026-04-28 - Advisory Updated",
+    "credit": "Peter Girnus (@gothburz), Demeng Chen (@DemengChen233), Project AESIR with TrendAI Zero Day Initiative"
+}
