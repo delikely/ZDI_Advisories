@@ -1,0 +1,15 @@
+{
+    "date": "May 12th, 2026",
+    "title": "Microsoft Windows splwow64 Race Condition Local Privilege Escalation Vulnerability",
+    "ID_1": "ZDI-26-310",
+    "ID_2": "ZDI-CAN-28605",
+    "cveId": "CVE-2026-34342",
+    "baseScore": "4.4",
+    "vectorString": "AV:L/AC:L/PR:L/UI:N/S:U/C:N/I:L/A:L",
+    "vendors": "Microsoft",
+    "products": "Windows",
+    "description": "This vulnerability allows local attackers to escalate privileges on affected installations of Microsoft Windows. An attacker must first obtain the ability to execute low-privileged code on the target system in order to exploit this vulnerability.\nThe specific flaw exists within the splwow64.exe process, which is part of the Print Spooler service. The issue results from unsafe use of shared memory. An attacker can leverage this vulnerability to escalate privileges from low integrity and execute arbitrary code in the context of the current user at medium integrity.",
+    "addtionnal_details": "Microsoft has issued an update to correct this vulnerability. More details can be found at:https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-34342",
+    "timeline": "2026-01-12 - Vulnerability reported to vendor\n2026-05-12 - Coordinated public release of advisory\n2026-05-12 - Advisory Updated",
+    "credit": "Marcin Wiazowski"
+}
