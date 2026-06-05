@@ -1,0 +1,15 @@
+{
+    "date": "June 4th, 2026",
+    "title": "(Pwn2Own) Microsoft Edge Navigation Handling Universal Cross-Site Scripting Vulnerability",
+    "ID_1": "ZDI-26-330",
+    "ID_2": "ZDI-CAN-31430",
+    "cveId": "CVE-2026-45494",
+    "baseScore": "5.0",
+    "vectorString": "AV:N/AC:H/PR:N/UI:R/S:U/C:L/I:L/A:L",
+    "vendors": "Microsoft",
+    "products": "",
+    "description": "This vulnerability allows remote attackers to execute arbitrary cross-origin script on affected installations of Microsoft Edge. User interaction is required to exploit this vulnerability in that the target must visit a malicious page or open a malicious file.\nThe specific flaw exists within the handling of navigation. The issue results from the lack of proper validation of user-supplied data, which can lead to the injection of arbitrary script. An attacker can leverage this vulnerability to execute script in the context of a target domain.",
+    "addtionnal_details": "Microsoft has issued an update to correct this vulnerability. More details can be found at:https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-45494",
+    "timeline": "2026-05-20 - Vulnerability reported to vendor\n2026-06-04 - Coordinated public release of advisory\n2026-06-04 - Advisory Updated",
+    "credit": "Orange Tsai (@orange_8361) of DEVCORE Research Team (@d3vc0r3)"
+}
