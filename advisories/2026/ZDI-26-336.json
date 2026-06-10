@@ -1,0 +1,15 @@
+{
+    "date": "June 9th, 2026",
+    "title": "X.Org Server CheckKeyActions Out-Of-Bounds Read Information Disclosure Vulnerability",
+    "ID_1": "ZDI-26-336",
+    "ID_2": "ZDI-CAN-28737",
+    "cveId": "CVE-2026-34002",
+    "baseScore": "6.1",
+    "vectorString": "AV:L/AC:L/PR:L/UI:N/S:U/C:H/I:N/A:L",
+    "vendors": "X.Org",
+    "products": "",
+    "description": "This vulnerability allows local attackers to disclose sensitive information on affected installations of X.Org Server. An attacker must first obtain the ability to execute low-privileged code on the target system in order to exploit this vulnerability.\nThe specific flaw exists within the handling of key actions. The issue results from the lack of proper validation of user-supplied data, which can result in a read past the end of an allocated data structure. An attacker can leverage this in conjunction with other vulnerabilities to execute arbitrary code in the context of root.",
+    "addtionnal_details": "X.Org has issued an update to correct this vulnerability. More details can be found at:https://gitlab.freedesktop.org/xorg/xserver/-/commit/f056ce1c",
+    "timeline": "2026-02-17 - Vulnerability reported to vendor\n2026-06-09 - Coordinated public release of advisory\n2026-06-09 - Advisory Updated",
+    "credit": "Jan-Niklas Sohn"
+}

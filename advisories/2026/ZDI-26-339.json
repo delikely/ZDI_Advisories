@@ -1,0 +1,15 @@
+{
+    "date": "June 9th, 2026",
+    "title": "Microsoft Windows Narrator Braille Support brlapi Exposed Dangerous Function Local Privilege Escalation Vulnerability",
+    "ID_1": "ZDI-26-339",
+    "ID_2": "ZDI-CAN-28792",
+    "cveId": "CVE-2026-48565",
+    "baseScore": "7.0",
+    "vectorString": "AV:L/AC:H/PR:L/UI:N/S:U/C:H/I:H/A:H",
+    "vendors": "Microsoft",
+    "products": "Windows",
+    "description": "This vulnerability allows local attackers to escalate privileges on affected installations of Microsoft Windows. An attacker must first obtain the ability to execute low-privileged code on the target system in order to exploit this vulnerability. Additionally, Braille support for Narrator must be installed.\nThe specific flaw exists within the brlapi service. The issue results from an exposed dangerous function. An attacker can leverage this vulnerability to escalate privileges and execute arbitrary code in the context of SYSTEM.",
+    "addtionnal_details": "Microsoft has issued an update to correct this vulnerability. More details can be found at:https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-48565",
+    "timeline": "2026-03-02 - Vulnerability reported to vendor\n2026-06-09 - Coordinated public release of advisory\n2026-06-09 - Advisory Updated",
+    "credit": "Zeeshan Shaikh (@bugzzzhunter)"
+}

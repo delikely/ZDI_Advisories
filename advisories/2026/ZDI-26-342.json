@@ -1,0 +1,15 @@
+{
+    "date": "June 9th, 2026",
+    "title": "Progress Software Kemp LoadMaster apiuser Uninitialized Memory Remote Code Execution Vulnerability",
+    "ID_1": "ZDI-26-342",
+    "ID_2": "ZDI-CAN-30437",
+    "cveId": "CVE-2026-8037",
+    "baseScore": "9.8",
+    "vectorString": "AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:H",
+    "vendors": "Progress Software",
+    "products": "",
+    "description": "This vulnerability allows remote attackers to execute arbitrary code on affected installations of Progress Software Kemp LoadMaster. Authentication is not required to exploit this vulnerability.\nThe specific flaw exists within the handling of the apiuser parameter provided to the accessv2 endpoint. The issue results from the lack of proper initialization of memory prior to accessing it. An attacker can leverage this vulnerability to execute code in the context of root. ",
+    "addtionnal_details": "Progress Software has issued an update to correct this vulnerability. More details can be found at:https://docs.progress.com/bundle/release-notes_loadmaster-7-2-63-2/page/Introduction.html",
+    "timeline": "2026-04-15 - Vulnerability reported to vendor\n2026-06-09 - Coordinated public release of advisory\n2026-06-09 - Advisory Updated",
+    "credit": "Syed Ibrahim Ahmed of TrendAI Research"
+}
