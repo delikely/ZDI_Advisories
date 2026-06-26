@@ -1,48 +1,78 @@
 import os
-import json 
+import json
 import datetime
+import re
 import requests
 import feedparser
 from lxml import etree
 requests.packages.urllib3.disable_warnings(requests.packages.urllib3.exceptions.InsecureRequestWarning)
 
 def download_advisory(url):
-    print("Download:",url)
+    print("Download:", url)
     response = requests.get(url)
     content = response.content
-    if(response.url != url):
+    if response.url != url:
         return False
 
     tree = etree.HTML(content)
-    date = tree.xpath('/html/body/section/div/div/data/text()')[0]
-    title= tree.xpath('/html/body/section/div/div/h2/text()')[0]
-    ID_1 = tree.xpath('/html/body/section/div/div/h3/text()[1]')[0]
-    ID_2 = tree.xpath('/html/body/section/div/div/h3/text()[2]')[0]
+
+    # --- Metadata column (left sidebar) ---
+    # Date: inside the inline-flex div with calendar icon
+    date = tree.xpath('//span[contains(@class,"text-zdi-blue") and contains(@class,"uppercase") and contains(@class,"tracking-widest")]/text()')[0].strip()
+    # Title: the <h1> tag
+    title = tree.xpath('//h1/text()')[0].strip()
+
+    # ZDI ID (e.g. ZDI-26-397) — first metadata-value span
+    ID_1 = tree.xpath('//span[@class="metadata-value"]/text()')[0].strip()
+    # ZDI-CAN ID (e.g. ZDI-CAN-30168) — second metadata-value span
+    ID_2 = tree.xpath('//span[contains(@class,"metadata-value") and contains(@class,"text-gray-400")]/text()')[0].strip()
+
+    # CVE ID — link inside metadata row labelled "CVE ID"
     try:
-        cveId = tree.xpath('/html/body/section/div/div/table/tr[1]/td[2]/a/text()')[0]
-    except:
+        cveId = tree.xpath('//p[text()="CVE ID"]/following-sibling::span//a/text()')[0].strip()
+    except (IndexError, AttributeError):
         cveId = ""
-    baseScore = tree.xpath('/html/body/section/div/div/table/tr[2]/td[2]/text()')[0].strip()[:-1]
+
+    # CVSS Score — metadata-value with "rounded" class, after "CVSS Score" label
+    baseScore = tree.xpath('//p[text()="CVSS Score"]/following-sibling::div//span[contains(@class,"metadata-value") and contains(@class,"rounded")]/text()')[0].strip()
+    # CVSS Vector String — link inside the same CVSS Score row
     try:
-        vectorString = tree.xpath('/html/body/section/div/div/table//tr[2]/td[2]/a/text()')[0]
-    except:
+        vectorString = tree.xpath('//p[text()="CVSS Score"]/following-sibling::div//a/text()')[0].strip()
+    except (IndexError, AttributeError):
         vectorString = ""
 
-    vendors = tree.xpath('/html/body/section/div/div/table/tr[3]/td[2]/*')[0].xpath('string(.)')
-    products = tree.xpath('/html/body/section/div/div/table/tr[4]/td[2]/*')[0].xpath('string(.)')
+    # Affected Vendors — text content after "Affected Vendors" label
+    vendors = tree.xpath('//p[text()="Affected Vendors"]/following-sibling::span//text()')
+    vendors = ' '.join(v.strip() for v in vendors if v.strip())
 
-    if tree.xpath('/html/body/section/div/div/table/tr[5]/td[1]/text()')[0].strip() == "TREND MICRO CUSTOMER PROTECTION":
-        # print("skip \"TREND MICRO CUSTOMER PROTECTION\"")
-        description =  '\n'.join(tree.xpath('/html/body/section/div/div/table/tr[6]/td[2]/p/text()'))
-        addtionnal_details = tree.xpath('/html/body/section/div/div/table/tr[7]/td[2]')[0].xpath('string(.)').replace("\n                            ","").replace("\n                        ","").replace("\n                    ","")
+    # Affected Products — text content after "Affected Products" label
+    products = tree.xpath('//p[text()="Affected Products"]/following-sibling::span//text()')
+    products = ' '.join(p.strip() for p in products if p.strip())
 
-        timeline=  '\n'.join(tree.xpath('/html/body/section/div/div/table/tr[8]/td[2]/ul/li/text()'))
-        credit = tree.xpath('/html/body/section/div/div/table/tr[9]/td[2]/text()')[0]
-    else:
-        description =  '\n'.join(tree.xpath('/html/body/section/div/div/table/tr[5]/td[2]/p/text()'))
-        addtionnal_details = tree.xpath('/html/body/section/div/div/table/tr[6]/td[2]')[0].xpath('string(.)').replace("\n                            ","").replace("\n                        ","").replace("\n                    ","")
-        timeline=  '\n'.join(tree.xpath('/html/body/section/div/div/table/tr[7]/td[2]/ul/li/text()'))
-        credit = tree.xpath('/html/body/section/div/div/table/tr[8]/td[2]/text()')[0]
+    # --- Content area (right side) ---
+    # Check for "TREND MICRO CUSTOMER PROTECTION" section
+    has_tm = tree.xpath('//h3[contains(text(),"TREND MICRO CUSTOMER PROTECTION")]')
+
+    # Description: <p> tags between "Vulnerability Details" and next <h3>
+    description = '\n'.join(
+        tree.xpath('//h3[text()="Vulnerability Details"]/following-sibling::p[not(preceding-sibling::h3[text()="Additional Details"])]/text()')
+    )
+
+    # Additional Details: content between "Additional Details" heading and "Disclosure Timeline"
+    addtionnal_details_nodes = tree.xpath(
+        '//h3[text()="Additional Details"]/following-sibling::p[not(preceding-sibling::h3[text()="Disclosure Timeline"])]'
+    )
+    addtionnal_details = '\n'.join(node.xpath('string(.)').strip() for node in addtionnal_details_nodes)
+    # Collapse HTML indentation whitespace
+    addtionnal_details = re.sub(r'\n[\s\t\n]+', '\n', addtionnal_details).strip()
+
+    # Disclosure Timeline: <li> items after "Disclosure Timeline" heading
+    timeline_nodes = tree.xpath('//h3[text()="Disclosure Timeline"]/following-sibling::ul/li')
+    timeline = '\n'.join(node.xpath('string(.)').strip() for node in timeline_nodes)
+
+    # Credit: <p> text after "Credit" heading
+    credit = tree.xpath('//h3[text()="Credit"]/following-sibling::p/text()')
+    credit = ' '.join(c.strip() for c in credit if c.strip()) if credit else ""
 
     data = {"date":date,"title":title,"ID_1":ID_1,"ID_2":ID_2,"cveId":cveId,"baseScore":baseScore,"vectorString":vectorString,"vendors":vendors,"products":products,"description":description,"addtionnal_details":addtionnal_details,"timeline":timeline,"credit":credit}
 
@@ -59,20 +89,37 @@ def download_advisory(url):
     return True
 
 def update():
-    rss_url= "https://www.zerodayinitiative.com/rss/published/"
-    response = requests.get(rss_url, timeout=20,verify=False)
+    rss_url = "https://www.zerodayinitiative.com/rss/published/"
+    response = requests.get(rss_url, timeout=20, verify=False)
     feed = feedparser.parse(response.content)
 
+    base_dir = os.path.join(os.path.dirname(__file__), "advisories")
+    downloaded = 0
+    skipped = 0
+
     for entry in feed.entries:
-        d = entry.get('updated_parsed') or entry.get('published_parsed')
-        pub_day = datetime.date(d[0], d[1], d[2])
-        yesterday = datetime.date.today() + datetime.timedelta(-1)
-        if pub_day == yesterday:
-            title = entry.title
-            link = entry.link
-            if str(link).startswith("http://"):
-                link = link.replace("http://","https://")
-            download_advisory(link)
+        link = entry.link
+        if str(link).startswith("http://"):
+            link = link.replace("http://", "https://")
+
+        # Extract ZDI-ID from URL (e.g. ZDI-26-397)
+        match = re.search(r'(ZDI-\d+-\d+)', link)
+        if not match:
+            continue
+        zdi_id = match.group(1)
+        year = "20" + zdi_id.split("-")[1]
+
+        # Skip if already downloaded
+        file_path = os.path.join(base_dir, year, zdi_id + ".json")
+        if os.path.exists(file_path):
+            skipped += 1
+            continue
+
+        print(f"Missing: {zdi_id}")
+        if download_advisory(link):
+            downloaded += 1
+
+    print(f"Downloaded: {downloaded}, Skipped (existing): {skipped}")
 
 if __name__ == '__main__':
     update()
