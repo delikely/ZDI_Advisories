@@ -1,0 +1,15 @@
+{
+    "date": "June 11th, 2026",
+    "title": "Apache HTTP Server mod_proxy_ajp Out-Of-Bounds Read Information Disclosure Vulnerability",
+    "ID_1": "ZDI-26-356",
+    "ID_2": "ZDI-CAN-30089",
+    "cveId": "CVE-2026-34032",
+    "baseScore": "3.7",
+    "vectorString": "AV:N/AC:H/PR:N/UI:N/S:U/C:L/I:N/A:N",
+    "vendors": "Apache",
+    "products": "HTTP Server",
+    "description": "This vulnerability allows remote attackers to disclose sensitive information on affected installations of Apache HTTP Server. An attacker must first obtain the ability to compromise an AJP backend associated with the target system in order to exploit this vulnerability.\nThe specific flaw exists within the parsing of embedded strings. The issue results from the lack of proper validation of user-supplied data, which can result in a read past the end of an allocated buffer. An attacker can leverage this in conjunction with other vulnerabilities to execute arbitrary code in the context of the service account.",
+    "addtionnal_details": "Apache has issued an update to correct this vulnerability. More details can be found at:\nhttps://httpd.apache.org/security/vulnerabilities_24.html#CVE-2026-34032",
+    "timeline": "2026-04-23 - Vulnerability reported to vendor\n2026-06-11 - Coordinated public release of advisory\n2026-06-11  - Advisory Updated",
+    "credit": "Sajeeb Lohani"
+}

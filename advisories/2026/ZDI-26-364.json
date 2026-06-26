@@ -1,0 +1,15 @@
+{
+    "date": "June 24th, 2026",
+    "title": "FlowiseAI Flowise CSV Agent  Prompt Injection Remote Code Execution Vulnerability",
+    "ID_1": "ZDI-26-364",
+    "ID_2": "ZDI-CAN-29411",
+    "cveId": "CVE-2026-41264",
+    "baseScore": "9.8",
+    "vectorString": "AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:H",
+    "vendors": "Flowise",
+    "products": "Flowise",
+    "description": "This vulnerability allows remote attackers to execute arbitrary code on affected installations of Flowise. Authentication is not required to exploit this vulnerability.\nThe specific flaw exists within the run method of the CSV_Agents class. The issue results from insufficient input sanitization when using untrusted data to construct an LLM prompt. An attacker can leverage this vulnerability to execute code in the context of the service account.",
+    "addtionnal_details": "Flowise has issued an update to correct this vulnerability. More details can be found at:\nhttps://github.com/FlowiseAI/Flowise/pull/5879/changes/4f394986624546e7bd9c8d8d849e3c4436d4d40d",
+    "timeline": "2026-02-26 - Vulnerability reported to vendor\n2026-06-24 - Coordinated public release of advisory\n2026-06-24  - Advisory Updated",
+    "credit": "Dre Cura (@dre_cura) and Nicholas Zubrisky (@NZubrisky) of TrendAI Research"
+}

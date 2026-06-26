@@ -1,0 +1,15 @@
+{
+    "date": "June 24th, 2026",
+    "title": "ATEN Unizon uploadSSL Directory Traversal Arbitrary File Deletion Vulnerability",
+    "ID_1": "ZDI-26-379",
+    "ID_2": "ZDI-CAN-28503",
+    "cveId": "CVE-2026-9775",
+    "baseScore": "5.5",
+    "vectorString": "AV:N/AC:L/PR:H/UI:N/S:U/C:N/I:L/A:H",
+    "vendors": "ATEN",
+    "products": "Unizon",
+    "description": "This vulnerability allows remote attackers to delete arbitrary files on affected installations of ATEN Unizon. Authentication is required to exploit this vulnerability.\nThe specific flaw exists within the uploadSSL method. The issue results from the lack of proper validation of a user-supplied path prior to using it in file operations. An attacker can leverage this vulnerability to delete files or create a denial-of-service condition on the system.",
+    "addtionnal_details": "ATEN has issued an update to correct this vulnerability. More details can be found at:\nhttps://www.aten.com/global/en/supportcenter/info/security-advisory/28/",
+    "timeline": "2026-03-13 - Vulnerability reported to vendor\n2026-06-24 - Coordinated public release of advisory\n2026-06-24  - Advisory Updated",
+    "credit": "Ahmed Y. Elmogy"
+}

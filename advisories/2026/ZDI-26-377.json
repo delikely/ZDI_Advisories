@@ -1,0 +1,15 @@
+{
+    "date": "June 24th, 2026",
+    "title": "Quest NetVault Backup viewclient Cross-Site Scripting Authentication Bypass Vulnerability",
+    "ID_1": "ZDI-26-377",
+    "ID_2": "ZDI-CAN-28202",
+    "cveId": "CVE-2026-7569",
+    "baseScore": "8.8",
+    "vectorString": "AV:N/AC:L/PR:N/UI:R/S:U/C:H/I:H/A:H",
+    "vendors": "Quest",
+    "products": "NetVault Backup",
+    "description": "This vulnerability allows remote attackers to bypass authentication on affected installations of Quest NetVault Backup. User interaction is required to exploit this vulnerability in that the target must visit a malicious page or open a malicious file.\nThe specific flaw exists within the viewclient webpage. The issue results from the lack of proper validation of user-supplied data, which can lead to the injection of an arbitrary script. An attacker can leverage this in conjunction with other vulnerabilities to execute arbitrary code in the context of SYSTEM.",
+    "addtionnal_details": "Quest has issued an update to correct this vulnerability. More details can be found at:\nhttps://support.quest.com/technical-documents/netvault/14.0.2/release-notes#TOPIC-2338529",
+    "timeline": "2025-10-03 - Vulnerability reported to vendor\n2026-06-24 - Coordinated public release of advisory\n2026-06-24  - Advisory Updated",
+    "credit": "Bobby Gould (@bobbygould5) of Trend Zero Day Initiative"
+}

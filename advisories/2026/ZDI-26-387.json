@@ -1,0 +1,15 @@
+{
+    "date": "June 24th, 2026",
+    "title": "Oracle PeopleSoft HttpListeningConnector Server-Side Request Forgery Vulnerability",
+    "ID_1": "ZDI-26-387",
+    "ID_2": "ZDI-CAN-31816",
+    "cveId": "CVE-2026-35273",
+    "baseScore": "9.3",
+    "vectorString": "AV:N/AC:L/PR:N/UI:N/S:C/C:H/I:L/A:N",
+    "vendors": "Oracle",
+    "products": "PeopleSoft",
+    "description": "This vulnerability allows remote attackers to initiate arbitrary server-side requests on affected installations of Oracle PeopleSoft. Authentication is not required to exploit this vulnerability.\nThe specific flaw exists within the HttpListeningConnector class. The issue results from the lack of proper validation of a URI prior to accessing resources. An attacker can leverage this in conjunction with other vulnerabilities to execute arbitrary code in the context of the service account.",
+    "addtionnal_details": "Oracle has issued an update to correct this vulnerability. More details can be found at:\nhttps://www.oracle.com/security-alerts/alert-cve-2026-35273.html",
+    "timeline": "2026-06-10 - Vulnerability reported to vendor\n2026-06-24 - Coordinated public release of advisory\n2026-06-24  - Advisory Updated",
+    "credit": "Bobby Gould (@bobbygould5) and Minh Giang of TrendAI Zero Day Initiative, Lucas Miller of TrendAI Research"
+}

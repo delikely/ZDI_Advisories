@@ -1,0 +1,15 @@
+{
+    "date": "June 24th, 2026",
+    "title": "Quest NetVault Backup NVBUDeviceDrive SQL Injection Remote Code Execution Vulnerability",
+    "ID_1": "ZDI-26-371",
+    "ID_2": "ZDI-CAN-27633",
+    "cveId": "CVE-2026-9782",
+    "baseScore": "8.8",
+    "vectorString": "AV:N/AC:L/PR:L/UI:N/S:U/C:H/I:H/A:H",
+    "vendors": "Quest",
+    "products": "NetVault Backup",
+    "description": "This vulnerability allows remote attackers to execute arbitrary code on affected installations of Quest NetVault Backup. Although authentication is required to exploit this vulnerability, the existing authentication mechanism can be bypassed.\nThe specific flaw exists within the processing of NVBUDeviceDrive JSON-RPC messages. The issue results from the lack of proper validation of a user-supplied string before using it to construct SQL queries. An attacker can leverage this vulnerability to execute code in the context of NETWORK SERVICE.",
+    "addtionnal_details": "Quest has issued an update to correct this vulnerability. More details can be found at:\nhttps://support.quest.com/technical-documents/netvault/14.0.2/release-notes#TOPIC-2338529",
+    "timeline": "2025-09-24 - Vulnerability reported to vendor\n2026-06-24 - Coordinated public release of advisory\n2026-06-24  - Advisory Updated",
+    "credit": "06fe5fd2bc53027c4a3b7e395af0b850e7b8a044"
+}

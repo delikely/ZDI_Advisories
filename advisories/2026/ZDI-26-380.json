@@ -1,0 +1,15 @@
+{
+    "date": "June 24th, 2026",
+    "title": "ATEN Unizon writeFileToHttpServletResponse Directory Traversal Information Disclosure Vulnerability",
+    "ID_1": "ZDI-26-380",
+    "ID_2": "ZDI-CAN-28505",
+    "cveId": "CVE-2026-9776",
+    "baseScore": "7.5",
+    "vectorString": "AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:N/A:N",
+    "vendors": "ATEN",
+    "products": "Unizon",
+    "description": "This vulnerability allows remote attackers to disclose sensitive information on affected installations of ATEN Unizon. Authentication is not required to exploit this vulnerability.\nThe specific flaw exists within the writeFileToHttpServletResponse method. The issue results from the lack of proper validation of a user-supplied path prior to using it in file operations. An attacker can leverage this vulnerability to disclose information in the context of SYSTEM.",
+    "addtionnal_details": "ATEN has issued an update to correct this vulnerability. More details can be found at:\nhttps://www.aten.com/global/en/supportcenter/info/security-advisory/29/",
+    "timeline": "2026-03-13 - Vulnerability reported to vendor\n2026-06-24 - Coordinated public release of advisory\n2026-06-24  - Advisory Updated",
+    "credit": "Ahmed Y. Elmogy"
+}

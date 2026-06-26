@@ -1,0 +1,15 @@
+{
+    "date": "June 24th, 2026",
+    "title": "X.Org Server SyncChangeCounter Use-After-Free Privilege Escalation Vulnerability",
+    "ID_1": "ZDI-26-395",
+    "ID_2": "ZDI-CAN-30164",
+    "cveId": "CVE-2026-50261",
+    "baseScore": "7.8",
+    "vectorString": "AV:L/AC:L/PR:L/UI:N/S:U/C:H/I:H/A:H",
+    "vendors": "X.Org",
+    "products": "Server",
+    "description": "This vulnerability allows local attackers to escalate privileges on affected installations of X.Org Server. An attacker must first obtain the ability to execute low-privileged code on the target system in order to exploit this vulnerability.\nThe specific flaw exists within the handling of SyncAwait objects. The issue results from the lack of validating the existence of an object prior to performing operations on the object. An attacker can leverage this vulnerability to escalate privileges and execute arbitrary code in the context of root.",
+    "addtionnal_details": "X.Org has issued an update to correct this vulnerability. More details can be found at:\nhttps://gitlab.freedesktop.org/xorg/xserver/-/commit/bdd7bf57af208b1ddf57d4683d67104443b44812",
+    "timeline": "2026-04-17 - Vulnerability reported to vendor\n2026-06-24 - Coordinated public release of advisory\n2026-06-24  - Advisory Updated",
+    "credit": "Anonymous"
+}

@@ -1,0 +1,15 @@
+{
+    "date": "June 3rd, 2026",
+    "title": "Docker Desktop grpcfuse Kernel Module Uncontrolled Recursion Denial-of-Service Vulnerability",
+    "ID_1": "ZDI-26-327",
+    "ID_2": "ZDI-CAN-30796",
+    "cveId": "CVE-2026-8936",
+    "baseScore": "6.5",
+    "vectorString": "AV:L/AC:L/PR:L/UI:N/S:C/C:N/I:N/A:H",
+    "vendors": "Docker",
+    "products": "Desktop",
+    "description": "This vulnerability allows local attackers to create a denial-of-service condition on affected installations of Docker Desktop. An attacker must first obtain the ability to execute low-privileged code within a container on the target system in order to exploit this vulnerability.\nThe specific flaw exists within the grpcfuse kernel module. The issue results from the lack of proper validation of user-supplied data, which can result in unbounded recursion. An attacker can leverage this vulnerability to create a denial-of-service condition on the system.",
+    "addtionnal_details": "Fixed in Docker 4.76.0https://docs.docker.com/desktop/release-notes/#4760",
+    "timeline": "2026-04-30 - Vulnerability reported to vendor\n2026-06-03 - Coordinated public release of advisory\n2026-06-03  - Advisory Updated",
+    "credit": "Nitesh Surana (niteshsurana.com) of TrendAI Research"
+}

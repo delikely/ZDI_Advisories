@@ -1,0 +1,15 @@
+{
+    "date": "June 24th, 2026",
+    "title": "Oracle VirtualBox VMSVGA Stack-based Buffer Overflow Local Privilege Escalation Vulnerability",
+    "ID_1": "ZDI-26-362",
+    "ID_2": "ZDI-CAN-29271",
+    "cveId": "CVE-2026-46873",
+    "baseScore": "7.5",
+    "vectorString": "AV:L/AC:H/PR:H/UI:N/S:C/C:H/I:H/A:H",
+    "vendors": "Oracle",
+    "products": "VirtualBox",
+    "description": "This vulnerability allows local attackers to escalate privileges on affected installations of Oracle VirtualBox. An attacker must first obtain the ability to execute high-privileged code on the target guest system in order to exploit this vulnerability.\nThe specific flaw exists within the VMSVGA device. The issue results from the lack of proper validation of the length of user-supplied data prior to copying it to a fixed-length stack-based buffer. An attacker can leverage this vulnerability to escalate privileges and execute arbitrary code in the context of the hypervisor.",
+    "addtionnal_details": "Oracle has issued an update to correct this vulnerability. More details can be found at:\nhttps://www.oracle.com/security-alerts/cspujun2026.html",
+    "timeline": "2026-04-17 - Vulnerability reported to vendor\n2026-06-24 - Coordinated public release of advisory\n2026-06-24  - Advisory Updated",
+    "credit": "Xiaobye(@xiaobye_tw) of DEVCORE Research Team"
+}
