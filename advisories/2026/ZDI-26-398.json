@@ -1,0 +1,15 @@
+{
+    "date": "July 8th, 2026",
+    "title": "(0Day) (Pwn2Own) Lorex 2K Indoor Wi-Fi Security Camera CDeviceOperator Format String Remote Code Execution Vulnerability",
+    "ID_1": "ZDI-26-398",
+    "ID_2": "ZDI-CAN-25884",
+    "cveId": "",
+    "baseScore": "7.5",
+    "vectorString": "AV:A/AC:H/PR:N/UI:N/S:U/C:H/I:H/A:H",
+    "vendors": "Lorex",
+    "products": "2K Indoor Wi-Fi Security Camera",
+    "description": "This vulnerability allows network-adjacent attackers to execute arbitrary code on affected installations of Lorex 2K Indoor Wi-Fi Security Cameras. Authentication is not required to exploit this vulnerability.\nThe specific flaw exists within the parsing of JSON requests in the sonia binary. The issue results from the lack of proper validation of a user-supplied string before using it as a format specifier. An attacker can leverage this vulnerability to execute code in the context of root.",
+    "addtionnal_details": "07/08/25 - ZDI submitted the report to the vendor09/03/25 - ZDI followed up requesting a status update03/12/26 - ZDI asked the vendor to confirm if the issue was fixed in the latest version06/25/26 - the vendor communicated that the fix was in progress06/26/26 - ZDI notified the vendor of the intention to publish the case as a 0-day advisory-- Mitigation: Given the nature of the vulnerability, the only salient mitigation strategy is to restrict interaction with the product",
+    "timeline": "2025-07-08 - Vulnerability reported to vendor\n2026-07-08 - Coordinated public release of advisory\n2026-07-08  - Advisory Updated",
+    "credit": "PHP Hooligans / Midnight Blue"
+}

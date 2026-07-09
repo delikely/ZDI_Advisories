@@ -1,0 +1,15 @@
+{
+    "date": "July 8th, 2026",
+    "title": "(0Day) AnyDesk Support Information Link Following Denial-of-Service Vulnerability",
+    "ID_1": "ZDI-26-401",
+    "ID_2": "ZDI-CAN-26645",
+    "cveId": "",
+    "baseScore": "4.7",
+    "vectorString": "AV:L/AC:H/PR:L/UI:N/S:U/C:N/I:N/A:H",
+    "vendors": "AnyDesk",
+    "products": "AnyDesk",
+    "description": "This vulnerability allows local attackers to create a denial-of-service condition on affected installations of AnyDesk. An attacker must first obtain the ability to execute low-privileged code on the target system in order to exploit this vulnerability.\nThe specific flaw exists within the Send Support Information feature. By creating a junction, an attacker can abuse the service to create arbitrary files. An attacker can leverage this vulnerability to create a denial-of-service condition on the system.",
+    "addtionnal_details": "03/31/25 - ZDI submitted the report to the vendor’s SOC team08/04/25 - ZDI followed up asking the vendor to confirm receipt09/24/25 - due to lack of response, ZDI informed the vendor of the planned disclosure date09/26/25 - the vendor’s support team confirmed escalating the issue to the Security Team 10/28/25 - ZDI followed up requesting a status update12/11/25 - the vendor’s support team communicated that the issue was out of their scope06/26/26 - ZDI notified the vendor of the intention to publish the case as a 0-day advisory-- Mitigation: Given the nature of the vulnerability, the only salient mitigation strategy is to restrict interaction with the product",
+    "timeline": "2025-03-30 - Vulnerability reported to vendor\n2026-07-08 - Coordinated public release of advisory\n2026-07-08  - Advisory Updated",
+    "credit": "Giuliano Sanfins from SiDi (0x_alibabas)"
+}

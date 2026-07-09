@@ -1,0 +1,15 @@
+{
+    "date": "July 8th, 2026",
+    "title": "(0Day) (Pwn2Own) Lorex 2K Indoor Wi-Fi Security Camera Device Management Server Improper Certificate Validation Vulnerability",
+    "ID_1": "ZDI-26-399",
+    "ID_2": "ZDI-CAN-26851",
+    "cveId": "",
+    "baseScore": "7.5",
+    "vectorString": "AV:A/AC:H/PR:N/UI:N/S:U/C:H/I:H/A:H",
+    "vendors": "Lorex",
+    "products": "2K Indoor Wi-Fi Security Camera",
+    "description": "This vulnerability allows network-adjacent attackers to execute arbitrary code on affected installations of Lorex 2K Indoor Wi-Fi Security Cameras. User interaction is not required to exploit this vulnerability.\nThe specific flaw exists within the device management functionality. The issue results from the lack of proper validation of the certificate presented by the server. An attacker can leverage this in conjunction with other vulnerabilities to execute code in the context of root.",
+    "addtionnal_details": "05/06/25 - ZDI submitted the report to the vendor09/03/25 - ZDI followed up requesting a status update03/12/26 - ZDI asked the vendor to confirm if the issue was fixed in the latest version06/25/26 - the vendor communicated that the fix was in progress06/26/26 - ZDI notified the vendor of the intention to publish the case as a 0-day advisory-- Mitigation: Given the nature of the vulnerability, the only salient mitigation strategy is to restrict interaction with the product",
+    "timeline": "2025-05-06 - Vulnerability reported to vendor\n2026-07-08 - Coordinated public release of advisory\n2026-07-08  - Advisory Updated",
+    "credit": "PHP Hooligans / Midnight Blue"
+}

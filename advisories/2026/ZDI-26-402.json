@@ -1,0 +1,15 @@
+{
+    "date": "July 8th, 2026",
+    "title": "(0Day) Glarysoft Glary Utilities Link Following Local Privilege Escalation Vulnerability",
+    "ID_1": "ZDI-26-402",
+    "ID_2": "ZDI-CAN-27004",
+    "cveId": "",
+    "baseScore": "7.3",
+    "vectorString": "AV:L/AC:L/PR:L/UI:R/S:U/C:H/I:H/A:H",
+    "vendors": "Glarysoft",
+    "products": "Glary Utilities",
+    "description": "This vulnerability allows local attackers to escalate privileges on affected installations of Glarysoft Glary Utilities. An attacker must first obtain the ability to execute low-privileged code on the target system in order to exploit this vulnerability.\nThe specific flaw exists within the Disk Clean functionality. By creating a junction, an attacker can abuse the service to delete arbitrary files. An attacker can leverage this vulnerability to escalate privileges and execute arbitrary code in the context of SYSTEM.",
+    "addtionnal_details": "05/29/25 - ZDI submitted the report to the vendor06/25/25 - ZDI followed up asking the vendor to confirm receipt09/12/25 - ZDI asked for updates12/04/25 - ZDI notified the vendor of the intention to publish the case as a 0-day advisory -- Mitigation: Given the nature of the vulnerability, the only salient mitigation strategy is to restrict interaction with the product",
+    "timeline": "2025-05-29 - Vulnerability reported to vendor\n2026-07-08 - Coordinated public release of advisory\n2026-07-08  - Advisory Updated",
+    "credit": "Sharkkcode and Zeze with TeamT5"
+}
