@@ -1,0 +1,15 @@
+{
+    "date": "July 15th, 2026",
+    "title": "NVIDIA NeMo Framework Deserialization of Untrusted Data Remote Code Execution Vulnerability",
+    "ID_1": "ZDI-26-429",
+    "ID_2": "ZDI-CAN-28090",
+    "cveId": "CVE-2026-24157",
+    "baseScore": "7.8",
+    "vectorString": "AV:L/AC:L/PR:N/UI:R/S:U/C:H/I:H/A:H",
+    "vendors": "NVIDIA",
+    "products": "NeMo Framework",
+    "description": "This vulnerability allows remote attackers to execute arbitrary code on affected installations of NVIDIA NeMo Framework. User interaction is required to exploit this vulnerability in that the target must visit a malicious page or open a malicious file.\nThe specific flaw exists within the parsing of checkpoints. The issue results from the lack of proper validation of user-supplied data, which can result in deserialization of untrusted data. An attacker can leverage this vulnerability to execute code in the context of the current process.",
+    "addtionnal_details": "NVIDIA has issued an update to correct this vulnerability. More details can be found at:\nhttps://nvidia.custhelp.com/app/answers/detail/a_id/5800",
+    "timeline": "2026-02-05 - Vulnerability reported to vendor\n2026-07-15 - Coordinated public release of advisory\n2026-07-15  - Advisory Updated",
+    "credit": "Michael DePlante (@izobashi) of TrendAI Zero Day Initiative"
+}

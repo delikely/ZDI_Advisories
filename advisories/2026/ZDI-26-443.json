@@ -1,0 +1,15 @@
+{
+    "date": "July 15th, 2026",
+    "title": "Linux Kernel vmwgfx Integer Overflow Local Privilege Escalation Vulnerability",
+    "ID_1": "ZDI-26-443",
+    "ID_2": "ZDI-CAN-31467",
+    "cveId": "",
+    "baseScore": "8.8",
+    "vectorString": "AV:L/AC:L/PR:L/UI:N/S:C/C:H/I:H/A:H",
+    "vendors": "Linux",
+    "products": "Kernel",
+    "description": "This vulnerability allows local attackers to escalate privileges on affected installations of Linux Kernel. An attacker must first obtain the ability to execute low-privileged code on the target system in order to exploit this vulnerability.\nThe specific flaw exists within the handling of surface allocations. The issue results from the lack of proper validation of user-supplied data, which can result in an integer overflow before allocating a buffer. An attacker can leverage this vulnerability to escalate privileges and execute arbitrary code in the context of the kernel.",
+    "addtionnal_details": "Linux has issued an update to correct this vulnerability. More details can be found at:\nhttps://lore.kernel.org/dri-devel/20260623193314.506257-1-ian.forbes@broadcom.com/T/#u",
+    "timeline": "2026-06-19 - Vulnerability reported to vendor\n2026-07-15 - Coordinated public release of advisory\n2026-07-15  - Advisory Updated",
+    "credit": "Pumpkin (@u1f383) from DEVCORE Research Team"
+}

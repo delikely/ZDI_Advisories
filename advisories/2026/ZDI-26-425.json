@@ -1,0 +1,15 @@
+{
+    "date": "July 15th, 2026",
+    "title": "OpenSSL OCSP Stapling Verification Double Free Remote Code Execution Vulnerability",
+    "ID_1": "ZDI-26-425",
+    "ID_2": "ZDI-CAN-30391",
+    "cveId": "CVE-2026-35188",
+    "baseScore": "7.5",
+    "vectorString": "AV:N/AC:H/PR:N/UI:R/S:U/C:H/I:H/A:H",
+    "vendors": "OpenSSL",
+    "products": "OpenSSL",
+    "description": "This vulnerability allows remote attackers to execute arbitrary code on affected installations of OpenSSL. User interaction is required to exploit this vulnerability in that the target must make a request to a malicious server.\nThe specific flaw exists within the processing of malformed OCSP responses. The issue results from the lack of validating the existence of an object prior to performing further free operations on the object. An attacker can leverage this vulnerability to execute code in the context of the current process.",
+    "addtionnal_details": "OpenSSL has issued an update to correct this vulnerability. More details can be found at:\nhttps://openssl-library.org/news/vulnerabilities/#CVE-2026-35188",
+    "timeline": "2026-04-16 - Vulnerability reported to vendor\n2026-07-15 - Coordinated public release of advisory\n2026-07-15  - Advisory Updated",
+    "credit": "TrendAI Zero Day Initiative"
+}

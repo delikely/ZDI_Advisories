@@ -1,0 +1,15 @@
+{
+    "date": "July 15th, 2026",
+    "title": "(Pwn2Own) Autel MaxiCharger AC Elite Home USB Authentication Bypass Vulnerability",
+    "ID_1": "ZDI-26-434",
+    "ID_2": "ZDI-CAN-29046",
+    "cveId": "CVE-2026-13306",
+    "baseScore": "4.3",
+    "vectorString": "AV:P/AC:L/PR:N/UI:N/S:U/C:L/I:L/A:L",
+    "vendors": "Autel",
+    "products": "MaxiCharger AC Elite Home",
+    "description": "This vulnerability allows physically present attackers to bypass authentication on affected installations of Autel MaxiCharger AC Elite Home EV chargers. Authentication is not required to exploit this vulnerability.\nThe specific flaw exists within the exposed USB interface. The issue results from the lack of authentication prior to allowing access to functionality. An attacker can leverage this vulnerability to bypass authentication on the system.",
+    "addtionnal_details": "Fixed in firmware version V1.40.81",
+    "timeline": "2026-03-19 - Vulnerability reported to vendor\n2026-07-15 - Coordinated public release of advisory\n2026-07-15  - Advisory Updated",
+    "credit": "Tobias Scharnowski (@ScepticCtf), Felix Buchmann, and Kristian Covic of Fuzzware.io"
+}

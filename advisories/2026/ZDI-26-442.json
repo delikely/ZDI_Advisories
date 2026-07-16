@@ -1,0 +1,15 @@
+{
+    "date": "July 15th, 2026",
+    "title": "Linux Kernel CAN ISO-TP Protocol Race Condition Local Privilege Escalation Vulnerability",
+    "ID_1": "ZDI-26-442",
+    "ID_2": "ZDI-CAN-31764",
+    "cveId": "",
+    "baseScore": "7.8",
+    "vectorString": "AV:L/AC:H/PR:L/UI:N/S:C/C:H/I:H/A:H",
+    "vendors": "Linux",
+    "products": "Kernel",
+    "description": "This vulnerability allows local attackers to escalate privileges on affected installations of Linux Kernel. An attacker must first obtain the ability to execute low-privileged code on the target system in order to exploit this vulnerability.\nThe specific flaw exists within the handling of socket close. The issue results from the lack of proper locking when performing operations on an object. An attacker can leverage this vulnerability to escalate privileges and execute arbitrary code in the context of the kernel.",
+    "addtionnal_details": "Linux has issued an update to correct this vulnerability. More details can be found at:\nhttps://lore.kernel.org/linux-can/20260707083228.47629-1-socketcan@hartkopp.net/",
+    "timeline": "2026-07-03 - Vulnerability reported to vendor\n2026-07-15 - Coordinated public release of advisory\n2026-07-15  - Advisory Updated",
+    "credit": "Nico Yip (@_cyeaa_)"
+}

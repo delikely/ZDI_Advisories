@@ -1,0 +1,15 @@
+{
+    "date": "July 15th, 2026",
+    "title": "Synology DiskStation DS925+ MailPlus Improper Restriction of Communication Channel to Intended Endpoints Vulnerability",
+    "ID_1": "ZDI-26-424",
+    "ID_2": "ZDI-CAN-28485",
+    "cveId": "CVE-2026-13135",
+    "baseScore": "4.3",
+    "vectorString": "AV:A/AC:L/PR:N/UI:N/S:U/C:L/I:N/A:N",
+    "vendors": "Synology",
+    "products": "DiskStation DS925+",
+    "description": "This vulnerability allows network-adjacent attackers to access the Redis instance on affected installations of Synology DiskStation DS925+ devices. Authentication is not required to exploit this vulnerability.\nThe specific flaw exists within the configuration of the MailPlus firewall rules. The issue results from exposing the Redis instance over IPv6. An attacker can leverage this in conjunction with other vulnerabilities to execute arbitrary code in the context of root.",
+    "addtionnal_details": "Synology has issued an update to correct this vulnerability. More details can be found at:\nhttps://www.synology.com/en-global/security/advisory/Synology_SA_26_11",
+    "timeline": "2025-12-04 - Vulnerability reported to vendor\n2026-07-15 - Coordinated public release of advisory\n2026-07-15  - Advisory Updated",
+    "credit": "gcali (_gcali)"
+}

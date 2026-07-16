@@ -1,0 +1,15 @@
+{
+    "date": "July 15th, 2026",
+    "title": "OpenSSL X.509 Email Validation Out-Of-Bounds Read Information Disclosure Vulnerability",
+    "ID_1": "ZDI-26-426",
+    "ID_2": "ZDI-CAN-30378",
+    "cveId": "CVE-2026-42771",
+    "baseScore": "6.5",
+    "vectorString": "AV:N/AC:L/PR:N/UI:N/S:U/C:L/I:N/A:L",
+    "vendors": "OpenSSL",
+    "products": "OpenSSL",
+    "description": "This vulnerability allows remote attackers to disclose sensitive information on affected installations of OpenSSL. Authentication is not required to exploit this vulnerability.\nThe specific flaw exists within the processing of expected X.509 email names. The issue results from the lack of proper validation of user-supplied data, which can result in a read past the end of an allocated buffer. An attacker can leverage this vulnerability to disclose information in the context of the service account.",
+    "addtionnal_details": "OpenSSL has issued an update to correct this vulnerability. More details can be found at:\nhttps://openssl-library.org/news/vulnerabilities/#CVE-2026-42771",
+    "timeline": "2026-04-16 - Vulnerability reported to vendor\n2026-07-15 - Coordinated public release of advisory\n2026-07-15  - Advisory Updated",
+    "credit": "TrendAI Zero Day Initiative"
+}

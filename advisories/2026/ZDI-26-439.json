@@ -1,0 +1,15 @@
+{
+    "date": "July 15th, 2026",
+    "title": "Fuji Electric Tellus pcid64 Driver Exposed Dangerous Method Local Privilege Escalation Vulnerability",
+    "ID_1": "ZDI-26-439",
+    "ID_2": "ZDI-CAN-27670",
+    "cveId": "CVE-2026-8108",
+    "baseScore": "7.8",
+    "vectorString": "AV:L/AC:L/PR:L/UI:N/S:U/C:H/I:H/A:H",
+    "vendors": "Fuji Electric",
+    "products": "Tellus",
+    "description": "This vulnerability allows local attackers to escalate privileges on affected installations of Fuji Electric Tellus. An attacker must first obtain the ability to execute low-privileged code on the target system in order to exploit this vulnerability.\nThe specific flaw exists within calls to methods in the pcid64 driver. The issue results from exposed dangerous functions. An attacker can leverage this vulnerability to escalate privileges and execute arbitrary code in the context of SYSTEM.",
+    "addtionnal_details": "Fuji Electric has issued an update to correct this vulnerability. More details can be found at:\nhttps://www.cisa.gov/news-events/ics-advisories/icsa-26-132-01",
+    "timeline": "2025-09-11 - Vulnerability reported to vendor\n2026-07-15 - Coordinated public release of advisory\n2026-07-15  - Advisory Updated",
+    "credit": "김명규"
+}

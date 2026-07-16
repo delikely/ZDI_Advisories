@@ -1,0 +1,15 @@
+{
+    "date": "July 15th, 2026",
+    "title": "Microsoft Hyper-V netvsc Out-Of-Bounds Read Local Privilege Escalation Vulnerability",
+    "ID_1": "ZDI-26-416",
+    "ID_2": "ZDI-CAN-28769",
+    "cveId": "CVE-2026-54129",
+    "baseScore": "7.8",
+    "vectorString": "AV:L/AC:H/PR:L/UI:N/S:C/C:H/I:H/A:H",
+    "vendors": "Microsoft",
+    "products": "Hyper-V",
+    "description": "This vulnerability allows local attackers to escalate privileges on affected installations of Microsoft Hyper-V. An attacker must first obtain the ability to execute low-privileged code within a Windows virtual machine under Hyper-V in order to exploit this vulnerability.\nThe specific flaw exists within the netvsc.sys driver. The issue results from the lack of proper validation of user-supplied data, which can result in a read past the end of an allocated data structure. An attacker may be able to leverage this vulnerability to escalate privileges and execute arbitrary code in the context of the kernel within the target guest system.",
+    "addtionnal_details": "Microsoft has issued an update to correct this vulnerability. More details can be found at:\nhttps://msrc.microsoft.com/update-guide/en-US/vulnerability/CVE-2026-54129",
+    "timeline": "2026-03-02 - Vulnerability reported to vendor\n2026-07-15 - Coordinated public release of advisory\n2026-07-15  - Advisory Updated",
+    "credit": "Nicola Stauffer"
+}

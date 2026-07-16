@@ -1,0 +1,15 @@
+{
+    "date": "July 15th, 2026",
+    "title": "WatchGuard FireWare OS admd Stack-based Buffer Overflow Remote Code Execution Vulnerability",
+    "ID_1": "ZDI-26-428",
+    "ID_2": "ZDI-CAN-30173",
+    "cveId": "CVE-2026-8247",
+    "baseScore": "7.5",
+    "vectorString": "AV:A/AC:H/PR:N/UI:N/S:U/C:H/I:H/A:H",
+    "vendors": "WatchGuard",
+    "products": "FireWare OS",
+    "description": "This vulnerability allows network-adjacent attackers to execute arbitrary code on affected installations of WatchGuard FireWare OS. Authentication is not required to exploit this vulnerability.\nThe specific flaw exists within the handling of Terminal Service agent login notifications. The issue results from the lack of proper validation of the length of user-supplied data prior to copying it to a fixed-length stack-based buffer. An attacker can leverage this vulnerability to execute code in the context of root.",
+    "addtionnal_details": "WatchGuard has issued an update to correct this vulnerability. More details can be found at:\nhttps://www.watchguard.com/wgrd-psirt/advisory/wgsa-2026-00026",
+    "timeline": "2026-04-15 - Vulnerability reported to vendor\n2026-07-15 - Coordinated public release of advisory\n2026-07-15  - Advisory Updated",
+    "credit": "Xander Mackenzie | @thetrueartist"
+}

@@ -1,0 +1,15 @@
+{
+    "date": "July 15th, 2026",
+    "title": "dnsmasq DNS Response Heap-based Buffer Overflow Remote Code Execution Vulnerability",
+    "ID_1": "ZDI-26-441",
+    "ID_2": "ZDI-CAN-29496",
+    "cveId": "CVE-2026-2291",
+    "baseScore": "8.1",
+    "vectorString": "AV:N/AC:H/PR:N/UI:N/S:U/C:H/I:H/A:H",
+    "vendors": "dnsmasq",
+    "products": "dnsmasq",
+    "description": "This vulnerability allows remote attackers to execute arbitrary code on affected installations of dnsmasq. Authentication is not required to exploit this vulnerability.\nThe specific flaw exists within the parsing of CNAME records. The issue results from the lack of proper validation of the length of user-supplied data prior to copying it to a heap-based buffer. An attacker can leverage this vulnerability to execute code in the context of the service.",
+    "addtionnal_details": "Fixed in commit ec2fbfbbdaa7d7db1c707dce26ce1a37cfe09660https://dnsmasq.org/CVE/CVE-2026-2291.credit",
+    "timeline": "2026-03-31 - Vulnerability reported to vendor\n2026-07-15 - Coordinated public release of advisory\n2026-07-15  - Advisory Updated",
+    "credit": "Xander Mackenzie | @thetrueartist"
+}
