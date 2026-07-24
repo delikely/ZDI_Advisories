@@ -1,0 +1,15 @@
+{
+    "date": "July 23rd, 2026",
+    "title": "Docker Desktop for macOS Inference Server Permissive Allow List Sandbox Escape Vulnerability",
+    "ID_1": "ZDI-26-451",
+    "ID_2": "ZDI-CAN-29308",
+    "cveId": "",
+    "baseScore": "8.8",
+    "vectorString": "AV:L/AC:L/PR:L/UI:N/S:C/C:H/I:H/A:H",
+    "vendors": "Docker",
+    "products": "Desktop",
+    "description": "This vulnerability allows local attackers to escape the model runner sandbox on affected installations of Docker Desktop for macOS. An attacker must first obtain the ability to execute low-privileged code within the sandbox in order to exploit this vulnerability.\nThe specific flaw exists within the sandbox profile of the inference server process. The issue results from a permissive list of allowed inputs. An attacker can leverage this vulnerability to escalate privileges and execute arbitrary code in the context of the current user on the host system.",
+    "addtionnal_details": "Docker has issued an update to correct this vulnerability. More details can be found at:\nhttps://github.com/docker/model-runner/commit/980388697b46b799ebc831f26fa83e4e6130f80a",
+    "timeline": "2026-02-25 - Vulnerability reported to vendor\n2026-07-23 - Coordinated public release of advisory\n2026-07-23  - Advisory Updated",
+    "credit": "Nitesh Surana (niteshsurana.com) of TrendAI Research"
+}
