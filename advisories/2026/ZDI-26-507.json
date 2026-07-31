@@ -1,0 +1,15 @@
+{
+    "date": "July 30th, 2026",
+    "title": "(Pwn2Own) Phoenix Contact CHARX SEC-3150 Privilege Defined With Unsafe Actions Local Privilege Escalation Vulnerability",
+    "ID_1": "ZDI-26-507",
+    "ID_2": "ZDI-CAN-29109",
+    "cveId": "CVE-2026-44096",
+    "baseScore": "7.8",
+    "vectorString": "AV:L/AC:L/PR:L/UI:N/S:U/C:H/I:H/A:H",
+    "vendors": "Phoenix Contact",
+    "products": "CHARX SEC-3150",
+    "description": "This vulnerability allows local attackers to escalate privileges on affected installations of Phoenix Contact CHARX SEC-3150 devices. An attacker must first obtain the ability to execute low-privileged code on the target system in order to exploit this vulnerability.\nThe specific flaw exists within the sudo rules. The issue results from allowing privileged execution of a binary that can have unsafe effects. An attacker can leverage this vulnerability to escalate privileges and execute arbitrary code in the context of root.",
+    "addtionnal_details": "Fixed in firmware v1.9.1, available by Aug 12, 2026.https://certvde.com/en/advisories/VDE-2026-008/",
+    "timeline": "2026-02-09 - Vulnerability reported to vendor\n2026-07-30 - Coordinated public release of advisory\n2026-07-30  - Advisory Updated",
+    "credit": "Hyeongseok Lee (@fluorite_pwn), Yunje Shin (@YunjeShin), Chaeeul Hyun (@yskm_Gunter), Ingyu Yang (@Mafty5275), Hoseok Kang (@cl4y419), Seungyeon Park (@vvsy46), and Wonjun Choi (@won6_choi) of BoB::Takedown"
+}

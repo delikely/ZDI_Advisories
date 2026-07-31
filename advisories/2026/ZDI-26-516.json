@@ -1,0 +1,15 @@
+{
+    "date": "July 30th, 2026",
+    "title": "(Pwn2Own) Phoenix Contact CHARX SEC-3150 ModBus Server Exposed Dangerous Function Denial-of-Service Vulnerability",
+    "ID_1": "ZDI-26-516",
+    "ID_2": "ZDI-CAN-29055",
+    "cveId": "CVE-2026-44090",
+    "baseScore": "6.5",
+    "vectorString": "AV:A/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H",
+    "vendors": "Phoenix Contact",
+    "products": "CHARX SEC-3150",
+    "description": "This vulnerability allows network-adjacent attackers to create a denial-of-service condition on affected installations of Phoenix Contact CHARX SEC-3150 devices. Authentication is not required to exploit this vulnerability.\nThe specific flaw exists within the CharxModbusServer, which listens on port 502 by default. The issue results from an exposed dangerous function. An attacker can leverage this vulnerability to create a denial-of-service condition on the system.",
+    "addtionnal_details": "Fixed in firmware v1.9.1, available by Aug 12, 2026.https://certvde.com/en/advisories/VDE-2026-008/",
+    "timeline": "2026-02-09 - Vulnerability reported to vendor\n2026-07-30 - Coordinated public release of advisory\n2026-07-30  - Advisory Updated",
+    "credit": "Giuseppe Calì (_gcali) and 8cf53a459714977f6bb11ee2d90416bf1675fa0e2451d80cf55a06d0b6ac2"
+}

@@ -1,0 +1,15 @@
+{
+    "date": "July 30th, 2026",
+    "title": "Hugging Face PyTorch Image Models checkpoint Deserialization of Untrusted Data Remote Code Execution Vulnerability",
+    "ID_1": "ZDI-26-523",
+    "ID_2": "ZDI-CAN-27987",
+    "cveId": "CVE-2026-15679",
+    "baseScore": "7.8",
+    "vectorString": "AV:L/AC:L/PR:N/UI:R/S:U/C:H/I:H/A:H",
+    "vendors": "Hugging Face",
+    "products": "PyTorch Image Models",
+    "description": "This vulnerability allows remote attackers to execute arbitrary code on affected installations of Hugging Face PyTorch Image Models. User interaction is required to exploit this vulnerability in that the target must visit a malicious page or open a malicious file.\nThe specific flaw exists within the parsing of checkpoints. The issue results from the lack of proper validation of user-supplied data, which can result in deserialization of untrusted data. An attacker can leverage this vulnerability to execute code in the context of the current process.",
+    "addtionnal_details": "Fixed in v1.0.26 (https://github.com/huggingface/pytorch-image-models/pull/2679/changes/2f750c096282e69dcb671565c5fa7fdc19aad455, https://github.com/huggingface/pytorch-image-models/pull/2679/changes/a13b9b84ecd984d3db7156f1706b801e3e88ab49)",
+    "timeline": "2026-02-05 - Vulnerability reported to vendor\n2026-07-30 - Coordinated public release of advisory\n2026-07-30  - Advisory Updated",
+    "credit": "Michael DePlante (@izobashi) of TrendAI Zero Day Initiative"
+}

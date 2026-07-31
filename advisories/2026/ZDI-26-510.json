@@ -1,0 +1,15 @@
+{
+    "date": "July 30th, 2026",
+    "title": "(Pwn2Own) Phoenix Contact CHARX SEC-3150 Missing Cryptographic Signature Remote Code Execution Vulnerability",
+    "ID_1": "ZDI-26-510",
+    "ID_2": "ZDI-CAN-29094",
+    "cveId": "CVE-2026-44104",
+    "baseScore": "7.5",
+    "vectorString": "AV:A/AC:H/PR:N/UI:N/S:U/C:H/I:H/A:H",
+    "vendors": "Phoenix Contact",
+    "products": "CHARX SEC-3150",
+    "description": "This vulnerability allows network-adjacent attackers to bypass firmware validation on affected installations of Phoenix Contact CHARX SEC-3150 devices. Authentication is not required to exploit this vulnerability.\nThe specific flaw exists within the CharxControllerAgent binary. The issue results from the lack of validation prior to updating the firmware. An attacker can leverage this in conjunction with other vulnerabilities to execute arbitrary code in the context of the charging controller. ",
+    "addtionnal_details": "Fixed in firmware v1.9.1, available by Aug 12, 2026.https://certvde.com/en/advisories/VDE-2026-008/",
+    "timeline": "2026-02-09 - Vulnerability reported to vendor\n2026-07-30 - Coordinated public release of advisory\n2026-07-30  - Advisory Updated",
+    "credit": "Bongeun Koo (@kiddo_pwn) and Evangelos Daravigkas (@freddo_1337) of Team DDOS"
+}

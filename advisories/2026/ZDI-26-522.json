@@ -1,0 +1,15 @@
+{
+    "date": "July 30th, 2026",
+    "title": "Phoenix Contact CHARX SEC-3000 Insertion of Sensitive Information into Log File Information Disclosure Vulnerability",
+    "ID_1": "ZDI-26-522",
+    "ID_2": "ZDI-CAN-27763",
+    "cveId": "CVE-2026-41032",
+    "baseScore": "6.5",
+    "vectorString": "AV:A/AC:L/PR:N/UI:N/S:U/C:H/I:N/A:N",
+    "vendors": "Phoenix Contact",
+    "products": "CHARX SEC-3000",
+    "description": "This vulnerability allows network-adjacent attackers to disclose sensitive information on affected installations of Phoenix Contact CHARX SEC-3000 devices. Authentication is not required to exploit this vulnerability.\nThe specific flaw exists within the generation of log files. The issue results from including sensitive information in a log file. An attacker can leverage this vulnerability to disclose stored credentials, leading to further compromise.",
+    "addtionnal_details": "Phoenix Contact has issued an update to correct this vulnerability. More details can be found at:\nhttps://certvde.com/en/advisories/VDE-2026-060",
+    "timeline": "2026-04-16 - Vulnerability reported to vendor\n2026-07-30 - Coordinated public release of advisory\n2026-07-30  - Advisory Updated",
+    "credit": "Piotr Ptaszek and Mateusz Wójcik"
+}

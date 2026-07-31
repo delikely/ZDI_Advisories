@@ -1,0 +1,15 @@
+{
+    "date": "July 30th, 2026",
+    "title": "Phoenix Contact CHARX SEC-3000 Command Injection Remote Code Execution Vulnerability",
+    "ID_1": "ZDI-26-521",
+    "ID_2": "ZDI-CAN-27762",
+    "cveId": "CVE-2026-44095",
+    "baseScore": "6.8",
+    "vectorString": "AV:A/AC:L/PR:H/UI:N/S:U/C:H/I:H/A:H",
+    "vendors": "Phoenix Contact",
+    "products": "CHARX SEC-3000",
+    "description": "This vulnerability allows network-adjacent attackers to execute arbitrary code on affected installations of Phoenix Contact CHARX SEC-3000 devices. Authentication is required to exploit this vulnerability.\nThe specific flaw exists within the handling of the defaultroutemetric parameter to the config service. The issue results from the lack of proper validation of a user-supplied string before using it to execute a system call. An attacker can leverage this vulnerability to execute code in the context of root.",
+    "addtionnal_details": "Phoenix Contact has issued an update to correct this vulnerability. More details can be found at:\nhttps://certvde.com/en/advisories/VDE-2026-008/",
+    "timeline": "2026-04-14 - Vulnerability reported to vendor\n2026-07-30 - Coordinated public release of advisory\n2026-07-30  - Advisory Updated",
+    "credit": "Piotr Ptaszek and Mateusz Wójcik"
+}
