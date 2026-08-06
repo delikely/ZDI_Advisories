@@ -1,0 +1,15 @@
+{
+    "date": "August 5th, 2026",
+    "title": "(0Day) PAX Technology Q80 XCB Daemon Missing Authentication Vulnerability",
+    "ID_1": "ZDI-26-524",
+    "ID_2": "ZDI-CAN-30584",
+    "cveId": "",
+    "baseScore": "7.1",
+    "vectorString": "AV:A/AC:L/PR:N/UI:N/S:U/C:H/I:L/A:N",
+    "vendors": "PAX Technology",
+    "products": "Q80",
+    "description": "This vulnerability allows network-adjacent attackers to disclose sensitive information and modify configuration on affected installations of PAX Technology Q80. Authentication is not required to exploit this vulnerability.\nThe specific flaw exists within the XCB daemon. The issue results from the lack of authentication prior to allowing access to functionality. An attacker can leverage this in conjunction with other vulnerabilities to execute arbitrary code in the context of root.",
+    "addtionnal_details": "04/22/26 - ZDI reported the vulnerability to the vendor04/23/26 - the vendor confirmed that the reported firmware was end-of-life and no longer supported04/28/26 - ZDI communicated that the users can’t update to a newer firmware 07/11/26 - ZDI disagreed with the vendor’s assessment and provided more evidence07/13/26 - the vendor disputed the impact on supported releases07/21/26 - the vendor confirmed the issue on the reported firmware07/27/26 - the vendor requested an extension until April 202707/27/26 - ZDI notified the vendor of the intention to publish the case as a 0-day advisory\n-- Mitigation: Given the nature of the vulnerability, the only salient mitigation strategy is to restrict interaction with the product",
+    "timeline": "2026-04-22 - Vulnerability reported to vendor\n2026-08-05 - Coordinated public release of advisory\n2026-08-05  - Advisory Updated",
+    "credit": "Steven Yu of TrendAI Research"
+}
