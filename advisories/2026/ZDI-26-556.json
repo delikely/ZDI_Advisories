@@ -1,0 +1,15 @@
+{
+    "date": "August 11th, 2026",
+    "title": "Parallels RAS Client RDP Backend Service Exposed Dangerous Function Local Privilege Escalation Vulnerability",
+    "ID_1": "ZDI-26-556",
+    "ID_2": "ZDI-CAN-28886",
+    "cveId": "CVE-2026-18263",
+    "baseScore": "7.8",
+    "vectorString": "AV:L/AC:L/PR:L/UI:N/S:U/C:H/I:H/A:H",
+    "vendors": "Parallels",
+    "products": "RAS Client",
+    "description": "This vulnerability allows local attackers to escalate privileges on affected installations of Parallels RAS Client. An attacker must first obtain the ability to execute low-privileged code on the target system in order to exploit this vulnerability.\nThe specific flaw exists within the RAS RDP Backend Service. The issue results from an exposed dangerous function. An attacker can leverage this vulnerability to escalate privileges and execute arbitrary code in the context of SYSTEM.",
+    "addtionnal_details": "Fixed in version 21.2 (https://kb.parallels.com/en/131037#section7)",
+    "timeline": "2026-02-25 - Vulnerability reported to vendor\n2026-08-11 - Coordinated public release of advisory\n2026-08-11  - Advisory Updated",
+    "credit": "khongtrang"
+}

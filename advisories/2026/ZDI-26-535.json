@@ -1,0 +1,15 @@
+{
+    "date": "August 11th, 2026",
+    "title": "(Pwn2Own) Microsoft Exchange External Control of File Path Remote Code Execution Vulnerability",
+    "ID_1": "ZDI-26-535",
+    "ID_2": "ZDI-CAN-31481",
+    "cveId": "CVE-2026-62911",
+    "baseScore": "7.2",
+    "vectorString": "AV:N/AC:L/PR:H/UI:N/S:U/C:H/I:H/A:H",
+    "vendors": "Microsoft",
+    "products": "Exchange",
+    "description": "This vulnerability allows remote attackers to execute arbitrary code on affected installations of Microsoft Exchange. Although authentication is required to exploit this vulnerability, the existing authentication mechanism can be bypassed.\nThe specific flaw exists within the handling of file paths. The issue results from the lack of proper validation of a user-supplied path prior to using it in file operations. A remote attacker can exploit this vulnerability to execute arbitrary code in the context of SYSTEM.",
+    "addtionnal_details": "Microsoft has issued an update to correct this vulnerability. More details can be found at:\nhttps://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-62911",
+    "timeline": "2026-05-21 - Vulnerability reported to vendor\n2026-08-11 - Coordinated public release of advisory\n2026-08-11  - Advisory Updated",
+    "credit": "Orange Tsai (@orange_8361) from DEVCORE Research Team"
+}

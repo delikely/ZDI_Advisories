@@ -1,0 +1,15 @@
+{
+    "date": "August 11th, 2026",
+    "title": "Flowise CSV_Agent customReadCSV Code Injection Remote Code Execution Vulnerability",
+    "ID_1": "ZDI-26-545",
+    "ID_2": "ZDI-CAN-30461",
+    "cveId": "CVE-2026-69256",
+    "baseScore": "8.8",
+    "vectorString": "AV:N/AC:L/PR:L/UI:N/S:U/C:H/I:H/A:H",
+    "vendors": "Flowise",
+    "products": "Flowise",
+    "description": "This vulnerability allows remote attackers to execute arbitrary code on affected installations of Flowise. Authentication is required to exploit this vulnerability.\nThe specific flaw exists within the run method of the CSV_Agents class. The issue results from the lack of proper validation of a user-supplied string before using it to execute Python code. An attacker can leverage this vulnerability to execute code in the context of the service account.",
+    "addtionnal_details": "Flowise has issued an update to correct this vulnerability. More details can be found at:\nhttps://github.com/FlowiseAI/Flowise/pull/6257/changes/01ac3d644a197402c454cf7becb43223e6ec8715",
+    "timeline": "2026-04-22 - Vulnerability reported to vendor\n2026-08-11 - Coordinated public release of advisory\n2026-08-11  - Advisory Updated",
+    "credit": "Dre Cura (@dre_cura) of TrendAI Research"
+}
