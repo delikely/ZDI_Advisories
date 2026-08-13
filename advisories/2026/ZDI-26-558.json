@@ -1,0 +1,15 @@
+{
+    "date": "August 12th, 2026",
+    "title": "(Pwn2Own) Amazon Smart Plug OTA Update Process Improper Certificate Validation Vulnerability",
+    "ID_1": "ZDI-26-558",
+    "ID_2": "ZDI-CAN-28460",
+    "cveId": "",
+    "baseScore": "6.8",
+    "vectorString": "AV:A/AC:H/PR:N/UI:N/S:U/C:N/I:H/A:H",
+    "vendors": "Amazon",
+    "products": "Smart Plug",
+    "description": "This vulnerability allows network-adjacent attackers to bypass certificate validation for OTA updates on affected installations of Amazon Smart Plug. Authentication is not required to exploit this vulnerability.\nThe specific flaw exists within the processing of OTA updates. The issue results from the lack of certificate validation when downloading updates. An attacker can leverage this in conjunction with other vulnerabilities to execute code in the context of the device.",
+    "addtionnal_details": "Fixed in Amazon Smart Plug version is 3.1.212https://www.amazon.com/gp/help/customer/display.html?nodeId=T7PZ186qF8gift84NG",
+    "timeline": "2025-11-05 - Vulnerability reported to vendor\n2026-08-12 - Coordinated public release of advisory\n2026-08-12  - Advisory Updated",
+    "credit": "Team Neodyme (@Neodyme)"
+}

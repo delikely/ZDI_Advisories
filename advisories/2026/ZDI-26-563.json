@@ -1,0 +1,15 @@
+{
+    "date": "August 12th, 2026",
+    "title": "(Pwn2Own) Home Assistant Green Simple Service Discovery Protocol Server-Side Request Forgery Vulnerability",
+    "ID_1": "ZDI-26-563",
+    "ID_2": "ZDI-CAN-28279",
+    "cveId": "",
+    "baseScore": "5.4",
+    "vectorString": "AV:A/AC:L/PR:N/UI:N/S:U/C:L/I:L/A:N",
+    "vendors": "Home Assistant",
+    "products": "Green",
+    "description": "This vulnerability allows network-adjacent attackers to initiate arbitrary server-side requests on affected installations of Home Assistant Green. Authentication is not required to exploit this vulnerability.\nThe specific flaw exists within the handling of SSDP headers. The issue results from the lack of proper validation of a URI prior to accessing resources. An attacker can leverage this in conjunction with other vulnerabilities to execute arbitrary code in the context of root.",
+    "addtionnal_details": "Home Assistant has issued an update to correct this vulnerability. More details can be found at:\nhttps://github.com/home-assistant/core/pull/156622",
+    "timeline": "2025-11-05 - Vulnerability reported to vendor\n2026-08-12 - Coordinated public release of advisory\n2026-08-12  - Advisory Updated",
+    "credit": "Stephen Fewer (Rapid7)"
+}
