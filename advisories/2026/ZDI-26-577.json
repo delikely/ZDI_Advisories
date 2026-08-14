@@ -1,0 +1,15 @@
+{
+    "date": "August 13th, 2026",
+    "title": "Trend Micro VPN OpenSSL Configuration Uncontrolled Search Path Element Local Privilege Escalation Vulnerability",
+    "ID_1": "ZDI-26-577",
+    "ID_2": "ZDI-CAN-29830",
+    "cveId": "CVE-2026-67212",
+    "baseScore": "7.0",
+    "vectorString": "AV:L/AC:H/PR:L/UI:N/S:U/C:H/I:H/A:H",
+    "vendors": "TrendLife",
+    "products": "VPN",
+    "description": "This vulnerability allows local attackers to escalate privileges on affected installations of Trend Micro VPN. An attacker must first obtain the ability to execute low-privileged code on the target system in order to exploit this vulnerability.\nThe specific flaw exists within the configuration of OpenSSL. The product loads configuration from an unsecured location. An attacker can leverage this vulnerability to escalate privileges and execute arbitrary code in the context of SYSTEM.",
+    "addtionnal_details": "TrendLife has issued an update to correct this vulnerability. More details can be found at:\nhttps://helpcenter.trendlife.com/en-us/article/TMKA-13331/",
+    "timeline": "2026-04-16 - Vulnerability reported to vendor\n2026-08-13 - Coordinated public release of advisory\n2026-08-13  - Advisory Updated",
+    "credit": "Xavier DANEST"
+}

@@ -1,0 +1,15 @@
+{
+    "date": "August 13th, 2026",
+    "title": "Cisco Identity Services Engine Missing Authentication for Critical Function Information Disclosure Vulnerability",
+    "ID_1": "ZDI-26-580",
+    "ID_2": "ZDI-CAN-29246",
+    "cveId": "CVE-2026-20190",
+    "baseScore": "7.5",
+    "vectorString": "AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:N/A:N",
+    "vendors": "Cisco",
+    "products": "Identity Services Engine",
+    "description": "The vulnerability allows remote attackers to disclose sensitive information on affected installations of Cisco Identity Services Engine. Authentication is not required to exploit this vulnerability.\nThe specific flaw exists within the handling of upgrade files.  The issue results from the lack of authentication prior to allowing access to functionality. An attacker may be able to leverage this vulnerability to disclose stored credentials, leading to further compromise.",
+    "addtionnal_details": "Cisco has issued an update to correct this vulnerability. More details can be found at:\nhttps://sec.cloudapps.cisco.com/security/center/content/CiscoSecurityAdvisory/cisco-sa-ise-multi-G5WP8vv",
+    "timeline": "2026-02-12 - Vulnerability reported to vendor\n2026-08-13 - Coordinated public release of advisory\n2026-08-13  - Advisory Updated",
+    "credit": "Bobby Gould (@bobbygould5) of TrendAI Zero Day Initiative"
+}

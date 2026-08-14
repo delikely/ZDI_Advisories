@@ -1,0 +1,15 @@
+{
+    "date": "August 13th, 2026",
+    "title": "Linux Kernel Net Scheduler Packet Classifier API Time-Of-Check Time-Of-Use Local Privilege Escalation Vulnerability",
+    "ID_1": "ZDI-26-575",
+    "ID_2": "ZDI-CAN-31419",
+    "cveId": "",
+    "baseScore": "7.5",
+    "vectorString": "AV:L/AC:H/PR:H/UI:N/S:C/C:H/I:H/A:H",
+    "vendors": "Linux",
+    "products": "Kernel",
+    "description": "This vulnerability allows local attackers to escalate privileges on affected installations of Linux Kernel. An attacker must first obtain the ability to execute high-privileged code on the target system in order to exploit this vulnerability.\nThe specific flaw exists within the traffic classifier. The issue results from the lack of proper locking when performing operations on an object. An attacker can leverage this vulnerability to escalate privileges and execute code in the context of the kernel.",
+    "addtionnal_details": "Linux has issued an update to correct this vulnerability. More details can be found at:\nhttps://github.com/torvalds/linux/commit/8b519cbcabe836a441369fbec1a8a6518a709251",
+    "timeline": "2026-06-25 - Vulnerability reported to vendor\n2026-08-13 - Coordinated public release of advisory\n2026-08-13  - Advisory Updated",
+    "credit": "@TristanInSec"
+}

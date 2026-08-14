@@ -1,0 +1,15 @@
+{
+    "date": "August 13th, 2026",
+    "title": "Linux Kernel Net Scheduler Packet Classifier API Use-After-Free Local Privilege Escalation Vulnerability",
+    "ID_1": "ZDI-26-571",
+    "ID_2": "ZDI-CAN-31222",
+    "cveId": "CVE-2026-64530",
+    "baseScore": "8.8",
+    "vectorString": "AV:L/AC:L/PR:L/UI:N/S:C/C:H/I:H/A:H",
+    "vendors": "Linux",
+    "products": "Kernel",
+    "description": "This vulnerability allows local attackers to escalate privileges on affected installations of Linux Kernel. An attacker must first obtain the ability to execute low-privileged code on the target system in order to exploit this vulnerability.\nThe specific flaw exists within the tcf_qevent_handle function. The issue results from the lack of validating the existence of an object prior to performing operations on the object. An attacker can leverage this vulnerability to escalate privileges and execute arbitrary code in the context of the kernel.",
+    "addtionnal_details": "Linux has issued an update to correct this vulnerability. More details can be found at:\nhttps://github.com/torvalds/linux/commit/a8a02897f2b479127db261de05cbf0c28b98d159",
+    "timeline": "2026-06-19 - Vulnerability reported to vendor\n2026-08-13 - Coordinated public release of advisory\n2026-08-13  - Advisory Updated",
+    "credit": "Bryan Mbeumo, elden"
+}

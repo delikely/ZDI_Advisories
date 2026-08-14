@@ -1,0 +1,15 @@
+{
+    "date": "August 13th, 2026",
+    "title": "dnsmasq DNSSEC NSEC/NSEC3 Type Bitmap Processing Infinite Loop Denial-of-Service Vulnerability",
+    "ID_1": "ZDI-26-584",
+    "ID_2": "ZDI-CAN-30607",
+    "cveId": "CVE-2026-4890",
+    "baseScore": "7.5",
+    "vectorString": "AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H",
+    "vendors": "dnsmasq",
+    "products": "dnsmasq",
+    "description": "This vulnerability allows remote attackers to create a denial-of-service condition on affected installations of dnsmasq. Authentication is not required to exploit this vulnerability.\nThe specific flaw exists within the handling of NSEC records. The issue results from a lack of a proper exit condition in a loop. An attacker can leverage this vulnerability to create a denial-of-service condition on the system.",
+    "addtionnal_details": "Fixed in dnsmasq-2.93",
+    "timeline": "2026-05-20 - Vulnerability reported to vendor\n2026-08-13 - Coordinated public release of advisory\n2026-08-13  - Advisory Updated",
+    "credit": "chwrld"
+}

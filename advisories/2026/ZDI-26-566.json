@@ -1,0 +1,15 @@
+{
+    "date": "August 13th, 2026",
+    "title": "BlackBerry QNX  KEV File Parsing Out-Of-Bounds Write Remote Code Execution Vulnerability",
+    "ID_1": "ZDI-26-566",
+    "ID_2": "ZDI-CAN-30346",
+    "cveId": "CVE-2026-40272",
+    "baseScore": "7.8",
+    "vectorString": "AV:L/AC:L/PR:N/UI:R/S:U/C:H/I:H/A:H",
+    "vendors": "BlackBerry",
+    "products": "QNX",
+    "description": "This vulnerability allows remote attackers to execute arbitrary code on affected installations of BlackBerry QNX. User interaction is required to exploit this vulnerability in that the target must visit a malicious page or open a malicious file.\nThe specific flaw exists within the parsing of KEV files. The issue results from the lack of proper validation of user-supplied data, which can result in a write past the end of an allocated buffer. An attacker can leverage this vulnerability to execute code in the context of the current process.",
+    "addtionnal_details": "BlackBerry has issued an update to correct this vulnerability. More details can be found at:\nhttps://support.blackberry.com/pkb/s/article/141229",
+    "timeline": "2026-03-31 - Vulnerability reported to vendor\n2026-08-13 - Coordinated public release of advisory\n2026-08-13  - Advisory Updated",
+    "credit": "Mat Powell of TrendAI Zero Day Initiative"
+}

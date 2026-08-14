@@ -1,0 +1,15 @@
+{
+    "date": "August 13th, 2026",
+    "title": "Linux Kernel Net Scheduler Race Condition Local Privilege Escalation Vulnerability",
+    "ID_1": "ZDI-26-568",
+    "ID_2": "ZDI-CAN-31523",
+    "cveId": "",
+    "baseScore": "7.5",
+    "vectorString": "AV:L/AC:H/PR:H/UI:N/S:C/C:H/I:H/A:H",
+    "vendors": "Linux",
+    "products": "Kernel",
+    "description": "This vulnerability allows local attackers to escalate privileges on affected installations of Linux Kernel. An attacker must first obtain the ability to execute high-privileged code on the target system in order to exploit this vulnerability.\nThe specific flaw exists within the handling of tcf_tunnel_key_params objects. The issue results from the lack of proper locking when performing operations on an object. An attacker can leverage this vulnerability to escalate privileges and execute arbitrary code in the context of the kernel.",
+    "addtionnal_details": "Linux has issued an update to correct this vulnerability. More details can be found at:\nhttps://github.com/torvalds/linux/commit/f1f5c8a3955f8fda3f84ed883ac8daa1847e724c",
+    "timeline": "2026-07-03 - Vulnerability reported to vendor\n2026-08-13 - Coordinated public release of advisory\n2026-08-13  - Advisory Updated",
+    "credit": "elden, Brayn Mbeumo"
+}

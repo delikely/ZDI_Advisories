@@ -1,0 +1,15 @@
+{
+    "date": "August 13th, 2026",
+    "title": "Cisco Identity Services Engine invokeScript Command Injection Remote Code Execution Vulnerability",
+    "ID_1": "ZDI-26-581",
+    "ID_2": "ZDI-CAN-28709",
+    "cveId": "CVE-2026-20147",
+    "baseScore": "7.2",
+    "vectorString": "AV:N/AC:L/PR:H/UI:N/S:U/C:H/I:H/A:H",
+    "vendors": "Cisco",
+    "products": "Identity Services Engine",
+    "description": "This vulnerability allows remote attackers to execute arbitrary code on affected installations of Cisco Identity Services Engine. Authentication is required to exploit this vulnerability.\nThe specific flaw exists within the implementation of the invokeScript method. The issue results from the lack of proper validation of a user-supplied string before using it to execute a system call. An attacker can leverage this vulnerability to execute code in the context of the iseadminportal user.",
+    "addtionnal_details": "Cisco has issued an update to correct this vulnerability. More details can be found at:\nhttps://sec.cloudapps.cisco.com/security/center/content/CiscoSecurityAdvisory/cisco-sa-ise-rce-traversal-8bYndVrZ",
+    "timeline": "2025-12-18 - Vulnerability reported to vendor\n2026-08-13 - Coordinated public release of advisory\n2026-08-13  - Advisory Updated",
+    "credit": "Jonathan Lein of Trend Research"
+}

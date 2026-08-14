@@ -1,0 +1,15 @@
+{
+    "date": "August 13th, 2026",
+    "title": "Linux Kernel Net Scheduler Connection Tracking Race Condition Local Privilege Escalation Vulnerability",
+    "ID_1": "ZDI-26-574",
+    "ID_2": "ZDI-CAN-29413",
+    "cveId": "CVE-2026-46319",
+    "baseScore": "7.5",
+    "vectorString": "AV:L/AC:H/PR:H/UI:N/S:C/C:H/I:H/A:H",
+    "vendors": "Linux",
+    "products": "Kernel",
+    "description": "This vulnerability allows local attackers to escalate privileges on affected installations of Linux Kernel. An attacker must first obtain the ability to execute high-privileged code on the target system in order to exploit this vulnerability.\nThe specific flaw exists within the processing of tcf_ct_flow_table objects. The issue results from the lack of proper locking when performing operations on an object. An attacker can leverage this vulnerability to escalate privileges and execute arbitrary code in the context of the kernel.",
+    "addtionnal_details": "Linux has issued an update to correct this vulnerability. More details can be found at:\nhttps://git.kernel.org/pub/scm/linux/kernel/git/stable/linux.git/commit/?id=f462dca0c8415bf0058d0ffa476354c4476d0f09",
+    "timeline": "2026-03-30 - Vulnerability reported to vendor\n2026-08-13 - Coordinated public release of advisory\n2026-08-13  - Advisory Updated",
+    "credit": "GangMin Kim"
+}

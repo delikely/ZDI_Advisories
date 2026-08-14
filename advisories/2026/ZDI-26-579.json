@@ -1,0 +1,15 @@
+{
+    "date": "August 13th, 2026",
+    "title": "Cisco Identity Services Engine zipFiles Directory Traversal Remote Code Execution Vulnerability",
+    "ID_1": "ZDI-26-579",
+    "ID_2": "ZDI-CAN-29197",
+    "cveId": "CVE-2026-20181",
+    "baseScore": "7.2",
+    "vectorString": "AV:N/AC:L/PR:H/UI:N/S:U/C:H/I:H/A:H",
+    "vendors": "Cisco",
+    "products": "Identity Services Engine",
+    "description": "This vulnerability allows remote attackers to execute arbitrary code on affected installations of Cisco Identity Services Engine. Authentication is required to exploit this vulnerability.\nThe specific flaw exists within the zipFiles method. The issue results from the lack of proper validation of a user-supplied path prior to using it in file operations. An attacker can leverage this vulnerability to execute code in the context of the iseadminportal user.",
+    "addtionnal_details": "Cisco has issued an update to correct this vulnerability. More details can be found at:\nhttps://sec.cloudapps.cisco.com/security/center/content/CiscoSecurityAdvisory/cisco-sa-ise-multi-G5WP8vv",
+    "timeline": "2026-02-12 - Vulnerability reported to vendor\n2026-08-13 - Coordinated public release of advisory\n2026-08-13  - Advisory Updated",
+    "credit": "Jonathan Lein of TrendAI Research"
+}
