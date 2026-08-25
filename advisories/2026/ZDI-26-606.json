@@ -1,0 +1,15 @@
+{
+    "date": "August 24th, 2026",
+    "title": "Microsoft Windows Compatibility Appraiser Link Following Local Privilege Escalation Vulnerability",
+    "ID_1": "ZDI-26-606",
+    "ID_2": "ZDI-CAN-28205",
+    "cveId": "",
+    "baseScore": "7.0",
+    "vectorString": "AV:L/AC:H/PR:L/UI:N/S:U/C:H/I:H/A:H",
+    "vendors": "Microsoft",
+    "products": "Windows",
+    "description": "This vulnerability allows local attackers to escalate privileges on affected installations of Microsoft Windows. An attacker must first obtain the ability to execute low-privileged code in the context of LOCAL SERVICE on the target system in order to exploit this vulnerability.\nThe specific flaw exists within the Microsoft Compatibility Appraiser Exp scheduled task. By creating a symbolic link, an attacker can abuse the service to delete arbitrary files. An attacker can leverage this vulnerability to escalate privileges and execute arbitrary code in the context of SYSTEM.",
+    "addtionnal_details": "Microsoft has issued an update to correct this vulnerability. More details can be found at:\nhttps://msrc.microsoft.com/update-guide/acknowledgement/online",
+    "timeline": "2025-12-23 - Vulnerability reported to vendor\n2026-08-24 - Coordinated public release of advisory\n2026-08-24  - Advisory Updated",
+    "credit": "mad31k"
+}

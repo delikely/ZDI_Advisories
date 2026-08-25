@@ -1,0 +1,15 @@
+{
+    "date": "August 24th, 2026",
+    "title": "Linux Kernel Net Scheduler Packet Classifier Use-After-Free Local Privilege Escalation Vulnerability",
+    "ID_1": "ZDI-26-609",
+    "ID_2": "ZDI-CAN-31524",
+    "cveId": "",
+    "baseScore": "7.8",
+    "vectorString": "AV:L/AC:H/PR:L/UI:N/S:C/C:H/I:H/A:H",
+    "vendors": "Linux",
+    "products": "Kernel",
+    "description": "This vulnerability allows local attackers to escalate privileges on affected installations of Linux Kernel. An attacker must first obtain the ability to execute low-privileged code on the target system in order to exploit this vulnerability.\nThe specific flaw exists within the route4_set_fastmap function. The issue results from the lack of validating the existence of an object prior to performing operations on the object. An attacker can leverage this vulnerability to escalate privileges and execute arbitrary code in the context of the kernel.",
+    "addtionnal_details": "Linux has issued an update to correct this vulnerability. More details can be found at:\nhttps://github.com/torvalds/linux/commit/47d7f7051253bdc02b1d245d87e38f16d31a74df",
+    "timeline": "2026-07-14 - Vulnerability reported to vendor\n2026-08-24 - Coordinated public release of advisory\n2026-08-24  - Advisory Updated",
+    "credit": "elden, Bryan Mbeumo"
+}

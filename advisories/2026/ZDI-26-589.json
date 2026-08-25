@@ -1,0 +1,15 @@
+{
+    "date": "August 24th, 2026",
+    "title": "BlueZ A2DP Stack-based Buffer Overflow Remote Code Execution Vulnerability",
+    "ID_1": "ZDI-26-589",
+    "ID_2": "ZDI-CAN-29429",
+    "cveId": "CVE-2026-19774",
+    "baseScore": "7.1",
+    "vectorString": "AV:A/AC:H/PR:N/UI:R/S:U/C:H/I:H/A:H",
+    "vendors": "BlueZ",
+    "products": "BlueZ",
+    "description": "This vulnerability allows network-adjacent attackers to execute arbitrary code on affected installations of BlueZ. An attacker must first obtain the ability to pair a malicious Bluetooth device with the target system in order to exploit this vulnerability.\nThe specific flaw exists within the handling of the stream endpoints. The issue results from the lack of proper validation of the length of user-supplied data prior to copying it to a fixed-length stack-based buffer. An attacker can leverage this vulnerability to execute code in the context of root.",
+    "addtionnal_details": "BlueZ has issued an update to correct this vulnerability. More details can be found at:\nhttps://github.com/bluez/bluez/pull/2251",
+    "timeline": "2026-04-08 - Vulnerability reported to vendor\n2026-08-24 - Coordinated public release of advisory\n2026-08-24  - Advisory Updated",
+    "credit": "p0her (_@p0her_) in TeamH4C"
+}

@@ -1,0 +1,15 @@
+{
+    "date": "August 24th, 2026",
+    "title": "Microsoft Office HTML Injection Information Disclosure Vulnerability",
+    "ID_1": "ZDI-26-607",
+    "ID_2": "ZDI-CAN-29320",
+    "cveId": "",
+    "baseScore": "7.6",
+    "vectorString": "AV:N/AC:L/PR:N/UI:R/S:U/C:H/I:L/A:L",
+    "vendors": "Microsoft",
+    "products": "Office",
+    "description": "This vulnerability allows remote attackers to disclose sensitive information on affected installations of Microsoft Office. User interaction is required to exploit this vulnerability in that the target must visit a malicious page or open a malicious file.\nThe specific flaw exists within the handling of query string parameters. The issue results from the lack of proper validation of user-supplied data, which can lead to the injection of arbitrary HTML. An attacker can leverage this vulnerability to disclose stored credentials, leading to further compromise.",
+    "addtionnal_details": "Fixed in Microsoft Office Web home.office.com",
+    "timeline": "2026-03-03 - Vulnerability reported to vendor\n2026-08-24 - Coordinated public release of advisory\n2026-08-24  - Advisory Updated",
+    "credit": "kaijieguigui"
+}

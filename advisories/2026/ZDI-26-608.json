@@ -1,0 +1,15 @@
+{
+    "date": "August 24th, 2026",
+    "title": "Linux Kernel KVM IOAPIC Use-After-Free Local Privilege Escalation Vulnerability",
+    "ID_1": "ZDI-26-608",
+    "ID_2": "ZDI-CAN-31468",
+    "cveId": "",
+    "baseScore": "8.2",
+    "vectorString": "AV:L/AC:L/PR:H/UI:N/S:C/C:H/I:H/A:H",
+    "vendors": "Linux",
+    "products": "Kernel",
+    "description": "This vulnerability allows local attackers to escalate privileges on affected installations of Linux Kernel. An attacker must first obtain the ability to execute high-privileged code on the target system in order to exploit this vulnerability.\nThe specific flaw exists within the handling of kvm_lapic objects. The issue results from the lack of validating the existence of an object prior to performing operations on the object. An attacker can leverage this vulnerability to escalate privileges and execute arbitrary code in the context of the kernel.",
+    "addtionnal_details": "Linux has issued an update to correct this vulnerability. More details can be found at:\nhttps://github.com/torvalds/linux/commit/9910e835580fef3bef53b70241dd00c4bffad693",
+    "timeline": "2026-06-19 - Vulnerability reported to vendor\n2026-08-24 - Coordinated public release of advisory\n2026-08-24  - Advisory Updated",
+    "credit": "GangMin Kim"
+}

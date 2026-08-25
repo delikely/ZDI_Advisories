@@ -1,0 +1,15 @@
+{
+    "date": "August 24th, 2026",
+    "title": "Fabric.js loadFromJSON Server-Side Request Forgery Vulnerability",
+    "ID_1": "ZDI-26-588",
+    "ID_2": "ZDI-CAN-29318",
+    "cveId": "CVE-2026-19504",
+    "baseScore": "4.0",
+    "vectorString": "AV:L/AC:H/PR:N/UI:N/S:U/C:L/I:L/A:N",
+    "vendors": "Fabric.js",
+    "products": "Fabric.js",
+    "description": "This vulnerability allows remote attackers to disclose sensitive information on affected installations of Fabric.js. Interaction with this library is required to exploit this vulnerability but attack vectors may vary depending on the implementation.\nThe specific flaw exists within the implementation of the loadFromJSON method. The issue results from the lack of proper validation of a URI prior to accessing resources. An attacker may be able to leverage this vulnerability to gain improper access to network resources.",
+    "addtionnal_details": "Fabric.js has issued an update to correct this vulnerability. More details can be found at:\nhttps://github.com/fabricjs/fabric.js/pull/11064",
+    "timeline": "2026-04-07 - Vulnerability reported to vendor\n2026-08-24 - Coordinated public release of advisory\n2026-08-24  - Advisory Updated",
+    "credit": "nedlir"
+}

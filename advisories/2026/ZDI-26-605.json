@@ -1,0 +1,15 @@
+{
+    "date": "August 24th, 2026",
+    "title": "Microsoft Windows Localized Filenames Improper Input Validation NTLM Response Information Disclosure Vulnerability",
+    "ID_1": "ZDI-26-605",
+    "ID_2": "ZDI-CAN-29223",
+    "cveId": "CVE-2026-50508",
+    "baseScore": "3.3",
+    "vectorString": "AV:L/AC:L/PR:N/UI:R/S:U/C:L/I:N/A:N",
+    "vendors": "Microsoft",
+    "products": "Windows",
+    "description": "This vulnerability allows remote attackers to disclose NTLM responses on affected installations of Microsoft Windows. User interaction is required to exploit this vulnerability in that the target must visit a malicious page or open a malicious file.\nThe specific flaw exists within the handling of localized filenames. The issue results from the lack of proper input validation. An attacker can leverage this vulnerability to disclose NTLM responses in the context of the current user.",
+    "addtionnal_details": "Microsoft has issued an update to correct this vulnerability. More details can be found at:\nhttps://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-50508",
+    "timeline": "2026-03-02 - Vulnerability reported to vendor\n2026-08-24 - Coordinated public release of advisory\n2026-08-24  - Advisory Updated",
+    "credit": "Jonathan Lein of TrendAI Research"
+}

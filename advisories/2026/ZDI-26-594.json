@@ -1,0 +1,15 @@
+{
+    "date": "August 24th, 2026",
+    "title": "NVIDIA Megatron Bridge load_model_config Code Injection Remote Code Execution Vulnerability",
+    "ID_1": "ZDI-26-594",
+    "ID_2": "ZDI-CAN-30353",
+    "cveId": "CVE-2026-24251",
+    "baseScore": "7.8",
+    "vectorString": "AV:L/AC:L/PR:N/UI:R/S:U/C:H/I:H/A:H",
+    "vendors": "NVIDIA",
+    "products": "Megatron Bridge",
+    "description": "This vulnerability allows remote attackers to execute arbitrary code on affected installations of NVIDIA Megatron Bridge. User interaction is required to exploit this vulnerability in that the target must visit a malicious page or open a malicious file.\nThe specific flaw exists within the loading of model checkpoint configurations. The issue results from the lack of proper validation of a user-supplied string before using it to execute Python code. An attacker can leverage this vulnerability to execute code in the context of the current user.",
+    "addtionnal_details": "NVIDIA has issued an update to correct this vulnerability. More details can be found at:\nhttps://nvidia.custhelp.com/app/answers/detail/a_id/5841",
+    "timeline": "2026-04-16 - Vulnerability reported to vendor\n2026-08-24 - Coordinated public release of advisory\n2026-08-24  - Advisory Updated",
+    "credit": "YJK(@YJK0805) of ZUSO ART"
+}
