@@ -1,0 +1,15 @@
+{
+    "date": "August 31st, 2026",
+    "title": "(0Day) pdfforge PDF Architect activation-service Update Service Uncontrolled Search Path Element Local Privilege Escalation Vulnerability",
+    "ID_1": "ZDI-26-615",
+    "ID_2": "ZDI-CAN-29536",
+    "cveId": "",
+    "baseScore": "7.8",
+    "vectorString": "AV:L/AC:L/PR:L/UI:N/S:U/C:H/I:H/A:H",
+    "vendors": "pdfforge",
+    "products": "PDF Architect",
+    "description": "This vulnerability allows local attackers to escalate privileges on affected installations of pdfforge PDF Architect. An attacker must first obtain the ability to execute low-privileged code on the target system in order to exploit this vulnerability.\nThe specific flaw exists within the activation-service process. The product loads a library from an unsecured location. An attacker can leverage this vulnerability to escalate privileges and execute code in the context of SYSTEM.",
+    "addtionnal_details": "04/06/26 – ZDI reported the vulnerability to the vendor06/23/26 – ZDI asked for updates07/13/26 – ZDI notified the vendor of the intention to publish the case as 0-day advisory\n-- Mitigation: Given the nature of the vulnerability, the only salient mitigation strategy is to restrict interaction with the product",
+    "timeline": "2026-03-31 - Vulnerability reported to vendor\n2026-08-31 - Coordinated public release of advisory\n2026-08-31  - Advisory Updated",
+    "credit": "Natnael Samson (@NattiSamson)"
+}
