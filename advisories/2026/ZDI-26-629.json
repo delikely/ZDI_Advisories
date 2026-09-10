@@ -1,0 +1,15 @@
+{
+    "date": "September 9th, 2026",
+    "title": "Microsoft Azure Entra ID OAuth Device Code Grant Information Disclosure Vulnerability",
+    "ID_1": "ZDI-26-629",
+    "ID_2": "ZDI-CAN-30176",
+    "cveId": "",
+    "baseScore": "5.8",
+    "vectorString": "AV:N/AC:L/PR:N/UI:N/S:C/C:L/I:N/A:N",
+    "vendors": "Microsoft",
+    "products": "Azure",
+    "description": "This vulnerability allows remote attackers to disclose sensitive information on affected installations of Microsoft Azure. Authentication is not required to exploit this vulnerability.\nThe specific flaw exists within the OAuth Device Code Grant endpoint. The issue results from the generation of error messages containing sensitive information. An attacker can leverage this vulnerability to disclose internal organizational information associated with arbitrary Entra ID tenants.",
+    "addtionnal_details": "Fixed in version 2.1.24394.0",
+    "timeline": "2026-03-31 - Vulnerability reported to vendor\n2026-09-09 - Coordinated public release of advisory\n2026-09-09  - Advisory Updated",
+    "credit": "Nelson William Gamazo Sanchez of TrendAI Research"
+}

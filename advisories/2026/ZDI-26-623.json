@@ -1,0 +1,15 @@
+{
+    "date": "September 9th, 2026",
+    "title": "Linux Kernel IPv6 Multicast Routing Use-After-Free Local Privilege Escalation Vulnerability",
+    "ID_1": "ZDI-26-623",
+    "ID_2": "ZDI-CAN-31770",
+    "cveId": "",
+    "baseScore": "8.8",
+    "vectorString": "AV:L/AC:L/PR:L/UI:N/S:C/C:H/I:H/A:H",
+    "vendors": "Linux",
+    "products": "Kernel",
+    "description": "This vulnerability allows local attackers to escalate privileges on affected installations of Linux Kernel. An attacker must first obtain the ability to execute low-privileged code on the target system in order to exploit this vulnerability.\nThe specific flaw exists within the handling of sk_buff objects. The issue results from the lack of validating the existence of an object prior to performing operations on the object. An attacker can leverage this vulnerability to escalate privileges and execute arbitrary code in the context of the kernel.",
+    "addtionnal_details": "Linux has issued an update to correct this vulnerability. More details can be found at:\nhttps://github.com/torvalds/linux/commit/235b42b5860189eb8c27c36435ad932cae65a734",
+    "timeline": "2026-08-12 - Vulnerability reported to vendor\n2026-09-09 - Coordinated public release of advisory\n2026-09-09  - Advisory Updated",
+    "credit": "ELDEN"
+}

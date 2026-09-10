@@ -1,0 +1,15 @@
+{
+    "date": "September 9th, 2026",
+    "title": "Backblaze Personal Computer Backup bzbackup Link Following Denial-of-Service Vulnerability",
+    "ID_1": "ZDI-26-624",
+    "ID_2": "ZDI-CAN-29327",
+    "cveId": "CVE-2026-19820",
+    "baseScore": "6.1",
+    "vectorString": "AV:L/AC:L/PR:L/UI:N/S:U/C:N/I:L/A:H",
+    "vendors": "Backblaze",
+    "products": "Personal Computer Backup",
+    "description": "This vulnerability allows local attackers to create a denial-of-service condition on affected installations of Backblaze Personal Computer Backup. An attacker must first obtain the ability to execute low-privileged code on the target system in order to exploit this vulnerability.\nThe specific flaw exists within the Backblaze Service. By creating a symbolic link, an attacker can abuse the service to overwrite arbitrary files. An attacker can leverage this vulnerability to create a denial-of-service condition on the system.",
+    "addtionnal_details": "Fixed in Release Version 10.0.1.1069 (https://www.backblaze.com/computer-backup/docs/backup-client-release-notes-windows)",
+    "timeline": "2026-04-07 - Vulnerability reported to vendor\n2026-09-09 - Coordinated public release of advisory\n2026-09-09  - Advisory Updated",
+    "credit": "hamdi"
+}
