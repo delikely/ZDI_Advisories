@@ -1,0 +1,15 @@
+{
+    "date": "September 10th, 2026",
+    "title": "PAPPL Printer IPP Processing Stack-based Buffer Overflow Local Privilege Escalation Vulnerability",
+    "ID_1": "ZDI-26-655",
+    "ID_2": "ZDI-CAN-32306",
+    "cveId": "",
+    "baseScore": "7.8",
+    "vectorString": "AV:L/AC:L/PR:L/UI:N/S:U/C:H/I:H/A:H",
+    "vendors": "PAPPL",
+    "products": "PAPPL",
+    "description": "This vulnerability allows local attackers to escalate privileges on affected installations of PAPPL. An attacker must first obtain the ability to execute low-privileged code on the target system in order to exploit this vulnerability.\nThe specific flaw exists within the handling of printer attributes. The issue results from the lack of proper validation of the length of user-supplied data prior to copying it to a fixed-length stack-based buffer. An attacker can leverage this vulnerability to escalate privileges and execute arbitrary code in the context of root.",
+    "addtionnal_details": "PAPPL has issued an update to correct this vulnerability. More details can be found at:\nhttps://github.com/michaelrsweet/pappl/security/advisories/GHSA-g59w-rq3j-wfj3",
+    "timeline": "2026-08-04 - Vulnerability reported to vendor\n2026-09-10 - Coordinated public release of advisory\n2026-09-10  - Advisory Updated",
+    "credit": "Anonymous"
+}

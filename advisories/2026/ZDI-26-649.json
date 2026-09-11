@@ -1,0 +1,15 @@
+{
+    "date": "September 10th, 2026",
+    "title": "(Pwn2Own) OpenAI Codex Improper Neutralization of Control Sequences Remote Code Execution Vulnerability",
+    "ID_1": "ZDI-26-649",
+    "ID_2": "ZDI-CAN-31270",
+    "cveId": "CVE-2026-19591",
+    "baseScore": "7.8",
+    "vectorString": "AV:L/AC:L/PR:N/UI:R/S:U/C:H/I:H/A:H",
+    "vendors": "OpenAI",
+    "products": "Codex",
+    "description": "This vulnerability allows remote attackers to execute arbitrary code on affected installations of OpenAI Codex. User interaction is required to exploit this vulnerability in that the target must open a malicious folder.\nThe specific flaw exists within the parsing of arguments provided to git commands. The issue results from insufficient neutralization of control sequences. An attacker can leverage this vulnerability to execute code in the context of the current user. ",
+    "addtionnal_details": "OpenAI has issued an update to correct this vulnerability. More details can be found at:\nhttps://www.cve.org/CVERecord?id=CVE-2026-19591",
+    "timeline": "2026-06-02 - Vulnerability reported to vendor\n2026-09-10 - Coordinated public release of advisory\n2026-09-10  - Advisory Updated",
+    "credit": "Cyrill Bannwart, Emanuele Barbeno, Yves Bieri, Lukasz D., Urs Mueller of Compass Security"
+}
