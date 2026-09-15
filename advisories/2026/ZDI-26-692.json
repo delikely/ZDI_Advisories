@@ -1,0 +1,15 @@
+{
+    "date": "September 14th, 2026",
+    "title": "Linux Kernel eMPIA USB Device Driver Race Condition Code Execution Vulnerability",
+    "ID_1": "ZDI-26-692",
+    "ID_2": "ZDI-CAN-30389",
+    "cveId": "CVE-2026-31583",
+    "baseScore": "7.1",
+    "vectorString": "AV:P/AC:H/PR:N/UI:N/S:C/C:H/I:H/A:H",
+    "vendors": "Linux",
+    "products": "Kernel",
+    "description": "This vulnerability allows physically present attackers to execute arbitrary code on affected installations of Linux Kernel. Authentication is not required to exploit this vulnerability.\nThe specific flaw exists within the handling of em28xx_v4l2 structures. The issue results from the lack of proper locking when performing operations on an object. An attacker can leverage this vulnerability to execute code in the context of the kernel.",
+    "addtionnal_details": "Linux has issued an update to correct this vulnerability. More details can be found at:\nhttps://github.com/torvalds/linux/commit/a66485a934c7187ae8e36517d40615fa2e961cff",
+    "timeline": "2026-04-17 - Vulnerability reported to vendor\n2026-09-14 - Coordinated public release of advisory\n2026-09-14  - Advisory Updated",
+    "credit": "Lucas Leong (@_wmliang_) of TrendAI Zero Day Initiative"
+}

@@ -1,0 +1,15 @@
+{
+    "date": "September 14th, 2026",
+    "title": "Linux Kernel NFSv4 Server Race Condition Remote Code Execution Vulnerability",
+    "ID_1": "ZDI-26-695",
+    "ID_2": "ZDI-CAN-30500",
+    "cveId": "CVE-2026-89688",
+    "baseScore": "8.5",
+    "vectorString": "AV:N/AC:H/PR:L/UI:N/S:C/C:H/I:H/A:H",
+    "vendors": "Linux",
+    "products": "Kernel",
+    "description": "This vulnerability allows remote attackers to execute arbitrary code on affected installations of Linux Kernel. Authentication is required to exploit this vulnerability. Furthermore, only systems with nfsd enabled are vulnerable.\nThe specific flaw exists within the handling of nfs4_openowner objects. The issue results from the lack of proper locking when performing operations on an object. An attacker can leverage this vulnerability to execute code in the context of the kernel.",
+    "addtionnal_details": "Linux has issued an update to correct this vulnerability. More details can be found at:\nhttps://github.com/torvalds/linux/commit/5e4627d3513e60accfce9d5f4c7fa95251ef93d6",
+    "timeline": "2026-05-22 - Vulnerability reported to vendor\n2026-09-14 - Coordinated public release of advisory\n2026-09-14  - Advisory Updated",
+    "credit": "GangMin Kim"
+}

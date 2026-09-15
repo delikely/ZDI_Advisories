@@ -1,0 +1,15 @@
+{
+    "date": "September 14th, 2026",
+    "title": "Linux Kernel IPv6 VTI Subsystem Use-After-Free Local Privilege Escalation Vulnerability",
+    "ID_1": "ZDI-26-683",
+    "ID_2": "ZDI-CAN-30930",
+    "cveId": "CVE-2026-72463",
+    "baseScore": "7.5",
+    "vectorString": "AV:L/AC:H/PR:H/UI:N/S:C/C:H/I:H/A:H",
+    "vendors": "Linux",
+    "products": "Kernel",
+    "description": "This vulnerability allows local attackers to escalate privileges on affected installations of Linux Kernel. An attacker must first obtain the ability to execute high-privileged code on the target system in order to exploit this vulnerability.\nThe specific flaw exists within the processing of asynchronous XFRM ESP decryptions. The issue results from the lack of validating the existence of an object prior to performing operations on the object. An attacker can leverage this vulnerability to escalate privileges and execute arbitrary code in the context of the kernel.",
+    "addtionnal_details": "Linux has issued an update to correct this vulnerability. More details can be found at:\nhttps://github.com/torvalds/linux/commit/8045c0df98d4f14c54e5cb875f1c9c0ce89fe4ff",
+    "timeline": "2026-06-10 - Vulnerability reported to vendor\n2026-09-14 - Coordinated public release of advisory\n2026-09-14  - Advisory Updated",
+    "credit": "Nico Yip (@_cyeaa_)"
+}

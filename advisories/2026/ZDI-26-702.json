@@ -1,0 +1,15 @@
+{
+    "date": "September 14th, 2026",
+    "title": "Linux Kernel usbnet Driver Race Condition Privilege Escalation Vulnerability",
+    "ID_1": "ZDI-26-702",
+    "ID_2": "ZDI-CAN-22166",
+    "cveId": "CVE-2025-22050",
+    "baseScore": "7.1",
+    "vectorString": "AV:P/AC:H/PR:N/UI:N/S:C/C:H/I:H/A:H",
+    "vendors": "Linux",
+    "products": "Kernel",
+    "description": "This vulnerability allows physically present attackers to escalate privileges on affected installations of Linux Kernel. Authentication is not required to exploit this vulnerability.\nThe specific flaw exists within the processing of the usbnet_deferred_kevent work queue. The issue results from the lack of proper locking when performing operations on an object. An attacker can leverage this vulnerability to escalate privileges and execute arbitrary code in the context of the kernel.",
+    "addtionnal_details": "Linux has issued an update to correct this vulnerability. More details can be found at:\nhttps://github.com/torvalds/linux/commit/04e906839a053f092ef53f4fb2d610983412b904",
+    "timeline": "2023-09-20 - Vulnerability reported to vendor\n2026-09-14 - Coordinated public release of advisory\n2026-09-14  - Advisory Updated",
+    "credit": "Lucas Leong (@_wmliang_) of Trend Micro Zero Day Initiative"
+}

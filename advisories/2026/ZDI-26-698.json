@@ -1,0 +1,15 @@
+{
+    "date": "September 14th, 2026",
+    "title": "Linux Kernel NTFS3 Out-Of-Bounds Read Information Disclosure Vulnerability",
+    "ID_1": "ZDI-26-698",
+    "ID_2": "ZDI-CAN-31573",
+    "cveId": "",
+    "baseScore": "5.2",
+    "vectorString": "AV:L/AC:L/PR:L/UI:N/S:C/C:L/I:N/A:L",
+    "vendors": "Linux",
+    "products": "Kernel",
+    "description": "This vulnerability allows local attackers to disclose sensitive information on affected installations of Linux Kernel. An attacker must first obtain the ability to execute low-privileged code on the target system in order to exploit this vulnerability.\nThe specific flaw exists within the processing of directory index entries in the implementation of the NTFS3 file system. The issue results from the lack of proper validation of user-supplied data, which can result in a read past the end of an allocated array. An attacker can leverage this in conjunction with other vulnerabilities to execute arbitrary code in the context of the kernel.",
+    "addtionnal_details": "Linux has issued an update to correct this vulnerability. More details can be found at:\nhttps://github.com/torvalds/linux/commit/71a25f259384c09abd4782fc8ed32f0472646674",
+    "timeline": "2026-06-10 - Vulnerability reported to vendor\n2026-09-14 - Coordinated public release of advisory\n2026-09-14  - Advisory Updated",
+    "credit": "Lucas Leong (@_wmliang_) of TrendAI Zero Day Initiative"
+}

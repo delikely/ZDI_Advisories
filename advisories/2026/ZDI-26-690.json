@@ -1,0 +1,15 @@
+{
+    "date": "September 14th, 2026",
+    "title": "Linux Kernel MCTP Routing Uninitialized Memory Information Disclosure Vulnerability",
+    "ID_1": "ZDI-26-690",
+    "ID_2": "ZDI-CAN-28534",
+    "cveId": "CVE-2026-45930",
+    "baseScore": "6.0",
+    "vectorString": "AV:L/AC:L/PR:H/UI:N/S:C/C:H/I:N/A:N",
+    "vendors": "Linux",
+    "products": "Kernel",
+    "description": "This vulnerability allows local attackers to disclose sensitive information on affected installations of Linux Kernel. An attacker must first obtain the ability to execute high-privileged code on the target system in order to exploit this vulnerability.\nThe specific flaw exists within the handling of neighbor discovery messages. The issue results from the lack of proper initialization of memory prior to accessing it. An attacker can leverage this in conjunction with other vulnerabilities to execute arbitrary code in the context of the kernel.",
+    "addtionnal_details": "Linux has issued an update to correct this vulnerability. More details can be found at:\nhttps://github.com/torvalds/linux/commit/a6a9bc544b675d8b5180f2718ec985ad267b5cbf",
+    "timeline": "2025-12-04 - Vulnerability reported to vendor\n2026-09-14 - Coordinated public release of advisory\n2026-09-14  - Advisory Updated",
+    "credit": "Syed Faraz Abrar (@farazsth98) from Zellic, and Pumpkin (@u1f383) from DEVCORE Research Team"
+}
