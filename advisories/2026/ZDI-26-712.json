@@ -1,0 +1,15 @@
+{
+    "date": "September 16th, 2026",
+    "title": "NoMachine nxhtd Server-Side Request Forgery Information Disclosure Vulnerability",
+    "ID_1": "ZDI-26-712",
+    "ID_2": "ZDI-CAN-31619",
+    "cveId": "CVE-2026-92210",
+    "baseScore": "7.2",
+    "vectorString": "AV:N/AC:L/PR:N/UI:N/S:C/C:L/I:L/A:N",
+    "vendors": "NoMachine",
+    "products": "NoMachine",
+    "description": "This vulnerability allows remote attackers to initiate arbitrary server-side requests on affected installations of NoMachine. Authentication is not required to exploit this vulnerability.\nThe specific flaw exists within the web service, which listens on UDP port 4443 by default. The issue results from the lack of proper validation of a URI prior to accessing resources. An attacker can leverage this vulnerability to initiate requests in the context of the service account.",
+    "addtionnal_details": "Fixed in NoMachine v10.1.7, v9.9.6 and v8.27.1https://kb.nomachine.com/software-updates",
+    "timeline": "2026-08-07 - Vulnerability reported to vendor\n2026-09-16 - Coordinated public release of advisory\n2026-09-16  - Advisory Updated",
+    "credit": "Niels Pfau (Mantodea Security GmbH)"
+}

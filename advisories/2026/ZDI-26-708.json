@@ -1,0 +1,15 @@
+{
+    "date": "September 16th, 2026",
+    "title": "(0Day) Microsoft Windows HTTP Proxy Privilege Escalation Vulnerability",
+    "ID_1": "ZDI-26-708",
+    "ID_2": "ZDI-CAN-29849",
+    "cveId": "",
+    "baseScore": "5.3",
+    "vectorString": "AV:L/AC:L/PR:L/UI:N/S:U/C:L/I:L/A:L",
+    "vendors": "Microsoft",
+    "products": "Windows",
+    "description": "This vulnerability allows local attackers to escalate privileges on affected installations of Microsoft Windows. An attacker must first obtain the ability to execute low-privileged code on the target system in order to exploit this vulnerability.\nThe specific flaw exists within the handling of authentication to HTTP proxy servers. By changing the proxy setting to point to a malicious server, an attacker can disclose NTLM responses in the context of the machine account. An attacker can leverage this vulnerability to escalate privileges to resources normally protected from the user.",
+    "addtionnal_details": "05/07/26 – ZDI reported the vulnerability to the vendor05/07/26 – the vendor acknowledged the receipt of the report06/02/26 – the vendor confirmed that the issue would be fixed in September release08/31/26 – the vendor communicated that the vulnerability did not meet the bar for security servicing09/03/26 – ZDI notified the vendor of the intention to publish the case as a 0-day advisory\n-- Mitigation: Given the nature of the vulnerability, the only salient mitigation strategy is to restrict interaction with the product",
+    "timeline": "2026-05-07 - Vulnerability reported to vendor\n2026-09-16 - Coordinated public release of advisory\n2026-09-16  - Advisory Updated",
+    "credit": "Peter Gabaldon (https://x.com/PedroGabaldon)"
+}

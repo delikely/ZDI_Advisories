@@ -1,0 +1,15 @@
+{
+    "date": "September 16th, 2026",
+    "title": "(0Day) BusyBox libarchive Symlink Directory Traversal Arbitrary File Creation Vulnerability",
+    "ID_1": "ZDI-26-705",
+    "ID_2": "ZDI-CAN-27556",
+    "cveId": "CVE-2026-92205",
+    "baseScore": "6.1",
+    "vectorString": "AV:L/AC:L/PR:N/UI:R/S:U/C:N/I:H/A:L",
+    "vendors": "BusyBox",
+    "products": "BusyBox",
+    "description": "This vulnerability allows remote attackers to create arbitrary files on affected installations of BusyBox. User interaction is required to exploit this vulnerability in that the target must visit a malicious page or open a malicious file.\nThe specific flaw exists within the libarchive component. The issue results from the lack of proper validation of a user-supplied path prior to using it in file operations. An attacker can leverage this vulnerability to create files in the context of the current user.",
+    "addtionnal_details": "10/03/25 – ZDI reported the vulnerability to the vendor10/10/25 – ZDI followed up asking the vendor to confirm receipt of the report12/10/25 – ZDI asked for updates04/09/26 – ZDI notified the vendor of the intention to publish the case as 0-day advisory\n-- Mitigation: Given the nature of the vulnerability, the only salient mitigation strategy is to restrict interaction with the product",
+    "timeline": "2025-10-03 - Vulnerability reported to vendor\n2026-09-16 - Coordinated public release of advisory\n2026-09-16  - Advisory Updated",
+    "credit": "Ryota Shiga (GMO Flatt Security Inc.) with takumi-san.ai"
+}

@@ -1,0 +1,15 @@
+{
+    "date": "September 16th, 2026",
+    "title": "NoMachine Redis Improper Authentication Local Privilege Escalation Vulnerability",
+    "ID_1": "ZDI-26-711",
+    "ID_2": "ZDI-CAN-30984",
+    "cveId": "CVE-2026-92209",
+    "baseScore": "7.8",
+    "vectorString": "AV:L/AC:L/PR:L/UI:N/S:U/C:H/I:H/A:H",
+    "vendors": "NoMachine",
+    "products": "NoMachine",
+    "description": "This vulnerability allows local attackers to escalate privileges on affected installations of NoMachine. An attacker must first obtain the ability to execute low-privileged code on the target system in order to exploit this vulnerability.\nThe specific flaw exists within the authentication mechanism controlling access to the Redis database. The issue results from using insufficient entropy in the generation of credentials. An attacker can leverage this vulnerability to escalate privileges and execute arbitrary code in the context of the service account.",
+    "addtionnal_details": "Fixed in NoMachine v10.1.7, v9.9.6 and v8.27.1https://kb.nomachine.com/software-updates",
+    "timeline": "2026-07-29 - Vulnerability reported to vendor\n2026-09-16 - Coordinated public release of advisory\n2026-09-16  - Advisory Updated",
+    "credit": "Tobias Vonmetz"
+}
