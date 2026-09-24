@@ -1,0 +1,15 @@
+{
+    "date": "September 23rd, 2026",
+    "title": "Wireshark RF4CE Packet Parsing Buffer Overflow Remote Code Execution Vulnerability",
+    "ID_1": "ZDI-26-747",
+    "ID_2": "ZDI-CAN-31780",
+    "cveId": "CVE-2026-96417",
+    "baseScore": "7.8",
+    "vectorString": "AV:L/AC:L/PR:N/UI:R/S:U/C:H/I:H/A:H",
+    "vendors": "Wireshark",
+    "products": "Wireshark",
+    "description": "This vulnerability allows remote attackers to execute arbitrary code on affected installations of Wireshark. User interaction is required to exploit this vulnerability in that the target must visit a malicious page or open a malicious file.\nThe specific flaw exists within the parsing of RF4CE key exchange packets. The issue results from the lack of proper validation of the length of user-supplied data prior to copying it to a buffer. An attacker can leverage this vulnerability to execute code in the context of the current process.",
+    "addtionnal_details": "Wireshark has issued an update to correct this vulnerability. More details can be found at:\nhttps://gitlab.com/wireshark/wireshark/-/commit/b2d359a23f9557d1740ded6b5e71ec8eea4b1695",
+    "timeline": "2026-09-10 - Vulnerability reported to vendor\n2026-09-23 - Coordinated public release of advisory\n2026-09-23  - Advisory Updated",
+    "credit": "Meshaal (@unrealmesh)"
+}

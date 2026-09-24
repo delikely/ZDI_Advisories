@@ -1,0 +1,15 @@
+{
+    "date": "September 23rd, 2026",
+    "title": "Foxit PDF Reader FoxitUpdater Race Condition Local Privilege Escalation Vulnerability",
+    "ID_1": "ZDI-26-742",
+    "ID_2": "ZDI-CAN-32454",
+    "cveId": "CVE-2026-91813",
+    "baseScore": "7.8",
+    "vectorString": "AV:L/AC:L/PR:N/UI:R/S:U/C:H/I:H/A:H",
+    "vendors": "Foxit",
+    "products": "PDF Reader",
+    "description": "This vulnerability allows local attackers to escalate privileges on affected installations of Foxit PDF Reader. An attacker must first obtain the ability to execute low-privileged code on the target system in order to exploit this vulnerability.\nThe specific flaw exists within the update functionality. The issue results from the lack of proper locking when performing operations on an object. An attacker can leverage this vulnerability to escalate privileges and execute arbitrary code in the context of SYSTEM.",
+    "addtionnal_details": "Foxit has issued an update to correct this vulnerability. More details can be found at:\nhttps://www.foxit.com/support/security-bulletins.html",
+    "timeline": "2026-08-20 - Vulnerability reported to vendor\n2026-09-23 - Coordinated public release of advisory\n2026-09-23  - Advisory Updated",
+    "credit": "praydog & kmx00"
+}

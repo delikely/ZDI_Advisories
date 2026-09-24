@@ -1,0 +1,15 @@
+{
+    "date": "September 23rd, 2026",
+    "title": "Foxit PDF Reader Portfolio Directory Traversal Remote Code Execution Vulnerability",
+    "ID_1": "ZDI-26-733",
+    "ID_2": "ZDI-CAN-31364",
+    "cveId": "CVE-2026-91797",
+    "baseScore": "7.8",
+    "vectorString": "AV:L/AC:L/PR:N/UI:R/S:U/C:H/I:H/A:H",
+    "vendors": "Foxit",
+    "products": "PDF Reader",
+    "description": "This vulnerability allows remote attackers to execute arbitrary code on affected installations of Foxit PDF Reader. User interaction is required to exploit this vulnerability in that the target must visit a malicious page or open a malicious file.\nThe specific flaw exists within the handling of embedded files in PDF portfolios. The issue results from the lack of proper validation of a user-supplied path prior to using it in file operations. An attacker can leverage this vulnerability to execute arbitrary code in the context of the current user.",
+    "addtionnal_details": "Foxit has issued an update to correct this vulnerability. More details can be found at:\nhttps://www.foxit.com/support/security-bulletins.html",
+    "timeline": "2026-06-23 - Vulnerability reported to vendor\n2026-09-23 - Coordinated public release of advisory\n2026-09-23  - Advisory Updated",
+    "credit": "Landon Peng (lunbun) of Lunbun LLC"
+}
