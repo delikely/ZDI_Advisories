@@ -1,0 +1,15 @@
+{
+    "date": "October 15th, 2026",
+    "title": "QNAP TS-453E syslog log_message Format String Remote Code Execution Vulnerability",
+    "ID_1": "ZDI-26-776",
+    "ID_2": "ZDI-CAN-28486",
+    "cveId": "CVE-2018-10388",
+    "baseScore": "7.5",
+    "vectorString": "AV:A/AC:H/PR:N/UI:N/S:U/C:H/I:H/A:H",
+    "vendors": "QNAP",
+    "products": "TS-453E",
+    "description": "This vulnerability allows network-adjacent attackers to execute arbitrary code on affected installations of QNAP TS-453E devices. Authentication is not required to exploit this vulnerability.\nThe specific flaw exists within the handling of the log_message parameter provided to syslog. The issue results from the lack of proper validation of a user-supplied string before using it as a format specifier. An attacker can leverage this vulnerability to execute code in the context of the TFTP server.",
+    "addtionnal_details": "Fixed in: QTS 5.2.8.3350 build 20251216QuTS hero h5.2.8.3350 build 20251216QuTS hero h5.3.2.3354 build 20251225QuTS hero h6.0.0.3397 build 20260206",
+    "timeline": "2025-12-04 - Vulnerability reported to vendor\n2026-10-15 - Coordinated public release of advisory\n2026-10-15  - Advisory Updated",
+    "credit": "gcali (@_gcali)"
+}

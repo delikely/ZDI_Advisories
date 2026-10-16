@@ -1,0 +1,15 @@
+{
+    "date": "October 15th, 2026",
+    "title": "NoMachine Uncontrolled Search Path Element Local Privilege Escalation Vulnerability",
+    "ID_1": "ZDI-26-774",
+    "ID_2": "ZDI-CAN-30646",
+    "cveId": "CVE-2026-111185",
+    "baseScore": "7.8",
+    "vectorString": "AV:L/AC:L/PR:L/UI:N/S:U/C:H/I:H/A:H",
+    "vendors": "NoMachine",
+    "products": "NoMachine",
+    "description": "This vulnerability allows local attackers to escalate privileges on affected installations of NoMachine.  An attacker must first obtain the ability to execute low-privileged code on the target system in order to exploit this vulnerability.\nThe specific flaw exists within the NoMachine Device Server. The product loads a library from an unsecured location. An attacker can leverage this vulnerability to escalate privileges and execute arbitrary code in the context of the service account.",
+    "addtionnal_details": "Fixed in in v10, v9 and v8https://kb.nomachine.com/TR08X11947",
+    "timeline": "2026-07-29 - Vulnerability reported to vendor\n2026-10-15 - Coordinated public release of advisory\n2026-10-15  - Advisory Updated",
+    "credit": "khongtrang"
+}

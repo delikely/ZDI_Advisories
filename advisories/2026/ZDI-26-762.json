@@ -1,0 +1,15 @@
+{
+    "date": "October 15th, 2026",
+    "title": "X.Org Server GLX RenderLarge Heap-based Buffer Overflow Privilege Escalation Vulnerability",
+    "ID_1": "ZDI-26-762",
+    "ID_2": "ZDI-CAN-31833",
+    "cveId": "CVE-2026-93517",
+    "baseScore": "7.8",
+    "vectorString": "AV:L/AC:L/PR:L/UI:N/S:U/C:H/I:H/A:H",
+    "vendors": "X.Org",
+    "products": "Server",
+    "description": "This vulnerability allows local attackers to escalate privileges on affected installations of X.Org Server. An attacker must first obtain the ability to execute low-privileged code on the target system in order to exploit this vulnerability.\nThe specific flaw exists within the glXDisp_RenderLarge function. The issue results from the lack of proper validation of the length of user-supplied data prior to copying it to a heap-based buffer. An attacker can leverage this vulnerability to escalate privileges and execute arbitrary code in the context of root.",
+    "addtionnal_details": "X.Org has issued an update to correct this vulnerability. More details can be found at:\nhttps://gitlab.freedesktop.org/xorg/xserver/-/commit/2abe4632d793",
+    "timeline": "2026-08-25 - Vulnerability reported to vendor\n2026-10-15 - Coordinated public release of advisory\n2026-10-15  - Advisory Updated",
+    "credit": "Anonymous"
+}

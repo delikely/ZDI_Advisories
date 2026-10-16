@@ -1,0 +1,15 @@
+{
+    "date": "October 15th, 2026",
+    "title": "(0Day) Telegram rlottie Numeric Truncation Remote Code Execution Vulnerability",
+    "ID_1": "ZDI-26-757",
+    "ID_2": "ZDI-CAN-30207",
+    "cveId": "CVE-2026-111105",
+    "baseScore": "7.0",
+    "vectorString": "AV:L/AC:H/PR:N/UI:R/S:U/C:H/I:H/A:H",
+    "vendors": "Telegram",
+    "products": "Telegram",
+    "description": "This vulnerability allows remote attackers to execute arbitrary code on affected installations of Telegram. User interaction is required to exploit this vulnerability in that the target must visit a malicious page or open a malicious file.\nThe specific flaw exists within the rlottie library. The issue results from the lack of proper validation of user-supplied data, which can result in a write before the start of an allocated buffer. An attacker can leverage this vulnerability to execute code in the context of the current process.",
+    "addtionnal_details": "03/26/26 – ZDI reported the vulnerability to the vendor03/27/26 – the vendor acknowledged the receipt of the report03/31/26 – the vendor stated that the vulnerability was mitigated by server-side validation04/07/26 – ZDI clarified the exploitability of the vulnerability04/13/26 – ZDI asked for updates04/14/26 – the vendor requested a complete RCE chain04/14/26 – ZDI stated that requiring a full chain is inconsistent with industry standard coordinated disclosure practices and could affect active users04/24/26 – ZDI asked whether the vulnerability would be fixed07/30/26 – ZDI notified the vendor of the intention to publish the case as a 0-day advisory\n-- Mitigation: Given the nature of the vulnerability, the only salient mitigation strategy is to restrict interaction with the product",
+    "timeline": "2026-03-26 - Vulnerability reported to vendor\n2026-10-15 - Coordinated public release of advisory\n2026-10-15  - Advisory Updated",
+    "credit": "Michael DePlante (@izobashi) of TrendAI Zero Day Initiative"
+}

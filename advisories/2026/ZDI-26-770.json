@@ -1,0 +1,15 @@
+{
+    "date": "October 15th, 2026",
+    "title": "SonicWall Secure Mobile Access unzip Directory Traversal Remote Code Execution Vulnerability",
+    "ID_1": "ZDI-26-770",
+    "ID_2": "ZDI-CAN-28924",
+    "cveId": "CVE-2026-102257",
+    "baseScore": "7.2",
+    "vectorString": "AV:N/AC:L/PR:H/UI:N/S:U/C:H/I:H/A:H",
+    "vendors": "SonicWall",
+    "products": "Secure Mobile Access",
+    "description": "This vulnerability allows remote attackers to execute arbitrary code on affected installations of SonicWall Secure Mobile Access. Authentication is required to exploit this vulnerability.\nThe specific flaw exists within the implementation of the unzip method. The issue results from the lack of proper validation of a user-supplied path prior to using it in file operations. An attacker can leverage this vulnerability to execute code in the context of root.",
+    "addtionnal_details": "SonicWall has issued an update to correct this vulnerability. More details can be found at:\nhttps://psirt.global.sonicwall.com/vuln-detail/SNWLID-2026-0017",
+    "timeline": "2026-07-21 - Vulnerability reported to vendor\n2026-10-15 - Coordinated public release of advisory\n2026-10-15  - Advisory Updated",
+    "credit": "Brian Mariani - DigitalCanion SA"
+}

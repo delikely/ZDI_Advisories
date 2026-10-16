@@ -1,0 +1,15 @@
+{
+    "date": "October 15th, 2026",
+    "title": "NoMachine Named Pipe Incorrect Permission Assignment Local Privilege Escalation Vulnerability",
+    "ID_1": "ZDI-26-773",
+    "ID_2": "ZDI-CAN-31213",
+    "cveId": "CVE-2026-111184",
+    "baseScore": "7.8",
+    "vectorString": "AV:L/AC:L/PR:L/UI:N/S:U/C:H/I:H/A:H",
+    "vendors": "NoMachine",
+    "products": "NoMachine",
+    "description": "This vulnerability allows local attackers to escalate privileges on affected installations of NoMachine. An attacker must first obtain the ability to execute low-privileged code on the target system in order to exploit this vulnerability.\nThe specific flaw exists within the NoMachine Device Service. The issue results from incorrect permissions on a named pipe. An attacker can leverage this vulnerability to escalate privileges and execute arbitrary code in the context of SYSTEM.",
+    "addtionnal_details": "Fixed in in v10, v9 and v8https://kb.nomachine.com/TR08X11946",
+    "timeline": "2026-08-07 - Vulnerability reported to vendor\n2026-10-15 - Coordinated public release of advisory\n2026-10-15  - Advisory Updated",
+    "credit": "Anonymous"
+}
