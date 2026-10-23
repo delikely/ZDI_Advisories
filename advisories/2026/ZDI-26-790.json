@@ -1,0 +1,15 @@
+{
+    "date": "October 22nd, 2026",
+    "title": "OpenSSL CMS AuthEnvelopedData Improper Validation of Integrity Check Value Vulnerability",
+    "ID_1": "ZDI-26-790",
+    "ID_2": "ZDI-CAN-30385",
+    "cveId": "CVE-2026-34182",
+    "baseScore": "3.1",
+    "vectorString": "AV:A/AC:H/PR:N/UI:N/S:U/C:N/I:L/A:N",
+    "vendors": "OpenSSL",
+    "products": "OpenSSL",
+    "description": "This vulnerability allows network-adjacent attackers to tamper with CMS AuthEnvelopedData messages on affected installations of OpenSSL. An attacker must first obtain the ability to modify CMS AuthEnvelopedData messages in order to exploit this vulnerability.\nThe specific flaw exists within the handling of AES-GCM message authentication codes. The issue results from an improper integrity check. An attacker can leverage this vulnerability to tamper with authenticated data.",
+    "addtionnal_details": "OpenSSL has issued an update to correct this vulnerability. More details can be found at:\nhttps://openssl-library.org/news/secadv/20260609.txt",
+    "timeline": "2026-04-09 - Vulnerability reported to vendor\n2026-10-22 - Coordinated public release of advisory\n2026-10-22  - Advisory Updated",
+    "credit": "TrendAI Zero Day Initiative"
+}

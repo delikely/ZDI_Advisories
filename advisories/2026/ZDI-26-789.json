@@ -1,0 +1,15 @@
+{
+    "date": "October 22nd, 2026",
+    "title": "OpenSSL CMP Use of Externally-Controlled Format String Information Disclosure Vulnerability",
+    "ID_1": "ZDI-26-789",
+    "ID_2": "ZDI-CAN-30379",
+    "cveId": "CVE-2026-63073",
+    "baseScore": "6.5",
+    "vectorString": "AV:N/AC:H/PR:N/UI:N/S:U/C:H/I:N/A:L",
+    "vendors": "OpenSSL",
+    "products": "OpenSSL",
+    "description": "This vulnerability allows remote attackers to disclose sensitive information on affected installations of OpenSSL. Authentication is not required to exploit this vulnerability.\nThe specific flaw exists within the handling of Distinguished Names within CMP messages. The issue results from the lack of proper validation of a user-supplied string before using it as a format specifier. An attacker can leverage this vulnerability to disclose information in the context of the client or server.",
+    "addtionnal_details": "OpenSSL has issued an update to correct this vulnerability. More details can be found at:\nhttps://openssl-library.org/news/vulnerabilities/#CVE-2026-63073",
+    "timeline": "2026-04-08 - Vulnerability reported to vendor\n2026-10-22 - Coordinated public release of advisory\n2026-10-22  - Advisory Updated",
+    "credit": "TrendAI Zero Day Initiative"
+}

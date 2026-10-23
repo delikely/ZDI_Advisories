@@ -1,0 +1,15 @@
+{
+    "date": "October 22nd, 2026",
+    "title": "NoMachine nxwebrunner Heap-based Buffer Overflow Remote Code Execution Vulnerability",
+    "ID_1": "ZDI-26-786",
+    "ID_2": "ZDI-CAN-30685",
+    "cveId": "CVE-2026-114549",
+    "baseScore": "9.8",
+    "vectorString": "AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:H",
+    "vendors": "NoMachine",
+    "products": "NoMachine",
+    "description": "This vulnerability allows remote attackers to execute arbitrary code on affected installations of NoMachine. Authentication is not required to exploit this vulnerability.\nThe specific flaw exists within the web service, which listens on TCP port 4443 by default. The issue results from the lack of proper validation of the length of user-supplied data prior to copying it to a heap-based buffer. An attacker can leverage this vulnerability to execute code in the context of the service account.",
+    "addtionnal_details": "Fixed in v10.1.7; 9.9.6; 8.27.1https://kb.nomachine.com/TR07X11893",
+    "timeline": "2026-07-24 - Vulnerability reported to vendor\n2026-10-22 - Coordinated public release of advisory\n2026-10-22  - Advisory Updated",
+    "credit": "Sajeeb Lohani"
+}
