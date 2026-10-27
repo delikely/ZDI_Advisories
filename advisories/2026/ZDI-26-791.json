@@ -1,0 +1,15 @@
+{
+    "date": "October 26th, 2026",
+    "title": "Pixar Animation Studio OpenUSD Crate File Parsing Double Free Remote Code Execution Vulnerability",
+    "ID_1": "ZDI-26-791",
+    "ID_2": "ZDI-CAN-30428",
+    "cveId": "CVE-2026-92211",
+    "baseScore": "7.8",
+    "vectorString": "AV:L/AC:L/PR:N/UI:R/S:U/C:H/I:H/A:H",
+    "vendors": "Pixar Animation Studio",
+    "products": "OpenUSD",
+    "description": "This vulnerability allows remote attackers to execute arbitrary code on affected installations of Pixar Animation Studio OpenUSD. Interaction with this library is required to exploit this vulnerability but attack vectors may vary depending on the implementation.\nThe specific flaw exists within the parsing of USDC and USDZ files. The issue results from the lack of validating the existence of an object prior to performing further free operations on the object. An attacker can leverage this vulnerability to execute code in the context of the current process.",
+    "addtionnal_details": "Pixar Animation Studio has issued an update to correct this vulnerability. More details can be found at:\nhttps://github.com/PixarAnimationStudios/OpenUSD/commit/7c62a43d8823dd4e1ef8c49fc1d72729e1ce6e36",
+    "timeline": "2026-04-15 - Vulnerability reported to vendor\n2026-10-26 - Coordinated public release of advisory\n2026-10-26  - Advisory Updated",
+    "credit": "Brandon Evans of TrendAI Zero Day Initiative"
+}
