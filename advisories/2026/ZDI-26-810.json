@@ -1,0 +1,15 @@
+{
+    "date": "October 27th, 2026",
+    "title": "MailEnable Auth Cleartext Storage Information Disclosure Vulnerability",
+    "ID_1": "ZDI-26-810",
+    "ID_2": "ZDI-CAN-34478",
+    "cveId": "CVE-2026-114551",
+    "baseScore": "5.9",
+    "vectorString": "AV:N/AC:H/PR:N/UI:N/S:U/C:H/I:N/A:N",
+    "vendors": "MailEnable",
+    "products": "MailEnable",
+    "description": "This vulnerability allows remote attackers to disclose sensitive information on affected installations of MailEnable. Authentication is not required to exploit this vulnerability.\nThe specific flaw exists within the handling of mailbox credentials. The issue results from storing sensitive information in plaintext. An attacker can leverage this in conjunction with other vulnerabilities to disclose stored credentials, leading to further compromise.",
+    "addtionnal_details": "Fixed in version 10.60https://www.mailenable.com/Premium-ReleaseNotes.txt",
+    "timeline": "2026-09-18 - Vulnerability reported to vendor\n2026-10-27 - Coordinated public release of advisory\n2026-10-27  - Advisory Updated",
+    "credit": "Nicolas Chatelain"
+}
