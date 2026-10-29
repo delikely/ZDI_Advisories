@@ -1,0 +1,15 @@
+{
+    "date": "October 28th, 2026",
+    "title": "(0Day) (Pwn2Own) Alpine iLX-F511 SSH Hard-Coded Credentials Remote Code Execution Vulnerability",
+    "ID_1": "ZDI-26-819",
+    "ID_2": "ZDI-CAN-29013",
+    "cveId": "CVE-2026-118601",
+    "baseScore": "6.3",
+    "vectorString": "AV:A/AC:L/PR:N/UI:N/S:U/C:L/I:L/A:L",
+    "vendors": "Alpine",
+    "products": "iLX-F511",
+    "description": "This vulnerability allows network-adjacent attackers to execute arbitrary code on affected installations of Alpine iLX-F511 devices. Authentication is not required to exploit this vulnerability.\nThe specific flaw exists within the SSH service. The issue results from the use of hard-coded credentials. An attacker can leverage this vulnerability to execute code in the context of the telechips user.",
+    "addtionnal_details": "02/05/26 - ZDI reported the vulnerability to the vendor06/07/26 - the vendor acknowledged the receipt of the report and asked for an extension07/21/26 - ZDI requested an update on the status of the fix10/15/26 - ZDI notified the vendor of the intention to publish the case as a 0-day advisory\n-- Mitigation: Given the nature of the vulnerability, the only salient mitigation strategy is to restrict interaction with the product",
+    "timeline": "2026-02-04 - Vulnerability reported to vendor\n2026-10-28 - Coordinated public release of advisory\n2026-10-28  - Advisory Updated",
+    "credit": "Sina Kheirkhah (@SinSinology) of Summoning Team (@SummoningTeam)"
+}

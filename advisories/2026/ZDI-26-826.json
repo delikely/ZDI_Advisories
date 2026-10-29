@@ -1,0 +1,15 @@
+{
+    "date": "October 28th, 2026",
+    "title": "(0Day) (Pwn2Own) Alpine iLX-F511 libanwbtstack.so prh_rfcomm_cc_process_test Out-Of-Bounds Read Information Disclosure Vulnerability",
+    "ID_1": "ZDI-26-826",
+    "ID_2": "ZDI-CAN-29018",
+    "cveId": "CVE-2026-118608",
+    "baseScore": "3.5",
+    "vectorString": "AV:A/AC:L/PR:N/UI:R/S:U/C:L/I:N/A:N",
+    "vendors": "Alpine",
+    "products": "iLX-F511",
+    "description": "This vulnerability allows network-adjacent attackers to disclose sensitive information on affected installations of Alpine iLX-F511 devices. An attacker must first obtain the ability to pair a malicious Bluetooth device with the target system in order to exploit this vulnerability.\nThe specific flaw exists within the prh_rfcomm_cc_process_test function. The issue results from the lack of proper validation of user-supplied data, which can result in a read past the end of an allocated buffer. An attacker can leverage this in conjunction with other vulnerabilities to execute arbitrary code in the context of root.",
+    "addtionnal_details": "02/05/26 - ZDI reported the vulnerability to the vendor06/07/26 - the vendor acknowledged the receipt of the report and asked for an extension07/21/26 - ZDI requested an update on the status of the fix10/15/26 - ZDI notified the vendor of the intention to publish the case as a 0-day advisory\n-- Mitigation: Given the nature of the vulnerability, the only salient mitigation strategy is to restrict interaction with the product",
+    "timeline": "2026-02-04 - Vulnerability reported to vendor\n2026-10-28 - Coordinated public release of advisory\n2026-10-28  - Advisory Updated",
+    "credit": "Dong hee Kim and Jong geon Kim from team K"
+}

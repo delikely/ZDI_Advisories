@@ -1,0 +1,15 @@
+{
+    "date": "October 28th, 2026",
+    "title": "(0Day) (Pwn2Own) Alpine iLX-F511 Fiv.System Exposed Dangerous Method Local Privilege Escalation Vulnerability",
+    "ID_1": "ZDI-26-820",
+    "ID_2": "ZDI-CAN-29095",
+    "cveId": "CVE-2026-118602",
+    "baseScore": "7.8",
+    "vectorString": "AV:L/AC:L/PR:L/UI:N/S:U/C:H/I:H/A:H",
+    "vendors": "Alpine",
+    "products": "iLX-F511",
+    "description": "This vulnerability allows local attackers to escalate privileges on affected installations of Alpine iLX-F511. An attacker must first obtain the ability to execute low-privileged code on the target system in order to exploit this vulnerability.\nThe specific flaw exists within the Fiv service. The issue results from an exposed dangerous method. An attacker can leverage this vulnerability to escalate privileges and execute arbitrary code in the context of root.",
+    "addtionnal_details": "02/05/26 - ZDI reported the vulnerability to the vendor06/07/26 - the vendor acknowledged the receipt of the report and asked for an extension07/21/26 - ZDI requested an update on the status of the fix10/15/26 - ZDI notified the vendor of the intention to publish the case as a 0-day advisory\n-- Mitigation: Given the nature of the vulnerability, the only salient mitigation strategy is to restrict interaction with the product",
+    "timeline": "2026-02-04 - Vulnerability reported to vendor\n2026-10-28 - Coordinated public release of advisory\n2026-10-28  - Advisory Updated",
+    "credit": "Sina Kheirkhah (@SinSinology) of Summoning Team (@SummoningTeam)"
+}

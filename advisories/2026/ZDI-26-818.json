@@ -1,0 +1,15 @@
+{
+    "date": "October 28th, 2026",
+    "title": "(0Day) Ultralytics Google Drive Download Path Traversal Remote Code Execution Vulnerability",
+    "ID_1": "ZDI-26-818",
+    "ID_2": "ZDI-CAN-32376",
+    "cveId": "CVE-2026-118619",
+    "baseScore": "8.8",
+    "vectorString": "AV:N/AC:L/PR:N/UI:R/S:U/C:H/I:H/A:H",
+    "vendors": "Ultralytics",
+    "products": "Ultralytics",
+    "description": "This vulnerability allows remote attackers to execute arbitrary code on affected installations of Ultralytics. User interaction is required to exploit this vulnerability in that the target must visit a malicious page or open a malicious file.\nThe specific flaw exists within the handling of downloads from Google Drive. The issue results from the lack of proper validation of a user-supplied path prior to using it in file operations. An attacker can leverage this vulnerability to execute arbitrary code in the context of the current process.",
+    "addtionnal_details": "08/26/26 – ZDI submitted the report to the vendor’s GitHub account10/19/26 – ZDI asked for updates10/22/26 – ZDI notified the vendor of the intention to publish the case as a 0-day advisory\n-- Mitigation: Given the nature of the vulnerability, the only salient mitigation strategy is to restrict interaction with the product",
+    "timeline": "2026-08-26 - Vulnerability reported to vendor\n2026-10-28 - Coordinated public release of advisory\n2026-10-28  - Advisory Updated",
+    "credit": "Anonymous"
+}
