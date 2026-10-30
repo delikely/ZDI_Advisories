@@ -1,0 +1,15 @@
+{
+    "date": "October 29th, 2026",
+    "title": "MLflow PickleEvaluationArtifact Deserialization of Untrusted Data Remote Code Execution Vulnerability",
+    "ID_1": "ZDI-26-839",
+    "ID_2": "ZDI-CAN-29513",
+    "cveId": "CVE-2026-118623",
+    "baseScore": "7.8",
+    "vectorString": "AV:L/AC:L/PR:N/UI:R/S:U/C:H/I:H/A:H",
+    "vendors": "MLflow",
+    "products": "MLflow",
+    "description": "This vulnerability allows remote attackers to execute arbitrary code on affected installations of MLflow. User interaction is required to exploit this vulnerability in that the target must visit a malicious page or open a malicious file.\nThe specific flaw exists within the parsing of pickle files. The issue results from the lack of proper validation of user-supplied data, which can result in deserialization of untrusted data. An attacker can leverage this vulnerability to execute code in the context of the current process.",
+    "addtionnal_details": "Fixed in MLflow 3.13.0https://github.com/mlflow/mlflow/pull/23183",
+    "timeline": "2026-03-25 - Vulnerability reported to vendor\n2026-10-29 - Coordinated public release of advisory\n2026-10-29  - Advisory Updated",
+    "credit": "Anonymous"
+}

@@ -1,0 +1,15 @@
+{
+    "date": "October 29th, 2026",
+    "title": "MLflow AI Gateway Server-Side Request Forgery Information Disclosure Vulnerability",
+    "ID_1": "ZDI-26-847",
+    "ID_2": "ZDI-CAN-31895",
+    "cveId": "CVE-2026-71211",
+    "baseScore": "7.7",
+    "vectorString": "AV:N/AC:L/PR:L/UI:N/S:C/C:H/I:N/A:N",
+    "vendors": "MLflow",
+    "products": "MLflow",
+    "description": "This vulnerability allows remote attackers to initiate arbitrary server-side requests on affected installations of MLflow. Authentication is required to exploit this vulnerability.\nThe specific flaw exists within the processing of the api_base field. The issue results from the lack of proper validation of a URI prior to accessing resources. An attacker can leverage this vulnerability to initiate requests in the context of the service account.",
+    "addtionnal_details": "Fixed in MLflow 3.17.0https://github.com/mlflow/mlflow/pull/25761",
+    "timeline": "2026-06-30 - Vulnerability reported to vendor\n2026-10-29 - Coordinated public release of advisory\n2026-10-29  - Advisory Updated",
+    "credit": "s3zer0"
+}

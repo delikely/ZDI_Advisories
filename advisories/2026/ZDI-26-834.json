@@ -1,0 +1,15 @@
+{
+    "date": "October 29th, 2026",
+    "title": "Linux Kernel IPv6 AH Routing Header Integer Underflow Local Privilege Escalation Vulnerability",
+    "ID_1": "ZDI-26-834",
+    "ID_2": "ZDI-CAN-31769",
+    "cveId": "CVE-2026-80844",
+    "baseScore": "8.8",
+    "vectorString": "AV:L/AC:L/PR:L/UI:N/S:C/C:H/I:H/A:H",
+    "vendors": "Linux",
+    "products": "Kernel",
+    "description": "This vulnerability allows local attackers to escalate privileges on affected installations of Linux Kernel. An attacker must first obtain the ability to execute low-privileged code on the target system in order to exploit this vulnerability.\nThe specific flaw exists within the parsing of ipv6_rt_hdr headers. The issue results from the lack of proper validation of user-supplied data, which can result in an integer underflow before allocating a buffer. An attacker can leverage this vulnerability to escalate privileges and execute arbitrary code in the context of the kernel.",
+    "addtionnal_details": "Linux has issued an update to correct this vulnerability. More details can be found at:\nhttps://github.com/torvalds/linux/commit/7bad4bda74dc4713f398d3b7624ff05478e3a568",
+    "timeline": "2026-07-16 - Vulnerability reported to vendor\n2026-10-29 - Coordinated public release of advisory\n2026-10-29  - Advisory Updated",
+    "credit": "ELDEN"
+}

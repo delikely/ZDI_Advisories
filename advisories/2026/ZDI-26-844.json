@@ -1,0 +1,15 @@
+{
+    "date": "October 29th, 2026",
+    "title": "MLflow get-artifacts Server-Side Request Forgery Information Disclosure Vulnerability",
+    "ID_1": "ZDI-26-844",
+    "ID_2": "ZDI-CAN-28192",
+    "cveId": "CVE-2026-118628",
+    "baseScore": "8.2",
+    "vectorString": "AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:L/A:N",
+    "vendors": "MLflow",
+    "products": "MLflow",
+    "description": "This vulnerability allows remote attackers to disclose sensitive information on affected installations of MLflow. Authentication is not required to exploit this vulnerability.\nThe specific flaw exists within the get-artifacts function. The issue results from the lack of proper validation of a URI prior to accessing resources. An attacker can leverage this vulnerability to disclose information in the context of the server.",
+    "addtionnal_details": "Fixed in MLflow 3.17.0https://github.com/mlflow/mlflow/pull/25891",
+    "timeline": "2026-02-05 - Vulnerability reported to vendor\n2026-10-29 - Coordinated public release of advisory\n2026-10-29  - Advisory Updated",
+    "credit": "Muhammad Fadilullah Dzaki"
+}

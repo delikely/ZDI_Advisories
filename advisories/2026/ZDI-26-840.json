@@ -1,0 +1,15 @@
+{
+    "date": "October 29th, 2026",
+    "title": "MLflow Tracking Server Jobs Missing Authorization Information Disclosure Vulnerability",
+    "ID_1": "ZDI-26-840",
+    "ID_2": "ZDI-CAN-31894",
+    "cveId": "CVE-2026-118624",
+    "baseScore": "5.4",
+    "vectorString": "AV:N/AC:L/PR:L/UI:N/S:U/C:L/I:N/A:L",
+    "vendors": "MLflow",
+    "products": "MLflow",
+    "description": "This vulnerability allows remote attackers to disclose sensitive information on affected installations of MLflow. Authentication is required to exploit this vulnerability.\nThe specific flaw exists within the _find_validator function. The issue results from the lack of authorization prior to allowing access to functionality. An attacker can leverage this vulnerability to disclose information in the context of the service account.",
+    "addtionnal_details": "Fixed in MLflow 3.16.0https://github.com/mlflow/mlflow/pull/25069",
+    "timeline": "2026-06-18 - Vulnerability reported to vendor\n2026-10-29 - Coordinated public release of advisory\n2026-10-29  - Advisory Updated",
+    "credit": "Grigory Dorodnov of TrendAI Research"
+}

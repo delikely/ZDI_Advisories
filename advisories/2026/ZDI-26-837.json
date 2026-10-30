@@ -1,0 +1,15 @@
+{
+    "date": "October 29th, 2026",
+    "title": "Linux Kernel XFRM Subsystem Use-After-Free Local Privilege Escalation Vulnerability",
+    "ID_1": "ZDI-26-837",
+    "ID_2": "ZDI-CAN-31604",
+    "cveId": "CVE-2026-98231",
+    "baseScore": "7.8",
+    "vectorString": "AV:L/AC:H/PR:L/UI:N/S:C/C:H/I:H/A:H",
+    "vendors": "Linux",
+    "products": "Kernel",
+    "description": "This vulnerability allows local attackers to escalate privileges on affected installations of Linux Kernel. An attacker must first obtain the ability to execute low-privileged code on the target system in order to exploit this vulnerability.\nThe specific flaw exists within the xfrm_dev_state_delete function. The issue results from the lack of validating the existence of an object prior to performing operations on the object. An attacker can leverage this vulnerability to escalate privileges and execute arbitrary code in the context of the kernel.",
+    "addtionnal_details": "Linux has issued an update to correct this vulnerability. More details can be found at:\nhttps://github.com/torvalds/linux/commit/89fefad9f971bc637fb22373078144f2563c4be9",
+    "timeline": "2026-07-03 - Vulnerability reported to vendor\n2026-10-29 - Coordinated public release of advisory\n2026-10-29  - Advisory Updated",
+    "credit": "Anonymous"
+}
