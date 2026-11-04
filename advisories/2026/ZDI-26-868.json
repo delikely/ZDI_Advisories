@@ -1,0 +1,15 @@
+{
+    "date": "November 3rd, 2026",
+    "title": "Microsoft Windows Aero Theme Improper Handling Of Error Condition Denial-of-Service Vulnerability",
+    "ID_1": "ZDI-26-868",
+    "ID_2": "ZDI-CAN-29932",
+    "cveId": "",
+    "baseScore": "4.7",
+    "vectorString": "AV:L/AC:H/PR:L/UI:N/S:U/C:N/I:N/A:H",
+    "vendors": "Microsoft",
+    "products": "Windows",
+    "description": "This vulnerability allows local attackers to create a denial-of-service condition on affected installations of Microsoft Windows. An attacker must first obtain the ability to execute low-privileged code on the target system in order to exploit this vulnerability.\nThe specific flaw exists within the handling of Aero themes. The issue results from improper handling of an error condition. An attacker can leverage this vulnerability to create a persistent denial-of-service condition on the system.",
+    "addtionnal_details": "Microsoft has issued an update to correct this vulnerability. More details can be found at:\nhttps://support.microsoft.com/en-us/servicing/os/windows-11/2026/10/kb5127648-windows-11-24h2-25h2-26h2-security-update",
+    "timeline": "2026-05-28 - Vulnerability reported to vendor\n2026-11-03 - Coordinated public release of advisory\n2026-11-03  - Advisory Updated",
+    "credit": "HeeChan Kim (@heegong123) of TeamH4C"
+}

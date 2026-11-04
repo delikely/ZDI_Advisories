@@ -1,0 +1,15 @@
+{
+    "date": "November 3rd, 2026",
+    "title": "Quest Foglight for Databases getSource XML External Entity Processing Information Disclosure Vulnerability",
+    "ID_1": "ZDI-26-864",
+    "ID_2": "ZDI-CAN-29934",
+    "cveId": "CVE-2026-92198",
+    "baseScore": "8.2",
+    "vectorString": "AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:N/A:L",
+    "vendors": "Quest",
+    "products": "Foglight for Databases",
+    "description": "This vulnerability allows remote attackers to initiate arbitrary server-side requests on affected installations of Quest Foglight for Databases. Authentication is not required to exploit this vulnerability.\nThe specific flaw exists within the getSource method. Due to the improper restriction of XML External Entity (XXE) references, a crafted document specifying a URI causes the XML parser to access the URI and embed the contents back into the XML document for further processing. An attacker can leverage this vulnerability to disclose information in the context of the application.",
+    "addtionnal_details": "Fixed in Foglight 8.3",
+    "timeline": "2026-06-26 - Vulnerability reported to vendor\n2026-11-03 - Coordinated public release of advisory\n2026-11-03  - Advisory Updated",
+    "credit": "06fe5fd2bc53027c4a3b7e395af0b850e7b8a044"
+}

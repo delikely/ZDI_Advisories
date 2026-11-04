@@ -1,0 +1,15 @@
+{
+    "date": "November 3rd, 2026",
+    "title": "Quest Foglight for Databases AbstractParser XML External Entity Processing Information Disclosure Vulnerability",
+    "ID_1": "ZDI-26-862",
+    "ID_2": "ZDI-CAN-28929",
+    "cveId": "CVE-2026-92185",
+    "baseScore": "7.2",
+    "vectorString": "AV:N/AC:L/PR:N/UI:N/S:C/C:L/I:N/A:L",
+    "vendors": "Quest",
+    "products": "Foglight for Databases",
+    "description": "This vulnerability allows remote attackers to disclose sensitive information on affected installations of Quest Foglight for Databases. Authentication is not required to exploit this vulnerability.\nThe specific flaw exists within the AbstractParser class. Due to the improper restriction of XML External Entity (XXE) references, a crafted document specifying a URI causes the XML parser to access the URI and embed the contents back into the XML document for further processing. An attacker can leverage this vulnerability to disclose information in the context of SYSTEM.",
+    "addtionnal_details": "Fixed in Foglight 8.3",
+    "timeline": "2026-06-09 - Vulnerability reported to vendor\n2026-11-03 - Coordinated public release of advisory\n2026-11-03  - Advisory Updated",
+    "credit": "06fe5fd2bc53027c4a3b7e395af0b850e7b8a044"
+}

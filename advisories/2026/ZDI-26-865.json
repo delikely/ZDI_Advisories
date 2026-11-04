@@ -1,0 +1,15 @@
+{
+    "date": "November 3rd, 2026",
+    "title": "Quest Foglight for Databases Incorrect Permission Assignment Local Privilege Escalation Vulnerability",
+    "ID_1": "ZDI-26-865",
+    "ID_2": "ZDI-CAN-31118",
+    "cveId": "CVE-2026-92200",
+    "baseScore": "7.8",
+    "vectorString": "AV:L/AC:L/PR:L/UI:N/S:U/C:H/I:H/A:H",
+    "vendors": "Quest",
+    "products": "Foglight for Databases",
+    "description": "This vulnerability allows local attackers to escalate privileges on affected installations of Quest Foglight for Databases. An attacker must first obtain the ability to execute low-privileged code on the target system in order to exploit this vulnerability.\nThe specific flaw exists within the product installer. The issue results from incorrect permissions on a folder used by the product. An attacker can leverage this vulnerability to escalate privileges and execute arbitrary code in the context of SYSTEM.",
+    "addtionnal_details": "Fixed in Foglight 8.3",
+    "timeline": "2026-07-10 - Vulnerability reported to vendor\n2026-11-03 - Coordinated public release of advisory\n2026-11-03  - Advisory Updated",
+    "credit": "Bobby Gould (@bobbygould5) of TrendAI Zero Day Initiative"
+}
