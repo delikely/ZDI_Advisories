@@ -1,0 +1,15 @@
+{
+    "date": "November 4th, 2026",
+    "title": "(0Day) Ashlar-Vellum Cobalt XE File Parsing Use-After-Free Remote Code Execution Vulnerability",
+    "ID_1": "ZDI-26-872",
+    "ID_2": "ZDI-CAN-28587",
+    "cveId": "CVE-2026-121753",
+    "baseScore": "7.8",
+    "vectorString": "AV:L/AC:L/PR:N/UI:R/S:U/C:H/I:H/A:H",
+    "vendors": "Ashlar-Vellum",
+    "products": "Cobalt",
+    "description": "This vulnerability allows remote attackers to execute arbitrary code on affected installations of Ashlar-Vellum Cobalt. User interaction is required to exploit this vulnerability in that the target must visit a malicious page or open a malicious file.\nThe specific flaw exists within the parsing of XE files. The issue results from the lack of validating the existence of an object prior to performing operations on the object. An attacker can leverage this vulnerability to execute code in the context of the current process.",
+    "addtionnal_details": "12/16/25 - ZDI reported the vulnerability to the vendor12/16/25 - the vendor acknowledged the receipt of the report03/04/26 - ZDI asked for updates07/13/26 - ZDI asked for updates07/15/26 - the vendor communicated that the fix was not completed08/06/26 - ZDI asked for updates10/29/26 - ZDI notified the vendor of the intention to publish the case as a 0-day advisory\n-- Mitigation: Given the nature of the vulnerability, the only salient mitigation strategy is to restrict interaction with the product",
+    "timeline": "2025-12-16 - Vulnerability reported to vendor\n2026-11-04 - Coordinated public release of advisory\n2026-11-04  - Advisory Updated",
+    "credit": "Rocco Calvi (@TecR0c) with TecSecurity"
+}

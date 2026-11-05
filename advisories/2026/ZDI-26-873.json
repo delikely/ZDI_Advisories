@@ -1,0 +1,15 @@
+{
+    "date": "November 4th, 2026",
+    "title": "(0Day) Ashlar-Vellum Cobalt AR File Parsing Heap-based Buffer Overflow Remote Code Execution Vulnerability",
+    "ID_1": "ZDI-26-873",
+    "ID_2": "ZDI-CAN-28675",
+    "cveId": "CVE-2026-121743",
+    "baseScore": "7.8",
+    "vectorString": "AV:L/AC:L/PR:N/UI:R/S:U/C:H/I:H/A:H",
+    "vendors": "Ashlar-Vellum",
+    "products": "Cobalt",
+    "description": "This vulnerability allows remote attackers to execute arbitrary code on affected installations of Ashlar-Vellum Cobalt. User interaction is required to exploit this vulnerability in that the target must visit a malicious page or open a malicious file.\nThe specific flaw exists within the parsing of AR files. The issue results from the lack of proper validation of the length of user-supplied data prior to copying it to a heap-based buffer. An attacker can leverage this vulnerability to execute code in the context of the current process.",
+    "addtionnal_details": "01/22/26 – ZDI reported the vulnerability to the vendor01/28/26 – the vendor acknowledged the receipt of the report07/13/26 – ZDI asked for updates07/15/26 – the vendor communicated that the fix was not completed08/06/26 – ZDI asked for updates10/29/26 – ZDI notified the vendor of the intention to publish the case as a 0-day advisory\n-- Mitigation: Given the nature of the vulnerability, the only salient mitigation strategy is to restrict interaction with the product",
+    "timeline": "2026-01-22 - Vulnerability reported to vendor\n2026-11-04 - Coordinated public release of advisory\n2026-11-04  - Advisory Updated",
+    "credit": "Rocco Calvi (@TecR0c) with TecSecurity"
+}
