@@ -1,0 +1,15 @@
+{
+    "date": "November 6th, 2026",
+    "title": "Philips Hue Bridge Pro Argument Injection Restricted File Write Vulnerability",
+    "ID_1": "ZDI-26-890",
+    "ID_2": "ZDI-CAN-33090",
+    "cveId": "CVE-2026-118631",
+    "baseScore": "3.8",
+    "vectorString": "AV:L/AC:L/PR:L/UI:N/S:C/C:N/I:L/A:N",
+    "vendors": "Philips",
+    "products": "Hue Bridge Pro",
+    "description": "This vulnerability allows local attackers to modify files on affected installations of Philips Hue Bridge Pro. An attacker must first obtain the ability to execute low-privileged code within a container on the target system, in order to exploit this vulnerability.\nThe specific flaw exists within the factory data service, which listens on TCP port 5001 by default. The issue results from the lack of proper validation of a user-supplied string before using it to execute a system call. An attacker can leverage this vulnerability to modify files in the context of the service account.",
+    "addtionnal_details": "Fixed in Bridge Pro firmware version 6.1.2071524030 (or later)https://www.philips-hue.com/en-ca/support/release-notes/bridge-pro",
+    "timeline": "2026-08-27 - Vulnerability reported to vendor\n2026-11-06 - Coordinated public release of advisory\n2026-11-06  - Advisory Updated",
+    "credit": "Connor Ford @ByteInsight of TrendAI Zero Day Initiative"
+}

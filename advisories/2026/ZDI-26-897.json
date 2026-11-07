@@ -1,0 +1,15 @@
+{
+    "date": "November 6th, 2026",
+    "title": "(Pwn2Own) Home Assistant Green aiohttp_client Server-Side Request Forgery Vulnerability",
+    "ID_1": "ZDI-26-897",
+    "ID_2": "ZDI-CAN-28361",
+    "cveId": "CVE-2026-91131",
+    "baseScore": "5.4",
+    "vectorString": "AV:A/AC:L/PR:N/UI:N/S:U/C:L/I:L/A:N",
+    "vendors": "Home Assistant",
+    "products": "Green",
+    "description": "This vulnerability allows network-adjacent attackers to initiate arbitrary server-side requests on affected installations of Home Assistant Green. Authentication is not required to exploit this vulnerability.\nThe specific flaw exists within the aiohttp_client module. The issue results from following HTTP redirects. An attacker can leverage this in conjunction with other vulnerabilities to execute arbitrary code in the context of root.",
+    "addtionnal_details": "Home Assistant has issued an update to correct this vulnerability. More details can be found at:\nhttps://github.com/home-assistant/core/security/advisories/GHSA-6456-4qg9-cqpj",
+    "timeline": "2025-11-05 - Vulnerability reported to vendor\n2026-11-06 - Coordinated public release of advisory\n2026-11-06  - Advisory Updated",
+    "credit": "Team Neodyme (@Neodyme)"
+}

@@ -1,0 +1,15 @@
+{
+    "date": "November 6th, 2026",
+    "title": "Quest NetVault Backup StnzCreateKey Numeric Truncation Error Denial-of-Service Vulnerability",
+    "ID_1": "ZDI-26-888",
+    "ID_2": "ZDI-CAN-28743",
+    "cveId": "CVE-2026-13269",
+    "baseScore": "7.5",
+    "vectorString": "AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H",
+    "vendors": "Quest",
+    "products": "NetVault Backup",
+    "description": "This vulnerability allows remote attackers to create a denial-of-service condition on affected installations of Quest NetVault Backup. Authentication is not required to exploit this vulnerability.\nThe specific flaw exists within the StnzCreateKey function. The issue results from the lack of proper validation of user-supplied data, which can result in a numeric truncation error before allocating a buffer. An attacker can leverage this vulnerability to create a denial-of-service condition on the system.",
+    "addtionnal_details": "Fixed in NetVault version 14.1.3https://support.quest.com/technical-documents/netvault/14.1.3/release-notes/2#TOPIC-2383658",
+    "timeline": "2026-04-23 - Vulnerability reported to vendor\n2026-11-06 - Coordinated public release of advisory\n2026-11-06  - Advisory Updated",
+    "credit": "06fe5fd2bc53027c4a3b7e395af0b850e7b8a044"
+}

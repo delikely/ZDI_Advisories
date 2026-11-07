@@ -1,0 +1,15 @@
+{
+    "date": "November 6th, 2026",
+    "title": "OriginLab Origin Viewer OPJU File Parsing Out-Of-Bounds Write Remote Code Execution Vulnerability",
+    "ID_1": "ZDI-26-878",
+    "ID_2": "ZDI-CAN-30433",
+    "cveId": "CVE-2026-114561",
+    "baseScore": "7.8",
+    "vectorString": "AV:L/AC:L/PR:N/UI:R/S:U/C:H/I:H/A:H",
+    "vendors": "OriginLab",
+    "products": "Origin Viewer",
+    "description": "This vulnerability allows remote attackers to execute arbitrary code on affected installations of OriginLab Origin Viewer. User interaction is required to exploit this vulnerability in that the target must visit a malicious page or open a malicious file.\nThe specific flaw exists within the parsing of OPJU files. The issue results from the lack of proper validation of user-supplied data, which can result in a write past the end of an allocated data structure. An attacker can leverage this vulnerability to execute code in the context of the current process.",
+    "addtionnal_details": "OriginLab has issued an update to correct this vulnerability. More details can be found at:\nhttps://docs.originlab.com/cve/CVE-2026-114561",
+    "timeline": "2026-05-21 - Vulnerability reported to vendor\n2026-11-06 - Coordinated public release of advisory\n2026-11-06  - Advisory Updated",
+    "credit": "rgod"
+}

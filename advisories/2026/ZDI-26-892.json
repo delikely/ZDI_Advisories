@@ -1,0 +1,15 @@
+{
+    "date": "November 6th, 2026",
+    "title": "Philips Hue Bridge Pro Protection Mechanism Failure Authentication Bypass Vulnerability",
+    "ID_1": "ZDI-26-892",
+    "ID_2": "ZDI-CAN-33086",
+    "cveId": "CVE-2026-122044",
+    "baseScore": "8.8",
+    "vectorString": "AV:A/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:H",
+    "vendors": "Philips",
+    "products": "Hue Bridge Pro",
+    "description": "This vulnerability allows network-adjacent attackers to bypass authentication on affected installations of Philips Hue Bridge Pro. Authentication is not required to exploit this vulnerability.\nThe specific flaw exists within the HTTP service, which listens on TCP port 443 by default. The issue results from the failure to apply a protection mechanism. An attacker can leverage this vulnerability to bypass authentication on the system.",
+    "addtionnal_details": "Fixed in Bridge Pro firmware version 6.1.2071524030 (or later) https://www.philips-hue.com/en-ca/support/release-notes/bridge-pro",
+    "timeline": "2026-08-12 - Vulnerability reported to vendor\n2026-11-06 - Coordinated public release of advisory\n2026-11-06  - Advisory Updated",
+    "credit": "Connor Ford @ByteInsight of TrendAI Zero Day Initiative"
+}

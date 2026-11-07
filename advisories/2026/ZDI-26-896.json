@@ -1,0 +1,15 @@
+{
+    "date": "November 6th, 2026",
+    "title": "(Pwn2Own) Home Assistant Green Cleartext Storage of Credentials Local Privilege Escalation Vulnerability",
+    "ID_1": "ZDI-26-896",
+    "ID_2": "ZDI-CAN-28461",
+    "cveId": "CVE-2026-91131",
+    "baseScore": "8.8",
+    "vectorString": "AV:L/AC:L/PR:L/UI:N/S:C/C:H/I:H/A:H",
+    "vendors": "Home Assistant",
+    "products": "Green",
+    "description": "This vulnerability allows local attackers to escalate privileges on affected installations of Home Assistant Green. An attacker must first obtain the ability to execute low-privileged code within a container on the target system in order to exploit this vulnerability.\nThe specific flaw exists within the handling of user account tokens. The issue results from storing sensitive information in plaintext. An attacker can leverage this vulnerability to escape the container and execute arbitrary code in the context of root.",
+    "addtionnal_details": "Home Assistant has issued an update to correct this vulnerability. More details can be found at:\nhttps://github.com/home-assistant/core/security/advisories/GHSA-6456-4qg9-cqpj",
+    "timeline": "2025-11-05 - Vulnerability reported to vendor\n2026-11-06 - Coordinated public release of advisory\n2026-11-06  - Advisory Updated",
+    "credit": "Team ANHTUD"
+}
