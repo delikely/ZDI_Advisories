@@ -1,0 +1,15 @@
+{
+    "date": "November 10th, 2026",
+    "title": "Wireshark LoRaWAN Decryption Numeric Truncation Error Remote Code Execution Vulnerability",
+    "ID_1": "ZDI-26-898",
+    "ID_2": "ZDI-CAN-32851",
+    "cveId": "",
+    "baseScore": "7.1",
+    "vectorString": "AV:A/AC:H/PR:N/UI:R/S:U/C:H/I:H/A:H",
+    "vendors": "Wireshark",
+    "products": "Wireshark",
+    "description": "This vulnerability allows network-adjacent attackers to execute arbitrary code on affected installations of Wireshark. Authentication is not required to exploit this vulnerability. However, only instances with LoRaWAN decryption enabled are vulnerable.\nThe specific flaw exists within the implementation of LoRaWAN payload decryption. The issue results from the lack of proper validation of user-supplied data, which can result in an incorrect calculation before writing to memory. An attacker can leverage this vulnerability to execute code in the context of the current process.",
+    "addtionnal_details": "version 4.6 fix: https://gitlab.com/wireshark/wireshark/-/commit/8f7bb2905d3a9acb8ca6ae113806adcbb30fc6b6;version 4.4 fix: https://gitlab.com/wireshark/wireshark/-/commit/6527cb12b74655eb308d3c84bb9df9f57e396c67",
+    "timeline": "2026-08-20 - Vulnerability reported to vendor\n2026-11-10 - Coordinated public release of advisory\n2026-11-10  - Advisory Updated",
+    "credit": "HeeChan Kim (@heegong123) of TeamH4C"
+}

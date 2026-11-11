@@ -1,0 +1,15 @@
+{
+    "date": "November 10th, 2026",
+    "title": "Wireshark LBMC Fragment Reassembly Integer Overflow Remote Code Execution Vulnerability",
+    "ID_1": "ZDI-26-899",
+    "ID_2": "ZDI-CAN-32846",
+    "cveId": "",
+    "baseScore": "7.5",
+    "vectorString": "AV:N/AC:H/PR:N/UI:R/S:U/C:H/I:H/A:H",
+    "vendors": "Wireshark",
+    "products": "Wireshark",
+    "description": "This vulnerability allows remote attackers to execute arbitrary code on affected installations of Wireshark. Authentication is not required to exploit this vulnerability. However, only instances with LBMC fragment reassembly enabled are vulnerable.\nThe specific flaw exists within the implementation of LBMC fragment reassembly. The issue results from the lack of proper validation of user-supplied data, which can result in an an integer overflow before writing to memory. An attacker can leverage this vulnerability to execute code in the context of the current process.",
+    "addtionnal_details": "version 4.6 fix: https://gitlab.com/wireshark/wireshark/-/commit/4d1c6d964c7c0c7a59b0afc14a8e44d5d831ab73; version 4.4 fix: https://gitlab.com/wireshark/wireshark/-/commit/e2f9595e3d6beaf31344f5de745b0ff4d041bd82",
+    "timeline": "2026-08-20 - Vulnerability reported to vendor\n2026-11-10 - Coordinated public release of advisory\n2026-11-10  - Advisory Updated",
+    "credit": "HeeChan Kim (@heegong123) of TeamH4C"
+}

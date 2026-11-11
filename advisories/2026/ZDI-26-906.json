@@ -1,0 +1,15 @@
+{
+    "date": "November 10th, 2026",
+    "title": "X.Org Server libX11 XkbGetMap Reply Heap-based Buffer Overflow Remote Code Execution Vulnerability",
+    "ID_1": "ZDI-26-906",
+    "ID_2": "ZDI-CAN-32061",
+    "cveId": "CVE-2026-88806",
+    "baseScore": "8.8",
+    "vectorString": "AV:N/AC:L/PR:N/UI:R/S:U/C:H/I:H/A:H",
+    "vendors": "X.Org",
+    "products": "Server",
+    "description": "This vulnerability allows remote attackers to execute arbitrary code on affected installations of X.Org Server. User interaction is required to exploit this vulnerability in that the target must connect to a malicious X11 server.\nThe specific flaw exists within the XkbReadKeyActions function. The issue results from the lack of proper validation of the length of user-supplied data prior to copying it to a fixed-length heap-based buffer. An attacker can leverage this vulnerability to execute code in the context of the current process.",
+    "addtionnal_details": "X.Org has issued an update to correct this vulnerability. More details can be found at:\nhttps://gitlab.freedesktop.org/xorg/lib/libx11/-/merge_requests/309",
+    "timeline": "2026-09-02 - Vulnerability reported to vendor\n2026-11-10 - Coordinated public release of advisory\n2026-11-10  - Advisory Updated",
+    "credit": "Adam Bedard"
+}
