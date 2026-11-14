@@ -1,0 +1,15 @@
+{
+    "date": "November 13th, 2026",
+    "title": "Linux Kernel KSMBD SMB Direct Integer Underflow Remote Code Execution Vulnerability",
+    "ID_1": "ZDI-26-998",
+    "ID_2": "ZDI-CAN-33549",
+    "cveId": "",
+    "baseScore": "9.0",
+    "vectorString": "AV:N/AC:H/PR:N/UI:N/S:C/C:H/I:H/A:H",
+    "vendors": "Linux",
+    "products": "Kernel KSMBD",
+    "description": "This vulnerability allows remote attackers to execute arbitrary code on affected installations of Linux Kernel KSMBD. Authentication may or may not be required to exploit this vulnerability, depending upon configuration. Only systems with SMB Direct enabled are vulnerable.\nThe specific flaw exists within the smbdirect_connection_rdma_xmit function. The issue results from the lack of proper validation of user-supplied data, which can result in an integer underflow before writing to memory. An attacker can leverage this vulnerability to execute code in the context of the kernel.",
+    "addtionnal_details": "Linux has issued an update to correct this vulnerability. More details can be found at:\nhttps://github.com/torvalds/linux/commit/7193241a49c958782ba4b8df06da3734d1e317d2",
+    "timeline": "2026-10-21 - Vulnerability reported to vendor\n2026-11-13 - Coordinated public release of advisory\n2026-11-13  - Advisory Updated",
+    "credit": "HYEONTAE LEE"
+}

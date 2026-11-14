@@ -1,0 +1,15 @@
+{
+    "date": "November 13th, 2026",
+    "title": "SmarterTools SmarterMail Missing Authorization Privilege Escalation Vulnerability",
+    "ID_1": "ZDI-26-995",
+    "ID_2": "ZDI-CAN-33566",
+    "cveId": "CVE-2026-126966",
+    "baseScore": "8.8",
+    "vectorString": "AV:N/AC:L/PR:L/UI:N/S:U/C:H/I:H/A:H",
+    "vendors": "SmarterTools",
+    "products": "SmarterMail",
+    "description": "This vulnerability allows remote attackers to escalate privileges on affected installations of SmarterTools SmarterMail. Authentication is required to exploit this vulnerability.\nThe specific flaw exists within the svcDomainAdmin.asmx endpoint. The issue results from the lack of authorization prior to allowing access to functionality. An attacker can leverage this vulnerability to escalate privileges to resources normally protected from the user.",
+    "addtionnal_details": "Fixed in SmarterMail Build 9735",
+    "timeline": "2026-08-20 - Vulnerability reported to vendor\n2026-11-13 - Coordinated public release of advisory\n2026-11-13  - Advisory Updated",
+    "credit": "Shaber Tseng"
+}

@@ -1,0 +1,15 @@
+{
+    "date": "November 13th, 2026",
+    "title": "Linux Kernel Proc File System Pagemap Scan Use-After-Free Local Privilege Escalation Vulnerability",
+    "ID_1": "ZDI-26-999",
+    "ID_2": "ZDI-CAN-33264",
+    "cveId": "",
+    "baseScore": "8.8",
+    "vectorString": "AV:L/AC:L/PR:L/UI:N/S:C/C:H/I:H/A:H",
+    "vendors": "Linux",
+    "products": "Kernel",
+    "description": "This vulnerability allows local attackers to escalate privileges on affected installations of Linux Kernel. An attacker must first obtain the ability to execute low-privileged code on the target system in order to exploit this vulnerability.\nThe specific flaw exists within the handling of hugetlb_vma_lock objects. The issue results from the lack of validating the existence of an object prior to performing operations on the object. An attacker can leverage this vulnerability to escalate privileges and execute arbitrary code in the context of the kernel.",
+    "addtionnal_details": "Linux has issued an update to correct this vulnerability. More details can be found at:\nhttps://github.com/torvalds/linux/commit/4fb975471717c953f912776bb60301add1ffae11",
+    "timeline": "2026-09-15 - Vulnerability reported to vendor\n2026-11-13 - Coordinated public release of advisory\n2026-11-13  - Advisory Updated",
+    "credit": "parkjunhyun"
+}

@@ -1,0 +1,15 @@
+{
+    "date": "November 13th, 2026",
+    "title": "Linux Kernel skbuff skb_zerocopy Improper Ownership Management Local Privilege Escalation Vulnerability",
+    "ID_1": "ZDI-26-1006",
+    "ID_2": "ZDI-CAN-33367",
+    "cveId": "CVE-2026-99284",
+    "baseScore": "7.8",
+    "vectorString": "AV:L/AC:L/PR:L/UI:N/S:U/C:H/I:H/A:H",
+    "vendors": "Linux",
+    "products": "Kernel",
+    "description": "This vulnerability allows local attackers to escalate privileges on affected installations of Linux Kernel. An attacker must first obtain the ability to execute low-privileged code on the target system in order to exploit this vulnerability.\nThe specific flaw exists within the skb_zerocopy function. The issue results from the failure to propagate the shared ownership state of packet fragments during a zero-copy transfer. An attacker can leverage this vulnerability to escalate privileges and execute arbitrary code in the context of root.",
+    "addtionnal_details": "Linux has issued an update to correct this vulnerability. More details can be found at:\nhttps://github.com/torvalds/linux/commit/79dc34beb1fdb3da79753e51e15c68591a2561fe",
+    "timeline": "2026-10-21 - Vulnerability reported to vendor\n2026-11-13 - Coordinated public release of advisory\n2026-11-13  - Advisory Updated",
+    "credit": "p1r0x"
+}

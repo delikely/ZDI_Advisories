@@ -1,0 +1,15 @@
+{
+    "date": "November 13th, 2026",
+    "title": "KiCad Plugin Directory Traversal Remote Code Execution   Vulnerability",
+    "ID_1": "ZDI-26-958",
+    "ID_2": "ZDI-CAN-33085",
+    "cveId": "CVE-2026-126972",
+    "baseScore": "7.8",
+    "vectorString": "AV:L/AC:L/PR:N/UI:R/S:U/C:H/I:H/A:H",
+    "vendors": "KiCad",
+    "products": "KiCad",
+    "description": "This vulnerability allows remote attackers to execute arbitrary code on affected installations of KiCad. User interaction is required to exploit this vulnerability in that the target must visit a malicious page or open a malicious file.\nThe specific flaw exists within the handling of plugin packages. The issue results from the lack of proper validation of a user-supplied path prior to using it in file operations. An attacker can leverage this vulnerability to execute arbitrary code in the context of the current user.",
+    "addtionnal_details": "KiCad has issued an update to correct this vulnerability. More details can be found at:\nhttps://gitlab.com/kicad/code/kicad/-/commit/e60c1fc0838339200742cc1ac9fcc1302cbedec5",
+    "timeline": "2026-08-12 - Vulnerability reported to vendor\n2026-11-13 - Coordinated public release of advisory\n2026-11-13  - Advisory Updated",
+    "credit": "Mat Powell of TrendAI Zero Day Initiative"
+}

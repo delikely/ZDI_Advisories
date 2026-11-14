@@ -1,0 +1,15 @@
+{
+    "date": "November 13th, 2026",
+    "title": "Hong Kong University Data Intelligence Lab nanobot WebFetch Server-Side Request Forgery Information Disclosure Vulnerability",
+    "ID_1": "ZDI-26-972",
+    "ID_2": "ZDI-CAN-29369",
+    "cveId": "",
+    "baseScore": "9.3",
+    "vectorString": "AV:N/AC:L/PR:N/UI:N/S:C/C:H/I:L/A:N",
+    "vendors": "Hong Kong University Data Intelligence Lab",
+    "products": "nanobot",
+    "description": "This vulnerability allows remote attackers to disclose sensitive information on affected installations of Hong Kong University Data Intelligence Lab nanobot. Interaction with this product is required to exploit this vulnerability but attack vectors may vary depending on the implementation.\nThe specific flaw exists within the URI validation component. The issue results from the lack of proper validation of a URI prior to accessing resources. An attacker can leverage this vulnerability to disclose information in the context of the service account.",
+    "addtionnal_details": "Fixed in v0.3.0",
+    "timeline": "2026-02-20 - Vulnerability reported to vendor\n2026-11-13 - Coordinated public release of advisory\n2026-11-13  - Advisory Updated",
+    "credit": "Peter Girnus (@gothburz) and Project AESIR of TrendAI Zero Day Initiative"
+}

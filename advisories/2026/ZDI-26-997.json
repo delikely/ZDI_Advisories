@@ -1,0 +1,15 @@
+{
+    "date": "November 13th, 2026",
+    "title": "SmarterTools SmarterMail Insufficient Entropy Authentication Bypass Vulnerability",
+    "ID_1": "ZDI-26-997",
+    "ID_2": "ZDI-CAN-33568",
+    "cveId": "CVE-2026-126969",
+    "baseScore": "9.1",
+    "vectorString": "AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:N",
+    "vendors": "SmarterTools",
+    "products": "SmarterMail",
+    "description": "This vulnerability allows remote attackers to bypass authentication on affected installations of SmarterTools SmarterMail. Authentication is not required to exploit this vulnerability.\nThe specific flaw exists within the generation of Application Passwords. The issue results from using insufficient entropy in the generation of credentials. An attacker can leverage this vulnerability to bypass authentication on the system.",
+    "addtionnal_details": "Fixed in SmarterMail Build 9735",
+    "timeline": "2026-08-20 - Vulnerability reported to vendor\n2026-11-13 - Coordinated public release of advisory\n2026-11-13  - Advisory Updated",
+    "credit": "Shaber Tseng"
+}

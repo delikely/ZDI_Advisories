@@ -1,0 +1,15 @@
+{
+    "date": "November 13th, 2026",
+    "title": "Linux Kernel KSMBD Request Buffer Use of Uninitialized Resource Information Disclosure Vulnerability",
+    "ID_1": "ZDI-26-1004",
+    "ID_2": "ZDI-CAN-32436",
+    "cveId": "",
+    "baseScore": "6.3",
+    "vectorString": "AV:N/AC:H/PR:L/UI:N/S:C/C:H/I:N/A:N",
+    "vendors": "Linux",
+    "products": "Kernel KSMBD",
+    "description": "This vulnerability allows remote attackers to disclose sensitive information on affected installations of Linux Kernel KSMBD. Authentication is not required to exploit this vulnerability. However, only systems with ksmbd enabled are vulnerable.\nThe specific flaw exists within the ksmbd_conn_handler_loop functions. The issue results from the lack of proper initialization of memory prior to accessing it. An attacker can leverage this in conjunction with other vulnerabilities to execute arbitrary code in the context of the kernel.",
+    "addtionnal_details": "Linux has issued an update to correct this vulnerability. More details can be found at:\nhttps://github.com/torvalds/linux/commit/bc0e0f5ac1d7b044d403f859406b4b66d4b1ce9b",
+    "timeline": "2026-09-02 - Vulnerability reported to vendor\n2026-11-13 - Coordinated public release of advisory\n2026-11-13  - Advisory Updated",
+    "credit": "Anonymous"
+}

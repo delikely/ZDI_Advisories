@@ -1,0 +1,15 @@
+{
+    "date": "November 13th, 2026",
+    "title": "(Pwn2Own) Synology DiskStation DS925+ C2 Identity Plugin Exposed Dangerous Method Information Disclosure Vulnerability",
+    "ID_1": "ZDI-26-1009",
+    "ID_2": "ZDI-CAN-28325",
+    "cveId": "CVE-2025-14713",
+    "baseScore": "6.5",
+    "vectorString": "AV:A/AC:L/PR:N/UI:N/S:U/C:H/I:N/A:N",
+    "vendors": "Synology",
+    "products": "DiskStation DS925+",
+    "description": "This vulnerability allows network-adjacent attackers to disclose sensitive information on affected installations of Synology DiskStation DS925+ devices. Authentication is not required to exploit this vulnerability.\nThe specific flaw exists within the C2 Identity Plugin. The issue results from an exposed dangerous function. An attacker can leverage this vulnerability to disclose stored credentials, leading to further compromise.",
+    "addtionnal_details": "Synology has issued an update to correct this vulnerability. More details can be found at:\nhttps://www.synology.com/en-br/security/advisory/Synology_SA_25_18",
+    "timeline": "2025-11-18 - Vulnerability reported to vendor\n2026-11-13 - Coordinated public release of advisory\n2026-11-13  - Advisory Updated",
+    "credit": "Sina Kheirkhah (@SinSinology) of Summoning Team (@SummoningTeam)"
+}

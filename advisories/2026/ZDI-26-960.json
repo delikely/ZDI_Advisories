@@ -1,0 +1,15 @@
+{
+    "date": "November 13th, 2026",
+    "title": "Netgate pfSense CE XMLRPC Incorrect Authorization Remote Code Execution Vulnerability",
+    "ID_1": "ZDI-26-960",
+    "ID_2": "ZDI-CAN-32353",
+    "cveId": "CVE-2026-92182",
+    "baseScore": "8.8",
+    "vectorString": "AV:N/AC:L/PR:L/UI:N/S:U/C:H/I:H/A:H",
+    "vendors": "Netgate",
+    "products": "pfSense",
+    "description": "This vulnerability allows remote attackers to execute arbitrary code on affected installations of Netgate pfSense. Authentication is required to exploit this vulnerability.\nThe specific flaw exists within the XMLRPC endpoint. The issue results from incorrect authorization prior to allowing access to functionality. An attacker can leverage this vulnerability to execute code within the context of the root.",
+    "addtionnal_details": "Netgate has issued an update to correct this vulnerability. More details can be found at:\nhttps://docs.netgate.com/downloads/pfSense-SA-26_22.webgui.asc",
+    "timeline": "2026-08-25 - Vulnerability reported to vendor\n2026-11-13 - Coordinated public release of advisory\n2026-11-13  - Advisory Updated",
+    "credit": "Alex Williams from Pellera Technologies"
+}

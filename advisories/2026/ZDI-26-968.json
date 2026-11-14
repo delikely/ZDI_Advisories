@@ -1,0 +1,15 @@
+{
+    "date": "November 13th, 2026",
+    "title": "(Pwn2Own) OpenAI Codex GUI OpenProjectInCodex Argument Injection Remote Code Execution Vulnerability",
+    "ID_1": "ZDI-26-968",
+    "ID_2": "ZDI-CAN-35548",
+    "cveId": "CVE-2026-110930",
+    "baseScore": "7.8",
+    "vectorString": "AV:L/AC:L/PR:N/UI:R/S:U/C:H/I:H/A:H",
+    "vendors": "OpenAI",
+    "products": "Codex",
+    "description": "This vulnerability allows remote attackers to execute arbitrary code on affected installations of OpenAI Codex. User interaction is required to exploit this vulnerability in that the target must open a malicious file.\nThe specific flaw exists within the handling of the OpenProjectInCodex context menu command. The issue results from the lack of proper validation of a user-supplied string before using it to construct command-line arguments. An attacker can leverage this vulnerability to execute code in the context of the current user.",
+    "addtionnal_details": "OpenAI has issued an update to correct this vulnerability. More details can be found at:\nhttps://openai.com/security/advisories/cve-2026-110930/",
+    "timeline": "2026-10-21 - Vulnerability reported to vendor\n2026-11-13 - Coordinated public release of advisory\n2026-11-13  - Advisory Updated",
+    "credit": "Ikotas Labs, Inc. (@ikotas00)"
+}

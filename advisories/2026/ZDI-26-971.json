@@ -1,0 +1,15 @@
+{
+    "date": "November 13th, 2026",
+    "title": "Signal for Windows Insufficient UI Warning Remote Code Execution Vulnerability",
+    "ID_1": "ZDI-26-971",
+    "ID_2": "ZDI-CAN-28556",
+    "cveId": "",
+    "baseScore": "7.5",
+    "vectorString": "AV:N/AC:H/PR:N/UI:R/S:U/C:H/I:H/A:H",
+    "vendors": "Signal",
+    "products": "Signal for Windows",
+    "description": "This vulnerability allows remote attackers to execute arbitrary code on affected installations of Signal for Windows. User interaction is required to exploit this vulnerability in that the target must accept a malicious attachment.\nThe specific flaw exists within the handling of file attachments. The product offers an insecure default location for saving downloaded attachments. An attacker can leverage this vulnerability to execute code in the context of the current process.",
+    "addtionnal_details": "Signal has issued an update to correct this vulnerability. More details can be found at:\nhttps://github.com/electron/electron/issues/49237",
+    "timeline": "2025-12-16 - Vulnerability reported to vendor\n2026-11-13 - Coordinated public release of advisory\n2026-11-13  - Advisory Updated",
+    "credit": "Kusol Watchara-Apanukorn"
+}

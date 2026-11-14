@@ -1,0 +1,15 @@
+{
+    "date": "November 13th, 2026",
+    "title": "Microsoft Windows Remote Desktop Connection Client Link Following Remote Code Execution Vulnerability",
+    "ID_1": "ZDI-26-967",
+    "ID_2": "ZDI-CAN-30756",
+    "cveId": "CVE-2026-119824",
+    "baseScore": "7.5",
+    "vectorString": "AV:N/AC:H/PR:N/UI:R/S:U/C:H/I:H/A:H",
+    "vendors": "Microsoft",
+    "products": "Windows",
+    "description": "This vulnerability allows remote attackers to execute arbitrary code on affected installations of Microsoft Windows. User interaction is required to exploit this vulnerability in that the target must connect to a malicious server.\nThe specific flaw exists within the Remote Desktop Connection client. By creating a reparse point, an attacker can abuse the service to access arbitrary files. An attacker can leverage this vulnerability to execute code in the context of the current user.",
+    "addtionnal_details": "Microsoft has issued an update to correct this vulnerability. More details can be found at:\nhttps://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-119824",
+    "timeline": "2026-09-04 - Vulnerability reported to vendor\n2026-11-13 - Coordinated public release of advisory\n2026-11-13  - Advisory Updated",
+    "credit": "Kyeongmin Kim (@hareh4ru) of KAIST Hacking Lab"
+}

@@ -1,0 +1,15 @@
+{
+    "date": "November 13th, 2026",
+    "title": "SmarterTools SmarterMail File Edit API Directory Traversal Remote Code Execution Vulnerability",
+    "ID_1": "ZDI-26-994",
+    "ID_2": "ZDI-CAN-30742",
+    "cveId": "CVE-2026-126967",
+    "baseScore": "8.8",
+    "vectorString": "AV:N/AC:L/PR:L/UI:N/S:U/C:H/I:H/A:H",
+    "vendors": "SmarterTools",
+    "products": "SmarterMail",
+    "description": "This vulnerability allows remote attackers to execute arbitrary code on affected installations of SmarterTools SmarterMail. Authentication is required to exploit this vulnerability.\nThe specific flaw exists within the FileStorageController class. The issue results from the lack of proper validation of a user-supplied path prior to using it in file operations. An attacker can leverage this vulnerability to execute code in the context of SYSTEM.",
+    "addtionnal_details": "Fixed in SmarterMail Build 9735",
+    "timeline": "2026-08-20 - Vulnerability reported to vendor\n2026-11-13 - Coordinated public release of advisory\n2026-11-13  - Advisory Updated",
+    "credit": "Shaber Tseng"
+}

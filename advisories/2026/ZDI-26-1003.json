@@ -1,0 +1,15 @@
+{
+    "date": "November 13th, 2026",
+    "title": "Linux Kernel ksmbd smb_inherit_dacl Out-Of-Bounds Read Information Disclosure Vulnerability",
+    "ID_1": "ZDI-26-1003",
+    "ID_2": "ZDI-CAN-30364",
+    "cveId": "CVE-2026-64138",
+    "baseScore": "7.1",
+    "vectorString": "AV:N/AC:H/PR:L/UI:N/S:C/C:H/I:N/A:L",
+    "vendors": "Linux",
+    "products": "Kernel",
+    "description": "This vulnerability allows remote attackers to disclose sensitive information on affected installations of Linux Kernel. Authentication is required to exploit this vulnerability. However, only systems with ksmbd enabled are vulnerable.\nThe specific flaw exists within the handling of inherited security descriptors. The issue results from the lack of proper validation of user-supplied data, which can result in a read past the end of an allocated buffer. An attacker can leverage this in conjunction with other vulnerabilities to execute arbitrary code in the context of the kernel.",
+    "addtionnal_details": "Linux has issued an update to correct this vulnerability. More details can be found at:\nhttps://github.com/torvalds/linux/commit/69f030cf95488ae1186c72ac8c66fd279664ea7f",
+    "timeline": "2026-04-08 - Vulnerability reported to vendor\n2026-11-13 - Coordinated public release of advisory\n2026-11-13  - Advisory Updated",
+    "credit": "Nicholas Zubrisky (@NZubrisky) of TrendAI Research"
+}

@@ -1,0 +1,15 @@
+{
+    "date": "November 13th, 2026",
+    "title": "SmarterTools SmarterMail Missing Authorization Information Disclosure Vulnerability",
+    "ID_1": "ZDI-26-996",
+    "ID_2": "ZDI-CAN-33567",
+    "cveId": "CVE-2026-126968",
+    "baseScore": "6.5",
+    "vectorString": "AV:N/AC:L/PR:L/UI:N/S:U/C:H/I:N/A:N",
+    "vendors": "SmarterTools",
+    "products": "SmarterMail",
+    "description": "This vulnerability allows remote attackers to disclose sensitive information on affected installations of SmarterTools SmarterMail. Authentication is required to exploit this vulnerability.\nThe specific flaw exists within the handling of email attachments. The issue results from the lack of authorization prior to allowing access to functionality. An attacker can leverage this vulnerability to disclose sensitive information in the context of a target user.",
+    "addtionnal_details": "Fixed in SmarterMail Build 9735",
+    "timeline": "2026-08-20 - Vulnerability reported to vendor\n2026-11-13 - Coordinated public release of advisory\n2026-11-13  - Advisory Updated",
+    "credit": "Shaber Tseng"
+}

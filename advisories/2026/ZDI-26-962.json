@@ -1,0 +1,15 @@
+{
+    "date": "November 13th, 2026",
+    "title": "(Pwn2Own) Philips Hue Bridge HomeKit Pair-Setup Default Password Authentication Bypass Vulnerability",
+    "ID_1": "ZDI-26-962",
+    "ID_2": "ZDI-CAN-28323",
+    "cveId": "CVE-2026-126977",
+    "baseScore": "8.1",
+    "vectorString": "AV:A/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:N",
+    "vendors": "Philips",
+    "products": "Hue Bridge",
+    "description": "This vulnerability allows network-adjacent attackers to bypass authentication on affected installations of Philips Hue Bridge. Authentication is not required to exploit this vulnerability.\nThe specific flaw exists within the HomeKit Authentication service, which listens on TCP port 8080 by default. Crafted data in a pairing request can cause the device to allow authentication using a blank password. An attacker can leverage this vulnerability to bypass authentication on the system.",
+    "addtionnal_details": "Fixed in firmware version 1.75.1975170000 (or newer)https://www.philips-hue.com/en-ca/support/release-notes/bridge",
+    "timeline": "2026-07-28 - Vulnerability reported to vendor\n2026-11-13 - Coordinated public release of advisory\n2026-11-13  - Advisory Updated",
+    "credit": "Hank Chen (@hank0438) of InnoEdge Labs"
+}
