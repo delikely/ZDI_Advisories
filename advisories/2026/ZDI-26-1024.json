@@ -1,0 +1,15 @@
+{
+    "date": "November 18th, 2026",
+    "title": "(0Day) Open Robotics RViz RGBF32PCTransformer PointField Out-Of-Bounds Read Denial-of-Service Vulnerability",
+    "ID_1": "ZDI-26-1024",
+    "ID_2": "ZDI-CAN-32644",
+    "cveId": "",
+    "baseScore": "6.5",
+    "vectorString": "AV:A/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H",
+    "vendors": "Open Robotics",
+    "products": "RViz",
+    "description": "This vulnerability allows network-adjacent attackers to create a denial-of-service condition on affected installations of Open Robotics RViz. Authentication is not required to exploit this vulnerability.\nThe specific flaw exists within the RGBF32PCTransformer handling of PointCloud2 messages. The issue results from the lack of proper validation of user-supplied data, which can result in a read past the end of an allocated object. An attacker can leverage this vulnerability to create a denial-of-service condition on the system.",
+    "addtionnal_details": "07/15/26 - ZDI reported the vulnerability to the vendor08/10/26 - ZDI asked for updates10/16/26 - ZDI asked the vendor to confirm receipt and provide a status update11/03/26 - ZDI notified the vendor of the intention to publish the case as a 0-day advisory\n-- Mitigation: Given the nature of the vulnerability, the only salient mitigation strategy is to restrict interaction with the product",
+    "timeline": "2026-07-15 - Vulnerability reported to vendor\n2026-11-18 - Coordinated public release of advisory\n2026-11-18  - Advisory Updated",
+    "credit": "Mat Powell of TrendAI Zero Day Initiative"
+}

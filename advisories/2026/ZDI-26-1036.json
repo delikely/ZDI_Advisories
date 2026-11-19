@@ -1,0 +1,15 @@
+{
+    "date": "November 18th, 2026",
+    "title": "(0Day) (Pwn2Own) United Chargers Grizzl-E Smart 40A Wi-Fi Configuration Server Missing Authentication Vulnerability",
+    "ID_1": "ZDI-26-1036",
+    "ID_2": "ZDI-CAN-29068",
+    "cveId": "CVE-2026-131808",
+    "baseScore": "6.3",
+    "vectorString": "AV:A/AC:L/PR:N/UI:N/S:U/C:L/I:L/A:L",
+    "vendors": "United Chargers",
+    "products": "Grizzl-E Smart 40A",
+    "description": "This vulnerability allows network-adjacent attackers to modify Wi-Fi configuration on affected installations of United Chargers Grizzl-E Smart 40A EV chargers. Authentication is not required to exploit this vulnerability.\nThe specific flaw exists within the handling of Wi-Fi configuration requests. The issue results from the lack of authentication prior to allowing access to functionality. An attacker can leverage this in conjunction with other vulnerabilities to execute arbitrary code in the context of the device.",
+    "addtionnal_details": "Since 04/14/26, ZDI has made multiple attempts to contact United Chargers to establish a vendor disclosure channel for the vulnerabilities identified in the Grizzl-E Smart 40A during Pwn2Own Automotive 2026. Despite these repeated efforts, both before and after the contest, the vendor has not responded to any communication.\n-- Mitigation: Given the nature of the vulnerability, the only salient mitigation strategy is to restrict interaction with the product",
+    "timeline": "2026-11-06 - Vulnerability reported to vendor\n2026-11-18 - Coordinated public release of advisory\n2026-11-18  - Advisory Updated",
+    "credit": "Bongeun Koo (@kiddo_pwn) and Evangelos Daravigkas (@freddo_1337) of Team DDOS"
+}

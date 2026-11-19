@@ -1,0 +1,15 @@
+{
+    "date": "November 18th, 2026",
+    "title": "(0Day) LiteLLM MCP Command Injection Remote Code Execution Vulnerability",
+    "ID_1": "ZDI-26-1031",
+    "ID_2": "ZDI-CAN-31815",
+    "cveId": "",
+    "baseScore": "7.2",
+    "vectorString": "AV:N/AC:L/PR:H/UI:N/S:U/C:H/I:H/A:H",
+    "vendors": "LiteLLM",
+    "products": "LiteLLM",
+    "description": "This vulnerability allows remote attackers to execute arbitrary code on affected installations of LiteLLM. Authentication is required to exploit this vulnerability.\nThe specific flaw exists within the handling of MCP stdio configurations. The issue results from the lack of proper validation of a user-supplied string before using it to execute a system call. An attacker can leverage this vulnerability to execute code in the context of the service account.",
+    "addtionnal_details": "06/17/26 - ZDI reported the vulnerability to the vendor07/03/26 - ZDI asked for updates08/28/26 - ZDI asked for updates09/15/26 - the vendor closed the report as a false positive10/26/26 - ZDI disputed the vendor's closure as the existing fix was incomplete10/29/26 - the vendor reopened the report agreeing the mitigation wasn't enough10/30/26 - ZDI asked for the fix plan11/04/26 - ZDI notified the vendor of the intention to publish the case as a 0-day advisory on 11/18/2611/13/26 - the vendor stated it planned to ship a fix and issue a GHSA before the 11/18 deadline11/16/26 - ZDI asked the vendor to confirm whether the fix/GHSA had shipped11/17/26 - the vendor clarified no separate patch is coming, and disputed that the report describes a vulnerability11/17/26 - ZDI confirmed the zero-day advisory would publish on 11/18/26\n-- Mitigation: The vendor recommends the following mitigation: Stdio MCP servers run admin-chosen host commands; only proxy admins can create or test them. The CVE-2026-42271 allowlist doesn’t limit what admins can run, isn’t a security control, and will be removed. From v1.104.0, stdio servers are disabled unless LITELLM_ENABLE_MCP_STDIO=true is set in env (not via API/config/DB); to stay safe, upgrade to 1.104.0+ and leave unset. Always replace any default/example master key with a strong random value; v1.104.0+ blocks startup if unset, empty, or sk-1234.",
+    "timeline": "2026-06-17 - Vulnerability reported to vendor\n2026-11-18 - Coordinated public release of advisory\n2026-11-18  - Advisory Updated",
+    "credit": "David Fiser and Alfredo Oliveira of TrendAI Research"
+}

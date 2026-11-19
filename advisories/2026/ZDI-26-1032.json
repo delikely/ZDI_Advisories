@@ -1,0 +1,15 @@
+{
+    "date": "November 18th, 2026",
+    "title": "(0Day) (Pwn2Own) United Chargers Grizzl-E Smart 40A OCPP Backend Configuration Hard-Coded Credentials Authentication Bypass Vulnerability",
+    "ID_1": "ZDI-26-1032",
+    "ID_2": "ZDI-CAN-29056",
+    "cveId": "CVE-2026-131811",
+    "baseScore": "7.6",
+    "vectorString": "AV:A/AC:L/PR:N/UI:N/S:U/C:L/I:H/A:L",
+    "vendors": "United Chargers",
+    "products": "Grizzl-E Smart 40A",
+    "description": "This vulnerability allows network-adjacent attackers to bypass authentication on affected installations of United Chargers Grizzl-E Smart 40A EV chargers. Authentication is not required to exploit this vulnerability.\nThe specific flaw exists within the configuration of the OCPP backend settings interface. The issue results from the use of hard-coded credentials. An attacker can leverage this vulnerability in conjunction with other vulnerabilities to execute arbitrary code in the context of the device.",
+    "addtionnal_details": "Since 04/14/26, ZDI has made multiple attempts to contact United Chargers to establish a vendor disclosure channel for the vulnerabilities identified in the Grizzl-E Smart 40A during Pwn2Own Automotive 2026. Despite these repeated efforts, both before and after the contest, the vendor has not responded to any communication.\n-- Mitigation: Given the nature of the vulnerability, the only salient mitigation strategy is to restrict interaction with the product",
+    "timeline": "2026-11-06 - Vulnerability reported to vendor\n2026-11-18 - Coordinated public release of advisory\n2026-11-18  - Advisory Updated",
+    "credit": "Taejin Kim(@_tae3_), Junsu Yeo(@junactually), Sunmin Park(@sunminpark4503), Sungmin Son(@_ssm98), Hoseok Lee of SKShieldus(@EQSTLab)"
+}

@@ -1,0 +1,15 @@
+{
+    "date": "November 18th, 2026",
+    "title": "(0Day) Open Robotics ROS 2 sros2 load_policy XML External Entity Processing Information Disclosure Vulnerability",
+    "ID_1": "ZDI-26-1019",
+    "ID_2": "ZDI-CAN-32121",
+    "cveId": "",
+    "baseScore": "5.5",
+    "vectorString": "AV:L/AC:L/PR:N/UI:R/S:U/C:H/I:N/A:N",
+    "vendors": "Open Robotics",
+    "products": "ROS 2",
+    "description": "This vulnerability allows remote attackers to disclose sensitive information on affected installations of Open Robotics ROS 2. User interaction is required to exploit this vulnerability in that the target must visit a malicious page or open a malicious file.\nThe specific flaw exists within the parsing of policy XML files. Due to the improper restriction of XML External Entity (XXE) references, a crafted document specifying a URI causes the XML parser to access the URI and embed the contents back into the XML document for further processing. An attacker can leverage this in conjunction with other vulnerabilities to execute arbitrary code in the context of the current user.",
+    "addtionnal_details": "07/15/26 - ZDI reported the vulnerability to the vendor08/10/26 - ZDI asked for updates10/16/26 - ZDI asked the vendor to confirm receipt and provide a status update11/03/26 - ZDI notified the vendor of the intention to publish the case as a 0-day advisory\n-- Mitigation: Given the nature of the vulnerability, the only salient mitigation strategy is to restrict interaction with the product",
+    "timeline": "2026-07-14 - Vulnerability reported to vendor\n2026-11-18 - Coordinated public release of advisory\n2026-11-18  - Advisory Updated",
+    "credit": "Aaron Luo of VicOne LAB R7"
+}

@@ -1,0 +1,15 @@
+{
+    "date": "November 18th, 2026",
+    "title": "(0Day) G DATA Total Security TSNxGService Link Following Local Privilege Escalation Vulnerability",
+    "ID_1": "ZDI-26-1030",
+    "ID_2": "ZDI-CAN-28663",
+    "cveId": "CVE-2026-19776",
+    "baseScore": "7.8",
+    "vectorString": "AV:L/AC:L/PR:L/UI:N/S:U/C:H/I:H/A:H",
+    "vendors": "G DATA",
+    "products": "Total Security",
+    "description": "This vulnerability allows local attackers to escalate privileges on affected installations of G DATA Total Security. An attacker must first obtain the ability to execute low-privileged code on the target system in order to exploit this vulnerability.\nThe specific flaw exists within the TSNxGService service. By creating a symbolic link, an attacker can abuse the service to delete a file. An attacker can leverage this vulnerability to escalate privileges and execute arbitrary code in the context of SYSTEM.",
+    "addtionnal_details": "02/12/26 - ZDI reported the vulnerability to the vendor02/13/26 - the vendor acknowledged the receipt of the report03/02/26 - the vendor confirmed the reported issue06/15/26 - ZDI asked for updates06/24/26 – the vendor communicated that the fix was in progress 08/10/26 - ZDI asked for updates08/12/26 - the vendor confirmed  the fix had no release estimate08/25/26 - ZDI notified the vendor of the intention to publish the case as a 0-day advisory\n-- Mitigation: Given the nature of the vulnerability, the only salient mitigation strategy is to restrict interaction with the product",
+    "timeline": "2026-02-12 - Vulnerability reported to vendor\n2026-11-18 - Coordinated public release of advisory\n2026-11-18  - Advisory Updated",
+    "credit": "Anonymous"
+}

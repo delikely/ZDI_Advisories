@@ -1,0 +1,15 @@
+{
+    "date": "November 18th, 2026",
+    "title": "(0Day) (Pwn2Own) United Chargers Grizzl-E Smart 40A Download of Code Without Integrity Check Remote Code Execution Vulnerability",
+    "ID_1": "ZDI-26-1035",
+    "ID_2": "ZDI-CAN-28957",
+    "cveId": "CVE-2026-131810",
+    "baseScore": "7.5",
+    "vectorString": "AV:A/AC:H/PR:N/UI:N/S:U/C:H/I:H/A:H",
+    "vendors": "United Chargers",
+    "products": "Grizzl-E Smart 40A",
+    "description": "This vulnerability allows network-adjacent attackers to execute arbitrary code on affected installations of United Chargers Grizzl-E Smart 40A EV chargers. Authentication is not required to exploit this vulnerability.\nThe specific flaw exists within the handling of OCPP messages. The issue results from the lack of proper verification of firmware integrity prior to installation. An attacker can leverage this in conjunction with other vulnerabilities to execute code in the context of the device.",
+    "addtionnal_details": "Since 04/14/26, ZDI has made multiple attempts to contact United Chargers to establish a vendor disclosure channel for the vulnerabilities identified in the Grizzl-E Smart 40A during Pwn2Own Automotive 2026. Despite these repeated efforts, both before and after the contest, the vendor has not responded to any communication.\n-- Mitigation: Given the nature of the vulnerability, the only salient mitigation strategy is to restrict interaction with the product",
+    "timeline": "2026-11-06 - Vulnerability reported to vendor\n2026-11-18 - Coordinated public release of advisory\n2026-11-18  - Advisory Updated",
+    "credit": "Taejin Kim(@_tae3_), Junsu Yeo(@junactually), Sunmin Park(@sunminpark4503), Sungmin Son(@_ssm98), Hoseok Lee of SKShieldus(@EQSTLab)"
+}
