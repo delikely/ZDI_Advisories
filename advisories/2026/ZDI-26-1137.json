@@ -1,0 +1,15 @@
+{
+    "date": "November 24th, 2026",
+    "title": "(Pwn2Own) Oracle Autonomous AI Database ONNX Runtime Tree Ensemble Use-After-Free Information Disclosure Vulnerability",
+    "ID_1": "ZDI-26-1137",
+    "ID_2": "ZDI-CAN-36050",
+    "cveId": "CVE-2026-114822",
+    "baseScore": "4.9",
+    "vectorString": "AV:N/AC:L/PR:H/UI:N/S:U/C:H/I:N/A:N",
+    "vendors": "Oracle",
+    "products": "Autonomous AI Database",
+    "description": "This vulnerability allows remote attackers to disclose sensitive information on affected installations of Oracle Autonomous AI Database. Although authentication is required to exploit this vulnerability, the existing authentication mechanism can be bypassed.\nThe specific flaw exists within ONNX Runtime tree ensemble model initialization. The issue results from the lack of validating the existence of an object prior to performing operations on the object. An attacker can leverage this in conjunction with other vulnerabilities to execute arbitrary code in the context of the oracle service account.",
+    "addtionnal_details": "Oracle has issued an update to correct this vulnerability. More details can be found at:\nhttps://www.oracle.com/security-alerts/cspunov2026.html",
+    "timeline": "2026-10-26 - Vulnerability reported to vendor\n2026-11-24 - Coordinated public release of advisory\n2026-11-24  - Advisory Updated",
+    "credit": "Ikotas Labs, Inc."
+}

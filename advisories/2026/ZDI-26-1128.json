@@ -1,0 +1,15 @@
+{
+    "date": "November 24th, 2026",
+    "title": "(Pwn2Own) Oracle Autonomous AI Database APEX Request Integrity Improper Verification of Cryptographic Signature Vulnerability",
+    "ID_1": "ZDI-26-1128",
+    "ID_2": "ZDI-CAN-35795",
+    "cveId": "CVE-2026-114850",
+    "baseScore": "6.5",
+    "vectorString": "AV:N/AC:L/PR:N/UI:N/S:U/C:L/I:L/A:N",
+    "vendors": "Oracle",
+    "products": "Autonomous AI Database",
+    "description": "This vulnerability allows remote attackers to bypass URL integrity protections on affected installations of Oracle Autonomous AI Database. Authentication is not required to exploit this vulnerability.\nThe specific flaw exists within the APEX request integrity framework. The issue results from the lack of proper verification of a cryptographic signature. An attacker can leverage this in conjunction with other vulnerabilities to bypass authentication on the system.",
+    "addtionnal_details": "Oracle has issued an update to correct this vulnerability. More details can be found at:\nhttps://www.oracle.com/security-alerts/cspunov2026.html",
+    "timeline": "2026-10-26 - Vulnerability reported to vendor\n2026-11-24 - Coordinated public release of advisory\n2026-11-24  - Advisory Updated",
+    "credit": "Ikotas Labs, Inc."
+}

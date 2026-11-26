@@ -1,0 +1,15 @@
+{
+    "date": "November 24th, 2026",
+    "title": "Microsoft Windows EMF File Parsing NTLM Response Information Disclosure Vulnerability",
+    "ID_1": "ZDI-26-1109",
+    "ID_2": "ZDI-CAN-30879",
+    "cveId": "CVE-2026-121680",
+    "baseScore": "3.3",
+    "vectorString": "AV:L/AC:L/PR:L/UI:N/S:U/C:L/I:N/A:N",
+    "vendors": "Microsoft",
+    "products": "Windows",
+    "description": "This vulnerability allows remote attackers to disclose NTLM responses on affected installations of Microsoft Windows. User interaction is required to exploit this vulnerability in that the target must visit a malicious page or open a malicious file.\nThe specific flaw exists within the parsing of EMF image data. The issue results from incorrect implementation of a protection mechanism. An attacker can leverage this vulnerability to disclose NTLM responses in the context of the current user.",
+    "addtionnal_details": "Microsoft has issued an update to correct this vulnerability. More details can be found at:\nhttps://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-121680",
+    "timeline": "2026-08-04 - Vulnerability reported to vendor\n2026-11-24 - Coordinated public release of advisory\n2026-11-24  - Advisory Updated",
+    "credit": "Alex Williams from Pellera Technologies"
+}

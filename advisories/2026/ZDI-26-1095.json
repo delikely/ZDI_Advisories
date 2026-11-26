@@ -1,0 +1,15 @@
+{
+    "date": "November 24th, 2026",
+    "title": "NVIDIA AIStore Promote API External Control of File Path Information Disclosure Vulnerability",
+    "ID_1": "ZDI-26-1095",
+    "ID_2": "ZDI-CAN-30702",
+    "cveId": "CVE-2026-65161",
+    "baseScore": "7.5",
+    "vectorString": "AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:N/A:N",
+    "vendors": "NVIDIA",
+    "products": "AIStore",
+    "description": "This vulnerability allows remote attackers to disclose sensitive information on affected installations of NVIDIA AIStore. Authentication is not required to exploit this vulnerability.\nThe specific flaw exists within the Promote API handler. The issue results from the lack of proper validation of a user-supplied path prior to using it in file operations. An attacker can leverage this vulnerability to disclose sensitive information in the context of the service account.",
+    "addtionnal_details": "NVIDIA has issued an update to correct this vulnerability. More details can be found at:\nhttps://github.com/NVIDIA/product-security/blob/main/2026/5889/5889.md",
+    "timeline": "2026-07-22 - Vulnerability reported to vendor\n2026-11-24 - Coordinated public release of advisory\n2026-11-24  - Advisory Updated",
+    "credit": "Rocco Calvi (@TecR0c) with TecSecurity"
+}

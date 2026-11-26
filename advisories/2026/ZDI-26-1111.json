@@ -1,0 +1,15 @@
+{
+    "date": "November 24th, 2026",
+    "title": "(Pwn2Own) ChargePoint Home Flex uploadsm filetype Link Following Local Privilege Escalation Vulnerability",
+    "ID_1": "ZDI-26-1111",
+    "ID_2": "ZDI-CAN-29096",
+    "cveId": "CVE-2026-131815",
+    "baseScore": "7.8",
+    "vectorString": "AV:L/AC:L/PR:L/UI:N/S:U/C:H/I:H/A:H",
+    "vendors": "ChargePoint",
+    "products": "Home Flex",
+    "description": "This vulnerability allows local attackers to escalate privileges on affected installations of ChargePoint Home Flex EV chargers. An attacker must first obtain the ability to execute low-privileged code on the target system in order to exploit this vulnerability.\nThe specific flaw exists within the handling of the filetype parameter passed to the uploadsm endpoint. By creating a symbolic link, an attacker can abuse the service to write an arbitrary file. An attacker can leverage this vulnerability to escalate privileges and execute arbitrary code in the context of root.",
+    "addtionnal_details": "Fixed in Home Flex firmware version: 2024.02.00.259-alpha",
+    "timeline": "2026-03-11 - Vulnerability reported to vendor\n2026-11-24 - Coordinated public release of advisory\n2026-11-24  - Advisory Updated",
+    "credit": "ZIEN, Inc. HYEONJUN LEE (@gul9ul), YOUNGHUN KWON (@d0kk2bi), HYEOKJONG YUN (@dig06161), DOHWAN KIM (@neko__hat), HANRYEOL PARK (@hanR0724), HYOJIN LEE (@meixploit), JINYEONG YOON, YOUNGMIN CHO (@ZIEN0621)"
+}

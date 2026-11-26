@@ -1,0 +1,15 @@
+{
+    "date": "November 24th, 2026",
+    "title": "(Pwn2Own) LM Studio JSON Schema Server-Side Request Forgery Information Disclosure Vulnerability",
+    "ID_1": "ZDI-26-1117",
+    "ID_2": "ZDI-CAN-31295",
+    "cveId": "CVE-2026-133989",
+    "baseScore": "6.8",
+    "vectorString": "AV:N/AC:H/PR:N/UI:N/S:C/C:H/I:N/A:N",
+    "vendors": "LM Studio",
+    "products": "LM Studio",
+    "description": "This vulnerability allows remote attackers to disclose sensitive information on affected installations of LM Studio. Authentication is not required to exploit this vulnerability.\nThe specific flaw exists within the handling of JSON schema references in chat completion requests. The issue results from the lack of proper validation of a URI prior to accessing resources. An attacker can leverage this in conjunction with other vulnerabilities to disclose information in the context of the service account.",
+    "addtionnal_details": "Fixed in LM Studio 0.4.16https://lmstudio.ai/changelog/lmstudio/lmstudio-v0.4.16",
+    "timeline": "2026-06-02 - Vulnerability reported to vendor\n2026-11-24 - Coordinated public release of advisory\n2026-11-24  - Advisory Updated",
+    "credit": "Billy (@st424204), Pan Zhenpeng(@Peterpan980927), Weiming Shi (@bestswngs) of STARLabs SG (@starlabs_sg)"
+}

@@ -1,0 +1,15 @@
+{
+    "date": "November 24th, 2026",
+    "title": "Parallels Desktop Handle-based Rename Time-Of-Check Time-Of-Use Information Disclosure Vulnerability",
+    "ID_1": "ZDI-26-1041",
+    "ID_2": "ZDI-CAN-30608",
+    "cveId": "CVE-2026-121755",
+    "baseScore": "6.5",
+    "vectorString": "AV:L/AC:L/PR:L/UI:N/S:C/C:H/I:N/A:N",
+    "vendors": "Parallels",
+    "products": "Desktop",
+    "description": "This vulnerability allows local attackers to disclose sensitive information on affected installations of Parallels Desktop. An attacker must first obtain the ability to execute low-privileged code on the target guest system in order to exploit this vulnerability.\nThe specific flaw exists within the implementation of handle-based rename functionality. The issue results from the lack of proper locking when performing operations on an object. An attacker can leverage this vulnerability to disclose information in the context of the current user on the host system.",
+    "addtionnal_details": "Fixed in in in PD 27.1.0 and 26.5.0-57604.",
+    "timeline": "2026-08-12 - Vulnerability reported to vendor\n2026-11-24 - Coordinated public release of advisory\n2026-11-24  - Advisory Updated",
+    "credit": "powerprove"
+}

@@ -1,0 +1,15 @@
+{
+    "date": "November 24th, 2026",
+    "title": "NVIDIA Megatron Dataset Cache Deserialization of Untrusted Data Remote Code Execution Vulnerability",
+    "ID_1": "ZDI-26-1100",
+    "ID_2": "ZDI-CAN-31088",
+    "cveId": "CVE-2026-100968",
+    "baseScore": "7.8",
+    "vectorString": "AV:L/AC:L/PR:N/UI:R/S:U/C:H/I:H/A:H",
+    "vendors": "NVIDIA",
+    "products": "Megatron",
+    "description": "This vulnerability allows remote attackers to execute arbitrary code on affected installations of NVIDIA Megatron. User interaction is required to exploit this vulnerability in that the target must visit a malicious page or open a malicious file.\nThe specific flaw exists within the dataset cache loading functionality. The issue results from the lack of proper validation of user-supplied data, which can result in deserialization of untrusted data. An attacker can leverage this vulnerability to execute code in the context of the current user.",
+    "addtionnal_details": "NVIDIA has issued an update to correct this vulnerability. More details can be found at:\nhttps://github.com/NVIDIA/product-security/blob/main/2026/5926/5926.md",
+    "timeline": "2026-06-18 - Vulnerability reported to vendor\n2026-11-24 - Coordinated public release of advisory\n2026-11-24  - Advisory Updated",
+    "credit": "LemonTea1014 (@LteaaR1014) from ICEDTEA CTF"
+}

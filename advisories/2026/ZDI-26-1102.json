@@ -1,0 +1,15 @@
+{
+    "date": "November 24th, 2026",
+    "title": "(Pwn2Own) NVIDIA GPU Display Drivers Resource Manager Use-After-Free Local Privilege Escalation Vulnerability",
+    "ID_1": "ZDI-26-1102",
+    "ID_2": "ZDI-CAN-31273",
+    "cveId": "CVE-2026-47597",
+    "baseScore": "8.8",
+    "vectorString": "AV:L/AC:L/PR:L/UI:N/S:C/C:H/I:H/A:H",
+    "vendors": "NVIDIA",
+    "products": "GPU Display Drivers",
+    "description": "This vulnerability allows local attackers to escalate privileges on affected installations of NVIDIA GPU Display Drivers. An attacker must first obtain the ability to execute low-privileged code on the target system, even if only within a container, in order to exploit this vulnerability.\nThe specific flaw exists within the processing of self-referential maps. The issue results from the lack of validating the existence of an object prior to performing operations on the object. An attacker can leverage this vulnerability to escalate privileges and execute arbitrary code in the context of the kernel on the target host system.",
+    "addtionnal_details": "NVIDIA has issued an update to correct this vulnerability. More details can be found at:\nhttps://nvidia.custhelp.com/app/answers/detail/a_id/5861",
+    "timeline": "2026-06-03 - Vulnerability reported to vendor\n2026-11-24 - Coordinated public release of advisory\n2026-11-24  - Advisory Updated",
+    "credit": "Daniel Cohen Hillel (@0xDACA)"
+}

@@ -1,0 +1,15 @@
+{
+    "date": "November 24th, 2026",
+    "title": "X.Org Server PCF Font Parsing Out-Of-Bounds Read Information Disclosure Vulnerability",
+    "ID_1": "ZDI-26-1159",
+    "ID_2": "ZDI-CAN-33183",
+    "cveId": "CVE-2026-109909",
+    "baseScore": "6.1",
+    "vectorString": "AV:L/AC:L/PR:L/UI:N/S:U/C:H/I:N/A:L",
+    "vendors": "X.Org",
+    "products": "Server",
+    "description": "This vulnerability allows local attackers to disclose sensitive information on affected installations of X.Org Server. An attacker must first obtain the ability to execute low-privileged code on the target system in order to exploit this vulnerability.\nThe specific flaw exists within the BufFileRawSkip function. The issue results from the lack of proper validation of user-supplied data, which can result in a read past the end of an allocated data structure. An attacker can leverage this in conjunction with other vulnerabilities to execute arbitrary code in the context of root.",
+    "addtionnal_details": "X.Org has issued an update to correct this vulnerability. More details can be found at:\nhttps://gitlab.freedesktop.org/xorg/lib/libxfont/-/commit/dc6c313071c8b2929b1bc165e40c8ba62737b576",
+    "timeline": "2026-09-10 - Vulnerability reported to vendor\n2026-11-24 - Coordinated public release of advisory\n2026-11-24  - Advisory Updated",
+    "credit": "Elias Myllymäki"
+}

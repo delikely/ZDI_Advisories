@@ -1,0 +1,15 @@
+{
+    "date": "November 24th, 2026",
+    "title": "(Pwn2Own) Oracle Autonomous AI Database APEX wwv_flow.show Missing Authorization Privilege Escalation Vulnerability",
+    "ID_1": "ZDI-26-1124",
+    "ID_2": "ZDI-CAN-35892",
+    "cveId": "CVE-2026-114849",
+    "baseScore": "4.3",
+    "vectorString": "AV:N/AC:L/PR:L/UI:N/S:U/C:N/I:L/A:N",
+    "vendors": "Oracle",
+    "products": "Autonomous AI Database",
+    "description": "This vulnerability allows remote attackers to escalate privileges on affected installations of Oracle Autonomous AI Database. Although authentication is required to exploit this vulnerability, the existing authentication mechanism can be bypassed.\nThe specific flaw exists within the wwv_flow.show endpoint. The issue results from the lack of authorization prior to allowing access to functionality. An attacker can leverage this vulnerability to escalate privileges to resources normally protected from the user.",
+    "addtionnal_details": "Oracle has issued an update to correct this vulnerability. More details can be found at:\nhttps://www.oracle.com/security-alerts/cspunov2026.html",
+    "timeline": "2026-10-26 - Vulnerability reported to vendor\n2026-11-24 - Coordinated public release of advisory\n2026-11-24  - Advisory Updated",
+    "credit": "VinSOC"
+}

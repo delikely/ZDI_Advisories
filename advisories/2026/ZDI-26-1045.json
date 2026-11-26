@@ -1,0 +1,15 @@
+{
+    "date": "November 24th, 2026",
+    "title": "(0Day) Devin Desktop Uncontrolled Search Path Element Local Privilege Escalation Vulnerability",
+    "ID_1": "ZDI-26-1045",
+    "ID_2": "ZDI-CAN-33385",
+    "cveId": "CVE-2026-136534",
+    "baseScore": "7.3",
+    "vectorString": "AV:L/AC:L/PR:L/UI:R/S:U/C:H/I:H/A:H",
+    "vendors": "Devin",
+    "products": "Desktop",
+    "description": "This vulnerability allows local attackers to escalate privileges on affected installations of Devin Desktop. An attacker must first obtain the ability to execute low-privileged code on the target system in order to exploit this vulnerability.\nThe specific flaw exists within the configuration of the Electron framework. The product loads a script file from an unsecured location. An attacker can leverage this vulnerability to escalate privileges and execute arbitrary code in the context of a target user.",
+    "addtionnal_details": "09/02/26 - ZDI reported the vulnerability to the vendor10/29/26 - ZDI asked the vendor to acknowledge receipt of the report11/04/26 - ZDI notified the vendor of the intention to publish the case as a 0-day advisory\n-- Mitigation: Given the nature of the vulnerability, the only salient mitigation strategy is to restrict interaction with the product",
+    "timeline": "2026-09-02 - Vulnerability reported to vendor\n2026-11-24 - Coordinated public release of advisory\n2026-11-24  - Advisory Updated",
+    "credit": "Xavier DANEST"
+}

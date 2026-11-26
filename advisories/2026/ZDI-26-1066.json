@@ -1,0 +1,15 @@
+{
+    "date": "November 24th, 2026",
+    "title": "(0Day) Python Packaging Authority pip Configuration File Incorrect Permission Assignment Local Privilege Escalation Vulnerability",
+    "ID_1": "ZDI-26-1066",
+    "ID_2": "ZDI-CAN-25377",
+    "cveId": "CVE-2026-136440",
+    "baseScore": "7.3",
+    "vectorString": "AV:L/AC:L/PR:L/UI:R/S:U/C:H/I:H/A:H",
+    "vendors": "Python Packaging Authority",
+    "products": "pip",
+    "description": "This vulnerability allows local attackers to escalate privileges on affected installations of Python Packaging Authority pip. An attacker must first obtain the ability to execute low-privileged code on the target system in order to exploit this vulnerability. User interaction on the part of a target user is also required.\nThe specific flaw exists within the way configuration files are stored. The issue results from incorrect permissions on files. An attacker can leverage this vulnerability to escalate privileges and execute arbitrary code in the context of a target user.",
+    "addtionnal_details": "11/14/24 - ZDI reported the vulnerability to the vendor05/02/25 - ZDI asked for updates 05/03/25 - the vendor rejected the report, stating it did not consider the issue a vulnerability12/16/25 - ZDI informed the vendor that it would proceed with disclosing the report as a 0-day advisory\n-- Mitigation: Given the nature of the vulnerability, the only salient mitigation strategy is to restrict interaction with the product",
+    "timeline": "2024-11-14 - Vulnerability reported to vendor\n2026-11-24 - Coordinated public release of advisory\n2026-11-24  - Advisory Updated",
+    "credit": "Anonymous"
+}

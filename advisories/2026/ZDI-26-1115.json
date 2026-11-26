@@ -1,0 +1,15 @@
+{
+    "date": "November 24th, 2026",
+    "title": "(Pwn2Own) ChargePoint Home Flex Debug Interface With Improper Access Control Authentication Bypass Vulnerability",
+    "ID_1": "ZDI-26-1115",
+    "ID_2": "ZDI-CAN-28997",
+    "cveId": "CVE-2026-131819",
+    "baseScore": "4.3",
+    "vectorString": "AV:P/AC:L/PR:N/UI:N/S:U/C:L/I:L/A:L",
+    "vendors": "ChargePoint",
+    "products": "Home Flex",
+    "description": "This vulnerability allows physically present attackers to bypass authentication on affected ChargePoint Home Flex EV chargers. Authentication is not required to exploit this vulnerability.\nThe specific flaw exists within the serial debug interface. The issue results from the lack of access control prior to allowing access to functionality. An attacker can leverage this vulnerability to bypass authentication on the system.",
+    "addtionnal_details": "Fixed in Home Flex firmware version: 2024.02.00.259-alpha",
+    "timeline": "2026-03-11 - Vulnerability reported to vendor\n2026-11-24 - Coordinated public release of advisory\n2026-11-24  - Advisory Updated",
+    "credit": "Bongeun Koo (@kiddo_pwn) and Evangelos Daravigkas (@freddo_1337) of Team DDOS"
+}

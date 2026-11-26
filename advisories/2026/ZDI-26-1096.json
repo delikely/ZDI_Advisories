@@ -1,0 +1,15 @@
+{
+    "date": "November 24th, 2026",
+    "title": "NVIDIA GPU Display Drivers NV_ESC_RM_ACCESS_REGISTRY Missing Authorization Information Disclosure Vulnerability",
+    "ID_1": "ZDI-26-1096",
+    "ID_2": "ZDI-CAN-31994",
+    "cveId": "CVE-2026-47552",
+    "baseScore": "7.3",
+    "vectorString": "AV:L/AC:L/PR:L/UI:N/S:C/C:H/I:L/A:N",
+    "vendors": "NVIDIA",
+    "products": "GPU Display Drivers",
+    "description": "This vulnerability allows local attackers to disclose sensitive information on affected installations of NVIDIA GPU Display Drivers. An attacker must first obtain the ability to execute low-privileged code on the target system, even if only within a container, in order to exploit this vulnerability.\nThe specific flaw exists within the handling of NV_ESC_RM_ACCESS_REGISTRY IOCTL requests. The issue results from the lack of authorization prior to allowing access to functionality. An attacker can leverage this vulnerability to disclose information in the context of the kernel on the target host system.",
+    "addtionnal_details": "NVIDIA has issued an update to correct this vulnerability. More details can be found at:\nhttps://nvidia.custhelp.com/app/answers/detail/a_id/5861",
+    "timeline": "2026-07-24 - Vulnerability reported to vendor\n2026-11-24 - Coordinated public release of advisory\n2026-11-24  - Advisory Updated",
+    "credit": "HAI SON MAI (HSon)"
+}

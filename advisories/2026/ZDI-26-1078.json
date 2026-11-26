@@ -1,0 +1,15 @@
+{
+    "date": "November 24th, 2026",
+    "title": "llama.cpp GGUF File Parsing MINICPM-V Heap-based Buffer Overflow Remote Code Execution Vulnerability",
+    "ID_1": "ZDI-26-1078",
+    "ID_2": "ZDI-CAN-31125",
+    "cveId": "CVE-2026-131836",
+    "baseScore": "7.8",
+    "vectorString": "AV:L/AC:L/PR:N/UI:R/S:U/C:H/I:H/A:H",
+    "vendors": "llama.cpp",
+    "products": "llama.cpp",
+    "description": "This vulnerability allows remote attackers to execute arbitrary code on affected installations of llama.cpp. User interaction is required to exploit this vulnerability in that the target must load a malicious model file.\nThe specific flaw exists within the handling of MiniCPM-V vision projector models. The issue results from the lack of proper validation of the length of user-supplied data prior to copying it to a heap-based buffer. An attacker can leverage this vulnerability to execute code in the context of the current process.",
+    "addtionnal_details": "llama.cpp has issued an update to correct this vulnerability. More details can be found at:\nhttps://github.com/ggml-org/llama.cpp/pull/32132",
+    "timeline": "2026-05-22 - Vulnerability reported to vendor\n2026-11-24 - Coordinated public release of advisory\n2026-11-24  - Advisory Updated",
+    "credit": "Anonymous"
+}

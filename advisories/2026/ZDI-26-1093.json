@@ -1,0 +1,15 @@
+{
+    "date": "November 24th, 2026",
+    "title": "Bosch Rexroth IndraWorks CTAPRJ.ZIP File Parsing Directory Traversal Remote Code Execution Vulnerability",
+    "ID_1": "ZDI-26-1093",
+    "ID_2": "ZDI-CAN-28149",
+    "cveId": "CVE-2026-102448",
+    "baseScore": "7.8",
+    "vectorString": "AV:L/AC:L/PR:N/UI:R/S:U/C:H/I:H/A:H",
+    "vendors": "Bosch Rexroth",
+    "products": "IndraWorks",
+    "description": "This vulnerability allows remote attackers to create arbitrary files on affected installations of Bosch Rexroth IndraWorks. User interaction is required to exploit this vulnerability in that the target must visit a malicious page or open a malicious file.\nThe specific flaw exists within the parsing of CTAPRJ.ZIP files. The issue results from the lack of proper validation of a user-supplied path prior to using it in file operations. An attacker can leverage this vulnerability to execute code in the context of the current user.",
+    "addtionnal_details": "Bosch Rexroth has issued an update to correct this vulnerability. More details can be found at:\nhttps://www.boschrexroth.com/en/de/media-details/01a1c56e-eeed-7020-a9a0-532efc23e915",
+    "timeline": "2026-03-31 - Vulnerability reported to vendor\n2026-11-24 - Coordinated public release of advisory\n2026-11-24  - Advisory Updated",
+    "credit": "kimiya"
+}

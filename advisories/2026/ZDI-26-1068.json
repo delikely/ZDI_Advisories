@@ -1,0 +1,15 @@
+{
+    "date": "November 24th, 2026",
+    "title": "(0Day) Firebird SQL SRP Authentication Bypass Vulnerability",
+    "ID_1": "ZDI-26-1068",
+    "ID_2": "ZDI-CAN-30575",
+    "cveId": "CVE-2026-61580",
+    "baseScore": "9.1",
+    "vectorString": "AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:N",
+    "vendors": "Firebird",
+    "products": "Firebird SQL",
+    "description": "This vulnerability allows remote attackers to bypass authentication on affected installations of Firebird SQL. Authentication is not required to exploit this vulnerability.\nThe specific flaw exists within the implementation of SRP authentication. The issue results from a missing critical step in the authentication algorithm. An attacker can leverage this vulnerability to bypass authentication on the system.",
+    "addtionnal_details": "06/17/26 - ZDI reported the vulnerability to the vendor’s GitHub security advisory06/19/26 - the vendor acknowledged the report and flagged it as a possible duplicate of an existing advisory already fixed internally07/25/26 - the vendor confirmed a CVE had been issued and committed to publishing the advisory once fixed packages were released09/01/26 - ZDI asked whether the fix had been published 09/03/26 - the vendor communicated that the fix was pending an official package release10/15/25 - ZDI notified the vendor of the intention to publish the case as 0-day advisory\n-- Mitigation: Given the nature of the vulnerability, the only salient mitigation strategy is to restrict interaction with the product",
+    "timeline": "2026-06-17 - Vulnerability reported to vendor\n2026-11-24 - Coordinated public release of advisory\n2026-11-24  - Advisory Updated",
+    "credit": "Anonymous"
+}

@@ -1,0 +1,15 @@
+{
+    "date": "November 24th, 2026",
+    "title": "(0Day) BusyBox ftpd Directory Traversal Arbitrary File Read and Write Vulnerability",
+    "ID_1": "ZDI-26-1069",
+    "ID_2": "ZDI-CAN-27555",
+    "cveId": "CVE-2026-136442",
+    "baseScore": "6.5",
+    "vectorString": "AV:N/AC:H/PR:N/UI:N/S:U/C:H/I:L/A:N",
+    "vendors": "BusyBox",
+    "products": "BusyBox",
+    "description": "This vulnerability allows remote attackers to create or delete arbitrary files or disclose sensitive information on affected installations of BusyBox. Authentication is not required to exploit this vulnerability.\nThe specific flaw exists within the ftpd service, which listens on TCP port 21 by default. The issue results from the lack of proper validation of a user-supplied path prior to using it in file operations. An attacker can leverage this vulnerability to create or delete files or disclose information in the context of the service account.",
+    "addtionnal_details": "07/31/25 - ZDI reported the vulnerability to the maintainer11/10/25 - ZDI asked for updates12/10/25 - ZDI asked for updates11/09/26 - ZDI notified the vendor of the intention to publish the cases as 0-day advisory\n-- Mitigation: Given the nature of the vulnerability, the only salient mitigation strategy is to restrict interaction with the product",
+    "timeline": "2025-07-31 - Vulnerability reported to vendor\n2026-11-24 - Coordinated public release of advisory\n2026-11-24  - Advisory Updated",
+    "credit": "Ryota Shiga (GMO Flatt Security Inc.) with takumi-san.ai"
+}

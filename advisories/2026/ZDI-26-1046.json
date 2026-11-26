@@ -1,0 +1,15 @@
+{
+    "date": "November 24th, 2026",
+    "title": "(0Day) Texas Instruments Smart Amplifier Driver for Speakers Stack-based Buffer Overflow Local Privilege Escalation Vulnerability",
+    "ID_1": "ZDI-26-1046",
+    "ID_2": "ZDI-CAN-29133",
+    "cveId": "",
+    "baseScore": "7.8",
+    "vectorString": "AV:L/AC:H/PR:L/UI:N/S:C/C:H/I:H/A:H",
+    "vendors": "Texas Instruments",
+    "products": "Smart Amplifier Driver for Speakers",
+    "description": "This vulnerability allows local attackers to escalate privileges on affected installations of Texas Instruments Smart Amplifier Driver for Speakers. An attacker must first obtain the ability to execute low-privileged code on the target system in order to exploit this vulnerability.\nThe specific flaw exists within the handling of IOCTL 0x00220450. The issue results from the lack of proper validation of the length of user-supplied data prior to copying it to a fixed-length stack-based buffer. An attacker can leverage this vulnerability to escalate privileges and execute arbitrary code in the context of the kernel.",
+    "addtionnal_details": "04/16/26 - ZDI reported the vulnerability to the vendor08/10/26 - ZDI asked the vendor to acknowledge receipt08/10/26 - the vendor said it had no record of the report and was transitioning to a new submission portal08/12/26 - ZDI resubmitted the report11/09/26 - ZDI notified the vendor of the intention to publish the case as a 0-day advisory\n-- Mitigation: Given the nature of the vulnerability, the only salient mitigation strategy is to restrict interaction with the product",
+    "timeline": "2026-04-16 - Vulnerability reported to vendor\n2026-11-24 - Coordinated public release of advisory\n2026-11-24  - Advisory Updated",
+    "credit": "Aditya Bakshi"
+}

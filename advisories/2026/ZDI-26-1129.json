@@ -1,0 +1,15 @@
+{
+    "date": "November 24th, 2026",
+    "title": "(Pwn2Own) Oracle Autonomous AI Database APEX Password Change External Control of Critical State Vulnerability",
+    "ID_1": "ZDI-26-1129",
+    "ID_2": "ZDI-CAN-36045",
+    "cveId": "CVE-2026-114850",
+    "baseScore": "3.7",
+    "vectorString": "AV:N/AC:H/PR:N/UI:N/S:U/C:N/I:L/A:N",
+    "vendors": "Oracle",
+    "products": "Autonomous AI Database",
+    "description": "This vulnerability allows remote attackers to tamper with session state on affected installations of Oracle Autonomous AI Database. Authentication is not required to exploit this vulnerability.\nThe specific flaw exists within the APEX workspace administration password change page. The issue results from the lack of proper validation of externally supplied state data. An attacker can leverage this in conjunction with other vulnerabilities to bypass authentication on the system.",
+    "addtionnal_details": "Oracle has issued an update to correct this vulnerability. More details can be found at:\nhttps://www.oracle.com/security-alerts/cspunov2026.html",
+    "timeline": "2026-10-26 - Vulnerability reported to vendor\n2026-11-24 - Coordinated public release of advisory\n2026-11-24  - Advisory Updated",
+    "credit": "Ikotas Labs, Inc."
+}

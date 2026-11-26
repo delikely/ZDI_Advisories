@@ -1,0 +1,15 @@
+{
+    "date": "November 24th, 2026",
+    "title": "(Pwn2Own) NVIDIA GPU Display Drivers TLS State Deadlock Denial-of-Service Vulnerability",
+    "ID_1": "ZDI-26-1108",
+    "ID_2": "ZDI-CAN-31493",
+    "cveId": "CVE-2026-24182",
+    "baseScore": "3.8",
+    "vectorString": "AV:L/AC:L/PR:L/UI:N/S:C/C:N/I:N/A:L",
+    "vendors": "NVIDIA",
+    "products": "GPU Display Drivers",
+    "description": "This vulnerability allows local attackers to create a denial-of-service condition on affected installations of NVIDIA GPU Display Drivers. An attacker must first obtain the ability to execute low-privileged code on the target system, even if only within a container, in order to exploit this vulnerability.\nThe specific flaw exists within the handling of IRQL_RAISED flags. A crafted IOCTL request can create a deadlock on a worker thread. An attacker can leverage this vulnerability to create a denial-of-service condition on the target host system.",
+    "addtionnal_details": "NVIDIA has issued an update to correct this vulnerability. More details can be found at:\nhttps://nvidia.custhelp.com/app/answers/detail/a_id/5821",
+    "timeline": "2026-05-29 - Vulnerability reported to vendor\n2026-11-24 - Coordinated public release of advisory\n2026-11-24  - Advisory Updated",
+    "credit": "0xDACA (Daniel Cohen Hillel)"
+}

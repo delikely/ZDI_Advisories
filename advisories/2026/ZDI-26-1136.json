@@ -1,0 +1,15 @@
+{
+    "date": "November 24th, 2026",
+    "title": "Autodesk AutoCAD AcPal NTLM Response Information Disclosure Vulnerability",
+    "ID_1": "ZDI-26-1136",
+    "ID_2": "ZDI-CAN-31880",
+    "cveId": "CVE-2026-77941",
+    "baseScore": "3.3",
+    "vectorString": "AV:L/AC:L/PR:N/UI:R/S:U/C:L/I:N/A:N",
+    "vendors": "Autodesk",
+    "products": "AutoCAD",
+    "description": "This vulnerability allows remote attackers to disclose NTLM responses on affected installations of Autodesk AutoCAD. User interaction is required to exploit this vulnerability in that the target must visit a malicious page or open a malicious file.\nThe specific flaw exists within the handling of external reference paths. The issue results from the failure to apply a protection mechanism. An attacker can leverage this vulnerability to disclose NTLM responses in the context of the current user.",
+    "addtionnal_details": "Autodesk has issued an update to correct this vulnerability. More details can be found at:\nhttps://www.autodesk.com/trust/security-advisories/adsk-sa-2026-0021",
+    "timeline": "2026-08-06 - Vulnerability reported to vendor\n2026-11-24 - Coordinated public release of advisory\n2026-11-24  - Advisory Updated",
+    "credit": "Liang Zhu"
+}

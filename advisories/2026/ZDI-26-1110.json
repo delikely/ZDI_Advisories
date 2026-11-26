@@ -1,0 +1,15 @@
+{
+    "date": "November 24th, 2026",
+    "title": "(Pwn2Own) ChargePoint Home Flex dwnldlogsm tar Command Injection Local Privilege Escalation Vulnerability",
+    "ID_1": "ZDI-26-1110",
+    "ID_2": "ZDI-CAN-29057",
+    "cveId": "CVE-2026-131814",
+    "baseScore": "7.8",
+    "vectorString": "AV:L/AC:L/PR:L/UI:N/S:U/C:H/I:H/A:H",
+    "vendors": "ChargePoint",
+    "products": "Home Flex",
+    "description": "This vulnerability allows local attackers to escalate privileges on affected installations of ChargePoint Home Flex EV chargers. An attacker must first obtain the ability to execute low-privileged code on the target system in order to exploit this vulnerability.\nThe specific flaw exists within the tar function. The issue results from the lack of proper validation of a user-supplied string before using it to execute a system call. An attacker can leverage this vulnerability to escalate privileges and execute arbitrary code in the context of root.",
+    "addtionnal_details": "Fixed in Home Flex firmware version: 2024.02.00.259-alpha",
+    "timeline": "2026-03-11 - Vulnerability reported to vendor\n2026-11-24 - Coordinated public release of advisory\n2026-11-24  - Advisory Updated",
+    "credit": "Bongeun Koo (@kiddo_pwn) and Evangelos Daravigkas (@freddo_1337) of Team DDOS"
+}

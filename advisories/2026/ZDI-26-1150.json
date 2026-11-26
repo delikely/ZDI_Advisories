@@ -1,0 +1,15 @@
+{
+    "date": "November 24th, 2026",
+    "title": "Oracle Outside In Technology XLSX File Parsing Stack-based Buffer Overflow Remote Code Execution Vulnerability",
+    "ID_1": "ZDI-26-1150",
+    "ID_2": "ZDI-CAN-31766",
+    "cveId": "CVE-2026-91458",
+    "baseScore": "7.8",
+    "vectorString": "AV:L/AC:L/PR:N/UI:R/S:U/C:H/I:H/A:H",
+    "vendors": "Oracle",
+    "products": "Outside In Technology",
+    "description": "This vulnerability allows remote attackers to execute arbitrary code on affected installations of Oracle Outside In Technology. Interaction with this library is required to exploit this vulnerability but attack vectors may vary depending on the implementation.\nThe specific flaw exists within the parsing of XLSX files. The issue results from the lack of proper validation of the length of user-supplied data prior to copying it to a fixed-length stack-based buffer. An attacker can leverage this vulnerability to execute code in the context of the current process.",
+    "addtionnal_details": "Oracle has issued an update to correct this vulnerability. More details can be found at:\nhttps://www.oracle.com/security-alerts/cpuoct2026.html",
+    "timeline": "2026-06-10 - Vulnerability reported to vendor\n2026-11-24 - Coordinated public release of advisory\n2026-11-24  - Advisory Updated",
+    "credit": "Mat Powell of TrendAI Zero Day Initiative"
+}

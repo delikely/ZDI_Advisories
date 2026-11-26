@@ -1,0 +1,15 @@
+{
+    "date": "November 24th, 2026",
+    "title": "llama.cpp  GGUF File Parsing Integer Overflow Denial-of-Service Vulnerability",
+    "ID_1": "ZDI-26-1072",
+    "ID_2": "ZDI-CAN-30911",
+    "cveId": "CVE-2026-131830",
+    "baseScore": "5.5",
+    "vectorString": "AV:L/AC:L/PR:N/UI:R/S:U/C:N/I:N/A:H",
+    "vendors": "llama.cpp",
+    "products": "llama.cpp",
+    "description": "This vulnerability allows remote attackers to create a denial-of-service condition on affected installations of llama.cpp. User interaction is required to exploit this vulnerability in that the target must open a malicious file.\nThe specific flaw exists within the processing of multimodal projector GGUF files. The issue results from the lack of proper validation of user-supplied data, which can result in an integer overflow before allocating a buffer. An attacker can leverage this vulnerability to create a denial-of-service condition on the system.",
+    "addtionnal_details": "llama.cpp has issued an update to correct this vulnerability. More details can be found at:\nhttps://github.com/ggml-org/llama.cpp/pull/27071,",
+    "timeline": "2026-05-22 - Vulnerability reported to vendor\n2026-11-24 - Coordinated public release of advisory\n2026-11-24  - Advisory Updated",
+    "credit": "zent"
+}

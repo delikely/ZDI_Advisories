@@ -1,0 +1,15 @@
+{
+    "date": "November 24th, 2026",
+    "title": "RustDesk Client for Windows reg_recovery Missing Authorization Local Privilege Escalation Vulnerability",
+    "ID_1": "ZDI-26-1080",
+    "ID_2": "ZDI-CAN-34805",
+    "cveId": "CVE-2026-131827",
+    "baseScore": "7.8",
+    "vectorString": "AV:L/AC:L/PR:L/UI:N/S:U/C:H/I:H/A:H",
+    "vendors": "RustDesk",
+    "products": "Client for Windows",
+    "description": "This vulnerability allows local attackers to escalate privileges on affected installations of RustDesk Client for Windows. An attacker must first obtain the ability to execute low-privileged code on the target system in order to exploit this vulnerability.\nThe specific flaw exists within the main IPC endpoint exposed by the RustDesk service. The issue results from the lack of authorization prior to allowing access to functionality. An attacker can leverage this vulnerability to escalate privileges and execute arbitrary code in the context of SYSTEM.",
+    "addtionnal_details": "RustDesk has issued an update to correct this vulnerability. More details can be found at:\nhttps://github.com/rustdesk/rustdesk/pull/17040",
+    "timeline": "2026-11-13 - Vulnerability reported to vendor\n2026-11-24 - Coordinated public release of advisory\n2026-11-24  - Advisory Updated",
+    "credit": "BoGeun Jang"
+}

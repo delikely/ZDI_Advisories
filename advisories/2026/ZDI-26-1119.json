@@ -1,0 +1,15 @@
+{
+    "date": "November 24th, 2026",
+    "title": "(Pwn2Own) LM Studio Weak Credentials Authentication Bypass Vulnerability",
+    "ID_1": "ZDI-26-1119",
+    "ID_2": "ZDI-CAN-31435",
+    "cveId": "CVE-2026-133992",
+    "baseScore": "8.1",
+    "vectorString": "AV:N/AC:H/PR:N/UI:N/S:U/C:H/I:H/A:H",
+    "vendors": "LM Studio",
+    "products": "LM Studio",
+    "description": "This vulnerability allows remote attackers to bypass authentication on affected installations of LM Studio. Authentication is not required to exploit this vulnerability.\nThe specific flaw exists within the authentication mechanism for the CLI identity. The issue results from the use of weak credentials. An attacker can leverage this in conjunction with other vulnerabilities to bypass authentication on the system.",
+    "addtionnal_details": "Fixed in LM Studio 0.4.16 https://lmstudio.ai/changelog/lmstudio/lmstudio-v0.4.16",
+    "timeline": "2026-06-02 - Vulnerability reported to vendor\n2026-11-24 - Coordinated public release of advisory\n2026-11-24  - Advisory Updated",
+    "credit": "Billy (@st424204), Pan Zhenpeng(@Peterpan980927), Weiming Shi (@bestswngs) of STARLabs SG (@starlabs_sg)"
+}

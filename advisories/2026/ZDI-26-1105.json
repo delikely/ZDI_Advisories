@@ -1,0 +1,15 @@
+{
+    "date": "November 24th, 2026",
+    "title": "(Pwn2Own) NVIDIA Megatron Bridge ModelConfig Unsafe Reflection Remote Code Execution Vulnerability",
+    "ID_1": "ZDI-26-1105",
+    "ID_2": "ZDI-CAN-31280",
+    "cveId": "CVE-2026-61754",
+    "baseScore": "7.8",
+    "vectorString": "AV:L/AC:L/PR:N/UI:R/S:U/C:H/I:H/A:H",
+    "vendors": "NVIDIA",
+    "products": "Megatron Bridge",
+    "description": "This vulnerability allows remote attackers to execute arbitrary code on affected installations of NVIDIA Megatron Bridge. User interaction is required to exploit this vulnerability in that the target must visit a malicious page or open a malicious file.\nThe specific flaw exists within the handling of model metadata. The process does not properly restrict a user-supplied argument before using it to import a module. An attacker can leverage this vulnerability to execute code within the application container.",
+    "addtionnal_details": "NVIDIA has issued an update to correct this vulnerability. More details can be found at:\nhttps://nvidia.custhelp.com/app/answers/detail/a_id/5868",
+    "timeline": "2026-06-03 - Vulnerability reported to vendor\n2026-11-24 - Coordinated public release of advisory\n2026-11-24  - Advisory Updated",
+    "credit": "Yoseop kim(@pwning_me)"
+}

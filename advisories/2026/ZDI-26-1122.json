@@ -1,0 +1,15 @@
+{
+    "date": "November 24th, 2026",
+    "title": "(Pwn2Own) Oracle Autonomous AI Database ORDS APEX SSO Exchange Token Authentication Bypass Vulnerability",
+    "ID_1": "ZDI-26-1122",
+    "ID_2": "ZDI-CAN-36142",
+    "cveId": "CVE-2026-114849",
+    "baseScore": "8.1",
+    "vectorString": "AV:N/AC:H/PR:N/UI:N/S:U/C:H/I:H/A:H",
+    "vendors": "Oracle",
+    "products": "Autonomous AI Database",
+    "description": "This vulnerability allows remote attackers to bypass authentication on affected installations of Oracle Autonomous AI Database. Authentication is not required to exploit this vulnerability.\n \nThe specific flaw exists within the ORDS APEX SSO exchange token mechanism. The issue results from the lack of authorization prior to allowing access to functionality. An attacker can leverage this vulnerability to bypass authentication and execute arbitrary code in the context of the ADMIN database user.",
+    "addtionnal_details": "Oracle has issued an update to correct this vulnerability. More details can be found at:\nhttps://www.oracle.com/security-alerts/cspunov2026.html",
+    "timeline": "2026-10-26 - Vulnerability reported to vendor\n2026-11-24 - Coordinated public release of advisory\n2026-11-24  - Advisory Updated",
+    "credit": "Connor Laidlaw and Matthew Keeley of PlatformSecurity"
+}

@@ -1,0 +1,15 @@
+{
+    "date": "November 24th, 2026",
+    "title": "llama.cpp server_context_impl destroy vocab Use-After-Free Remote Code Execution Vulnerability",
+    "ID_1": "ZDI-26-1079",
+    "ID_2": "ZDI-CAN-30902",
+    "cveId": "CVE-2026-131837",
+    "baseScore": "8.1",
+    "vectorString": "AV:N/AC:H/PR:N/UI:N/S:U/C:H/I:H/A:H",
+    "vendors": "llama.cpp",
+    "products": "llama.cpp",
+    "description": "This vulnerability allows remote attackers to execute arbitrary code on affected installations of llama.cpp. Authentication is not required to exploit this vulnerability.\nThe specific flaw exists within the handling of HTTP requests during the server's sleep transition. The issue results from the lack of validating the existence of an object prior to performing operations on the object. An attacker can leverage this vulnerability to execute code in the context of the service account.",
+    "addtionnal_details": "llama.cpp has issued an update to correct this vulnerability. More details can be found at:\nhttps://github.com/ggml-org/llama.cpp/pull/32133",
+    "timeline": "2026-05-22 - Vulnerability reported to vendor\n2026-11-24 - Coordinated public release of advisory\n2026-11-24  - Advisory Updated",
+    "credit": "Nicholas Zubrisky (@NZubrisky) of TrendAI Research"
+}

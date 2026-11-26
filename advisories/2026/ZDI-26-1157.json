@@ -1,0 +1,15 @@
+{
+    "date": "November 24th, 2026",
+    "title": "ASUS Control Center Express User Creation Improper Authorization Privilege Escalation Vulnerability",
+    "ID_1": "ZDI-26-1157",
+    "ID_2": "ZDI-CAN-28945",
+    "cveId": "CVE-2026-114205",
+    "baseScore": "9.9",
+    "vectorString": "AV:N/AC:L/PR:L/UI:N/S:C/C:H/I:H/A:H",
+    "vendors": "ASUS",
+    "products": "Control Center Express",
+    "description": "This vulnerability allows remote attackers to escalate privileges on affected installations of ASUS Control Center Express. Authentication is required to exploit this vulnerability.\nThe specific flaw exists within the handling of user creation requests. The issue results from improper authorization prior to allowing access to functionality. An attacker can leverage this vulnerability to escalate privileges to resources normally protected from the user.",
+    "addtionnal_details": "ASUS has issued an update to correct this vulnerability. More details can be found at:\nhttps://www.asus.com/security-advisory/",
+    "timeline": "2026-08-20 - Vulnerability reported to vendor\n2026-11-24 - Coordinated public release of advisory\n2026-11-24  - Advisory Updated",
+    "credit": "0x0dee"
+}

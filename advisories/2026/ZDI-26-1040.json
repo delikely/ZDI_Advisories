@@ -1,0 +1,15 @@
+{
+    "date": "November 24th, 2026",
+    "title": "Parallels Desktop inittool2 Link Following Local Privilege Escalation Vulnerability",
+    "ID_1": "ZDI-26-1040",
+    "ID_2": "ZDI-CAN-30268",
+    "cveId": "CVE-2026-121754",
+    "baseScore": "7.8",
+    "vectorString": "AV:L/AC:L/PR:L/UI:N/S:U/C:H/I:H/A:H",
+    "vendors": "Parallels",
+    "products": "Desktop",
+    "description": "This vulnerability allows local attackers to escalate privileges on affected installations of Parallels Desktop. An attacker must first obtain the ability to execute low-privileged code on the target host system in order to exploit this vulnerability.\nThe specific flaw exists within the inittool2 component. By creating a symbolic link, an attacker can abuse the component to take ownership of critical folders. An attacker can leverage this vulnerability to escalate privileges and execute arbitrary code in the context of root on the host system.",
+    "addtionnal_details": "Fixed in in PD27.0.0 and PD26.5.0.",
+    "timeline": "2026-07-14 - Vulnerability reported to vendor\n2026-11-24 - Coordinated public release of advisory\n2026-11-24  - Advisory Updated",
+    "credit": "Aled Mehta (@x_delfino) of Dolphin Labs"
+}

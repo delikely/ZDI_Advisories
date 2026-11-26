@@ -1,0 +1,15 @@
+{
+    "date": "November 24th, 2026",
+    "title": "(Pwn2Own) ChargePoint Home Flex ssh Hard-coded Credentials Authentication Bypass Vulnerability",
+    "ID_1": "ZDI-26-1112",
+    "ID_2": "ZDI-CAN-28996",
+    "cveId": "CVE-2026-131816",
+    "baseScore": "6.3",
+    "vectorString": "AV:A/AC:L/PR:N/UI:N/S:U/C:L/I:L/A:L",
+    "vendors": "ChargePoint",
+    "products": "Home Flex",
+    "description": "This vulnerability allows network-adjacent attackers to bypass authentication on affected installations of ChargePoint Home Flex EV chargers. Authentication is not required to exploit this vulnerability.\nThe specific flaw exists within the ssh service, which listens on TCP port 22 by default. The issue results from the use of hard-coded credentials. An attacker can leverage this vulnerability to bypass authentication on the system.",
+    "addtionnal_details": "Fixed in Home Flex firmware version: 2024.02.00.259-alpha",
+    "timeline": "2026-03-19 - Vulnerability reported to vendor\n2026-11-24 - Coordinated public release of advisory\n2026-11-24  - Advisory Updated",
+    "credit": "Sina Kheirkhah (@SinSinology) of Summoning Team (@SummoningTeam)"
+}

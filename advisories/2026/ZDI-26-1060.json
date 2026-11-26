@@ -1,0 +1,15 @@
+{
+    "date": "November 24th, 2026",
+    "title": "(0Day) Super Magic PHPSandbox Command Injection Sandbox Escape Vulnerability",
+    "ID_1": "ZDI-26-1060",
+    "ID_2": "ZDI-CAN-28102",
+    "cveId": "CVE-2026-136434",
+    "baseScore": "9.8",
+    "vectorString": "AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:H",
+    "vendors": "Super Magic",
+    "products": "Super Magic",
+    "description": "This vulnerability allows remote attackers to bypass the sandbox on affected installations of Super Magic. Authentication is not required to exploit this vulnerability.\nThe specific flaw exists within the PHPSandbox endpoint. The issue results from the lack of proper validation of a user-supplied string before using it to execute PHP code. An attacker can leverage this vulnerability to escape the sandbox and execute arbitrary code in the context of the service account.",
+    "addtionnal_details": "09/11/25 - ZDI reported the vulnerability to the vendor10/15/25 - ZDI asked the vendor to confirm receipt11/10/25 - ZDI asked for updates12/10/25 - ZDI notified the vendor of the intention to publish the case as a 0-day advisory\n-- Mitigation: Given the nature of the vulnerability, the only salient mitigation strategy is to restrict interaction with the product",
+    "timeline": "2025-09-11 - Vulnerability reported to vendor\n2026-11-24 - Coordinated public release of advisory\n2026-11-24  - Advisory Updated",
+    "credit": "Peter Girnus (@gothburz) and Brandon Niemczyk of Trend Zero Day Initiative"
+}

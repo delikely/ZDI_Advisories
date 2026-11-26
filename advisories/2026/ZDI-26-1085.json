@@ -1,0 +1,15 @@
+{
+    "date": "November 24th, 2026",
+    "title": "(Pwn2Own) LiteLLM Secret Manager oidc Resolver Information Disclosure Vulnerability",
+    "ID_1": "ZDI-26-1085",
+    "ID_2": "ZDI-CAN-31482",
+    "cveId": "CVE-2026-136540",
+    "baseScore": "5.3",
+    "vectorString": "AV:N/AC:H/PR:L/UI:N/S:U/C:H/I:N/A:N",
+    "vendors": "LiteLLM",
+    "products": "LiteLLM",
+    "description": "This vulnerability allows remote attackers to disclose sensitive information on affected installations of LiteLLM. Authentication is required to exploit this vulnerability.\nThe specific flaw exists within the secret resolution handler. The issue results from the lack of proper validation of user-supplied input prior to using it to access environment variables. An attacker can leverage this in conjunction with other vulnerabilities to execute arbitrary code in the context of the service account.",
+    "addtionnal_details": "LiteLLM has issued an update to correct this vulnerability. More details can be found at:\nhttps://github.com/BerriAI/litellm/releases/tag/v1.84.0",
+    "timeline": "2026-06-02 - Vulnerability reported to vendor\n2026-11-24 - Coordinated public release of advisory\n2026-11-24  - Advisory Updated",
+    "credit": "Byung Young Yi (@yibarrack) of Out Of Bounds"
+}

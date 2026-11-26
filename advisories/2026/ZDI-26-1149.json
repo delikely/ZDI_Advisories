@@ -1,0 +1,15 @@
+{
+    "date": "November 24th, 2026",
+    "title": "(Pwn2Own) Oracle Autonomous AI Database ORDS AutoUpgrade Servlet Command Injection Remote Code Execution Vulnerability",
+    "ID_1": "ZDI-26-1149",
+    "ID_2": "ZDI-CAN-36128",
+    "cveId": "",
+    "baseScore": "7.5",
+    "vectorString": "AV:N/AC:H/PR:L/UI:N/S:U/C:H/I:H/A:H",
+    "vendors": "Oracle",
+    "products": "Autonomous AI Database",
+    "description": "This vulnerability allows remote attackers to execute arbitrary code on affected installations of Oracle Autonomous AI Database. Although authentication is required to exploit this vulnerability, the existing authentication mechanism can be bypassed.\nThe specific flaw exists within the AutoUpgrade servlet in Oracle REST Data Services. The issue results from the lack of proper validation of a configuration property before using it to construct an OS command. An attacker can leverage this in conjunction with other vulnerabilities to execute code in the context of the oracle service account.",
+    "addtionnal_details": "Oracle has issued an update to correct this vulnerability. More details can be found at:\nhttps://www.oracle.com/security-alerts/cspunov2026.html",
+    "timeline": "2026-10-26 - Vulnerability reported to vendor\n2026-11-24 - Coordinated public release of advisory\n2026-11-24  - Advisory Updated",
+    "credit": "Nikolaos Mourousias (@deltaclock) of OtterSec"
+}
